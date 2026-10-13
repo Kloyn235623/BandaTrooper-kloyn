@@ -235,6 +235,9 @@
 
 		list("WEBBINGS", -1, null, null),
 		list("Type 90 Pattern Magazine Webbing", round(scale * 10), /obj/item/clothing/accessory/storage/webbing/m3/uppmags, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - START: RU-CMSS13 PR #113 UPP grenade webbing
+		list("Type 82 Pattern Grenade Webbing", round(scale * 10), /obj/item/clothing/accessory/storage/webbing/m3/m40/upp, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - END
 		list("Type 78 Pattern Small Pouch Webbing", round(scale * 10), /obj/item/clothing/accessory/storage/webbing/m3/uppsmall, VENDOR_ITEM_REGULAR),
 		list("Type 77 Pattern Pouch Webbing", round(scale * 10), /obj/item/clothing/accessory/storage/webbing/m3/uppgeneral, VENDOR_ITEM_REGULAR),
 		list("Drop Pouch", round(max(1,(scale * 2))), /obj/item/clothing/accessory/storage/droppouch/upp, VENDOR_ITEM_REGULAR),
@@ -259,7 +262,9 @@
 
 		list("BELTS", -1, null, null),
 		list("Type 41 Pattern Ammo Load Rig", round(scale * 15), /obj/item/storage/belt/marine/upp, VENDOR_ITEM_REGULAR),
-		list("M276 Pattern M40 Grenade Rig", round(scale * 10), /obj/item/storage/belt/grenade, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - START: RU-CMSS13 PR #113 UPP grenade rig
+		list("Type 39 Pattern Grenade Rig", round(scale * 10), /obj/item/storage/belt/grenade/upp, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - END
 		list("Type 47 Pattern General Pistol Holster Rig", round(scale * 15), /obj/item/storage/belt/gun/type47, VENDOR_ITEM_REGULAR),
 		list("M276 Pattern M82F Holster Rig", round(scale * 5), /obj/item/storage/belt/gun/flaregun, VENDOR_ITEM_REGULAR),
 		list("Type 48 General Utility Pouch", round(scale * 15), /obj/item/storage/backpack/general_belt/upp, VENDOR_ITEM_REGULAR),
@@ -318,6 +323,9 @@
 
 		list("WEBBINGS", -1, null, null),
 		list("Type 90 Pattern Magazine Webbing", 2, /obj/item/clothing/accessory/storage/webbing/m3/uppmags, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - START: RU-CMSS13 PR #113 recon grenade webbing
+		list("Type 82 Pattern Grenade Webbing", 2, /obj/item/clothing/accessory/storage/webbing/m3/m40/upp, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - END
 		list("Type 78 Pattern Small Pouch Webbing", 2, /obj/item/clothing/accessory/storage/webbing/m3/uppsmall, VENDOR_ITEM_REGULAR),
 		list("Type 77 Pattern Pouch Webbing", 2, /obj/item/clothing/accessory/storage/webbing/m3/uppgeneral, VENDOR_ITEM_REGULAR),
 		list("Drop Pouch", 2, /obj/item/clothing/accessory/storage/droppouch/upp, VENDOR_ITEM_REGULAR),
@@ -325,7 +333,10 @@
 		list("Shoulder Holster", round(max(1,(scale * 0.5))), /obj/item/clothing/accessory/storage/holster, VENDOR_ITEM_REGULAR),
 
 		list("ARMOR", -1, null, null),
-		list("6B85-02 Pattern Vest", round(scale * 10), /obj/item/clothing/suit/marine/faction/UPP/para, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - START: RU-CMSS13 PR #113 dedicated recon armor
+		list("6B85-02 Pattern Vest", round(scale * 10), /obj/item/clothing/suit/marine/faction/UPP/recon, VENDOR_ITEM_REGULAR),
+		list("6B90 Leg Guards", round(scale * 10), /obj/item/clothing/accessory/upppads/legs, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - END
 		list("6B90 Arm Plates", round(scale * 10), /obj/item/clothing/accessory/upppads, VENDOR_ITEM_REGULAR),
 
 		list("BACKPACK", -1, null, null, null),
@@ -333,7 +344,9 @@
 
 		list("BELTS", -1, null, null),
 		list("Type 41 Pattern Ammo Load Rig", round(scale * 15), /obj/item/storage/belt/marine/upp, VENDOR_ITEM_REGULAR),
-		list("M276 Pattern M40 Grenade Rig", round(scale * 10), /obj/item/storage/belt/grenade, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - START: RU-CMSS13 PR #113 recon grenade rig
+		list("Type 39 Pattern Grenade Rig", round(scale * 10), /obj/item/storage/belt/grenade/upp, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - END
 		list("Type 47 Pattern General Pistol Holster Rig", round(scale * 15), /obj/item/storage/belt/gun/type47, VENDOR_ITEM_REGULAR),
 		list("M276 Pattern M82F Holster Rig", round(scale * 5), /obj/item/storage/belt/gun/flaregun, VENDOR_ITEM_REGULAR),
 		list("Type 48 General Utility Pouch", round(scale * 15), /obj/item/storage/backpack/general_belt/upp, VENDOR_ITEM_REGULAR),
@@ -385,6 +398,9 @@
 		list("Prescription ballistic goggles", round(scale * 10), /obj/item/clothing/glasses/mgoggles/upp/prescription, VENDOR_ITEM_REGULAR),
 		list("Firearm Lubricant", round(scale * 15), /obj/item/prop/helmetgarb/gunoil, VENDOR_ITEM_REGULAR),
 		list("UPP Airborne Reconnaissance Shoulder Patch", round(scale * 15), /obj/item/clothing/accessory/patch/upp/airborne, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - START: RU-CMSS13 PR #113 Fox Stalkers patch
+		list("UPP 'Rozbójnik' Group Shoulder Patch", round(scale * 15), /obj/item/clothing/accessory/patch/upp/recon, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - END
 		list("UPPAC Shoulder Patch", round(scale * 15), /obj/item/clothing/accessory/patch/upp, VENDOR_ITEM_REGULAR),
 		list("Bedroll", round(scale * 20), /obj/item/roller/bedroll, VENDOR_ITEM_REGULAR),
 		list("Canteen", round(scale * 20), /obj/item/reagent_container/food/drinks/flask/canteen, VENDOR_ITEM_REGULAR),
@@ -1007,6 +1023,9 @@
 		list("SIDEARMS", -1, null, null),
 		list("NP92 Standard Pistol", round(scale * 2), /obj/item/weapon/gun/pistol/np92/unloaded, VENDOR_ITEM_REGULAR),
 		list("Type 73 Service Pistol", round(scale * 2), /obj/item/weapon/gun/pistol/t73/unloaded, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - START: RU-CMSS13 PR #113 UPP flare sidearm
+		list("M82F Flare Gun", round(scale * 3), /obj/item/weapon/gun/flare, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - END
 
 		list("MISCELLANEOUS", -1, null, null),
 		list("Extinguisher", round(scale * 5), /obj/item/tool/extinguisher, VENDOR_ITEM_REGULAR),
