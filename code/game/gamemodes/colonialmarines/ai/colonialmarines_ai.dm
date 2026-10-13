@@ -91,15 +91,13 @@ GLOBAL_LIST_INIT(platoon_to_jobs, list(/datum/squad/marine/alpha = list(/datum/j
 		/datum/job/marine/tl/ai = JOB_SQUAD_TEAM_LEADER,\
 		/datum/job/marine/smartgunner/ai = JOB_SQUAD_SMARTGUN,\
 		/datum/job/marine/standard/ai = JOB_SQUAD_MARINE),\
-		// SS220 EDIT - START: RU-CMSS13 PR #113 generic UPP RTO
 		/datum/squad/marine/upp = list(/datum/job/command/bridge/ai/upp = JOB_SO,\
 		/datum/job/marine/leader/ai/upp = JOB_SQUAD_LEADER,\
 		/datum/job/marine/medic/ai/upp = JOB_SQUAD_MEDIC,\
 		/datum/job/marine/tl/ai/upp = JOB_SQUAD_TEAM_LEADER,\
 		/datum/job/marine/smartgunner/ai/upp = JOB_SQUAD_SMARTGUN,\
 		/datum/job/marine/standard/ai/upp = JOB_SQUAD_MARINE,\
-		/datum/job/marine/standard/ai/rto/upp = JOB_SQUAD_RTO),\
-		// SS220 EDIT - END
+		/* SS220 EDIT - START: RU-CMSS13 PR #113 generic UPP RTO */ /datum/job/marine/standard/ai/rto/upp = JOB_SQUAD_RTO /* SS220 EDIT - END */),\
 		/datum/squad/marine/pmc = list(/datum/job/marine/tl/ai/pmc = JOB_SQUAD_TEAM_LEADER,\
 		/datum/job/marine/standard/ai/pmc =  JOB_SQUAD_MARINE,\
 		/datum/job/marine/medic/ai/pmc = JOB_SQUAD_MEDIC,\
