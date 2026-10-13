@@ -297,6 +297,15 @@
 	preload = null
 	flags_gun_features = /obj/item/weapon/gun/launcher/grenade/m92/upp::flags_gun_features | GUN_TRIGGER_SAFETY
 
+// np92 magazine overlays
+/obj/item/ammo_magazine/pistol/np92
+	ammo_band_icon = "+np92mag_band"
+	ammo_band_icon_empty = "+np92mag_band_e"
+
+/obj/item/ammo_magazine/pistol/np92/suppressed
+	ammo_band_icon = ""
+	ammo_band_icon_empty = ""
+
 // np92_ap
 /obj/item/ammo_magazine/pistol/np92/ap
 	name = "\improper NP92 AP magazine (9x18mm Makarov)"
