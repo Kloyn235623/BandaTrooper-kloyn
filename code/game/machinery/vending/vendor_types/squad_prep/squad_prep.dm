@@ -256,6 +256,9 @@
 
 		list("BACKPACK", -1, null, null, null),
 		list("UPP Satchel", round(scale * 15), /obj/item/storage/backpack/lightpack/upp, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - START: RU-CMSS13 PR #113 UPP backpack
+		list("UPP Backpack", round(scale * 15), /obj/item/storage/backpack/marine/upp, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - END
 
 		list("RESTRICTED BACKPACKS", -1, null, null),
 		list("Radio Telephone Backpack", round(max(1,(scale * 0.5))), /obj/item/storage/backpack/marine/satchel/rto, VENDOR_ITEM_REGULAR),
@@ -341,6 +344,9 @@
 
 		list("BACKPACK", -1, null, null, null),
 		list("UPP Satchel", round(scale * 15), /obj/item/storage/backpack/lightpack/upp, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - START: RU-CMSS13 PR #113 UPP backpack
+		list("UPP Backpack", round(scale * 15), /obj/item/storage/backpack/marine/upp, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - END
 
 		list("BELTS", -1, null, null),
 		list("Type 41 Pattern Ammo Load Rig", round(scale * 15), /obj/item/storage/belt/marine/upp, VENDOR_ITEM_REGULAR),
@@ -353,7 +359,9 @@
 
 		list("POUCHES", -1, null, null, null),
 		list("First-Aid Pouch", floor(scale * 15), /obj/item/storage/pouch/firstaid, VENDOR_ITEM_REGULAR),
-		list("Flare Pouch (Full)", floor(scale * 15), /obj/item/storage/pouch/flare/full, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - START: RU-CMSS13 PR #113 UPP flare pouch
+		list("Flare Pouch (Full)", floor(scale * 15), /obj/item/storage/pouch/flare/upp/full, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - END
 		list("Magazine Pouch", floor(scale * 15), /obj/item/storage/pouch/magazine, VENDOR_ITEM_REGULAR),
 		list("Shotgun Shell Pouch", round(scale * 15), /obj/item/storage/pouch/shotgun, VENDOR_ITEM_REGULAR),
 		list("Medium General Pouch", floor(scale * 15), /obj/item/storage/pouch/general/medium, VENDOR_ITEM_REGULAR),
@@ -371,6 +379,10 @@
 
 		list("MASK", -1, null, null, null),
 		list("ShMB/4 Gas Mask", round(scale * 10), /obj/item/clothing/mask/gas/military/upp, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - START: RU-CMSS13 PR #113 heat absorbent coifs
+		list("Heat Absorbent Coif - Tan", round(scale * 5), /obj/item/clothing/mask/rebreather/scarf/tan, VENDOR_ITEM_REGULAR),
+		list("Heat Absorbent Coif - Black", round(scale * 5), /obj/item/clothing/mask/rebreather/scarf, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - END
 		list("Tactical Wrap - Tan", round(scale * 5), /obj/item/clothing/mask/rebreather/scarf/tacticalmask/tan, VENDOR_ITEM_REGULAR),
 		list("Tactical Wrap - Black", round(scale * 5), /obj/item/clothing/mask/rebreather/scarf/tacticalmask/black, VENDOR_ITEM_REGULAR),
 		list("Tactical Wrap - Grey", floor(scale * 5), /obj/item/clothing/mask/rebreather/scarf/tacticalmask, VENDOR_ITEM_REGULAR),
@@ -389,7 +401,9 @@
 		list("Headband, Brown", round(scale * 5), /obj/item/clothing/head/headband/brown, VENDOR_ITEM_REGULAR),
 		list("Headband, Gray", round(scale * 5), /obj/item/clothing/head/headband/brown, VENDOR_ITEM_REGULAR),
 		list("Headband, Red", round(scale * 5), /obj/item/clothing/head/headband/red, VENDOR_ITEM_REGULAR),
-		list("Headband, Green", round(scale * 5), /obj/item/clothing/head/headband, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - START: RU-CMSS13 PR #113 green headband
+		list("Headband, Green", round(scale * 5), /obj/item/clothing/head/headband/echo, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - END
 		list("Headband, Tan", round(scale * 5), /obj/item/clothing/head/headband/tan, VENDOR_ITEM_REGULAR),
 
 
@@ -663,7 +677,9 @@
 		list("Headband, Brown", round(scale * 5), /obj/item/clothing/head/headband/brown, VENDOR_ITEM_REGULAR),
 		list("Headband, Gray", round(scale * 5), /obj/item/clothing/head/headband/brown, VENDOR_ITEM_REGULAR),
 		list("Headband, Red", round(scale * 5), /obj/item/clothing/head/headband/red, VENDOR_ITEM_REGULAR),
-		list("Headband, Green", round(scale * 5), /obj/item/clothing/head/headband, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - START: RU-CMSS13 PR #113 green headband
+		list("Headband, Green", round(scale * 5), /obj/item/clothing/head/headband/echo, VENDOR_ITEM_REGULAR),
+		// SS220 EDIT - END
 		list("Headband, Tan", round(scale * 5), /obj/item/clothing/head/headband/tan, VENDOR_ITEM_REGULAR),
 
 		list("MISCELLANEOUS", -1, null, null, null),

@@ -146,7 +146,7 @@
 
 	var/obj/item/MO = S.master_object
 	// SS220 EDIT - START: RU-CMSS13 PR #113 UPP-compatible helmet garb
-	if(!istype(MO, /obj/item/clothing/head/helmet/marine) && !istype(MO, /obj/item/clothing/head/cmcap) && !istype(MO, /obj/item/clothing/head/helmet/upp)) // Do not bother if it's not a supported helmet or hat
+	if(!istype(MO, /obj/item/clothing/head/helmet/marine) && !istype(MO, /obj/item/clothing/head/cmcap) && !istype(MO, /obj/item/clothing/head/helmet/upp))
 		return
 	// SS220 EDIT - END
 

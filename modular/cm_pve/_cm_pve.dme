@@ -21,7 +21,6 @@
 // Vehicles — Heavy Autocannon
 #include "code/modules/vehicles/hardpoints/hardpoint_ammo/heavy_autocannon.dm"
 
-// UPP Fox Stalkers FORECON
 #include "code/upp_forecon/weapons.dm"
 #include "code/upp_forecon/equipment.dm"
 #include "code/upp_forecon/presets.dm"

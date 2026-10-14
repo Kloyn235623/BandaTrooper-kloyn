@@ -141,9 +141,6 @@
 	spawn_positions = 1
 	title = JOB_SQUAD_RTO_FORECON_UPP
 	// SS220 EDIT - START: RU-CMSS13 PR #113 dedicated UPP FORECON RTO presets
-	// gear_preset = /datum/equipment_preset/uscm/rto/upp
-	// gear_preset_secondary = /datum/equipment_preset/uscm/rto/upp/corporal
-	// gear_preset_tertiary = /datum/equipment_preset/uscm/rto/upp/senior_private
 	gear_preset = /datum/equipment_preset/uscm/rto/upp/forecon
 	gear_preset_secondary = /datum/equipment_preset/uscm/rto/upp/forecon/corporal
 	gear_preset_tertiary = /datum/equipment_preset/uscm/rto/upp/forecon/senior_private

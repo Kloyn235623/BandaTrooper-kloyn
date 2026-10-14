@@ -1145,7 +1145,9 @@
 	rank = JOB_UPP_CREWMAN
 	paygrades = list(PAY_SHORT_UE2 = JOB_PLAYTIME_TIER_0, PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_1)
 	skills = /datum/skills/pilot
-	access = list(ACCESS_UPP_GENERAL, ACCESS_UPP_ENGINEERING)
+	// SS220 EDIT - START: RU-CMSS13 PR #113 UPP pilot flight access
+	access = list(ACCESS_UPP_GENERAL, ACCESS_UPP_FLIGHT, ACCESS_UPP_ENGINEERING)
+	// SS220 EDIT - END
 
 /datum/equipment_preset/upp/pilot/load_gear(mob/living/carbon/human/new_human)
 
