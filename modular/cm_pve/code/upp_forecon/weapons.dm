@@ -500,7 +500,8 @@
 
 /obj/structure/gun_rack/type71/carbine_commando
 	name = "Type 71 commando rifle rack"
-	gun_type = "type73"
+	icon_state = "type73"
+	allowed_type = /obj/item/weapon/gun/rifle/type71/carbine
 	populate_type = /obj/item/weapon/gun/rifle/type71/carbine
 
 /obj/structure/gun_rack/type71/carbine_commando/unloaded
@@ -528,6 +529,13 @@
 	scatter = SCATTER_AMOUNT_TIER_1
 	bonus_projectiles_amount = 0
 	shrapnel_type = /obj/item/shard/shrapnel/upp/bits
+
+// Match the PR's sling handling balance.
+/obj/item/attachable/sling/New()
+	..()
+	accuracy_unwielded_mod = -HIT_ACCURACY_MULT_TIER_1
+	recoil_unwielded_mod = -RECOIL_AMOUNT_TIER_5
+	scatter_unwielded_mod = -SCATTER_AMOUNT_TIER_10
 
 // Remove the accumulating scatter peak modifier from integral bipods.
 /obj/item/attachable/bipod/integral/New()
