@@ -12,7 +12,7 @@
 
 	if(SSmapping.configs[GROUND_MAP].environment_traits[MAP_COLD])
 		new_human.equip_to_slot_or_del(new /obj/item/clothing/mask/rebreather/scarf, WEAR_FACE)
-		new_human.equip_to_slot_or_del(new /obj/item/clothing/head/cmcap/upp/ushanka, WEAR_HEAD)
+		new_human.equip_to_slot_or_del(new /obj/item/clothing/head/uppcap/ushanka, WEAR_HEAD)
 	new_human.undershirt = "Territorial Guard Telnyashka"
 	//back
 	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/marine/satchel/rto/upp_net/small, WEAR_BACK)
@@ -29,9 +29,9 @@
 	var/random_hat= rand(1,3)
 	switch(random_hat)
 		if(1)
-			new_human.equip_to_slot_or_del(new /obj/item/clothing/head/cmcap/upp, WEAR_HEAD)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/head/uppcap, WEAR_HEAD)
 		if(2 to 3)
-			new_human.equip_to_slot_or_del(new /obj/item/clothing/head/cmcap/upp/boonie, WEAR_HEAD)
+			new_human.equip_to_slot_or_del(new /obj/item/clothing/head/uppcap/boonie, WEAR_HEAD)
 	//uniform
 	var/obj/item/clothing/under/marine/veteran/upp/uniform = new()
 	var/random_uniform = rand(1,2)
