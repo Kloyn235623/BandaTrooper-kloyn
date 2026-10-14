@@ -46,11 +46,6 @@
 	item_state = "upp_grenadebelt"
 	has_gamemode_skin = FALSE
 
-// recon_beret
-/obj/item/clothing/head/cmcap/upp/beret/sof/recon
-	name = "\improper UL6 Recon Infantry beret"
-	desc = "A red beret worn by the UPP-SOF \"Rozbójnik\" Group. Wear it with pride."
-
 // recon_armor
 /obj/item/clothing/suit/marine/faction/UPP/recon
 	name = "\improper 6B85-02 pattern UPP armor"
@@ -88,7 +83,7 @@
 
 // forecon_lockers
 /obj/structure/closet/secure_closet/marine_personal/forecon_upp/spawn_gear()
-	new /obj/item/clothing/head/cmcap/upp/beret/sof/recon(src)
+	new /obj/item/clothing/head/uppcap/beret/para(src)
 	new /obj/item/clothing/under/marine/veteran/upp(src)
 	new /obj/item/clothing/shoes/marine/upp(src)
 	new /obj/item/clothing/accessory/patch/upp/recon(src)
