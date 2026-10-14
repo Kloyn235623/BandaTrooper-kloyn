@@ -13,7 +13,7 @@
 /obj/item/prop/helmetgarb/helmet_nvg/upp/frogmen // for recon frogmen
 	name = "\improper NZP-50 'Huginn' night vision goggles"
 	desc = "With an integrated self-recharging battery, enemies of the Union will not hide from your vision. Put them on your helmet and press the button and it's go-time."
-	shape = NVG_SHAPE_FINE
+	// Inherits the functional NVG shape; local shape macros are undefined after helmetgarb.dm.
 	cell_max_charge = -1
 
 // ammo_rack
