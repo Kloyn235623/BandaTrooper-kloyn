@@ -1,42 +1,24 @@
 # EVIDENCE
 
-## E-001: Starting state
-- Active task-state previously described `outpost_radius`, not the current instruction-normalization task.
-- Read-only review found contradictions across `AGENTS.md`, `WORKFLOW_RULES.md`, `.AI_AGENT/README.md`, and `POLICIES.md`.
+## Source
+- RU-CMSS13/cmss13-pve PR #113, merge commit 6d6086b8abb0b7bb4e48a481a0dd41c2d2d9e7a8.
+- Original cmss13-devs/cmss13-pve PR #1251.
 
-## E-002: Plan mapping challenge
-- Status: PASS WITH RISKS before implementation.
-- Risk: instructions are stable guidance, so duplicated wording can drift again. Mitigation: keep `AGENTS.md` as the entrypoint and put detailed mechanics in `WORKFLOW_RULES.md`.
-- Risk: concise task-state conflicts with contract tables. Mitigation: explicitly allow concise tables and summaries while keeping raw logs outside Markdown.
-- Risk: tests can still be over-prioritized. Mitigation: split `Plan Fidelity` from `Verification` and make incomplete `MUST/KEEP/REJECT` block final "done".
+## Discovery
+- The repository already contains Fox Stalkers core jobs, squads, radio, Laituri/Korobka, rappel UI, and dropship integration.
+- Missing content is weapons, equipment, dedicated vendor inventory, assets, and selected map placements.
+- Source RTO and UPP cap paths differ from the target.
+- The source NVG patch contains invalid AND and turf expressions; the adaptation fixes them.
 
-## E-003: Expected old contradictions to remove
-- "Large work" must not be the gate when a user-approved plan exists.
-- Task-state edits must not be confused with product-code/docs implementation edits.
-- `PASS WITH RISKS` must not allow known plan-changing risks.
-- `BLOCKED` must not become permission for fallback.
-- Subagents must not be implied unless explicitly permitted by user and higher-priority instructions.
+## Plan-Mapping Challenge
+- Cherry-pick, whole-DMI replacement, and whole-map replacement are rejected because target files diverge and contain local content.
+- Native target paths are required instead of compatibility aliases.
 
-## E-004: Implementation result
-- `AGENTS.md` now defines read-only discovery, planning-mutation, and implementation-правки before product/stable-doc edits.
-- `.AI_AGENT/README.md` now allows compact contract/fidelity tables and removes the old "new large task" lifecycle gate.
-- `WORKFLOW_RULES.md` now has one approved-plan order, explicit challenge outcomes, forbidden substitutions, old-path audit, pre-final sync, and separate Plan Fidelity/Verification status.
-- `POLICIES.md` now routes approved plans through task-state contract and challenge instead of generic alternatives, and blocks hotfix/wrapper/fallback substitution.
+## Old Path Audit
+- cmcap/upp -> uppcap.
+- ai/upp/rto -> ai/rto/upp.
+- source Commando subtype -> existing target carbine plus recon subtype.
 
-## E-005: Verification
-- PASS: `git diff --check`.
-- PASS: `rg` check for removed contradiction phrases. The only hit was the intended `без готового пользовательского плана` wording in `POLICIES.md`.
-- PASS: mojibake scan; the only hits are intentional `Р...` examples in `WORKFLOW_RULES.md` and this evidence note.
-
-## Plan fidelity matrix
-| ID | Type | Requirement | Evidence | Status |
-| --- | --- | --- | --- | --- |
-| M1 | MUST | Approved plans do not depend on "large work" threshold. | `AGENTS.md`, `README.md`, `WORKFLOW_RULES.md`; `rg` check. | DONE |
-| M2 | MUST | One ordered workflow exists. | `WORKFLOW_RULES.md` approved-plan order. | DONE |
-| M3 | MUST | Planning task-state edits are separate from implementation edits. | `AGENTS.md` and `WORKFLOW_RULES.md` planning-mutation wording. | DONE |
-| M4 | MUST | `PASS WITH RISKS`, `BLOCKED`, and incomplete contract items cannot hide false done. | `WORKFLOW_RULES.md`, `POLICIES.md`. | DONE |
-| M5 | MUST | Verification cannot replace plan fidelity. | `AGENTS.md`, `WORKFLOW_RULES.md`, `POLICIES.md`. | DONE |
-| M6 | MUST | Subagents require explicit user/higher-priority permission; otherwise self-challenge. | `AGENTS.md`, `WORKFLOW_RULES.md`. | DONE |
-| K1 | KEEP | Preserve modular-first, `rg`, build, UTF-8, and non-destructive git guidance. | Existing rules retained and clarified. | DONE |
-| R1 | REJECT | Avoid another overlapping layer. | Contradictory thresholds replaced in the affected sections. | DONE |
-| C1 | CHECK | Docs-level checks pass. | `git diff --check`, `rg` scans. | DONE |
+## Scope Update\r\n- User explicitly expanded scope to every PR #113 change and required the complete rifle implementation.\r\n- Previous selective omission of CANC changes is rejected.\r\n- A complete 99-file manifest comparison is required before completion.\r\n\r\n## Verification
+- First BUILD.cmd: 17 compile errors captured for path and typing repair.
+- Repair build, map checks, and final old-path scan are pending.

@@ -4594,6 +4594,16 @@
 /area/golden_arrow/prep_hallway)
 "kf" = (
 /obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/box/guncase/heavy/spp{
+	pixel_y = 22
+	},
+/obj/item/attachable/attached_gun/grenade/type71/ag80{
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/obj/item/ammo_box/magazine/spp{
+	pixel_x = -5
+	},
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/prep_hallway)
 "kg" = (
@@ -4696,7 +4706,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/upp,
+/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/upp/forecon,
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/prep_hallway)
 "kx" = (
@@ -4827,7 +4837,7 @@
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/prep_hallway)
 "kR" = (
-/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/upp,
+/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/upp/forecon,
 /turf/open/floor/strata/floor2,
 /area/golden_arrow/prep_hallway)
 "kS" = (
@@ -4840,10 +4850,7 @@
 /obj/structure/surface/rack{
 	color = "#8B9490"
 	},
-/obj/item/storage/backpack/marine/ammo_rack{
-	desc = "This ammo rack has been handcrafted by one of the ship's sappers. Union's ingenuity at it's finest.";
-	name = "\improper makeshift ammo rack"
-	},
+/obj/item/storage/backpack/marine/ammo_rack/upp/recon,
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/prep_hallway)
 "kT" = (
@@ -4980,7 +4987,7 @@
 /obj/structure/surface/rack{
 	color = "#8B9490"
 	},
-/obj/item/storage/box/guncase/heavy/m92_upp{
+/obj/item/storage/box/guncase/heavy/m92_upp_forecon{
 	pixel_y = 7
 	},
 /turf/open/floor/strata/multi_tiles,
@@ -5245,7 +5252,7 @@
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/prep_hallway)
 "lP" = (
-/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/upp,
+/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/upp/forecon,
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/prep_hallway)
 "lQ" = (

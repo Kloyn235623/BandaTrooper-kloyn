@@ -392,8 +392,9 @@
 
 	// SS220 EDIT - START: RU-CMSS13 PR #113 support NVGs on UPP helmets and caps
 	var/obj/item/clothing/head/headgear = usr.get_item_by_slot(WEAR_HEAD)
-	if(istype(headgear) && headgear.pockets)
-		for(var/obj/item/prop/helmetgarb/helmet_nvg/G in headgear.pockets.contents)
+	var/obj/item/storage/internal/headgear/headgear_pockets = headgear?.get_pockets()
+	if(headgear_pockets)
+		for(var/obj/item/prop/helmetgarb/helmet_nvg/G in headgear_pockets.contents)
 			G.toggle_nods(usr)
 			break
 	// SS220 EDIT - END
@@ -463,8 +464,9 @@
 			shape = NVG_SHAPE_BROKEN
 		// SS220 EDIT - START: RU-CMSS13 PR #113 remove broken NVGs from any supported headgear
 		var/obj/item/clothing/head/headgear = attached_item
-		if(headgear?.pockets)
-			headgear.pockets.remove_from_storage(src, get_turf(headgear))
+		var/obj/item/storage/internal/headgear/headgear_pockets = headgear?.get_pockets()
+		if(headgear_pockets)
+			headgear_pockets.remove_from_storage(src, get_turf(headgear))
 		// SS220 EDIT - END
 
 /obj/item/prop/helmetgarb/helmet_nvg/cosmetic //for "custom loadout", purely cosmetic

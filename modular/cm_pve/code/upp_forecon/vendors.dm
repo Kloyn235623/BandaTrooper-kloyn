@@ -1,5 +1,3 @@
-// UPP Fox Stalkers cargo vendor inventory.
-// Kept modular because this is feature-owned product configuration.
 
 /obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/upp/forecon/populate_product_list(scale)
 	listed_products = list(
