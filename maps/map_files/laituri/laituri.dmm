@@ -6476,7 +6476,7 @@
 /obj/structure/surface/rack{
 	color = "#8B9490"
 	},
-/obj/item/storage/backpack/marine/satchel/rto/upp_net_net,
+/obj/item/storage/backpack/marine/satchel/rto/upp_net,
 /obj/structure/machinery/light/small/red{
 	light_range = 5;
 	dir = 8
