@@ -163,3 +163,60 @@
 /datum/equipment_preset/uscm/rto/upp/forecon/senior_private
 	name = parent_type::name + " (E2 Rank)"
 	paygrades = list(PAY_SHORT_UE2 = JOB_PLAYTIME_TIER_0)
+
+/datum/equipment_preset/upp/forecon_preview
+	name = "UPP Recon Rifleman (Preview)"
+	flags = EQUIPMENT_PRESET_EXTRA|EQUIPMENT_PRESET_MARINE
+	assignment = JOB_SQUAD_MARINE_FORECON_UPP
+	role_comm_title = "RFN"
+	paygrades = list(PAY_SHORT_UE2 = JOB_PLAYTIME_TIER_0)
+	skills = /datum/skills/pfc
+	access = list(ACCESS_UPP_GENERAL)
+	var/backpack_type = /obj/item/storage/backpack/marine/upp
+
+/datum/equipment_preset/upp/forecon_preview/load_gear(mob/living/carbon/human/new_human)
+	new_human.undershirt = "Naval Infantry Telnyashka"
+	var/obj/item/storage/backpack/backpack = new backpack_type(new_human)
+	new_human.equip_to_slot_or_del(backpack, WEAR_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/almayer/marine/solardevils/upp/forecon(new_human), WEAR_L_EAR)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/uppcap/beret/para(new_human), WEAR_HEAD)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/veteran/UPP(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/upp/recon(new_human), WEAR_ACCESSORY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/marine/faction/UPP/recon(new_human), WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/type71/carbine/recon(new_human), WEAR_J_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/upp(new_human), WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine(new_human), WEAR_HANDS)
+
+/datum/equipment_preset/upp/forecon_preview/team_leader
+	name = "UPP Recon Team Leader (Preview)"
+	assignment = JOB_SQUAD_TEAM_LEADER_FORECON_UPP
+	role_comm_title = "RTL"
+	paygrades = list(PAY_SHORT_UE6 = JOB_PLAYTIME_TIER_0)
+
+/datum/equipment_preset/upp/forecon_preview/leader
+	name = "UPP Recon Squad Sergeant (Preview)"
+	assignment = JOB_SQUAD_LEADER_FORECON_UPP
+	role_comm_title = "RSS"
+	paygrades = list(PAY_SHORT_UE7 = JOB_PLAYTIME_TIER_0)
+
+/datum/equipment_preset/upp/forecon_preview/medic
+	name = "UPP Recon Sanitar (Preview)"
+	assignment = JOB_SQUAD_MEDIC_FORECON_UPP
+	role_comm_title = "SNA"
+	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
+	skills = /datum/skills/medic
+	backpack_type = /obj/item/storage/backpack/marine/upp/medic
+
+/datum/equipment_preset/upp/forecon_preview/rto
+	name = "UPP Recon Radio Transmissions Operator (Preview)"
+	assignment = JOB_SQUAD_RTO_FORECON_UPP
+	role_comm_title = "RTO"
+	paygrades = list(PAY_SHORT_UE3 = JOB_PLAYTIME_TIER_0)
+	backpack_type = /obj/item/storage/backpack/marine/satchel/rto/upp_net
+
+/datum/equipment_preset/upp/forecon_preview/smartgunner
+	name = "UPP Recon Machinegunner (Preview)"
+	assignment = JOB_SQUAD_SMARTGUN_FORECON_UPP
+	role_comm_title = "SG"
+	paygrades = list(PAY_SHORT_UE4 = JOB_PLAYTIME_TIER_0)
+	backpack_type = /obj/item/storage/backpack/marine/ammo_rack/upp/recon

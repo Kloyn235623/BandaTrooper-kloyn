@@ -1,34 +1,28 @@
 # PLAN
 
 ## Active Task
-Fully port and adapt RU-CMSS13/cmss13-pve PR #113 (UPP Fox Stalkers FORECON) into BandaTroopers through a separate pull request.
+Normalize repository AI-agent instructions so approved implementation plans cannot be replaced by small fixes, wrappers, or test-only closure.
 
-## Contract
-- MUST port every applicable change from all 99 files in PR #113, including SPP-48M, ammunition, attachments, balance changes, sprites, sounds, maps, areas, jobs, presets, vendors, shuttle systems, and UI integration.
-- MUST keep separate FORECON uniform and cargo vendors.
-- MUST adapt source paths and datums to the current BandaTroopers hierarchy.
-- MUST preserve every pre-existing BandaTroopers DMI state and add only the PR states or intentionally adapted replacements.
-- MUST restore visible armor, backpacks, and clothing sprites for every faction and make UPP uniforms visible in role previews.
-- MUST include the PR's Laituri, Chapaev, and Korobka map content together with their areas, cameras, squads, radio, transit, and shuttle dependencies.
-- MUST preserve existing BandaTroopers mechanics and map equipment.
-- MUST match the PR Type-71S/Type 71MS hierarchy: Type-71S uses /type71/carbine, FORECON recon remains its equipped subtype, and the former Commando weapon uses /type71/carbine/commando with all legacy Commando loadouts redirected explicitly.
-- MUST make PR-modified weapon object, empty, in-hand, wielded, muzzle, stock, underbarrel, and magazine states byte-equivalent to the source PR state images while preserving unrelated BandaTroopers states.
-- MUST verify through the repository build workflow plus map, resource, DMI, and old-path checks.
-- MUST not add explanatory code comments; retain only repository-required SS220 EDIT markers in upstream files.
-- KEEP existing CM-PVE core while adapting every missing or divergent PR #113 change; no source change may be silently omitted.
-- REJECT whole-file replacement of divergent DMI files. For Laituri and Korobka, the user explicitly selected the PR maps as authoritative; apply target path adaptations after importing those maps.
-- REJECT invalid source-path aliases, partial code-only completion, and DMI rewrites that alter unrelated states.
-- CHECK the complete source-file manifest against the port, old paths, duplicate definitions, icon states, sounds, maps, vendor separation, and runtime preview paths.
+## Goal
+- Remove contradictions between `AGENTS.md`, `.AI_AGENT/README.md`, `WORKFLOW_RULES.md`, and `POLICIES.md`.
+- Establish one execution order for approved plans: read-only discovery -> task-state contract -> plan-mapping challenge -> product-code/docs edits -> old-path audit -> task-state sync -> verification/final.
+- Preserve the existing repository preferences for `rg`, modular-first development, build tooling, UTF-8 docs, and non-destructive git behavior.
 
-## Forbidden Substitutions
-- No generic UPP vendor may replace the dedicated FORECON vendors.
-- No new DMI may be based on the source fork alone; the BandaTroopers version is the preserved side of every merge.
-- No unverified branch may be merged into PVE-MAPPING-KLOYN.
+## Scope
+- Stable guidance files:
+  - `AGENTS.md`
+  - `modular/__agents/.AI_AGENT/README.md`
+  - `modular/__agents/.AI_AGENT/WORKFLOW_RULES.md`
+  - `modular/__agents/.AI_AGENT/POLICIES.md`
+- Active task-state files:
+  - `modular/__agents/.AI_AGENT/PLAN.md`
+  - `modular/__agents/.AI_AGENT/TODO.md`
+  - `modular/__agents/.AI_AGENT/DECISIONS.md`
+  - `modular/__agents/.AI_AGENT/EVIDENCE.md`
 
 ## Acceptance Criteria
-- Repository compile succeeds with 0 errors and 0 warnings.
-- Chapaev, Laituri, and Korobka map checks pass.
-- All modified DMI files verify and unrelated target states match the base branch.
-- UPP role preview and faction armor/backpack sprites have valid referenced states.
-- Task-state files are absent from the PR.
-- The verified branch is merged into local PVE-MAPPING-KLOYN.
+- No rule still depends on "large task" when the user has given or approved a concrete plan.
+- Task-state edits are clearly separated from product-code/docs edits.
+- `PASS WITH RISKS`, `BLOCKED`, and test status cannot hide incomplete `MUST/KEEP/REJECT` items.
+- Subagents are only used when explicitly allowed by the user and current higher-priority instructions.
+- Docs stay concise UTF-8 Markdown with no mojibake.

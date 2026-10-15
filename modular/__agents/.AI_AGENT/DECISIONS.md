@@ -1,13 +1,13 @@
 # DECISIONS
 
-- Feature-owned definitions live in modular/cm_pve/code/upp_forecon where the target architecture allows it.
-- Existing CM-PVE core stays in place and upstream files receive only required integration with SS220 markers.
-- Use target RTO and uppcap type hierarchies.
-- Port the source Type-71S on `/type71/carbine`, retain `/recon` for its FORECON attachment preset, and move the pre-existing Type 71MS Commando behavior to `/type71/carbine/commando`; redirect legacy Commando presets to that subtype.
-- Keep separate forecon_upp uniform and upp/forecon cargo vendors.
-- Reconstruct DMI files by three-way state merge using the source PR base, the BandaTroopers base, and the PR head.
-- Preserve target-side versions for conflicting existing states unless the PR intentionally changes the state used by the port.
-- Merge DMM objects surgically and port all supporting area, shuttle, camera, squad, and radio datums.
-- Port the PR's CANC random loadouts and every other applicable source change because the user explicitly requires the entire PR.
-- Implement the complete SPP-48M family instead of substituting another rifle or leaving undefined references.
-- Treat PR #113 Laituri and Korobka geometry and areas as authoritative by explicit user request, then apply only required BandaTroopers path adaptations.
+## D-001: Use one normalized workflow instead of additive exceptions
+- Decision: rewrite the affected instruction sections so approved-plan execution has one order and one set of blocking statuses.
+- Why: adding extra warnings without removing old thresholds left escape hatches such as "small hotfix", "tests passed", and "not a large task".
+
+## D-002: Treat task-state edits as the allowed planning mutation
+- Decision: after read-only discovery, updating `PLAN/TODO/DECISIONS/EVIDENCE` is the only mutation allowed before implementation edits.
+- Why: the previous wording required task-state updates before mutating edits while also classifying every file edit as mutating.
+
+## D-003: Verification is separate from plan fidelity
+- Decision: tests and compile checks remain expected evidence, but they cannot close `MUST/KEEP/REJECT` items by themselves.
+- Why: the user's current priority is adherence to approved plans; verification should not become a substitute for requested architecture work.

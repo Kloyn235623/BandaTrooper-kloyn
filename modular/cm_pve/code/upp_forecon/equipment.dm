@@ -118,3 +118,27 @@
 /obj/item/storage/pouch/flare/upp/full/fill_preset_inventory()
 	for(var/i = 1 to storage_slots)
 		new /obj/item/device/flashlight/flare/upp(src)
+
+/obj/item/storage/belt/medical/upp/only_scanner/fill_preset_inventory()
+	new /obj/item/device/healthanalyzer/soul(src)
+
+/obj/item/storage/belt/gun/bizon
+	name = "\improper Type 49 SMG holster rig"
+	desc = "Special issue variant of Type 41 ammo belt with refitted holster for Type 64 Submachinegun. Uncommonly issued to the UPPN and UPPA support and specialist personnel."
+	icon_state = "upp_smg"
+	item_state = "upp_smg"
+	storage_slots = 4
+	max_w_class = 5
+	can_hold = list(
+		/obj/item/weapon/gun/smg/bizon,
+		/obj/item/ammo_magazine/smg/bizon,
+	)
+	holster_slots = list(
+		"1" = list(
+			"icon_x" = -8,
+			"icon_y" = -5))
+
+/obj/item/storage/belt/gun/bizon/full/fill_preset_inventory()
+	handle_item_insertion(new /obj/item/weapon/gun/smg/bizon/upp())
+	for(var/i = 1 to storage_slots - 1)
+		new /obj/item/ammo_magazine/smg/bizon(src)
