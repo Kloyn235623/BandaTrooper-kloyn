@@ -228,7 +228,7 @@
 
 /obj/item/weapon/gun/rifle/mg82/unloaded
 	current_mag = null
-	flags_gun_features = /obj/item/weapon/gun/rifle/spp::flags_gun_features | GUN_TRIGGER_SAFETY
+	flags_gun_features = /obj/item/weapon/gun/rifle/mg82::flags_gun_features | GUN_TRIGGER_SAFETY
 
 /obj/item/weapon/gun/launcher/grenade/m92/upp/forecon
 	name = "\improper OG-74 Grenade Launcher"
@@ -426,41 +426,49 @@
 /obj/item/weapon/gun/pistol/np92/suppressed/unloaded
 	current_mag = null
 
-/obj/item/weapon/gun/rifle/type71/carbine/recon
-	name = "\\improper Type-71S recon pulse carbine"
-	desc = "A shortened Type-71 configured for UPP reconnaissance units. Its compact action trades long-range consistency for handling and rate of fire."
+/obj/item/weapon/gun/rifle/type71/carbine
+	name = "\improper Type-71S pulse carbine"
+	desc = "A modified variant of the standard issue Type-71 Pulse Rifle, featuring a shortened barrel and improved fire-rate. Developed at the end of the 'ST' program headed by Vietnam, with assistance provided by material engineers in China, the Type-71S was designed for use by vehicle crews, pilots, territorial-guard, police units and rear-line personnel. While featuring superior handling and its famous blistering fire-rate, the Type-71S has seen little adoption within professional elements thanks to inferior at-range accuracy."
 	icon_state = "type71c"
 	item_state = "type71c"
 	fire_sound = 'sound/weapons/gun_type71.ogg'
 	wield_delay = WIELD_DELAY_VERY_FAST
 	inherent_traits = null
-	starting_attachment_types = list(/obj/item/attachable/verticalgrip/upp, /obj/item/attachable/lasersight/upp)
+	bonus_overlay_x = 0
+	bonus_overlay_y = 0
+	force = 20
+	random_spawn_chance = 50
+	starting_attachment_types = null
+	attachable_allowed = list(
+		/obj/item/attachable/magnetic_harness,
+		/obj/item/attachable/sling,
+		/obj/item/attachable/scope/upp,
+		/obj/item/attachable/scope/mini/upp,
+		/obj/item/attachable/reddot/upp,
+		/obj/item/attachable/reflex/upp,
+		/obj/item/attachable/suppressor,
+		/obj/item/attachable/bayonet/upp,
+		/obj/item/attachable/extended_barrel,
+		/obj/item/attachable/heavy_barrel,
+		/obj/item/attachable/verticalgrip/upp,
+		/obj/item/attachable/angledgrip/upp,
+		/obj/item/attachable/lasersight/upp,
+		/obj/item/attachable/flashlight,
+	)
 
-/obj/item/weapon/gun/rifle/type71/carbine/recon/set_gun_config_values()
-	..()
-	set_fire_delay(FIRE_DELAY_TIER_10)
-	set_burst_amount(BURST_AMOUNT_TIER_3)
-	set_burst_delay(FIRE_DELAY_TIER_11)
-	accuracy_mult = BASE_ACCURACY_MULT + HIT_ACCURACY_MULT_TIER_3
-	accuracy_mult_unwielded = BASE_ACCURACY_MULT - HIT_ACCURACY_MULT_TIER_6
-	scatter = SCATTER_AMOUNT_TIER_7
-	burst_scatter_mult = SCATTER_AMOUNT_TIER_9
-	scatter_unwielded = SCATTER_AMOUNT_TIER_5
-	damage_mult = BASE_BULLET_DAMAGE_MULT
-	recoil_unwielded = RECOIL_AMOUNT_TIER_4
-	damage_falloff_mult = 1.5
-
-/obj/item/weapon/gun/rifle/type71/carbine/recon/set_gun_attachment_offsets()
+/obj/item/weapon/gun/rifle/type71/carbine/set_gun_attachment_offsets()
 	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 17, "rail_x" = 15, "rail_y" = 22, "under_x" = 25, "under_y" = 13, "stock_x" = 15, "stock_y" = 13, "side_rail_x" = 21, "side_rail_y" = 18, "sling_x" = 13, "sling_y" = 21)
+
+/obj/item/weapon/gun/rifle/type71/carbine/recon
+	starting_attachment_types = list(/obj/item/attachable/verticalgrip/upp, /obj/item/attachable/lasersight/upp)
 
 /obj/item/weapon/gun/rifle/type71/carbine/recon/unloaded
 	current_mag = null
-	flags_gun_features = /obj/item/weapon/gun/rifle/type71/carbine/recon::flags_gun_features|GUN_TRIGGER_SAFETY
+	flags_gun_features = /obj/item/weapon/gun/rifle/type71/carbine/recon::flags_gun_features | GUN_TRIGGER_SAFETY
 
 /obj/item/weapon/gun/rifle/type71/carbine/unloaded
 	current_mag = null
-	flags_gun_features = /obj/item/weapon/gun/rifle/type71/carbine::flags_gun_features|GUN_TRIGGER_SAFETY
-
+	flags_gun_features = /obj/item/weapon/gun/rifle/type71/carbine::flags_gun_features | GUN_TRIGGER_SAFETY
 /obj/structure/gun_rack/type71/carbine/unloaded
 	populate_type = /obj/item/weapon/gun/rifle/type71/carbine/unloaded
 
@@ -470,11 +478,10 @@
 /obj/structure/gun_rack/type71/carbine_commando
 	name = "Type 71 commando rifle rack"
 	icon_state = "type73"
-	allowed_type = /obj/item/weapon/gun/rifle/type71/carbine
-	populate_type = /obj/item/weapon/gun/rifle/type71/carbine
-
+	allowed_type = /obj/item/weapon/gun/rifle/type71/carbine/commando
+	populate_type = /obj/item/weapon/gun/rifle/type71/carbine/commando
 /obj/structure/gun_rack/type71/carbine_commando/unloaded
-	populate_type = /obj/item/weapon/gun/rifle/type71/carbine/unloaded
+	populate_type = /obj/item/weapon/gun/rifle/type71/carbine/commando/unloaded
 
 /obj/item/ammo_box/magazine/np92/tranq
 	name = "magazine box (NP92 Tranq x 16)"
@@ -907,6 +914,29 @@
 /obj/item/weapon/gun/rifle/type71/carbine/assault
 	starting_attachment_types = list(/obj/item/attachable/bayonet/upp, /obj/item/attachable/verticalgrip/upp)
 
+/obj/item/weapon/gun/rifle/type71/carbine/commando
+	name = "\improper Type 71MS 'Commando' pulse rifle"
+	desc = "A much rarer variant of the Type 71, this version contains an integrated suppressor, integrated scope, and extensive fine-tuning. Many parts have been replaced, filed down, and improved upon. As a result, this variant is rarely seen outside of commando units."
+	icon_state = "type73"
+	item_state = "type73"
+	fire_sound = "gun_silenced"
+	wield_delay = WIELD_DELAY_VERY_FAST
+	inherent_traits = list(TRAIT_GUN_SILENCED)
+	bonus_overlay_x = 1
+	bonus_overlay_y = 0
+	force = 20
+	starting_attachment_types = list(/obj/item/attachable/type73suppressor)
+
+/obj/item/weapon/gun/rifle/type71/carbine/commando/handle_starting_attachment()
+	..()
+	var/obj/item/attachable/scope/mini/upp/type73/scope = new(src)
+	scope.hidden = TRUE
+	scope.flags_attach_features &= ~ATTACH_REMOVABLE
+	scope.Attach(src)
+	update_attachable(scope.slot)
+
+/obj/item/weapon/gun/rifle/type71/carbine/commando/set_gun_attachment_offsets()
+	attachable_offset = list("muzzle_x" = 35, "muzzle_y" = 16, "rail_x" = 13, "rail_y" = 23, "under_x" = 25, "under_y" = 13, "stock_x" = 15, "stock_y" = 13, "side_rail_x" = 24, "side_rail_y" = 17, "sling_x" = 16, "sling_y" = 19)
 /obj/item/weapon/gun/rifle/type71/carbine/commando/set_gun_config_values()
 	..()
 	set_fire_delay(FIRE_DELAY_TIER_10)
@@ -922,7 +952,7 @@
 
 /obj/item/weapon/gun/rifle/type71/carbine/commando/unloaded
 	current_mag = null
-	flags_gun_features = /obj/item/weapon/gun/rifle/spp::flags_gun_features | GUN_TRIGGER_SAFETY
+	flags_gun_features = /obj/item/weapon/gun/rifle/type71/carbine/commando::flags_gun_features | GUN_TRIGGER_SAFETY
 
 /obj/item/weapon/gun/rifle/lw317/dmr/set_gun_config_values()
 	..()
