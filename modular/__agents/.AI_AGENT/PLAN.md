@@ -11,10 +11,12 @@ Fully port and adapt RU-CMSS13/cmss13-pve PR #113 (UPP Fox Stalkers FORECON) int
 - MUST restore visible armor, backpacks, and clothing sprites for every faction and make UPP uniforms visible in role previews.
 - MUST include the PR's Laituri, Chapaev, and Korobka map content together with their areas, cameras, squads, radio, transit, and shuttle dependencies.
 - MUST preserve existing BandaTroopers mechanics and map equipment.
+- MUST match the PR Type-71S/Type 71MS hierarchy: Type-71S uses /type71/carbine, FORECON recon remains its equipped subtype, and the former Commando weapon uses /type71/carbine/commando with all legacy Commando loadouts redirected explicitly.
+- MUST make PR-modified weapon object, empty, in-hand, wielded, muzzle, stock, underbarrel, and magazine states byte-equivalent to the source PR state images while preserving unrelated BandaTroopers states.
 - MUST verify through the repository build workflow plus map, resource, DMI, and old-path checks.
 - MUST not add explanatory code comments; retain only repository-required SS220 EDIT markers in upstream files.
 - KEEP existing CM-PVE core while adapting every missing or divergent PR #113 change; no source change may be silently omitted.
-- REJECT whole-file replacement of divergent DMI or DMM files.
+- REJECT whole-file replacement of divergent DMI files. For Laituri and Korobka, the user explicitly selected the PR maps as authoritative; apply target path adaptations after importing those maps.
 - REJECT invalid source-path aliases, partial code-only completion, and DMI rewrites that alter unrelated states.
 - CHECK the complete source-file manifest against the port, old paths, duplicate definitions, icon states, sounds, maps, vendor separation, and runtime preview paths.
 

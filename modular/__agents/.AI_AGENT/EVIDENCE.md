@@ -14,6 +14,9 @@
 - The source PR modifies three DMI files that were absent from the current port manifest: both UPP suit atlases and screen_alert_images.dmi.
 - Source RTO and UPP cap paths differ from the target.
 - The source NVG patch contains invalid AND and turf expressions; the adaptation must retain the corrected target behavior.
+- The current target core still defines /type71/carbine as the old Type 71 Commando, while the source PR dependency defines it as the Type-71S and places the old weapon at /type71/carbine/commando.
+- The earlier adaptation only added /type71/carbine/recon, so base carbine spawns still produced the old sprite and inherited incompatible starting attachments.
+- Source-head comparison shows current 	ype71c, 	ype71c_e, 	ype73, and 	ype73_e object states differ from PR #113; current left/right-hand 	ype73 and 	ype73_w states also differ.
 
 ## Plan-Mapping Challenge
 - Cherry-picking or whole-file replacement is rejected because the forks diverge and the current branch already contains adapted feature code.
@@ -24,7 +27,7 @@
 ## Old Path Audit
 - cmcap/upp -> uppcap.
 - ai/upp/rto -> ai/rto/upp.
-- source Commando subtype -> existing target carbine plus recon subtype.
+- source `/type71/carbine` -> target `/type71/carbine`; legacy target Commando users -> `/type71/carbine/commando`.
 
 ## Verification
 - Test compile before expanded repair: colonialmarines.test.dmb, 0 errors, 0 warnings.
