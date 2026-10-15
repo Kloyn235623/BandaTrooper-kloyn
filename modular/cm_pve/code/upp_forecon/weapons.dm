@@ -426,6 +426,11 @@
 /obj/item/weapon/gun/pistol/np92/suppressed/unloaded
 	current_mag = null
 
+/obj/item/attachable/scope/mini/upp/type73
+	name = "1P86 1.5x Optic"
+	zoom_offset = 4
+	dynamic_aim_slowdown = SLOWDOWN_ADS_NONE
+
 /obj/item/weapon/gun/rifle/type71/carbine
 	name = "\improper Type-71S pulse carbine"
 	desc = "A modified variant of the standard issue Type-71 Pulse Rifle, featuring a shortened barrel and improved fire-rate. Developed at the end of the 'ST' program headed by Vietnam, with assistance provided by material engineers in China, the Type-71S was designed for use by vehicle crews, pilots, territorial-guard, police units and rear-line personnel. While featuring superior handling and its famous blistering fire-rate, the Type-71S has seen little adoption within professional elements thanks to inferior at-range accuracy."
