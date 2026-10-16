@@ -2781,5 +2781,6 @@
 #include "maps\_basemap.dm"
 #include "maps\map_files\LV522_Chances_Claim_Lukes_Landing\LV522_Chances_Claim_Lukes_Landing.dmm"
 #include "maps\map_files\LV522_Chances_Claim_Lukes_Landing\LV522_Lukes_Landing.dmm"
+#include "maps\map_files\SI391_Sekhmet_Swamp\SI391_Sekhmet_Swamp.dmm"
 #include "modular\modular.dme" // BANDATROOPERS EDIT
 // END_INCLUDE
