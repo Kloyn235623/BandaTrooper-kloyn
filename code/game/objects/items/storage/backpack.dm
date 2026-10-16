@@ -1626,3 +1626,15 @@ GLOBAL_LIST_EMPTY_TYPED(radio_packs, /obj/item/storage/backpack/marine/satchel/r
 				names += "[I.name] (pouch [pouch_idx])"
 				pouch_idx++
 	to_chat(user, SPAN_NOTICE(msg + english_list(names)))
+
+/obj/item/storage/backpack/satchel/white
+	icon_state = "satchel_white"
+	item_state = "satchel_white"
+
+/obj/item/storage/backpack/satchel/black/lockable
+	name = "secure leather satchel"
+	is_id_lockable = TRUE
+
+/obj/item/storage/backpack/satchel/white/lockable
+	name = "secure leather satchel"
+	is_id_lockable = TRUE

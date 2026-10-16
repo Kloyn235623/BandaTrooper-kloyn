@@ -171,3 +171,4 @@ h1.alert, h2.alert {color: #000000;}
 .yautja_translator {color: #aa0000; font-weight: bold;}
 
 </style>"}
+.lbradio {color: #47a0bc;}
