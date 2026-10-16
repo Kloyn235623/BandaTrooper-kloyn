@@ -71,6 +71,10 @@
 	flags_atom = NO_SNOW_TYPE
 	slot = ACCESSORY_SLOT_M3UTILITY
 
+/obj/item/clothing/accessory/storage/webbing/m3/m40/upp/Initialize(mapload)
+	. = ..()
+	inv_overlay = image(icon = accessory_icons[WEAR_JACKET], icon_state = icon_state, dir = SOUTH)
+
 /obj/structure/closet/secure_closet/marine_personal/forecon_upp/spawn_gear()
 	new /obj/item/clothing/head/uppcap/beret/para(src)
 	new /obj/item/clothing/under/marine/veteran/UPP(src)
