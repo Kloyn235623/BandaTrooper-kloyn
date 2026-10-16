@@ -425,7 +425,7 @@
 				sound = pick('sound/weapons/gun_rmcdmr_1.ogg','sound/weapons/gun_rmcdmr_2.ogg','sound/weapons/gun_rmcdmr_3.ogg')
 			if("gun_jam_rack")
 				sound = pick('sound/weapons/handling/gun_jam_rack_1.ogg', 'sound/weapons/handling/gun_jam_rack_2.ogg', 'sound/weapons/handling/gun_jam_rack_3.ogg')
-			// SS220 EDIT - START: RU-CMSS13 PR #113 MG82 sound set
+			// SS220 EDIT - START
 			if("gun_mg82")
 				sound = pick('modular/cm_pve/sound/weapons/gun_mg82_1.ogg', 'modular/cm_pve/sound/weapons/gun_mg82_2.ogg', 'modular/cm_pve/sound/weapons/gun_mg82_3.ogg')
 			// SS220 EDIT - END

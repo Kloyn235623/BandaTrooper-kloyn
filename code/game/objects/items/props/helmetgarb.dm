@@ -145,7 +145,7 @@
 	remove_attached_item()
 
 	var/obj/item/MO = S.master_object
-	// SS220 EDIT - START: RU-CMSS13 PR #113 UPP-compatible helmet garb
+	// SS220 EDIT - START
 	if(!istype(MO, /obj/item/clothing/head/helmet/marine) && !istype(MO, /obj/item/clothing/head/cmcap) && !istype(MO, /obj/item/clothing/head/helmet/upp))
 		return
 	// SS220 EDIT - END
@@ -390,7 +390,7 @@
 	set category = "Object"
 	set name = "Toggle M2 night vision goggles"
 
-	// SS220 EDIT - START: RU-CMSS13 PR #113 support NVGs on UPP helmets and caps
+	// SS220 EDIT - START
 	var/obj/item/clothing/head/headgear = usr.get_item_by_slot(WEAR_HEAD)
 	var/obj/item/storage/internal/headgear/headgear_pockets = headgear?.get_pockets()
 	if(headgear_pockets)
@@ -462,7 +462,7 @@
 		src.color = "#4e4e4e"
 		if(shape != NVG_SHAPE_COSMETIC)
 			shape = NVG_SHAPE_BROKEN
-		// SS220 EDIT - START: RU-CMSS13 PR #113 remove broken NVGs from any supported headgear
+		// SS220 EDIT - START
 		var/obj/item/clothing/head/headgear = attached_item
 		var/obj/item/storage/internal/headgear/headgear_pockets = headgear?.get_pockets()
 		if(headgear_pockets)

@@ -25,3 +25,4 @@
 #include "code/upp_forecon/equipment.dm"
 #include "code/upp_forecon/presets.dm"
 #include "code/upp_forecon/vendors.dm"
+#include "code/upp_airborne/ak82.dm"

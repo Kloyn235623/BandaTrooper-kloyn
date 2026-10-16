@@ -6724,15 +6724,20 @@
 /turf/open/floor/corsat/plate,
 /area/golden_arrow/prep_hallway)
 "wg" = (
-/obj/structure/gun_rack/type71/carbine/recon,
+/obj/structure/gun_rack/ak82/unloaded,
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/prep_hallway)
 "wh" = (
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/ammo_box/magazine/type71/large{
-	pixel_y = -2
+/obj/item/ammo_box/magazine/type71/large/ak82{
+	pixel_y = -6
 	},
-/obj/item/ammo_box/magazine/type71/large{
+/obj/item/ammo_box/magazine/ak82{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/ammo_box/magazine/ak82{
+	pixel_x = 6;
 	pixel_y = 6
 	},
 /turf/open/floor/corsat/plate,
