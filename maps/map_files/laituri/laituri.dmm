@@ -6727,16 +6727,25 @@
 /obj/structure/gun_rack/ak82/unloaded,
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/prep_hallway)
+"aA" = (
+/obj/structure/gun_rack/type71/carbine/recon,
+/turf/open/floor/strata/floor3/east,
+/area/golden_arrow/prep_hallway)
 "wh" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/ammo_box/magazine/type71/large/ak82{
+	pixel_x = -6;
 	pixel_y = -6
 	},
-/obj/item/ammo_box/magazine/ak82{
+/obj/item/ammo_box/magazine/type71/large{
+	pixel_x = 6;
+	pixel_y = -6
+	},
+/obj/item/ammo_box/magazine/type71{
 	pixel_x = -6;
 	pixel_y = 6
 	},
-/obj/item/ammo_box/magazine/ak82{
+/obj/item/ammo_box/magazine/type71{
 	pixel_x = 6;
 	pixel_y = 6
 	},
@@ -15979,7 +15988,7 @@ wB
 ws
 wn
 wg
-wg
+aA
 wc
 vZ
 vy
