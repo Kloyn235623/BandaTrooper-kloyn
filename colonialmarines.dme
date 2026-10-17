@@ -2776,11 +2776,5 @@
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
 #include "maps\_basemap.dm"
-<<<<<<< HEAD
-#include "maps\map_files\LV522_Chances_Claim_Lukes_Landing\LV522_Chances_Claim_Lukes_Landing.dmm"
-#include "maps\map_files\LV522_Chances_Claim_Lukes_Landing\LV522_Lukes_Landing.dmm"
-#include "maps\map_files\SI391_Sekhmet_Swamp\SI391_Sekhmet_Swamp.dmm"
-=======
->>>>>>> parent of 22289d10e0 (colonial)
 #include "modular\modular.dme" // BANDATROOPERS EDIT
 // END_INCLUDE
