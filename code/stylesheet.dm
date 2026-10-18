@@ -54,6 +54,7 @@ em {font-style: normal; font-weight: bold;}
 .intelradio {color: #027D02;}
 .wyradio {color: #FE9B24;}
 .pmcradio {color: #A13852;}
+.lbradio {color: #47a0bc;}
 
 .clfradio {color: #6f679c}
 
@@ -171,4 +172,3 @@ h1.alert, h2.alert {color: #000000;}
 .yautja_translator {color: #aa0000; font-weight: bold;}
 
 </style>"}
-.lbradio {color: #47a0bc;}
