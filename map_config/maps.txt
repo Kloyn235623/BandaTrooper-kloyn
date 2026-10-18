@@ -175,12 +175,6 @@ endmap
 
 map arctic_valley
 endmap
-
-map lv522_chances_claim_lukes_landing
-endmap
-
-map lv522_lukes_landing
-endmap
 # SS220 EDIT - END
 
 map fire_colony

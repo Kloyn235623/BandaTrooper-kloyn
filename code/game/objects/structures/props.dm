@@ -1213,29 +1213,6 @@
 	mouse_opacity = 0
 	layer = 6
 	density = 0
-
-/obj/structure/prop/invuln/prop_fog
-	name = "Fog Prop"
-	icon = 'icons/effects/effects.dmi'
-	icon_state = "smoke"
-	layer = 6
-	density = 0
-	mouse_opacity = 0
-	opacity = 0
-
-/obj/structure/prop/invuln/prop_fog/smoke
-	name = "Smoke Prop"
-	icon = 'icons/effects/96x96.dmi'
-	icon_state = "smoke"
-	pixel_x = -29
-	pixel_y = -29
-	layer = 6.1
-
-/obj/structure/prop/invuln/prop_fog/mist
-	name = "Mist Prop"
-	icon = 'icons/obj/structures/props/watercloset.dmi'
-	icon_state = "mist"
-
 /obj/structure/prop/invuln/working_joe/large_storage
 	name = "synthetic storage unit"
 	desc = "A vertical storage bay designed to house inactive Working Joe synthetics, keeping them bagged, preserved, and ready for deployment."
