@@ -451,6 +451,10 @@
 	icon_state = "dumbbell"
 	item_state = "dumbbell"
 	icon = 'icons/obj/items/items.dmi'
+	item_icons = list(
+		WEAR_L_HAND = 'icons/mob/humans/onmob/items_lefthand_1.dmi',
+		WEAR_R_HAND = 'icons/mob/humans/onmob/items_righthand_1.dmi',
+	)
 
 /obj/item/tool/dumbbell/alt
 	icon_state = "dumbbell_2"

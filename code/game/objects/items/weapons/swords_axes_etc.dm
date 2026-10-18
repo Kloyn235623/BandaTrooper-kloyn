@@ -156,3 +156,7 @@
 /obj/item/weapon/classic_baton/alt
 	icon_state = "baton_alt"
 	item_state = "classic_baton_alt"
+	item_icons = list(
+		WEAR_L_HAND = 'icons/mob/humans/onmob/items_lefthand_1.dmi',
+		WEAR_R_HAND = 'icons/mob/humans/onmob/items_righthand_1.dmi',
+	)

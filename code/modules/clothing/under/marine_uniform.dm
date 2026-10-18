@@ -1560,6 +1560,7 @@
 	desc = "A reinforced uniform used for Synthetic labor in hazardous areas. Tomorrow, Together."
 	icon_state = "working_joe_fire"
 	worn_state = "working_joe_fire"
+	item_icons = list(WEAR_BODY = 'icons/mob/humans/onmob/uniform_1.dmi')
 	flags_inventory = CANTSTRIP
 	armor_melee = CLOTHING_ARMOR_LOW
 	armor_bullet = CLOTHING_ARMOR_LOW

@@ -747,6 +747,10 @@
 	name = "lantern"
 	icon_state = "tactical_lantern"
 	item_state = "tactical_lantern"
+	item_icons = list(
+		WEAR_L_HAND = 'icons/mob/humans/onmob/items_lefthand_1.dmi',
+		WEAR_R_HAND = 'icons/mob/humans/onmob/items_righthand_1.dmi',
+	)
 	desc = "An expensive looking lantern."
 	light_range = 7 // luminosity when on
 	light_color = "#71cfff"

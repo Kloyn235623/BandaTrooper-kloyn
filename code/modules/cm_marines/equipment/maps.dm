@@ -188,12 +188,6 @@
 	html_link = ""
 	color = "cyan"
 
-/obj/item/map/oil_depot
-	name = "\improper Oil Depot Map"
-	desc = "A satellite printout of the oil depots on planet."
-	html_link = ""
-	color = "#e88a10"
-
 /obj/item/map/almayer/infested
 	name = "\improper USS Almayer map"
 	desc = "A labeled blueprint of the USS Almayer"
@@ -252,7 +246,6 @@ GLOBAL_LIST_INIT_TYPED(map_type_list, /obj/item/map, setup_all_maps())
 		MAP_LV295_FEATURELESS_ARCTIC = new /obj/item/map/lv522_map(),
 		// SS220 EDIT - START
 		MAP_LV_671 = new /obj/item/map/lv_671(),
-		MAP_OIL_DEPOT = new /obj/item/map/oil_depot(),
 		MAP_DERELICT_ALMAYER_INFESTED = new /obj/item/map/almayer/infested(),
 		MAP_ONI_SHIELD_BASE = new /obj/item/map/lv522_map(),
 		MAP_VALOROUS_CHANT = new /obj/item/map/lv522_map(),

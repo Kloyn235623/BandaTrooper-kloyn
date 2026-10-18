@@ -15,9 +15,11 @@
 	light_color = LIGHT_COLOR_LAVA
 	can_bloody = FALSE
 	supports_surgery = FALSE
-	is_weedable = NOT_WEEDABLE
 	allow_construction = FALSE
 	minimap_color = MINIMAP_LAVA
+
+/turf/open/fire_colony/hot_lava/is_weedable()
+	return NOT_WEEDABLE
 
 /turf/open/fire_colony/hot_lava/Entered(atom/thing)
 	. = ..()
@@ -49,8 +51,10 @@
 	light_color = LIGHT_COLOR_LAVA
 	can_bloody = FALSE
 	supports_surgery = FALSE
-	is_weedable = NOT_WEEDABLE
 	allow_construction = FALSE
+
+/turf/open/fire_colony/lava_no_burn/is_weedable()
+	return NOT_WEEDABLE
 
 // Catwalks
 
