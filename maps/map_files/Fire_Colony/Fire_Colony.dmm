@@ -42569,7 +42569,7 @@
 	color = "#716c71";
 	icon_state = "glass_roof_2"
 	},
-/turf/open_space,
+/turf/open/space/basic,
 /area/sky)
 "iud" = (
 /obj/effect/lava/edges/basalt/side_rock{
@@ -63327,7 +63327,7 @@
 /obj/structure/prop/roof/glass{
 	icon_state = "glass_3"
 	},
-/turf/open_space,
+/turf/open/space/basic,
 /area/sky)
 "nyc" = (
 /obj/structure/fence/slim/blue{
@@ -81304,7 +81304,7 @@
 /turf/open/floor/plating/fire_colony/grille,
 /area/fire_colony/exterior/hangar)
 "rKz" = (
-/turf/open_space,
+/turf/open/space/basic,
 /area/sky)
 "rKA" = (
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,

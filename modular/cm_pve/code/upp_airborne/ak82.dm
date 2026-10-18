@@ -1,4 +1,8 @@
 /obj/item/weapon/gun/rifle/ak82
+	item_icons = list(
+		WEAR_L_HAND = 'icons/mob/humans/onmob/items_lefthand_1.dmi',
+		WEAR_R_HAND = 'icons/mob/humans/onmob/items_righthand_1.dmi',
+	)
 	name = "\improper AK-82 pulse rifle"
 	desc = "Pulse action 9.7x16mm caseless assault rifle, designed for UPP paratroopers. It combines the exceptional durability of AK-pattern rifles while maintaining the essential lightweight design by switching to a smaller caliber."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/upp.dmi'

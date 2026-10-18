@@ -172,6 +172,10 @@
 	fa_max_scatter = SCATTER_AMOUNT_TIER_2
 
 /obj/item/weapon/gun/rifle/mg82
+	item_icons = list(
+		WEAR_L_HAND = 'icons/mob/humans/onmob/items_lefthand_1.dmi',
+		WEAR_R_HAND = 'icons/mob/humans/onmob/items_righthand_1.dmi',
+	)
 	name = "\improper MG82 pulse LMG"
 	desc = "Pulse action 9.7x16mm caseless light machinegun of the UPPAC Naval Infantry, nicknamed 'Bianchi'. With addition of AG80 pulse rifle to the armed collective arsenal as the lighter, high-capacity carbine to the standard issue Type 71 rifle, the need for the AG80's caliber-shared machinegun has appeared as well. The design also refers to the AG-80 pulse rifle as basis. Firerate is significantly higher in comparison to the QYJ-72, but this makes the gun very hard to control during automatic fire without using bipods. Magazines for the LMG were also optimised for carriage in standard magazine pouches, with the cost of magazine size itself being downed to the 150 rounds."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/upp.dmi'
@@ -231,6 +235,10 @@
 	flags_gun_features = /obj/item/weapon/gun/rifle/mg82::flags_gun_features | GUN_TRIGGER_SAFETY
 
 /obj/item/weapon/gun/launcher/grenade/m92/upp/forecon
+	item_icons = list(
+		WEAR_L_HAND = 'icons/mob/humans/onmob/items_lefthand_1.dmi',
+		WEAR_R_HAND = 'icons/mob/humans/onmob/items_righthand_1.dmi',
+	)
 	name = "\improper OG-74 Grenade Launcher"
 	desc = "A lightweight, pump-action, magazine-fed grenade launcher, with the barrel below the magazine. First introduced as police enforcement weapon, it found it's way into hands of Armed Collective. Mostly seen used by the recon and NBC troops."
 	icon_state = "gm94"
@@ -432,6 +440,10 @@
 	dynamic_aim_slowdown = SLOWDOWN_ADS_NONE
 
 /obj/item/weapon/gun/rifle/type71/carbine
+	item_icons = list(
+		WEAR_L_HAND = 'icons/mob/humans/onmob/items_lefthand_1.dmi',
+		WEAR_R_HAND = 'icons/mob/humans/onmob/items_righthand_1.dmi',
+	)
 	name = "\improper Type-71S pulse carbine"
 	desc = "A modified variant of the standard issue Type-71 Pulse Rifle, featuring a shortened barrel and improved fire-rate. Developed at the end of the 'ST' program headed by Vietnam, with assistance provided by material engineers in China, the Type-71S was designed for use by vehicle crews, pilots, territorial-guard, police units and rear-line personnel. While featuring superior handling and its famous blistering fire-rate, the Type-71S has seen little adoption within professional elements thanks to inferior at-range accuracy."
 	icon_state = "type71c"
@@ -655,6 +667,10 @@
 	..()
 
 /obj/item/weapon/gun/rifle/spp
+	item_icons = list(
+		WEAR_L_HAND = 'icons/mob/humans/onmob/items_lefthand_1.dmi',
+		WEAR_R_HAND = 'icons/mob/humans/onmob/items_righthand_1.dmi',
+	)
 	name = "\improper SPP-48M Marksman Rifle"
 	desc = "Produced by the Serbian 'Primary Manufacturing Union' as part of a collective arms development program in 2168, the SPP-48M, 'Ramonda' as it was nicknamed, is a 10x27mm caseless pulse-action designated marksman rifle, in a bullpup configuration, developed for use by the UPP Army and Space Operating Forces. The 'Ramonda' proves exceptionally popular with frontline infantry units and internal garrisons alike, thanks to its compact design and powerful calibre, allowing it to perform in both wide open colonial expanses and the interior of UPP habitations in equal measure."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/upp.dmi'

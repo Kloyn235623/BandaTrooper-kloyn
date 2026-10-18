@@ -12,6 +12,7 @@
 
 // Mapping
 #include "code/modules/mapping/bunker_access.dm"
+#include "code/fire_colony/map_types.dm"
 
 // Vehicles — TWE Tank
 #include "code/modules/vehicles/twe_tank/interior.dm"

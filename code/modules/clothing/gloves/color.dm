@@ -3,10 +3,6 @@
 	name = "insulated gloves"
 	icon_state = "insulated"
 	item_state = "insulated"
-	item_icons = list(
-		WEAR_L_HAND = 'icons/mob/humans/onmob/items_lefthand_1.dmi',
-		WEAR_R_HAND = 'icons/mob/humans/onmob/items_righthand_1.dmi',
-	)
 	siemens_coefficient = 0
 	permeability_coefficient = 0.05
 	flags_cold_protection = BODY_FLAG_HANDS
@@ -19,10 +15,6 @@
 	name = "budget insulated gloves"
 	icon_state = "insulated"
 	item_state = "insulated"
-	item_icons = list(
-		WEAR_L_HAND = 'icons/mob/humans/onmob/items_lefthand_1.dmi',
-		WEAR_R_HAND = 'icons/mob/humans/onmob/items_righthand_1.dmi',
-	)
 	siemens_coefficient = 1 //Set to a default of 1, gets overridden in New()
 	permeability_coefficient = 0.05
 

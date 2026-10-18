@@ -129,7 +129,3 @@
 	desc = "Supple, black leather gloves crafted from the finest leather. Stylish, durable, and ready for work or play."
 	icon_state = "black_leather"
 	item_state = "black"
-	item_icons = list(
-		WEAR_L_HAND = 'icons/mob/humans/onmob/items_lefthand_1.dmi',
-		WEAR_R_HAND = 'icons/mob/humans/onmob/items_righthand_1.dmi',
-	)
