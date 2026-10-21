@@ -10,7 +10,7 @@
 	w_class = SIZE_HUGE
 	allowed = list(/obj/item/weapon/gun, /obj/item/storage/backpack/general_belt)//Guns only.
 	uniform_restricted = list(/obj/item/clothing/under)
-	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_ARMOR_A, ACCESSORY_SLOT_ARMOR_L, ACCESSORY_SLOT_ARMOR_S, ACCESSORY_SLOT_ARMOR_M, ACCESSORY_SLOT_PONCHO)
+	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_ARMOR_A, ACCESSORY_SLOT_ARMOR_L, ACCESSORY_SLOT_ARMOR_S, ACCESSORY_SLOT_ARMOR_M, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_ARMOR_C)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_A, ACCESSORY_SLOT_ARMOR_L, ACCESSORY_SLOT_ARMOR_S)
 	slowdown = SLOWDOWN_ARMOR_LIGHT
 
@@ -514,3 +514,14 @@
 	flags_inv_hide = NO_FLAGS
 	siemens_coefficient = 0.6
 	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_ARMS
+
+/obj/item/clothing/suit/armor/vest/seegson_security
+	name = "\improper Seegson security armor"
+	desc = "An old Seegson security armored vest that protects against some damage."
+	icon_state = "seegson_security_armor"
+	item_state = "seegson_security_armor"
+	icon = 'icons/obj/items/clothing/suits/suits_by_faction/SEEGSON.dmi'
+	item_icons = list(
+		WEAR_JACKET = 'icons/mob/humans/onmob/clothing/suits/suits_by_faction/SEEGSON.dmi'
+	)
+	uniform_restricted = null

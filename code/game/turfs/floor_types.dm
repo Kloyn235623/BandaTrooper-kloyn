@@ -4103,3 +4103,79 @@
 
 /turf/open/floor/yellowfull
 	icon_state = "yellowfull"
+
+/turf/open/floor/almayer/arena/north
+	dir = NORTH
+
+/turf/open/floor/almayer/arena
+	icon_state = "arena_smooth"
+	dir = SOUTH
+
+/turf/open/floor/almayer/arena/east
+	dir = EAST
+
+/turf/open/floor/almayer/arena/west
+	dir = WEST
+
+/turf/open/floor/almayer/arena/tile_smooth
+	icon_state = "silver_smooth"
+
+/turf/open/floor/almayer/arena/tilefull_smooth
+	icon_state = "silverfull_smooth"
+
+/turf/open/floor/almayer/research/containment/corner_var1/west
+	dir = WEST
+
+/turf/open/floor/prison/floor_plate/smooth_dir
+	icon_state = "smooth_dir"
+
+/turf/open/floor/prison/floor_plate/smooth_dir/southwest
+	dir = SOUTHWEST
+
+/turf/open/floor/prison/floor_plate/smooth_dir/north
+	dir = NORTH
+
+/turf/open/floor/prison/floor_plate/smooth_dir/southeast
+	dir = SOUTHEAST
+
+/turf/open/floor/prison/floor_plate/smooth_dir/west
+	dir = WEST
+
+/turf/open/floor/prison/floor_plate/smooth_dir/northwest
+	dir = NORTHWEST
+
+/turf/open/floor/prison/floor_plate/smooth_u
+	icon_state = "smooth_u"
+
+/turf/open/floor/prison/floor_plate/smooth_u/north
+	dir = NORTH
+
+/turf/open/floor/prison/floor_plate/smooth_u/east
+	dir = EAST
+
+/turf/open/floor/prison/floor_plate/smooth_u/west
+	dir = WEST
+
+/turf/open/floor/prison/ramptop/west
+	dir = WEST
+
+/turf/open/floor/corsat/solid
+	icon_state = "solid"
+
+/turf/open/floor/corsat/solid/directions
+	icon_state = "solid_dir"
+
+/turf/open/floor/corsat/solid/directions/east
+	dir = EAST
+
+/turf/open/floor/corsat/solid/directions/west
+	dir = WEST
+
+/turf/open/floor/corsat/solid/directions/northeast
+	dir = NORTHEAST
+
+/turf/open/floor/corsat/solid/directions/northwest
+	dir = NORTHWEST
+
+/turf/open/floor/corsat/solid/directions/southeast
+	dir = SOUTHEAST

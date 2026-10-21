@@ -80,12 +80,16 @@
 		/obj/item/storage/belt/gun/m39,
 		/obj/item/storage/belt/gun/xm51,
 	)
-	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PONCHO)
+	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_GASMASK)
 
 	light_power = 3
 	light_range = 4
 	light_color = LIGHT_COLOR_TUNGSTEN
 	light_system = MOVABLE_LIGHT
+	/// Icon state prefix of the on-armor lamp overlay
+	var/lamp_icon = "lamp"
+	/// Colour of the lamp light, uses the default light colours when null
+	var/lamp_light_color
 
 	var/flashlight_cooldown = 0 //Cooldown for toggling the light
 	var/locate_cooldown = 0 //Cooldown for SL locator
@@ -138,9 +142,9 @@
 	armor_overlays["lamp"] = null
 	if(flags_marine_armor & ARMOR_LAMP_OVERLAY)
 		if(flags_marine_armor & ARMOR_LAMP_ON)
-			I = image('icons/obj/items/clothing/cm_suits.dmi', src, "lamp-on")
+			I = image('icons/obj/items/clothing/cm_suits.dmi', src, "[lamp_icon]-on")
 		else
-			I = image('icons/obj/items/clothing/cm_suits.dmi', src, "lamp-off")
+			I = image('icons/obj/items/clothing/cm_suits.dmi', src, "[lamp_icon]-off")
 		armor_overlays["lamp"] = I
 		overlays += I
 	else armor_overlays["lamp"] = null
@@ -190,12 +194,16 @@
 		return
 	set_light_range(initial(light_range))
 	set_light_power(floor(initial(light_power) * 0.5))
+	if(lamp_light_color)
+		set_light_color(lamp_light_color)
 	set_light_on(toggle_on)
 	flags_marine_armor ^= ARMOR_LAMP_ON
 
 	light_holder.set_light_flags(LIGHT_ATTACHED)
 	light_holder.set_light_range(initial(light_range))
 	light_holder.set_light_power(initial(light_power))
+	if(lamp_light_color)
+		light_holder.set_light_color(lamp_light_color)
 	light_holder.set_light_on(toggle_on)
 
 	if(!toggle_on)
@@ -330,7 +338,7 @@
 	flags_inventory = BLOCKSHARPOBJ|SMARTGUN_HARNESS
 	specialty = "M3 pattern captain"
 	item_state_slots = list(WEAR_JACKET = "co_officer")
-	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_RANK, ACCESSORY_SLOT_DECOR, ACCESSORY_SLOT_PONCHO)
+	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_RANK, ACCESSORY_SLOT_DECOR, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_ARMOR_C)
 	black_market_value = 35
 
 
@@ -340,7 +348,7 @@
 	icon_state = "bridge_coat_armored"
 	item_state = "bridge_coat_armored"
 	item_state_slots = list(WEAR_JACKET = "bridge_coat_armored")
-	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_RANK)
+	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_RANK, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_ARMOR_C)
 
 /obj/item/clothing/suit/storage/marine/medium/leader
 	name = "\improper B12 pattern marine armor"
@@ -677,7 +685,10 @@
 	valid_accessory_slots = list(
 		ACCESSORY_SLOT_MEDAL,
 		ACCESSORY_SLOT_PAINT,
+		ACCESSORY_SLOT_ARMOR_C,
 		ACCESSORY_SLOT_M3UTILITY,
+		ACCESSORY_SLOT_PLATE,
+		ACCESSORY_SLOT_GASMASK,
 		ACCESSORY_SLOT_PONCHO,
 		ACCESSORY_SLOT_DECORNECK,
 		ACCESSORY_SLOT_DECORARMOR,
@@ -690,7 +701,9 @@
 		ACCESSORY_SLOT_M3UTILITY,
 		ACCESSORY_SLOT_PAINT,
 		ACCESSORY_SLOT_DECORNECK,
+		ACCESSORY_SLOT_GASMASK,
 		ACCESSORY_SLOT_DECORARMOR,
+		ACCESSORY_SLOT_PLATE,
 		ACCESSORY_SLOT_DECORBRACER,
 		ACCESSORY_SLOT_DECORGROIN,
 		ACCESSORY_SLOT_DECORKNEE,
@@ -865,8 +878,8 @@
 	armor_bio = CLOTHING_ARMOR_MEDIUMLOW
 	armor_rad = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_internaldamage = CLOTHING_ARMOR_LOW
-	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_PAINT, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PONCHO)
-	restricted_accessory_slots = list(ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PAINT)
+	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_PAINT, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_ARMOR_C, ACCESSORY_SLOT_PLATE)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PAINT, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_ARMOR_C, ACCESSORY_SLOT_PLATE)
 
 /obj/item/clothing/suit/marine/light/lines
 	name = "M3 pattern ridged marine armor"
@@ -927,16 +940,16 @@
 	armor_rad = CLOTHING_ARMOR_MEDIUM
 	light_range = 5 //slightly higher
 	specialty = "M4 pattern marine"
-	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_DECORSHIN, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_DECORKNEE)
-	restricted_accessory_slots = list(ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_DECORSHIN, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_DECORKNEE)
+	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_DECORSHIN, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_DECORKNEE, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_ARMOR_C, ACCESSORY_SLOT_PLATE)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_DECORSHIN, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_DECORKNEE, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_ARMOR_C, ACCESSORY_SLOT_PLATE)
 
 /obj/item/clothing/suit/marine/rto/forecon
 	name = "\improper M3-R pattern recon armor"
 	desc = "A modified Colonial Marines M3 Pattern Chestplate. Protects the chest from ballistic rounds, bladed objects and accidents. Issued mostly to recon units."
 	icon_state = "4"
 	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
-	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_DECORSHIN, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_DECORNECK, ACCESSORY_SLOT_PAINT, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_DECORKNEE)
-	restricted_accessory_slots = list(ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_DECORNECK, ACCESSORY_SLOT_DECORSHIN, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PAINT, ACCESSORY_SLOT_DECORKNEE)
+	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_DECORSHIN, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_DECORNECK, ACCESSORY_SLOT_PAINT, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_DECORKNEE, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_ARMOR_C, ACCESSORY_SLOT_PLATE)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_DECORNECK, ACCESSORY_SLOT_DECORSHIN, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PAINT, ACCESSORY_SLOT_DECORKNEE, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_ARMOR_C, ACCESSORY_SLOT_PLATE)
 
 /obj/item/clothing/suit/marine/leader
 	name = "\improper B12 pattern marine armor"
@@ -981,8 +994,8 @@
 	slowdown = SLOWDOWN_ARMOR_HEAVY
 	specialty = "M3-G4 grenadier"
 	flags_marine_armor = ARMOR_LAMP_OVERLAY
-	valid_accessory_slots = list(ACCESSORY_SLOT_ARMBAND, ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PAINT)
-	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMBAND, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PAINT)
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMBAND, ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PAINT, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_ARMOR_C, ACCESSORY_SLOT_PLATE)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMBAND, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PAINT, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_ARMOR_C, ACCESSORY_SLOT_PLATE)
 	unacidable = TRUE
 	light_range = 5
 
@@ -1007,8 +1020,8 @@
 	flags_heat_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN|BODY_FLAG_ARMS|BODY_FLAG_LEGS|BODY_FLAG_FEET
 	flags_marine_armor = ARMOR_LAMP_OVERLAY
 	light_range = 4
-	valid_accessory_slots = list(ACCESSORY_SLOT_ARMBAND, ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_PAINT)
-	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMBAND, ACCESSORY_SLOT_PAINT)
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMBAND, ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_PAINT, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_ARMOR_C, ACCESSORY_SLOT_PLATE)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMBAND, ACCESSORY_SLOT_PAINT, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_ARMOR_C, ACCESSORY_SLOT_PLATE)
 	slowdown = SLOWDOWN_ARMOR_HEAVY
 	unacidable = TRUE
 	actions_types = list(/datum/action/item_action/toggle, /datum/action/item_action/specialist/b18_armor/inject_chemicals)
@@ -1096,8 +1109,8 @@
 	desc = "Whilst it saw limited field-testing amongst the USCMC, the US Army adopted the M4 series pattern armor across the board under the PBAS program. Surprisingly uncomfortable, even compared to the old M3 series armor. At least it's compatible with attachable suplementary armor components of the M3 series."
 	icon_state = "io"
 	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
-	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_DECORSHIN, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_DECORKNEE)
-	restricted_accessory_slots = list(ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_DECORSHIN, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_DECORKNEE)
+	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_DECORSHIN, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_DECORKNEE, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_ARMOR_C, ACCESSORY_SLOT_PLATE)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_DECORARMOR, ACCESSORY_SLOT_DECORGROIN, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_DECORSHIN, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_DECORKNEE, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_ARMOR_C, ACCESSORY_SLOT_PLATE)
 
 /obj/item/clothing/suit/marine/medium/rto/army/medium
 
