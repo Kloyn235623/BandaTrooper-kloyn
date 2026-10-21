@@ -1587,6 +1587,7 @@
 	desc = "An armored uniform worn by Lasalle Bionational corporate security members."
 	icon_state = "lasalle_security_uniform"
 	worn_state = "lasalle_security_uniform"
+	contained_sprite = FALSE
 	icon = 'icons/obj/items/clothing/uniforms/uniforms_by_faction/LASALLE.dmi'
 
 	item_icons = list(

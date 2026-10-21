@@ -2441,6 +2441,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 /obj/item/clothing/head/helmet/marine/veteran/pmc/corporate/seegson
 	name = "\improper Seegson security helmet"
 	desc = "A basic skull-helm worn by Seegson corporate security assets."
+	contained_sprite = FALSE
 	icon = 'icons/obj/items/clothing/hats/hats_by_faction/SEEGSON.dmi'
 	item_icons = list(
 		WEAR_HEAD = 'icons/mob/humans/onmob/clothing/head/hats_by_faction/SEEGSON.dmi'
@@ -2529,6 +2530,7 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 /obj/item/clothing/head/helmet/marine/veteran/pmc/corporate/lasalle_security
 	name = "\improper Lasalle Bionational security helmet"
 	desc = "A full face helmet worn by Lasalle Bionatonal corporate security assets."
+	contained_sprite = FALSE
 	icon = 'icons/obj/items/clothing/hats/hats_by_faction/LASALLE.dmi'
 	item_icons = list(
 		WEAR_HEAD = 'icons/mob/humans/onmob/clothing/head/hats_by_faction/LASALLE.dmi'

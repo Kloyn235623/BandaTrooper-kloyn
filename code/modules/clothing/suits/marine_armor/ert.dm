@@ -1530,6 +1530,7 @@
 /obj/item/clothing/suit/storage/marine/veteran/pmc/light/corporate/lasalle_security
 	name = "\improper M1 pattern corporate security armor"
 	desc = "A basic vest with a Lasalle Bionational logo on the right breast. This is commonly worn by low-level guards protecting Lasalle Bionational facilities."
+	contained_sprite = FALSE
 	icon = 'icons/obj/items/clothing/suits/suits_by_faction/LASALLE.dmi'
 	item_icons = list(
 		WEAR_JACKET = 'icons/mob/humans/onmob/clothing/suits/suits_by_faction/LASALLE.dmi'
