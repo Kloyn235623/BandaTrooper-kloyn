@@ -7,6 +7,7 @@
 #include "_signals220/_signals220.dme"
 #include "_singletons/_singletons.dme"
 #include "pixel_shift/_pixel_shift.dme"
+#include "tank_roof/_tank_roof.dme"
 
 #include "admin/_admin.dme"
 #include "speech_filter/_speech_filter.dme"
