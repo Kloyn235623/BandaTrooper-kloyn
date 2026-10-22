@@ -6,7 +6,7 @@
 /mob/living/carbon/human/update_layer()
 	. = ..()
 	if(tank_roof_vehicle)
-		layer = ABOVE_MOB_LAYER + 0.1
+		layer = tank_roof_vehicle.layer + HDPT_LAYER_MAX * 0.1 + 0.01
 
 /obj/vehicle/multitile/tank/Initialize()
 	. = ..()

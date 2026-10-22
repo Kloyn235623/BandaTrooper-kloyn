@@ -23,13 +23,14 @@
 		return Fail("[tank_type] could not be mounted")
 	if(rider.tank_roof_vehicle != tank)
 		return Fail("[tank_type] lost its rider")
-	if(rider.layer <= tank.layer)
-		return Fail("[tank_type] hides its rider")
+	var/max_module_layer = tank.layer + HDPT_LAYER_MAX * 0.1
+	if(rider.layer <= max_module_layer)
+		return Fail("[tank_type] modules hide its rider")
 	if(!(rider.flags_pass_temp & PASS_HIGH_OVER_ONLY))
 		return Fail("[tank_type] rider cannot cross the hull")
 	rider.update_layer()
-	if(rider.layer <= tank.layer)
-		return Fail("[tank_type] loses its rider after a layer update")
+	if(rider.layer <= max_module_layer)
+		return Fail("[tank_type] modules hide its rider after a layer update")
 
 	var/turf/next_roof_turf = get_step(rider, EAST)
 	if(!(next_roof_turf in tank.locs) || !rider.Move(next_roof_turf, EAST))
@@ -53,6 +54,8 @@
 		return Fail("[tank_type] left its rider behind")
 	if(!(rider.loc in tank.locs))
 		return Fail("[tank_type] moved its rider off the roof")
+	if(rider.layer <= max_module_layer)
+		return Fail("[tank_type] modules hide its rider after movement")
 
 	var/list/rotation = list("rider" = list(rider.tank_roof_offset_x, rider.tank_roof_offset_y))
 	tank.rotate_origins(turning_angle(tank.dir, turn(tank.dir, 90)), rotation)
@@ -63,6 +66,8 @@
 		return Fail("[tank_type] rotated its rider off the roof")
 	if(rider.x != tank.x + expected_offset[1] || rider.y != tank.y + expected_offset[2])
 		return Fail("[tank_type] placed its rider incorrectly after rotation")
+	if(rider.layer <= max_module_layer)
+		return Fail("[tank_type] modules hide its rider after rotation")
 
 	var/turf/off_roof = locate(tank.x - 2, tank.y, tank.z)
 	rider.forceMove(off_roof)
