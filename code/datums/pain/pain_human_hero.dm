@@ -1,14 +1,10 @@
 /datum/pain/human_hero
-	max_pain = 1000
+	max_pain = 300
 
-	threshold_mild = null
-	threshold_discomforting = null
-	threshold_moderate = null
-	threshold_distressing = null
-	threshold_severe = null
-	threshold_horrible = null
+	threshold_mild = 30
+	threshold_discomforting = 45
+	threshold_moderate = 65
+	threshold_distressing = 90
+	threshold_severe = 115
+	threshold_horrible = 145
 
-	feels_pain = FALSE
-
-/datum/pain/human_hero/apply_pain(amount = 0, type = BRUTE)
-	return FALSE
