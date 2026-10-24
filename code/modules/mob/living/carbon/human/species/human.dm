@@ -108,7 +108,7 @@
 	heat_level_1 = 390
 	heat_level_2 = 480
 	heat_level_3 = 1100
-	total_health = 125
+	total_health = 150
 
 //Various horrors that spawn in and haunt the living.
 /datum/species/human/spook
