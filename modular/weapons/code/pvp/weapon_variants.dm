@@ -19,6 +19,7 @@
 	icon = 'modular/weapons/icons/pvp/world/m2006.dmi'
 	icon_state = "mateba_2006m"
 	item_state = "mateba_2006m"
+	lineart_gun_icon = "mateba"
 	current_mag = /obj/item/ammo_magazine/internal/revolver/mateba/impact
 	fire_sound = 'modular/weapons/sound/pvp/m2006_fire.ogg'
 	chamber_close_sound = 'modular/weapons/sound/pvp/m2006_close.ogg'
@@ -56,6 +57,7 @@
 	icon = 'modular/weapons/icons/pvp/world/mp5a5.dmi'
 	icon_state = "mp5_alt"
 	item_state = "mp5_alt"
+	lineart_gun_icon = "mp5"
 	attachable_allowed = list(
 		/obj/item/attachable/suppressor,
 		/obj/item/attachable/bayonet,
@@ -102,6 +104,7 @@
 	icon = 'modular/weapons/icons/pvp/world/m16a5.dmi'
 	icon_state = "m16a5"
 	item_state = "m16a5"
+	lineart_gun_icon = "m16"
 	random_spawn_chance = 100
 	random_spawn_rail = list(/obj/item/attachable/reddot, /obj/item/attachable/reflex)
 	random_spawn_under = list(/obj/item/attachable/angledgrip, /obj/item/attachable/verticalgrip, /obj/item/attachable/lasersight)
@@ -140,6 +143,7 @@
 	icon = 'modular/weapons/icons/pvp/world/l54_gold.dmi'
 	icon_state = "l54_custom"
 	item_state = "l54_custom"
+	lineart_gun_icon = "l54"
 	fire_sound = 'sound/weapons/gun_vp78_v2.ogg'
 	reload_sound = 'sound/weapons/gun_vp78_reload.ogg'
 	unload_sound = 'sound/weapons/gun_vp78_unload.ogg'
