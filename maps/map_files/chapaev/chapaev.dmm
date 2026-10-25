@@ -1647,6 +1647,15 @@
 	},
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/briefing)
+"dc" = (
+/obj/structure/roof/cargocrane_tracks/horizontal{
+	pixel_y = 14
+	},
+/turf/open/floor/hangar_airlock/inner/frame25,
+/area/golden_arrow/hangar)
+"dd" = (
+/turf/open/floor/hangar_airlock/inner/frame17,
+/area/golden_arrow/hangar)
 "de" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1715,6 +1724,9 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/cryo_cells)
+"dm" = (
+/turf/open/floor/hangar_airlock/inner/frame9,
+/area/golden_arrow/hangar)
 "dn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -1751,6 +1763,9 @@
 	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/golden_arrow/cryo_cells)
+"dq" = (
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
 "dr" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -1812,6 +1827,9 @@
 	},
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/briefing)
+"dw" = (
+/turf/open/floor/hangar_airlock/inner/frame35,
+/area/golden_arrow/hangar)
 "dx" = (
 /obj/structure/surface/table/almayer{
 	color = "#8B9490"
@@ -1844,6 +1862,30 @@
 "dA" = (
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/golden_arrow/briefing)
+"dB" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/hangar_airlock/inner/frame9,
+/area/golden_arrow/hangar)
+"dC" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
+"dD" = (
+/obj/structure/pipes/vents/pump{
+	dir = 8
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
 "dE" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating/plating_catwalk/strata,
@@ -1913,6 +1955,12 @@
 	layer = 2.52
 	},
 /turf/open/floor/strata/floor3,
+/area/golden_arrow/hangar)
+"dK" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/hangar_airlock/inner/frame9,
 /area/golden_arrow/hangar)
 "dL" = (
 /obj/structure/prop/invuln/overhead_pipe{
@@ -2045,6 +2093,12 @@
 	},
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/cryo_cells)
+"dX" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/hangar_airlock/inner/frame17,
+/area/golden_arrow/hangar)
 "dY" = (
 /obj/structure/closet{
 	name = "emergency closet";
@@ -2092,6 +2146,18 @@
 "ec" = (
 /turf/closed/wall/upp_wall/grey,
 /area/golden_arrow/dorms)
+"ed" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/hangar_airlock/inner/frame25,
+/area/golden_arrow/hangar)
+"ee" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/hangar_airlock/inner/frame35,
+/area/golden_arrow/hangar)
 "ef" = (
 /obj/structure/machinery/light/double{
 	light_color = "#e7c0a4";
@@ -2111,6 +2177,9 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/dorms)
+"ei" = (
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
 "ej" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -2217,6 +2286,12 @@
 	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/golden_arrow/briefing)
+"et" = (
+/obj/structure/roof/cargocrane_tracks/horizontal{
+	pixel_y = 14
+	},
+/turf/open/floor/hangar_airlock/inner/frame30,
+/area/golden_arrow/hangar)
 "eu" = (
 /obj/structure/machinery/light/small{
 	dir = 4;
@@ -2226,6 +2301,9 @@
 	},
 /turf/open/floor/corsat,
 /area/golden_arrow/briefing)
+"ev" = (
+/turf/open/floor/hangar_airlock/inner/frame21,
+/area/golden_arrow/hangar)
 "ew" = (
 /obj/structure/machinery/washing_machine{
 	pixel_y = 14;
@@ -2644,6 +2722,12 @@
 	},
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/dorms)
+"fi" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/hangar_airlock/inner/frame13,
+/area/golden_arrow/hangar)
 "fj" = (
 /obj/structure/disposalpipe/junction{
 	dir = 2;
@@ -2718,6 +2802,9 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/dorms)
+"fq" = (
+/turf/open/floor/hangar_airlock/inner/frame33,
+/area/golden_arrow/hangar)
 "fr" = (
 /obj/structure/machinery/door/airlock/upp_utility{
 	dir = 1;
@@ -2794,6 +2881,12 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/golden_arrow/briefing)
+"fB" = (
+/turf/open/floor/hangar_airlock/inner/frame13,
+/area/golden_arrow/hangar)
+"fC" = (
+/turf/open/floor/hangar_airlock/inner/frame30,
+/area/golden_arrow/hangar)
 "fD" = (
 /obj/structure/machinery/light/small{
 	dir = 8;
@@ -2820,6 +2913,14 @@
 	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/golden_arrow/canteen)
+"fG" = (
+/obj/structure/machinery/light/small{
+	light_power = 0.8;
+	light_range = 4;
+	light_color = "#e7c0a4"
+	},
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
 "fH" = (
 /obj/structure/machinery/light/small{
 	light_power = 0.8;
@@ -2843,6 +2944,24 @@
 "fJ" = (
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/canteen)
+"fK" = (
+/turf/open/floor/hangar_airlock/inner/frame25,
+/area/golden_arrow/hangar)
+"fL" = (
+/obj/structure/machinery/door_control{
+	name = "Airlock Hanger Access";
+	id = "hangerairlock-exterior";
+	pixel_y = -23;
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
+"fM" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
 "fN" = (
 /obj/structure/machinery/light/small{
 	dir = 4;
@@ -2917,6 +3036,15 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/dorms)
+"fT" = (
+/turf/open/floor/hangar_airlock/inner/frame11,
+/area/golden_arrow/hangar)
+"fU" = (
+/obj/structure/roof/cargocrane_tracks/vertical/endcap2{
+	pixel_y = 14
+	},
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
 "fV" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/strata/multi_tiles,
@@ -2936,6 +3064,12 @@
 	},
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/golden_arrow/canteen)
+"fY" = (
+/obj/structure/roof/cargocrane_tracks/cross{
+	pixel_y = 14
+	},
+/turf/open/floor/hangar_airlock/inner/frame30,
+/area/golden_arrow/hangar)
 "fZ" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating/plating_catwalk/strata,
@@ -2951,6 +3085,21 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/golden_arrow/canteen)
+"gc" = (
+/obj/structure/roof/cargocrane_tracks/vertical/endcap1{
+	pixel_y = 14
+	},
+/turf/open/floor/hangar_airlock/inner/frame21,
+/area/golden_arrow/hangar)
+"gd" = (
+/turf/open/floor/hangar_airlock/inner/frame5,
+/area/golden_arrow/hangar)
+"ge" = (
+/obj/docking_port/stationary/marine_dropship/golden_arrow_hangar{
+	roundstart_template = /datum/map_template/shuttle/upp
+	},
+/turf/open/floor/hangar_airlock/inner/frame5,
+/area/golden_arrow/hangar)
 "gf" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning";
@@ -3137,6 +3286,16 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/dorms)
+"gv" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/hangar_airlock/inner/frame9,
+/area/golden_arrow/hangar)
 "gw" = (
 /obj/structure/machinery/door/airlock/upp_utility{
 	name = "\improper Bunk Room";
@@ -3155,6 +3314,13 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/canteen)
+"gy" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
 "gz" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/weapon/dart,
@@ -3228,6 +3394,16 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/golden_arrow/cryo_cells)
+"gG" = (
+/obj/structure/pipes/vents/pump{
+	dir = 8
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
 "gH" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4;
@@ -3307,6 +3483,13 @@
 /obj/item/storage/fancy/cigarettes/laika,
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/canteen)
+"gO" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame9,
+/area/golden_arrow/hangar)
 "gP" = (
 /obj/structure/machinery/light/small{
 	dir = 8;
@@ -3437,6 +3620,13 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/dorms)
+"gW" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame17,
+/area/golden_arrow/hangar)
 "gX" = (
 /obj/structure/prop/invuln/overhead_pipe{
 	dir = 4;
@@ -3501,6 +3691,14 @@
 	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/golden_arrow/canteen)
+"hd" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame25,
+/area/golden_arrow/hangar)
 "he" = (
 /obj/structure/machinery/light/small{
 	light_power = 0.8;
@@ -3560,6 +3758,13 @@
 	},
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/canteen)
+"hk" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame35,
+/area/golden_arrow/hangar)
 "hl" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice3";
@@ -3588,6 +3793,16 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/platoon_sergeant)
+"hp" = (
+/obj/docking_port/stationary/marine_dropship/airlock/inner{
+	name = "Hangar Bay";
+	id = "golden arrow lz";
+	roundstart_template = /datum/map_template/shuttle/upp;
+	dropship_airlock_id = "ship-chapaev-34-87";
+	airlock_y_offset = -2
+	},
+/turf/open/floor/hangar_airlock/inner/frame5,
+/area/golden_arrow/hangar)
 "hq" = (
 /obj/structure/machinery/camera/autoname/golden_arrow{
 	dir = 1;
@@ -3625,6 +3840,16 @@
 	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/golden_arrow/briefing)
+"hv" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 1;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame49,
+/area/space)
+"hw" = (
+/turf/open/floor/hangar_airlock/outer/frame49,
+/area/space)
 "hx" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -3683,6 +3908,12 @@
 	},
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/golden_arrow/canteen)
+"hE" = (
+/obj/effect/hangar_airlock/half_tile{
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame49,
+/area/space)
 "hF" = (
 /obj/structure/surface/table/almayer{
 	color = "#8B9490"
@@ -3725,6 +3956,13 @@
 	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/golden_arrow/briefing)
+"hI" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 1;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame43,
+/area/space)
 "hJ" = (
 /obj/structure/surface/table/almayer{
 	color = "#8B9490"
@@ -3769,6 +4007,15 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/corsat/marked,
 /area/golden_arrow/briefing)
+"hM" = (
+/turf/open/floor/hangar_airlock/outer/frame43,
+/area/space)
+"hN" = (
+/obj/effect/hangar_airlock/half_tile{
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame43,
+/area/space)
 "hO" = (
 /obj/structure/machinery/light/small{
 	dir = 1;
@@ -3833,6 +4080,26 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/medical)
+"hU" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 1;
+	layer = 2
+	},
+/obj/effect/hangar_airlock/half_tile{
+	dir = 1;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame35,
+/area/space)
+"hV" = (
+/turf/open/floor/hangar_airlock/outer/frame35,
+/area/space)
+"hW" = (
+/obj/effect/hangar_airlock/half_tile{
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame35,
+/area/space)
 "hX" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1;
@@ -3946,6 +4213,12 @@
 	},
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/briefing)
+"ih" = (
+/turf/open/floor/hangar_airlock/outer/frame27,
+/area/space)
+"ii" = (
+/turf/open/floor/hangar_airlock/outer/frame19,
+/area/space)
 "ij" = (
 /obj/structure/bookcase{
 	density = 0;
@@ -3965,6 +4238,23 @@
 	},
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/platoon_sergeant)
+"ik" = (
+/turf/open/floor/hangar_airlock/outer/frame11,
+/area/space)
+"il" = (
+/turf/open/floor/hangar_airlock/outer/frame4,
+/area/space)
+"im" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 4;
+	layer = 2
+	},
+/obj/effect/hangar_airlock/half_tile{
+	dir = 4;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame35,
+/area/space)
 "in" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating/plating_catwalk/strata,
@@ -3976,6 +4266,13 @@
 	},
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/platoon_sergeant)
+"ip" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 8;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame35,
+/area/space)
 "iq" = (
 /obj/structure/machinery/power/apc/almayer/east,
 /turf/open/floor/strata/floor3/east,
@@ -3989,6 +4286,13 @@
 	},
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/golden_arrow/briefing)
+"is" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 4;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame43,
+/area/space)
 "it" = (
 /obj/structure/surface/rack{
 	color = "#6b675e";
@@ -4059,6 +4363,13 @@
 "ix" = (
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/golden_arrow/briefing)
+"iy" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 8;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame43,
+/area/space)
 "iz" = (
 /obj/structure/machinery/door/airlock/upp_utility{
 	name = "\improper Port Hallway";
@@ -4066,6 +4377,13 @@
 	},
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/briefing)
+"iA" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 4;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame49,
+/area/space)
 "iB" = (
 /turf/open/floor/corsat/marked,
 /area/golden_arrow/briefing)
@@ -4201,6 +4519,22 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/golden_arrow/platoon_commander_rooms)
+"iO" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 8;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame49,
+/area/space)
+"iP" = (
+/obj/docking_port/stationary/marine_dropship/airlock/outer{
+	name = "Hangar Bay approach";
+	id = "golden arrow lz-outer";
+	dropship_airlock_id = "ship-chapaev-34-87";
+	airlock_y_offset = -2
+	},
+/turf/open/floor/hangar_airlock/outer/frame4,
+/area/space)
 "iQ" = (
 /obj/structure/bed/chair{
 	can_buckle = 0;
@@ -4227,6 +4561,25 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/golden_arrow/dorms)
+"iT" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/hangar_airlock/inner/frame25,
+/area/golden_arrow/hangar)
+"iU" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame35,
+/area/golden_arrow/hangar)
 "iV" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer{
 	dir = 4;
@@ -4251,9 +4604,30 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/golden_arrow/briefing)
+"iX" = (
+/obj/structure/cargo_container/upp/left,
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
 "iY" = (
 /turf/closed/wall/upp_wall/grey/hull,
 /area/golden_arrow/platoon_commander_rooms)
+"iZ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/hangar_airlock/inner/frame30,
+/area/golden_arrow/hangar)
+"ja" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
+"jb" = (
+/obj/structure/cargo_container/upp/mid,
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
 "jc" = (
 /obj/structure/surface/table/almayer{
 	color = "#8B9490"
@@ -4277,6 +4651,10 @@
 /obj/structure/machinery/light/small,
 /turf/open/floor/strata/floor3,
 /area/golden_arrow/platoon_commander_rooms)
+"je" = (
+/obj/structure/cargo_container/upp/right,
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
 "jf" = (
 /obj/structure/machinery/power/apc/almayer/east,
 /obj/effect/decal/warning_stripes{
@@ -4300,6 +4678,15 @@
 /obj/item/reagent_container/food/drinks/cans/food/upp/soup,
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/golden_arrow/dorms)
+"ji" = (
+/obj/vehicle/powerloader/jd{
+	name = "\improper CosmosStal 12 Bogatyr Power Loader";
+	color = "#A2B4AC";
+	desc = "The CosmosStal 12 Bogatyr Power Loader is a commercial mechanized exoskeleton used for lifting heavy materials and objects based on the Caterpillar P-5000, first designed in January 29, 2025 by the Weyland Corporation. An old but trusted design used in warehouses, constructions and military ships everywhere.";
+	dir = 8
+	},
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
 "jj" = (
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/golden_arrow/platoon_commander_rooms)
@@ -4316,6 +4703,24 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/golden_arrow/briefing)
+"jm" = (
+/obj/docking_port/stationary/marine_dropship/golden_arrow_hangar{
+	name = "Hangar Bay Aft";
+	id = "golden arrow lz2";
+	roundstart_template = null
+	},
+/turf/open/floor/hangar_airlock/inner/frame5,
+/area/golden_arrow/hangar)
+"jn" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/hangar_airlock/inner/frame25,
+/area/golden_arrow/hangar)
 "jo" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/paper_bin{
@@ -4356,6 +4761,14 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/platoon_commander_rooms)
+"jq" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame9,
+/area/golden_arrow/hangar)
 "jr" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/door_control{
@@ -4377,6 +4790,24 @@
 	},
 /turf/open/floor/strata/floor3/east,
 /area/golden_arrow/briefing)
+"jt" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame25,
+/area/golden_arrow/hangar)
+"ju" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame35,
+/area/golden_arrow/hangar)
 "jv" = (
 /obj/structure/machinery/light/small{
 	light_color = "#e7c0a4";
@@ -4416,6 +4847,15 @@
 "jy" = (
 /turf/open/floor/strata/multi_tiles,
 /area/golden_arrow/briefing)
+"jz" = (
+/obj/docking_port/stationary/marine_dropship/airlock/inner{
+	name = "Hangar Bay Aft";
+	id = "golden arrow lz2";
+	roundstart_template = null;
+	dropship_airlock_id = "ship-chapaev-90-92"
+	},
+/turf/open/floor/hangar_airlock/inner/frame5,
+/area/golden_arrow/hangar)
 "jA" = (
 /obj/structure/machinery/power/apc/almayer/south{
 	layer = 5
@@ -4470,6 +4910,14 @@
 	},
 /turf/open/floor/strata/floor2,
 /area/golden_arrow/platoon_commander_rooms)
+"jE" = (
+/obj/docking_port/stationary/marine_dropship/airlock/outer{
+	name = "Hangar Bay Aft approach";
+	id = "golden arrow lz2-outer";
+	dropship_airlock_id = "ship-chapaev-90-92"
+	},
+/turf/open/floor/hangar_airlock/outer/frame4,
+/area/space)
 "jF" = (
 /turf/open/floor/strata/floor3,
 /area/golden_arrow/platoon_commander_rooms)
@@ -12787,25 +13235,25 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+hE
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hv
 mV
 mV
 mV
@@ -12938,27 +13386,27 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+hN
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hI
 mV
 mV
 mV
@@ -13089,29 +13537,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+hW
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hU
 mV
 mV
 mV
@@ -13241,29 +13689,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
 mV
 mV
 mV
@@ -13393,29 +13841,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
 mV
 mV
 mV
@@ -13545,29 +13993,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
 mV
 mV
 mV
@@ -13697,29 +14145,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+il
+il
+il
+il
+il
+il
+il
+il
+il
+iP
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
 mV
 mV
 mV
@@ -13849,29 +14297,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
 mV
 mV
 mV
@@ -14001,29 +14449,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
 mV
 mV
 mV
@@ -14153,29 +14601,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
 mV
 mV
 mV
@@ -14305,29 +14753,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+ip
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+im
 mV
 mV
 mV
@@ -14458,27 +14906,27 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+iy
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+is
 mV
 mV
 mV
@@ -14611,25 +15059,25 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+iO
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+iA
 mV
 mV
 mV
@@ -15701,24 +16149,24 @@ mI
 mI
 mI
 mI
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-ny
+dd
+dm
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dm
+dd
+dc
 mW
 DL
 mI
@@ -15851,27 +16299,27 @@ mW
 mI
 qG
 ql
-yb
-yb
-yb
-yb
-yb
-yb
-yb
-yb
-yb
-yb
-mF
-yb
-yb
-yb
-yb
-yb
-yb
-nQ
-DL
-ny
-mW
+ee
+ed
+dX
+dK
+dC
+dC
+dC
+dC
+dC
+dC
+dD
+dC
+dC
+dC
+dC
+dC
+dC
+dB
+dd
+dc
+dw
 DL
 mI
 DL
@@ -16002,29 +16450,29 @@ bm
 jM
 mI
 qH
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-DL
-ny
-DL
-DL
+dq
+ei
+fC
+ev
+fB
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fi
+ev
+et
+ei
+dq
 mI
 DL
 DL
@@ -16154,29 +16602,29 @@ Tu
 jM
 mI
 qH
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-DL
-ny
-DL
-mN
+dq
+ei
+fC
+ev
+fB
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fi
+ev
+et
+ei
+fG
 mI
 mI
 mI
@@ -16306,29 +16754,29 @@ bm
 jM
 mI
 qH
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-DL
-ny
-mW
-nl
+dq
+ei
+fC
+ev
+fB
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+fi
+ev
+et
+ei
+fL
 mI
 mY
 mU
@@ -16458,29 +16906,29 @@ bm
 mW
 mI
 qH
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-DL
-ny
-mW
-nj
+dq
+ei
+fC
+ev
+fB
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fi
+ev
+et
+ei
+fM
 ne
 mZ
 mW
@@ -16610,29 +17058,29 @@ bm
 mW
 mI
 qH
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-SP
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-nM
-nz
-no
-nj
+dq
+ei
+fC
+ev
+fB
+gd
+gd
+gd
+gd
+hp
+gd
+gd
+gd
+gd
+gd
+gd
+gd
+gd
+fi
+gc
+fY
+fU
+fM
 ne
 mZ
 mW
@@ -16762,29 +17210,29 @@ di
 jM
 mI
 qH
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-DL
-ny
-mW
-nj
+dq
+ei
+fC
+ev
+fB
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fi
+ev
+et
+ei
+fM
 ne
 mZ
 mW
@@ -16914,29 +17362,29 @@ di
 jM
 mI
 qH
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-DL
-ny
-mW
-DL
+dq
+ei
+fC
+ev
+fB
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+fi
+ev
+et
+ei
+dq
 mI
 nb
 mX
@@ -17066,29 +17514,29 @@ Tu
 mW
 mI
 qH
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-DL
-ny
-DL
-mN
+dq
+ei
+fC
+ev
+fB
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fi
+ev
+et
+ei
+fG
 mI
 mI
 mI
@@ -17218,29 +17666,29 @@ di
 CT
 mI
 qH
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-DL
-ny
-DL
-DL
+dq
+ei
+fC
+ev
+fB
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fi
+ev
+et
+ei
+dq
 mI
 DL
 DL
@@ -17371,27 +17819,27 @@ mW
 mI
 qI
 qm
-rx
-pI
-rx
-rx
-rx
-rx
-rx
-rx
-rx
-rx
-Za
-rx
-rx
-rx
-rx
-rx
-rx
-nR
-DL
-ny
-mW
+hk
+hd
+gW
+gO
+gy
+gy
+gy
+gy
+gy
+gy
+gG
+gy
+gy
+gy
+gy
+gy
+gy
+gv
+dd
+dc
+dw
 DL
 mI
 DL
@@ -17525,24 +17973,24 @@ mI
 mI
 mI
 mI
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-DL
-ny
+dd
+dm
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dm
+dd
+dc
 mW
 DL
 mI
@@ -24205,25 +24653,25 @@ mV
 mH
 xd
 uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
+fK
+dd
+dm
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dm
+dd
+fK
 uU
 oN
 oN
@@ -24356,27 +24804,27 @@ mV
 mV
 mH
 uU
-Zy
-yb
-yb
-yb
-yb
-yb
-yb
-yb
-yb
-yb
-yb
-yb
-mF
-yb
-yb
-yb
-yb
-yb
-yb
-nQ
-uU
+iU
+ed
+dX
+dK
+dC
+dC
+dC
+dC
+dC
+dC
+dC
+dC
+dD
+dC
+dC
+dC
+dC
+dK
+dX
+iT
+dw
 Cz
 oN
 uU
@@ -24507,29 +24955,29 @@ mV
 mV
 mV
 mH
-uU
-SM
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-uU
-ZI
+dq
+ja
+fC
+ev
+fB
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fB
+ev
+iZ
+ei
+iX
 oN
 uU
 mI
@@ -24659,29 +25107,29 @@ mV
 mV
 mV
 mH
-uU
-SM
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-uU
-wX
+dq
+ja
+fC
+ev
+fB
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fB
+ev
+iZ
+ei
+jb
 oN
 uU
 mI
@@ -24811,29 +25259,29 @@ mV
 mV
 mV
 mH
-uU
-SM
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-uU
-zR
+dq
+ja
+fC
+ev
+fB
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+fB
+ev
+iZ
+ei
+je
 oN
 nt
 mI
@@ -24963,29 +25411,29 @@ mV
 mV
 mV
 mH
-uU
-SM
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-uU
-jG
+dq
+ja
+fC
+ev
+fB
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fB
+ev
+iZ
+ei
+ji
 oN
 oN
 oN
@@ -25115,29 +25563,29 @@ mV
 mV
 mV
 mH
-uU
-SM
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-BN
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-uU
-oN
+dq
+ja
+fC
+ev
+fB
+gd
+gd
+gd
+gd
+gd
+gd
+jz
+gd
+gd
+gd
+gd
+gd
+gd
+fB
+ev
+iZ
+ei
+dq
 oN
 oN
 oN
@@ -25267,29 +25715,29 @@ mV
 mV
 mV
 mH
-uU
-SM
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-uU
-oN
+dq
+ja
+fC
+ev
+fB
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fT
+fB
+ev
+iZ
+ei
+dq
 oN
 oN
 oN
@@ -25419,29 +25867,29 @@ mV
 mV
 mV
 mH
-uU
-SM
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-uU
-oN
+dq
+ja
+fC
+ev
+fB
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+dd
+fB
+ev
+iZ
+ei
+dq
 oN
 nt
 mI
@@ -25571,29 +26019,29 @@ mV
 mV
 mV
 mH
-uU
-SM
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-uU
-oN
+dq
+ja
+fC
+ev
+fB
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fK
+fB
+ev
+iZ
+ei
+dq
 oN
 uU
 mI
@@ -25723,29 +26171,29 @@ mV
 mV
 mV
 mH
-uU
-SM
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-nj
-uU
-oN
+dq
+ja
+fC
+ev
+fB
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fq
+fB
+ev
+iZ
+ei
+dq
 oN
 zh
 mI
@@ -25876,27 +26324,27 @@ mV
 mV
 mH
 uU
-OD
-rx
-rx
-pI
-rx
-rx
-rx
-rx
-rx
-rx
-rx
-rx
-Za
-rx
-rx
-rx
-rx
-rx
-rx
-nR
-uU
+ju
+jt
+gW
+jq
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gy
+gG
+gy
+gy
+gy
+gy
+gO
+gW
+jn
+dw
 oN
 oN
 uU
@@ -26029,25 +26477,25 @@ mV
 mH
 FY
 uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
-uU
+fK
+dd
+dm
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dq
+dm
+dd
+fK
 uU
 oN
 oN
@@ -31276,25 +31724,25 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+hE
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hv
 mV
 mV
 mV
@@ -31427,27 +31875,27 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+hN
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hI
 mV
 mV
 "}
@@ -31578,29 +32026,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+hW
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hU
 mV
 "}
 (133,1,1) = {"
@@ -31730,29 +32178,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
 mV
 "}
 (134,1,1) = {"
@@ -31882,29 +32330,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
 mV
 "}
 (135,1,1) = {"
@@ -32034,29 +32482,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
 mV
 "}
 (136,1,1) = {"
@@ -32186,29 +32634,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
+jE
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
 mV
 "}
 (137,1,1) = {"
@@ -32338,29 +32786,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
+ik
 mV
 "}
 (138,1,1) = {"
@@ -32490,29 +32938,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
+ii
 mV
 "}
 (139,1,1) = {"
@@ -32642,29 +33090,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
+ih
 mV
 "}
 (140,1,1) = {"
@@ -32794,29 +33242,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+ip
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+hV
+im
 mV
 "}
 (141,1,1) = {"
@@ -32947,27 +33395,27 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+iy
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+hM
+is
 mV
 mV
 "}
@@ -33100,25 +33548,25 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+iO
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+hw
+iA
 mV
 mV
 mV
