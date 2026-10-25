@@ -279,6 +279,263 @@
 /obj/structure/foamed_metal/iron,
 /turf/closed/wall/upp_wall/grey/hull,
 /area/golden_arrow/hangar)
+"aA" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hangar_airlock/inner/frame25,
+/area/golden_arrow/hangar)
+"aB" = (
+/turf/open/floor/hangar_airlock/inner/frame17,
+/area/golden_arrow/hangar)
+"aC" = (
+/turf/open/floor/hangar_airlock/inner/frame9,
+/area/golden_arrow/hangar)
+"aD" = (
+/obj/structure/machinery/light/small/red{
+	light_range = 5;
+	dir = 1;
+	pixel_y = 20;
+	invisibility = 100
+	},
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
+"aE" = (
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
+"aF" = (
+/obj/structure/machinery/light/small/red{
+	light_range = 5;
+	dir = 8
+	},
+/turf/open/floor/hangar_airlock/inner/frame17,
+/area/golden_arrow/hangar)
+"aG" = (
+/turf/open/floor/hangar_airlock/inner/frame25,
+/area/golden_arrow/hangar)
+"aH" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hangar_airlock/inner/frame35,
+/area/golden_arrow/hangar)
+"aI" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/hangar_airlock/inner/frame17,
+/area/golden_arrow/hangar)
+"aJ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/hangar_airlock/inner/frame9,
+/area/golden_arrow/hangar)
+"aK" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
+"aL" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
+"aM" = (
+/obj/structure/pipes/vents/pump{
+	dir = 8
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
+"aN" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/hangar_airlock/inner/frame17,
+/area/golden_arrow/hangar)
+"aO" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/hangar_airlock/inner/frame25,
+/area/golden_arrow/hangar)
+"aP" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/hangar_airlock/inner/frame35,
+/area/golden_arrow/hangar)
+"aQ" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 8;
+	icon_state = "lattice12";
+	pixel_x = 13;
+	pixel_y = 2
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
+"aR" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
+"aS" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hangar_airlock/inner/frame30,
+/area/golden_arrow/hangar)
+"aT" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hangar_airlock/inner/frame21,
+/area/golden_arrow/hangar)
+"aU" = (
+/turf/open/floor/hangar_airlock/inner/frame13,
+/area/golden_arrow/hangar)
+"aV" = (
+/turf/open/floor/hangar_airlock/inner/frame33,
+/area/golden_arrow/hangar)
+"aW" = (
+/turf/open/floor/hangar_airlock/inner/frame21,
+/area/golden_arrow/hangar)
+"aX" = (
+/turf/open/floor/hangar_airlock/inner/frame30,
+/area/golden_arrow/hangar)
+"aY" = (
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
+"aZ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
+"ba" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 8;
+	icon_state = "lattice12";
+	pixel_x = 13;
+	pixel_y = 2
+	},
+/obj/structure/machinery/door_control{
+	name = "Airlock Hanger Access";
+	id = "hangerairlock-exterior-port";
+	pixel_y = -23;
+	pixel_x = 1
+	},
+/obj/structure/machinery/light/small/red{
+	light_range = 5;
+	pixel_y = 22;
+	invisibility = 100
+	},
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
+"bb" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow2";
+	dir = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
+"bc" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/hangar_airlock/inner/frame21,
+/area/golden_arrow/hangar)
+"bd" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 8;
+	icon_state = "lattice12";
+	pixel_x = 13;
+	pixel_y = 2
+	},
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
+"be" = (
+/turf/open/floor/hangar_airlock/inner/frame11,
+/area/golden_arrow/hangar)
+"bf" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 8;
+	icon_state = "lattice12";
+	pixel_x = 13;
+	pixel_y = 2
+	},
+/obj/structure/machinery/light/small/red{
+	light_range = 5;
+	pixel_y = 22;
+	invisibility = 100
+	},
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
+"bg" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/pipes/vents/pump{
+	dir = 4
+	},
+/turf/open/floor/hangar_airlock/inner/frame21,
+/area/golden_arrow/hangar)
+"bh" = (
+/turf/open/floor/hangar_airlock/inner/frame5,
+/area/golden_arrow/hangar)
+"bi" = (
+/obj/docking_port/stationary/marine_dropship/golden_arrow_hangar{
+	roundstart_template = /datum/map_template/shuttle/korobka
+	},
+/turf/open/floor/hangar_airlock/inner/frame5,
+/area/golden_arrow/hangar)
+"bj" = (
+/obj/structure/prop/invuln/lattice_prop{
+	dir = 8;
+	icon_state = "lattice12";
+	pixel_x = 13;
+	pixel_y = 2
+	},
+/obj/structure/machinery/door_control{
+	name = "Airlock Hanger Access";
+	id = "hangerairlock-exterior-starboard";
+	pixel_y = -23;
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/small/red{
+	light_range = 5;
+	pixel_y = 22;
+	invisibility = 100
+	},
+/turf/open/floor/hangar_airlock/inner/frame49,
+/area/golden_arrow/hangar)
+"bk" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/hangar_airlock/inner/frame21,
+/area/golden_arrow/hangar)
+"bl" = (
+/turf/open/floor/hangar_airlock/inner/frame35,
+/area/golden_arrow/hangar)
+"bm" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/floor/hangar_airlock/inner/frame17,
+/area/golden_arrow/hangar)
 "bn" = (
 /obj/structure/prop/invuln/lattice_prop{
 	dir = 8;
@@ -288,6 +545,75 @@
 	},
 /turf/closed/wall/upp_wall/grey,
 /area/golden_arrow/engineering)
+"bo" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame9,
+/area/golden_arrow/hangar)
+"bp" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
+"bq" = (
+/obj/structure/pipes/vents/pump{
+	dir = 8
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame40,
+/area/golden_arrow/hangar)
+"br" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame17,
+/area/golden_arrow/hangar)
+"bs" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame25,
+/area/golden_arrow/hangar)
+"bt" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/floor/hangar_airlock/inner/frame35,
+/area/golden_arrow/hangar)
+"bu" = (
+/obj/structure/machinery/light/small/red{
+	dir = 4;
+	light_range = 5
+	},
+/turf/open/floor/hangar_airlock/inner/frame17,
+/area/golden_arrow/hangar)
+"bv" = (
+/obj/docking_port/stationary/marine_dropship/airlock/inner{
+	name = "Hangar Bay";
+	id = "golden arrow lz";
+	roundstart_template = /datum/map_template/shuttle/korobka;
+	dropship_airlock_id = "ship-laituri-25-134";
+	airlock_y_offset = -1
+	},
+/turf/open/floor/hangar_airlock/inner/frame5,
+/area/golden_arrow/hangar)
+"bw" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 1;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame49,
+/area/space)
 "bx" = (
 /obj/structure/prop/invuln/lattice_prop{
 	icon_state = "lattice2";
@@ -301,6 +627,31 @@
 	},
 /turf/open/floor/corsat/plate,
 /area/golden_arrow/canteen)
+"by" = (
+/turf/open/floor/hangar_airlock/outer/frame49,
+/area/space)
+"bz" = (
+/obj/effect/hangar_airlock/half_tile{
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame49,
+/area/space)
+"bA" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 1;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame43,
+/area/space)
+"bB" = (
+/turf/open/floor/hangar_airlock/outer/frame43,
+/area/space)
+"bC" = (
+/obj/effect/hangar_airlock/half_tile{
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame43,
+/area/space)
 "bD" = (
 /turf/closed/wall/upp_wall/grey/hull,
 /area/golden_arrow/cryo_cells)
@@ -311,6 +662,93 @@
 "bF" = (
 /turf/closed/wall/upp_wall/grey,
 /area/golden_arrow/cryo_cells)
+"bG" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 1;
+	layer = 2
+	},
+/obj/effect/hangar_airlock/half_tile{
+	dir = 1;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame35,
+/area/space)
+"bH" = (
+/turf/open/floor/hangar_airlock/outer/frame35,
+/area/space)
+"bI" = (
+/obj/effect/hangar_airlock/half_tile{
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame35,
+/area/space)
+"bJ" = (
+/turf/open/floor/hangar_airlock/outer/frame27,
+/area/space)
+"bK" = (
+/turf/open/floor/hangar_airlock/outer/frame19,
+/area/space)
+"bL" = (
+/turf/open/floor/hangar_airlock/outer/frame11,
+/area/space)
+"bM" = (
+/turf/open/floor/hangar_airlock/outer/frame4,
+/area/space)
+"bN" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 4;
+	layer = 2
+	},
+/obj/effect/hangar_airlock/half_tile{
+	dir = 4;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame35,
+/area/space)
+"bO" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 8;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame35,
+/area/space)
+"bP" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 4;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame43,
+/area/space)
+"bQ" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 8;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame43,
+/area/space)
+"bR" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 4;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame49,
+/area/space)
+"bS" = (
+/obj/effect/hangar_airlock/half_tile{
+	dir = 8;
+	layer = 2
+	},
+/turf/open/floor/hangar_airlock/outer/frame49,
+/area/space)
+"bT" = (
+/obj/docking_port/stationary/marine_dropship/airlock/outer{
+	name = "Hangar Bay approach";
+	id = "golden arrow lz-outer";
+	dropship_airlock_id = "ship-laituri-25-134";
+	airlock_y_offset = -1
+	},
+/turf/open/floor/hangar_airlock/outer/frame4,
+/area/space)
 "cc" = (
 /obj/structure/machinery/telecomms/relay/preset/tower,
 /turf/open/floor/almayer,
@@ -11046,25 +11484,25 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+bz
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+bw
 mV
 mV
 mV
@@ -11197,27 +11635,27 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+bC
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bA
 mV
 mV
 "}
@@ -11348,29 +11786,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+bI
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bG
 mV
 "}
 (12,1,1) = {"
@@ -11500,29 +11938,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
 mV
 "}
 (13,1,1) = {"
@@ -11652,29 +12090,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
 mV
 "}
 (14,1,1) = {"
@@ -11804,29 +12242,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
 mV
 "}
 (15,1,1) = {"
@@ -11956,29 +12394,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+bM
+bM
+bM
+bM
+bM
+bM
+bM
+bM
+bM
+bM
+bT
+bM
+bM
+bM
+bM
+bM
+bM
+bM
+bM
+bM
+bM
+bM
+bM
 mV
 "}
 (16,1,1) = {"
@@ -12108,29 +12546,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
+bL
 mV
 "}
 (17,1,1) = {"
@@ -12260,29 +12698,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
+bK
 mV
 "}
 (18,1,1) = {"
@@ -12412,29 +12850,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
+bJ
 mV
 "}
 (19,1,1) = {"
@@ -12446,25 +12884,25 @@ xx
 mI
 mI
 mI
-DL
-BM
-mW
-DL
-mW
-al
-DL
-mW
-mW
-DL
-al
-mW
-DL
-mW
-mW
-ak
-mW
-mW
-ym
+aG
+aF
+aC
+aE
+aE
+aD
+aE
+aE
+aE
+aE
+aD
+aE
+aE
+aE
+aE
+aD
+aC
+aB
+aA
 DL
 zL
 zA
@@ -12564,29 +13002,29 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+bO
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bH
+bN
 mV
 "}
 (20,1,1) = {"
@@ -12597,27 +13035,27 @@ mH
 xx
 mI
 BO
-Ax
-Ax
-Ax
-Ax
-Ax
-Ax
-Ax
-Ax
-Ax
-Ax
-Ax
-Bp
-Ax
-Bd
-Ax
-Ax
-Ax
-Ax
-Ah
-Aa
-ym
+aP
+aO
+aN
+aJ
+aK
+aK
+aK
+aK
+aK
+aK
+aK
+aM
+aK
+aL
+aK
+aK
+aK
+aJ
+aI
+aA
+aH
 zM
 zB
 yl
@@ -12717,27 +13155,27 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+bQ
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bB
+bP
 mV
 mV
 "}
@@ -12748,29 +13186,29 @@ mV
 mH
 xx
 mI
-At
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-Ai
-Aa
-ym
-zM
+aZ
+aY
+aX
+aW
+aU
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aU
+aT
+aS
+aR
+aQ
 zB
 nL
 nL
@@ -12870,25 +13308,25 @@ mV
 mV
 mV
 mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
-mV
+bS
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+by
+bR
 mV
 mV
 mV
@@ -12900,29 +13338,29 @@ mV
 mH
 xx
 mI
-At
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-zY
-DL
-zW
-zO
+aZ
+aY
+aX
+aW
+aU
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aU
+bc
+aX
+bb
+ba
 mI
 zj
 yC
@@ -13052,29 +13490,29 @@ mV
 mH
 xx
 mI
-At
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-zY
-mW
-DL
-zP
+aZ
+aY
+aX
+aW
+aU
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aU
+bc
+aX
+aY
+bd
 mI
 mI
 mI
@@ -13204,29 +13642,29 @@ mV
 mH
 xx
 mI
-At
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-zY
-mW
-ym
-zM
+aZ
+aY
+aX
+aW
+aU
+be
+be
+be
+be
+be
+be
+be
+be
+be
+be
+be
+be
+be
+aU
+bc
+aX
+aR
+aQ
 zC
 zk
 yD
@@ -13356,29 +13794,29 @@ mV
 mH
 xx
 mI
-At
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-SP
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-Aj
-DL
-zW
-aj
+aZ
+aY
+aX
+aW
+aU
+bh
+bh
+bh
+bh
+bh
+bv
+bh
+bh
+bh
+bh
+bh
+bh
+bh
+aU
+bg
+aX
+bb
+bf
 zC
 ym
 DL
@@ -13508,29 +13946,29 @@ mV
 mH
 xx
 mI
-At
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-Ai
-Aa
-ym
-zM
+aZ
+aY
+aX
+aW
+aU
+be
+be
+be
+be
+be
+be
+be
+be
+be
+be
+be
+be
+be
+aU
+aT
+aS
+aR
+aQ
 nI
 zl
 yE
@@ -13660,29 +14098,29 @@ mV
 mH
 xx
 mI
-At
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-zY
-mW
-ym
-zM
+aZ
+aY
+aX
+aW
+aU
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aU
+bc
+aX
+aR
+aQ
 mI
 mI
 mI
@@ -13812,29 +14250,29 @@ mV
 mH
 xx
 mI
-At
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-Ak
-DL
-zW
-zQ
+aZ
+aY
+aX
+aW
+aU
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aG
+aU
+bk
+aX
+bb
+bj
 mI
 zm
 yF
@@ -13964,29 +14402,29 @@ mV
 mH
 xx
 mI
-At
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-wq
-Ai
-Aa
-ym
-zM
+aZ
+aY
+aX
+aW
+aU
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aU
+aT
+aS
+aR
+aQ
 zD
 nL
 nL
@@ -14117,27 +14555,27 @@ mH
 xx
 mI
 BP
-xW
-xW
-xW
-xW
-xW
-xW
-xW
-xW
-xW
-xW
-xW
-Bq
-xW
-xW
-xW
-xW
-xW
-xW
-Am
-mW
-DL
+bt
+bs
+br
+bo
+bp
+bp
+bp
+bp
+bp
+bp
+bp
+bq
+bp
+bp
+bp
+bp
+bp
+bo
+bm
+aG
+bl
 zP
 zD
 nL
@@ -14270,25 +14708,25 @@ xx
 mI
 mI
 mI
-DL
-BN
-mW
-DL
-mW
-al
-DL
-mW
-mW
-DL
-al
-mW
-DL
-mW
-mW
-ak
-mW
-mW
-DL
+aG
+bu
+aC
+aE
+aE
+aD
+aE
+aE
+aE
+aE
+aD
+aE
+aE
+aE
+aE
+aD
+aC
+aB
+aG
 DL
 zR
 zD
