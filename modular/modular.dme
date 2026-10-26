@@ -18,6 +18,7 @@
 #include "squads/_squads.dme"
 #include "world_edit/_world_edit.dme"
 #include "weapons/_weapons.dme"
+#include "iasf/_iasf.dme"
 #include "player_survival/_player_survival.dme"
 #include "supply_packs/_supply_packs.dme"
 #include "arachnid/_arachnid.dme"

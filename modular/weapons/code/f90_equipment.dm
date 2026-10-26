@@ -1,11 +1,11 @@
 /obj/item/ammo_magazine/rifle/rmc_f90/ap
-	name = "\improper F903 AP magazine (10x24mm)"
-	desc = "A 10x24mm armor-piercing magazine for the F903 rifle."
-	default_ammo = /datum/ammo/bullet/rifle/ap
+	name = "\improper F903 AP magazine (5.5x50mm)"
+	desc = "A 5.5x50mm armor-piercing magazine for the F903 rifle."
+	default_ammo = /datum/ammo/bullet/rifle/f90/ap
 	ammo_band_color = AMMO_BAND_COLOR_AP
 
 /obj/item/ammo_magazine/rifle/rmc_f90/marksman/ap
-	name = "\improper F903A1 Marksman AP magazine (10x24mm)"
+	name = "\improper F903A1 Marksman AP magazine (5.5x50mm)"
 
 /obj/structure/gun_rack/f90
 	name = "F903A1 rifle rack"
