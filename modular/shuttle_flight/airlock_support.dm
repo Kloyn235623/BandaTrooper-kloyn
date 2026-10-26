@@ -94,6 +94,11 @@ GLOBAL_LIST_EMPTY(airlock_projectors)
 /obj/docking_port/stationary/marine_dropship/airlock/outer/proc/build_lower_chamber()
 	var/center_x = x + airlock_x_offset
 	var/center_y = y + airlock_y_offset
+	for(var/floor_y in center_y - 12 to center_y + 12)
+		for(var/floor_x in center_x - 7 to center_x + 7)
+			var/turf/floor_position = locate(floor_x, floor_y, z)
+			if(istype(floor_position, /turf/open/space))
+				floor_position.ChangeTurf(/turf/open/floor/almayer/plate)
 	for(var/wall_y in center_y - 13 to center_y + 13)
 		var/turf/left = locate(center_x - 8, wall_y, z)
 		var/turf/right = locate(center_x + 8, wall_y, z)

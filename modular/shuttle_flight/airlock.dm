@@ -348,7 +348,16 @@ GLOBAL_LIST_EMPTY(dropship_airlock_docking_ports)
 	if(!(decisecond % 10))
 		if(decisecond != end_decisecond)
 			airlock.icon_state = "[transition]_[decisecond * 0.1]s"
-	for(var/turf/open/floor/hangar_airlock/T as anything in airlock_turf_lists["[decisecond]"])
+	var/list/transition_turfs = airlock_turf_lists["[decisecond]"]
+	if(airlock_type == "outer")
+		transition_turfs = list()
+		for(var/turf/airlock_turf as anything in airlock_turf_lists)
+			if(!istype(airlock_turf, /turf/open/floor/hangar_airlock/outer))
+				continue
+			var/turf/open/floor/hangar_airlock/outer/outer_turf = airlock_turf
+			if(outer_turf.frame_threshold == decisecond)
+				transition_turfs += outer_turf
+	for(var/turf/open/floor/hangar_airlock/T as anything in transition_turfs)
 		T.open = open
 		if(istype(T, /turf/open/floor/hangar_airlock/outer))
 			var/turf/open/floor/hangar_airlock/outer/outer_turf = T
