@@ -61,7 +61,7 @@ GLOBAL_LIST_EMPTY(airlock_projectors)
 	for(var/obj/docking_port/stationary/marine_dropship/airlock/inner/inner_port in GLOB.dropship_airlock_docking_ports)
 		if(linked_inner_dropship_airlock_id == inner_port.dropship_airlock_id)
 			linked_inner = inner_port
-			linked_inner.floodlights += src
+			linked_inner.floodlights |= src
 			break
 
 /obj/structure/machinery/floodlight/landing/dropship_airlock/Destroy()
@@ -75,6 +75,58 @@ GLOBAL_LIST_EMPTY(airlock_projectors)
 	var/atom/movable/lighting_mask/rotating_toggleable/rotating_mask = light.our_mask
 	playsound(src, 'sound/machines/switch.ogg', 100, vol_cat = VOLUME_SFX)
 	rotating_mask.toggle()
+
+/obj/structure/machinery/floodlight/landing/dropship_airlock/side
+	name = "hangar warning light"
+	base_icon_state = "floor_flood"
+	density = FALSE
+	needs_power = FALSE
+	light_color = "#ff9e43"
+	on_light_range = 5
+
+/obj/structure/machinery/floodlight/landing/dropship_airlock/side/update_icon()
+	. = ..()
+	icon_state = "floor_flood_[light_on]"
+
+/obj/structure/machinery/floodlight/landing/dropship_airlock/side/onShuttleMove(turf/newT, turf/oldT, list/movement_force, move_dir, obj/docking_port/stationary/old_dock, obj/docking_port/mobile/moving_dock)
+	return TRUE
+
+/obj/docking_port/stationary/marine_dropship/airlock/outer/proc/build_lower_chamber()
+	var/center_x = x + airlock_x_offset
+	var/center_y = y + airlock_y_offset
+	for(var/wall_y in center_y - 13 to center_y + 13)
+		var/turf/left = locate(center_x - 8, wall_y, z)
+		var/turf/right = locate(center_x + 8, wall_y, z)
+		if(istype(left, /turf/open/space))
+			left.ChangeTurf(/turf/closed/wall/almayer/outer)
+		if(istype(right, /turf/open/space))
+			right.ChangeTurf(/turf/closed/wall/almayer/outer)
+	for(var/wall_x in center_x - 7 to center_x + 7)
+		var/turf/north = locate(wall_x, center_y + 13, z)
+		var/turf/south = locate(wall_x, center_y - 13, z)
+		if(istype(north, /turf/open/space))
+			north.ChangeTurf(/turf/closed/wall/almayer/outer)
+		if(istype(south, /turf/open/space))
+			south.ChangeTurf(/turf/closed/wall/almayer/outer)
+
+/obj/docking_port/stationary/marine_dropship/airlock/outer/proc/install_warning_lights()
+	var/outer_x = x + airlock_x_offset
+	var/outer_y = y + airlock_y_offset
+	var/inner_x = linked_inner.x + linked_inner.airlock_x_offset
+	var/inner_y = linked_inner.y + linked_inner.airlock_y_offset
+	var/list/positions = list(
+		locate(outer_x - 7, outer_y, z),
+		locate(outer_x + 7, outer_y, z),
+		locate(inner_x - 7, inner_y, linked_inner.z),
+		locate(inner_x + 7, inner_y, linked_inner.z)
+	)
+	for(var/turf/position as anything in positions)
+		if(!position || locate(/obj/structure/machinery/floodlight/landing/dropship_airlock) in position)
+			continue
+		var/obj/structure/machinery/floodlight/landing/dropship_airlock/side/light = new(position)
+		light.linked_inner_dropship_airlock_id = dropship_airlock_id
+		light.linked_inner = linked_inner
+		linked_inner.floodlights |= light
 
 /obj/structure/machinery/door/poddoor/almayer/airlock
 	density = TRUE

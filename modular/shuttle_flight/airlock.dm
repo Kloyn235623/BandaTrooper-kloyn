@@ -350,6 +350,9 @@ GLOBAL_LIST_EMPTY(dropship_airlock_docking_ports)
 			airlock.icon_state = "[transition]_[decisecond * 0.1]s"
 	for(var/turf/open/floor/hangar_airlock/T as anything in airlock_turf_lists["[decisecond]"])
 		T.open = open
+		if(istype(T, /turf/open/floor/hangar_airlock/outer))
+			var/turf/open/floor/hangar_airlock/outer/outer_turf = T
+			outer_turf.set_hatch_surface(open)
 		for(var/atom/movable/contents_atom in T.contents)
 			if(!contents_atom.anchored)
 				T.Entered(contents_atom)
@@ -547,6 +550,7 @@ GLOBAL_LIST_EMPTY(dropship_airlock_docking_ports)
 	if(outer_airlock_turf_lists)
 		for(var/turf/open/floor/hangar_airlock/outer/hangar_turf in outer_airlock_turf_lists)
 			hangar_turf.open = FALSE
+			hangar_turf.set_hatch_surface(FALSE)
 			hangar_turf.can_bloody = TRUE
 
 
@@ -798,6 +802,8 @@ GLOBAL_LIST_EMPTY(dropship_airlock_docking_ports)
 		WARNING("[name] could not link to its inner counterpart. THE AIRLOCK WILL NOT WORK.")
 		return
 	linked_inner.linked_outer = src
+	build_lower_chamber()
+	install_warning_lights()
 	var/turf/airlock_effect_turf = locate(DROPSHIP_AIRLOCK_FROM_DOCKPORT_TO_EFFECT)
 	linked_inner.outer_airlock_effect = new /obj/effect/hangar_airlock/outer(airlock_effect_turf)
 	var/obj/effect/projector/airlock/new_projector = new /obj/effect/projector/airlock(airlock_effect_turf)
@@ -905,8 +911,15 @@ GLOBAL_LIST_EMPTY(dropship_airlock_docking_ports)
 
 /turf/open/floor/hangar_airlock/outer/Initialize(mapload, ...)
 	. = ..()
-	icon = 'icons/turf/floors/space.dmi'
-	icon_state = "[((x + y) ^ ~(x * y) + z) % 25]"
+	set_hatch_surface(FALSE)
+
+/turf/open/floor/hangar_airlock/outer/proc/set_hatch_surface(is_open)
+	if(is_open)
+		icon = 'icons/turf/floors/space.dmi'
+		icon_state = "[((x + y) ^ ~(x * y) + z) % 25]"
+	else
+		icon = 'icons/turf/almayer.dmi'
+		icon_state = "plate"
 
 /turf/open/floor/hangar_airlock/inner
 	name = "Hangar Inner Airlock"

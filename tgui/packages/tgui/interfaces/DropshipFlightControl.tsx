@@ -184,6 +184,10 @@ const DropshipAirlockControl = () => {
   const disabled = airlock.processing;
   return (
     <Section m="0" mb="6px" title="Hangar Airlock Control">
+      <Box mb={1} color="label">
+        Launch: sound alarm, open inner hatch, lower dropship, close inner
+        hatch, open outer hatch, disengage clamps.
+      </Box>
       <Stack vertical>
         <Stack.Item>
           <Button
@@ -536,7 +540,10 @@ const RenderScreen = () => {
   return (
     <Section fill scrollable>
       {data.alternative_shuttles.length > 0 && <DropshipSelector />}
-      {data.shuttle_mode === 'idle' && <DropshipDestinationSelection />}
+      {data.airlock_data && <DropshipAirlockControl />}
+      {data.shuttle_mode === 'idle' && !data.airlock_data && (
+        <DropshipDestinationSelection />
+      )}
       {data.shuttle_mode === 'idle' && data.can_set_automated === 1 && (
         <AutopilotConfig />
       )}
@@ -553,7 +560,6 @@ const RenderScreen = () => {
         <DropshipDestinationSelection />
       )}
       {data.door_status.length > 0 && <DropshipDoorControl />}
-      {data.airlock_data && <DropshipAirlockControl />}
       {data.alternative_shuttles.length === 0 && <LaunchAnnouncementAlarm />}
     </Section>
   );
@@ -572,7 +578,7 @@ const DropshipDisabledScreen = () => {
 export const DropshipFlightControl = () => {
   const { data } = useBackend<DropshipNavigationProps>();
   return (
-    <Window theme="crtgreen" height={550} width={700}>
+    <Window theme="crtgreen" height={700} width={700}>
       <Window.Content className="NavigationMenu">
         {data.is_disabled === 0 ? <RenderScreen /> : <DropshipDisabledScreen />}
       </Window.Content>
