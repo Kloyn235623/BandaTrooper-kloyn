@@ -88,6 +88,3 @@ endmap
 // SS220 EDIT: Dog War shipmap
 map golden_arrow_dog_war
 endmap
-
-map ss_liberty
-endmap

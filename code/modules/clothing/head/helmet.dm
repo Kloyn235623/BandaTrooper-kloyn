@@ -2417,8 +2417,6 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	flags_inventory = BLOCKSHARPOBJ
 	flags_inv_hide = NO_FLAGS
 	flags_marine_helmet = NO_FLAGS
-	clothing_traits = list(TRAIT_EAR_PROTECTION)
-	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
 
 /obj/item/clothing/head/helmet/marine/veteran/iasf_beret/tl
 	icon_state = "beret_iasf_tl"

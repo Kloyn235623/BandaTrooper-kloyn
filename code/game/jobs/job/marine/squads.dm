@@ -470,6 +470,7 @@
 	squad_type = "Team"
 	locked = TRUE
 
+//###############################
 /datum/squad/pmc
 	name = "Root"
 	squad_type = "Team"
@@ -494,6 +495,7 @@
 	faction = FACTION_WY_DEATHSQUAD
 
 
+//##############################
 
 /datum/squad/marine/pmc
 	name = SQUAD_PMCPLT
@@ -522,6 +524,7 @@
 
 	UnregisterSignal(SSdcs, COMSIG_GLOB_PLATOON_NAME_CHANGE, PROC_REF(rename_platoon))
 
+//##############################
 
 /datum/squad/marine/rmc
 	name = SQUAD_RMC
@@ -541,21 +544,7 @@
 
 	UnregisterSignal(SSdcs, COMSIG_GLOB_PLATOON_NAME_CHANGE, PROC_REF(rename_platoon))
 
-/datum/squad/marine/clf
-	name = SQUAD_CLF
-	chat_color = "#6f679c"
-	minimap_color = MINIMAP_SQUAD_CLF
-	use_stripe_overlay = FALSE
-	radio_freq = CLF_FREQ
-	usable = TRUE
-	access = list(ACCESS_CLF_GENERAL)
-	faction = FACTION_CLF
-
-/datum/squad/marine/clf/New()
-	. = ..()
-
-	UnregisterSignal(SSdcs, COMSIG_GLOB_PLATOON_NAME_CHANGE, PROC_REF(rename_platoon))
-
+//###############################
 /datum/squad/clf
 	name = "Root"
 	squad_type = "Cell"
@@ -574,6 +563,7 @@
 
 /datum/squad/clf/four
 	name = "Boa"
+//###############################
 /datum/squad/New()
 	. = ..()
 

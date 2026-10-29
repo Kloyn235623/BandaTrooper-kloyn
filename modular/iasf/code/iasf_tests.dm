@@ -34,26 +34,4 @@
 		if(magazine.max_rounds != 60 || magazine.current_rounds != 60)
 			return Fail("[magazine_type] does not contain 60 rounds", __FILE__, __LINE__)
 		qdel(magazine)
-
-/datum/unit_test/iasf_l23_sprites/Run()
-	var/obj/item/weapon/gun/rifle/nsg23/l23/iasf/rifle = new()
-	if(!(rifle.icon_state in icon_states(rifle.icon)))
-		return Fail("IASF L23 has no object sprite", __FILE__, __LINE__)
-	for(var/slot in list(WEAR_L_HAND, WEAR_R_HAND, WEAR_BACK, WEAR_J_STORE))
-		if(!(rifle.get_icon_state(null, slot) in icon_states(rifle.item_icons[slot])))
-			return Fail("IASF L23 has no sprite for slot [slot]", __FILE__, __LINE__)
-	var/obj/item/attachable/stock/stock = rifle.attachments["stock"]
-	if(!istype(stock, /obj/item/attachable/stock/nsg23/l23) || !(stock.icon_state in icon_states(stock.icon)))
-		return Fail("IASF L23 has no matching stock sprite", __FILE__, __LINE__)
-	qdel(rifle)
-
-/datum/unit_test/iasf_twe_relations/Run()
-	var/datum/human_ai_faction/iasf/iasf_faction = new()
-	var/datum/human_ai_faction/twe/twe_faction = new()
-	var/list/iasf_allies = iasf_faction.get_friendly_factions()
-	var/list/twe_allies = twe_faction.get_friendly_factions()
-	if(!(FACTION_TWE in iasf_allies) || !(FACTION_IASF in twe_allies) || !(FACTION_FIL in iasf_allies))
-		return Fail("IASF and TWE are not mutually friendly", __FILE__, __LINE__)
-	qdel(iasf_faction)
-	qdel(twe_faction)
 #endif

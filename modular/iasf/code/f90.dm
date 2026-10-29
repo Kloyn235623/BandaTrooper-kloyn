@@ -54,13 +54,9 @@
 	name = "\improper F903 Rifle"
 	desc = "The former standard rifle of the royal marines, now used by the Imperial Armed Space Force. Uses 5.5x50mm ammunition."
 	icon = 'modular/iasf/icons/f90_guns.dmi'
-	fire_sound = 'sound/weapons/gun_F90_1.ogg'
+	fire_sound = "gun_f90"
 	flags_gun_features = GUN_AUTO_EJECTOR|GUN_CAN_POINTBLANK|GUN_AMMO_COUNTER|GUN_AUTO_EJECT_CASINGS
 	start_automatic = TRUE
-
-/obj/item/weapon/gun/rifle/rmc_f90/play_firing_sounds(obj/projectile/projectile_to_fire, mob/user)
-	fire_sound = pick('sound/weapons/gun_F90_1.ogg', 'sound/weapons/gun_F90_2.ogg', 'sound/weapons/gun_F90_3.ogg', 'sound/weapons/gun_F90_4.ogg')
-	return ..()
 
 /obj/item/weapon/gun/rifle/rmc_f90/a_grip
 	desc = "An F903A2 rifle with an angled foregrip. Uses 5.5x50mm ammunition."
