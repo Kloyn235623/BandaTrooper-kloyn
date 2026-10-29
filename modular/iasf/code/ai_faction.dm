@@ -1,3 +1,7 @@
+/datum/human_ai_faction/twe/New()
+	. = ..()
+	add_friendly_faction(FACTION_IASF)
+
 /datum/human_ai_faction/iasf
 	faction = FACTION_IASF
 	friendly_factions = list(
@@ -5,6 +9,7 @@
 		FACTION_WY,
 		FACTION_PMC,
 		FACTION_TWE,
+		FACTION_FIL,
 	)
 	neutral_factions = list(
 		FACTION_FREELANCER,
