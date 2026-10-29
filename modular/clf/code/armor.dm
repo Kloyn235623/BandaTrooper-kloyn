@@ -56,3 +56,5 @@
 
 /obj/item/clothing/head/helmet/marine/veteran/ua_riot/clf
 	name = "CLF reinforced helmet"
+	item_state = "ua_riot"
+	item_state_slots = list(WEAR_HEAD = "ua_riot")
