@@ -325,9 +325,9 @@
 "CC" = (
 /obj/structure/machinery/computer/dropship_weapons/rasputin,
 /obj/structure/phone_base/rotary{
-	name = "Alamo Telephone";
+	name = "Rasputin Telephone";
 	phone_category = "Dropship";
-	phone_id = "Alamo";
+	phone_id = "Rasputin";
 	pixel_x = 11;
 	pixel_y = 16
 	},

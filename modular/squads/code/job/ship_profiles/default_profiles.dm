@@ -2,6 +2,12 @@
 	if(platoon_type == /datum/squad/marine/clf)
 		distress_roles = GLOB.ROLES_AI_CLF + GLOB.ROLES_GROUND
 		lowpop_roles = GLOB.ROLES_AI_CLF
+		preview_presets = list(
+			JOB_SQUAD_MARINE = /datum/equipment_preset/uscm/clf/preview,
+			JOB_SQUAD_ENGI = /datum/equipment_preset/uscm/clf/preview/engineer,
+			JOB_SQUAD_MEDIC = /datum/equipment_preset/uscm/clf/preview/medic,
+			JOB_SQUAD_LEADER = /datum/equipment_preset/uscm/clf/preview/leader,
+		)
 		role_mappings = list(
 			/datum/job/marine/leader/ai/clf = JOB_SQUAD_LEADER,
 			/datum/job/marine/engineer/ai/clf = JOB_SQUAD_ENGI,
