@@ -234,14 +234,13 @@
 /turf/open/floor/corsat/brown/north,
 /area/ss_liberty/deck_one/engi)
 "aI" = (
-/obj/item/ammo_magazine/smg/mp5,
-/obj/item/ammo_magazine/smg/mp5,
-/obj/item/ammo_magazine/smg/mp5,
 /obj/item/ammo_box/magazine/mar30,
 /obj/item/ammo_box/magazine/mar30,
 /obj/item/ammo_box/magazine/mar30/ext,
 /obj/structure/closet/crate/ammo,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/ammo_box/magazine/mp5,
+/obj/item/ammo_box/magazine/mp5,
 /turf/open/floor/corsat/cargo,
 /area/ss_liberty/deck_two/armory_one)
 "aJ" = (
@@ -387,10 +386,6 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/ss_liberty/deck_one/engi)
-"aX" = (
-/obj/structure/platform/metal/strata/north,
-/turf/open_space,
-/area/ss_liberty/deck_two/hallway)
 "aY" = (
 /obj/structure/machinery/power/smes/buildable,
 /turf/open/floor/corsat/marked,
@@ -449,6 +444,11 @@
 "bf" = (
 /obj/structure/platform_decoration/metal/strata/east,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/weapon/gun/rifle/mar40/lmg/tactical,
+/obj/item/ammo_magazine/rifle/mar40/lmg,
+/obj/item/ammo_magazine/rifle/mar40/lmg,
+/obj/item/ammo_magazine/rifle/mar40/lmg,
+/obj/structure/closet/crate/weapon,
 /turf/open/floor/corsat/plate,
 /area/ss_liberty/deck_two/armory_one)
 "bg" = (
@@ -764,6 +764,17 @@
 /obj/structure/platform/metal/strata/north,
 /obj/structure/platform/metal/strata/west,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/ammo,
+/obj/item/ammo_magazine/rifle/r81m1/hp,
+/obj/item/ammo_magazine/rifle/r81m1/hp,
+/obj/item/ammo_magazine/rifle/r81m1/hp,
+/obj/item/ammo_magazine/rifle/r81m1/ap,
+/obj/item/ammo_magazine/rifle/r81m1,
+/obj/item/ammo_magazine/rifle/r81m1,
+/obj/item/ammo_magazine/rifle/r81m1,
+/obj/item/ammo_magazine/rifle/r81m1,
+/obj/item/ammo_magazine/rifle/r81m1,
+/obj/item/ammo_magazine/rifle/r81m1,
 /turf/open/floor/corsat/plate,
 /area/ss_liberty/deck_two/armory_one)
 "bM" = (
@@ -1727,6 +1738,13 @@
 	pixel_y = 5;
 	name = "smuggled CANC crate"
 	},
+/obj/item/weapon/gun/pistol/np92,
+/obj/item/weapon/gun/rifle/lw317,
+/obj/item/ammo_magazine/rifle/lw317,
+/obj/item/ammo_magazine/rifle/lw317,
+/obj/item/ammo_magazine/rifle/lw317,
+/obj/item/ammo_magazine/rifle/lw317,
+/obj/item/ammo_magazine/rifle/lw317,
 /turf/open/floor/corsat/cargo,
 /area/ss_liberty/deck_three/hangar)
 "dD" = (
@@ -2323,6 +2341,10 @@
 	pixel_x = 0
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/ammo_box/magazine/type71{
+	pixel_x = -5;
+	pixel_y = 2
+	},
 /turf/open/floor/strata/floor2,
 /area/ss_liberty/deck_two/armory_one)
 "eC" = (
@@ -2332,6 +2354,11 @@
 /obj/structure/closet/crate/secure/weyland{
 	pixel_y = 5
 	},
+/obj/item/weapon/gun/smg/m39/tactical,
+/obj/item/ammo_magazine/smg/m39/extended,
+/obj/item/ammo_magazine/smg/m39/extended,
+/obj/item/ammo_magazine/smg/m39/extended,
+/obj/item/ammo_magazine/smg/m39/extended,
 /turf/open/floor/corsat/cargo,
 /area/ss_liberty/deck_three/hangar)
 "eD" = (
@@ -2983,19 +3010,9 @@
 	color = "#8B9490";
 	pixel_x = 0
 	},
-/obj/item/weapon/gun/rifle/l42a/abr40{
-	pixel_x = -8;
-	pixel_y = 10
-	},
 /obj/item/weapon/gun/smg/mp5/pvp_mp5a5{
-	pixel_x = 8;
-	pixel_y = -8
-	},
-/obj/item/weapon/gun/rifle/m16/grenadier/tactical/unloaded{
-	pixel_y = 6
-	},
-/obj/item/weapon/gun/rifle/m16/grenadier/tactical/unloaded{
-	pixel_y = -1
+	pixel_x = 0;
+	pixel_y = -5
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/small{
@@ -3003,6 +3020,14 @@
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 4
+	},
+/obj/item/weapon/gun/rifle/m16/pvp_m16a5_tactical{
+	pixel_x = -2;
+	pixel_y = 5
+	},
+/obj/item/weapon/gun/rifle/l42a{
+	pixel_x = 0;
+	pixel_y = 8
 	},
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_two/armory_one)
@@ -3699,9 +3724,6 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/ss_liberty/deck_two/incerator)
 "hg" = (
-/obj/item/ammo_magazine/rifle/l42a/abr40,
-/obj/item/ammo_magazine/rifle/l42a/abr40,
-/obj/item/ammo_magazine/rifle/l42a/abr40,
 /obj/item/ammo_box/magazine/M16/pve,
 /obj/item/ammo_box/magazine/M16/pve,
 /obj/item/ammo_box/magazine/M16/pve,
@@ -4369,11 +4391,6 @@
 /obj/structure/window/framed/almayer/white,
 /turf/open/floor/corsat/marked,
 /area/ss_liberty/deck_three/medbay)
-"iT" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/west,
-/turf/open_space,
-/area/ss_liberty/deck_two/hallway)
 "iU" = (
 /obj/structure/window/framed/upp/grey/hull,
 /obj/structure/machinery/door/poddoor/hybrisa/shutters{
@@ -5214,12 +5231,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata/multi_tiles/west,
 /area/ss_liberty/deck_two/hallway)
-"lg" = (
-/obj/structure/platform/metal/strata/north,
-/turf/open/floor/plating/catwalk/lattice{
-	icon_state = "lattice3"
-	},
-/area/ss_liberty/deck_two/hallway)
 "li" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 8
@@ -5349,10 +5360,6 @@
 	},
 /turf/open/floor/corsat/darkgreencorner/east,
 /area/ss_liberty/deck_two/canteen)
-"lC" = (
-/obj/structure/platform_decoration/metal/strata/west,
-/turf/open_space,
-/area/ss_liberty/deck_two/hallway)
 "lF" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -6012,7 +6019,7 @@
 "ow" = (
 /obj/structure/platform/metal/strata/east,
 /obj/structure/platform/metal/strata,
-/turf/open_space,
+/turf/closed/wall/upp_wall/grey/hull,
 /area/ss_liberty/deck_two/hallway)
 "oB" = (
 /obj/effect/decal/warning_stripes{
@@ -7050,10 +7057,6 @@
 	},
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/ss_liberty/deck_three/hangar)
-"te" = (
-/obj/structure/platform_decoration/metal/strata/north,
-/turf/open_space,
-/area/ss_liberty/deck_two/hallway)
 "tj" = (
 /obj/structure/platform_decoration/metal/strata/north,
 /obj/structure/machinery/power/monitor{
@@ -7235,11 +7238,6 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
-/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb{
-	pixel_x = 6;
-	pixel_y = -5
-	},
-/obj/item/ammo_box/magazine/shotgun/buckshot,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb/m3717{
 	pixel_x = -5;
 	pixel_y = 10
@@ -7427,11 +7425,6 @@
 	},
 /turf/open/floor/carpet/edge,
 /area/ss_liberty/deck_three/maintenance)
-"uT" = (
-/obj/structure/platform/metal/strata/west,
-/obj/structure/platform/metal/strata,
-/turf/open_space,
-/area/ss_liberty/deck_two/hallway)
 "uU" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -9400,7 +9393,7 @@
 /area/ss_liberty/deck_one/hydro)
 "Ds" = (
 /obj/structure/platform/metal/strata,
-/turf/open_space,
+/turf/closed/wall/upp_wall/grey/hull,
 /area/ss_liberty/deck_two/hallway)
 "Dt" = (
 /obj/effect/decal/cleanable/dirt,
@@ -9606,10 +9599,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/ss_liberty/deck_three/hangar)
-"Eb" = (
-/obj/structure/platform_decoration/metal/strata/east,
-/turf/open_space,
-/area/ss_liberty/deck_two/hallway)
 "Ec" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -9626,11 +9615,11 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
 	},
-/obj/item/storage/box/guncase/heavy/motiondetectors/clf,
-/obj/structure/closet/crate/upp{
-	anchored = 1
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/supply,
+/obj/item/storage/box/guncase/heavy/motiondetectors/clf,
+/obj/item/storage/box/guncase/heavy/smg/type64,
+/obj/item/ammo_box/magazine/type64,
 /turf/open/floor/strata/floor2,
 /area/ss_liberty/deck_two/armory_one)
 "Eh" = (
@@ -10237,7 +10226,7 @@
 /obj/structure/ladder/multiz{
 	pixel_y = -1
 	},
-/turf/open/floor/plating/catwalk/lattice,
+/turf/open/floor/strata/floor3,
 /area/ss_liberty/deck_two/incerator)
 "GC" = (
 /obj/effect/decal/cleanable/dirt,
@@ -10263,11 +10252,6 @@
 	},
 /turf/open/floor/strata/orange_edge,
 /area/ss_liberty/deck_two/incerator)
-"GS" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/east,
-/turf/open_space,
-/area/ss_liberty/deck_two/hallway)
 "GU" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 8
@@ -11979,12 +11963,16 @@
 /turf/open/floor/corsat/brown/east,
 /area/ss_liberty/deck_one/engi)
 "OS" = (
-/obj/structure/bed/chair{
-	dir = 4;
-	pixel_x = 6;
-	pixel_y = 3
-	},
 /obj/effect/decal/cleanable/generic,
+/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
+/obj/item/weapon/gun/shotgun/double/upp{
+	pixel_x = 0;
+	pixel_y = 8
+	},
+/obj/structure/surface/rack{
+	color = "#8B9490";
+	pixel_x = 0
+	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/ss_liberty/deck_two/armory_one)
 "OU" = (
@@ -13414,6 +13402,12 @@
 /turf/open/floor/corsat/squares,
 /area/ss_liberty/deck_one/engi)
 "Vo" = (
+/obj/item/ammo_box/magazine/shotgun/buckshot,
+/obj/item/ammo_box/magazine/shotgun{
+	pixel_x = 1;
+	pixel_y = 11
+	},
+/obj/structure/closet/crate/ammo,
 /turf/open/floor/corsat/squares,
 /area/ss_liberty/deck_two/armory_one)
 "Vp" = (
@@ -14208,16 +14202,23 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/ss_liberty/deck_two/militia_dorms)
 "YG" = (
-/obj/structure/bed/chair{
-	dir = 2;
-	pixel_y = 7;
-	pixel_x = 6
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/hybrisa/trash{
 	icon_state = "trash_3";
 	pixel_x = -8;
 	pixel_y = 4
+	},
+/obj/structure/surface/rack{
+	color = "#8B9490";
+	pixel_x = 0
+	},
+/obj/item/weapon/gun/rifle/type71/carbine{
+	pixel_x = 0;
+	pixel_y = -6
+	},
+/obj/item/weapon/gun/rifle/r81m1a/m1c/modded{
+	pixel_x = -2;
+	pixel_y = 3
 	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/ss_liberty/deck_two/armory_one)
@@ -16637,7 +16638,7 @@ RB
 RB
 RB
 RB
-RB
+hY
 hV
 py
 fZ
@@ -18259,8 +18260,8 @@ iY
 Sw
 pJ
 Jp
-aX
-EG
+tx
+tx
 Vx
 EG
 EG
@@ -18345,8 +18346,8 @@ wZ
 Hv
 hu
 jK
-lg
-rs
+tx
+tx
 UP
 EG
 HB
@@ -18431,8 +18432,8 @@ er
 er
 TZ
 jK
-GS
-lC
+tx
+tx
 Vx
 EG
 Vx
@@ -18518,7 +18519,7 @@ er
 AB
 wu
 bo
-lg
+tx
 mP
 mP
 mP
@@ -19550,7 +19551,7 @@ er
 Ig
 En
 zP
-lg
+tx
 VB
 RC
 RC
@@ -19562,7 +19563,7 @@ RC
 RC
 RC
 yp
-Nd
+tx
 RD
 pM
 SO
@@ -19635,8 +19636,8 @@ er
 er
 TZ
 jK
-iT
-Eb
+tx
+tx
 Vx
 EG
 EG
@@ -19648,8 +19649,8 @@ Vx
 EG
 EG
 Vx
-te
-uT
+EG
+tx
 sY
 CD
 fg
@@ -19721,7 +19722,7 @@ wZ
 wZ
 hu
 jK
-aX
+tx
 EG
 xn
 rs
@@ -19735,7 +19736,7 @@ EG
 EG
 xD
 rs
-Nd
+tx
 aR
 ZM
 Yv
@@ -19807,7 +19808,7 @@ kl
 uy
 IH
 eU
-aX
+tx
 EG
 EG
 EG
@@ -19821,7 +19822,7 @@ rs
 hJ
 Tb
 EG
-Ds
+tx
 Ww
 kJ
 zW
