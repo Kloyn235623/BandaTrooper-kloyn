@@ -152,11 +152,11 @@
 /obj/docking_port/mobile/marine_dropship/rasputin
 	name = "Rasputin"
 	id = DROPSHIP_RASPUTIN
-	width = 11
-	height = 21
+	width = 9
+	height = 16
 
-	dwidth = 5
-	dheight = 10
+	dwidth = 4
+	dheight = 8
 
 /obj/docking_port/stationary/marine_dropship/ss_liberty
 	name = "SS Liberty Hangar Bay"

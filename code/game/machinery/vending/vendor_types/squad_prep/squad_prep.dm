@@ -850,6 +850,9 @@
 	listed_products = list(
 		list("STANDARD EQUIPMENT", -1, null, null, null),
 		list("Beret", round(scale * 10), /obj/item/clothing/head/beret/cm/clf, VENDOR_ITEM_REGULAR),
+		list("CLF Headband", round(scale * 10), /obj/item/clothing/head/headband/rebel, VENDOR_ITEM_REGULAR),
+		list("USCM Utility Cap", round(scale * 10), /obj/item/clothing/head/cmcap, VENDOR_ITEM_REGULAR),
+		list("UPP UL2 Cap", round(scale * 10), /obj/item/clothing/head/uppcap, VENDOR_ITEM_REGULAR),
 		list("Radio Headset", round(scale * 10), /obj/item/device/radio/headset/almayer/marine/solardevils/clf, VENDOR_ITEM_REGULAR),
 		list("Colonial Liberation Front Uniform", round(scale * 10), /obj/item/clothing/under/colonist/clf, VENDOR_ITEM_REGULAR),
 		list("Fingerless Combat Gloves", round(scale * 10), /obj/item/clothing/gloves/marine/fingerless, VENDOR_ITEM_REGULAR),
