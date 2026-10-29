@@ -864,3 +864,10 @@
 		smoke.time_to_live = lifetime
 	if(smoke.amount > 0)
 		smoke.spread_smoke(direction)
+
+/obj/effect/particle_effect/smoke/xeno_weak/transparent
+	alpha = 100
+	color = "#ad5f3f"
+
+/datum/effect_system/smoke_spread/xeno_weaken/transparent
+	smoke_type = /obj/effect/particle_effect/smoke/xeno_weak/transparent
