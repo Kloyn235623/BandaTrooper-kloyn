@@ -53,3 +53,6 @@
 
 /obj/item/clothing/suit/storage/marine/veteran/ua_riot/clf
 	item_icons = list(WEAR_JACKET = 'modular/clf/icons/clf_suit_worn.dmi')
+
+/obj/item/clothing/head/helmet/marine/veteran/ua_riot/clf
+	name = "CLF reinforced helmet"

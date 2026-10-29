@@ -234,6 +234,9 @@
 /turf/open/floor/corsat/brown/north,
 /area/ss_liberty/deck_one/engi)
 "aI" = (
+/obj/item/ammo_magazine/smg/mp5,
+/obj/item/ammo_magazine/smg/mp5,
+/obj/item/ammo_magazine/smg/mp5,
 /obj/item/ammo_box/magazine/mar30,
 /obj/item/ammo_box/magazine/mar30,
 /obj/item/ammo_box/magazine/mar30/ext,
@@ -2980,6 +2983,14 @@
 	color = "#8B9490";
 	pixel_x = 0
 	},
+/obj/item/weapon/gun/rifle/l42a/abr40{
+	pixel_x = -8;
+	pixel_y = 10
+	},
+/obj/item/weapon/gun/smg/mp5/pvp_mp5a5{
+	pixel_x = 8;
+	pixel_y = -8
+	},
 /obj/item/weapon/gun/rifle/m16/grenadier/tactical/unloaded{
 	pixel_y = 6
 	},
@@ -3688,6 +3699,9 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/ss_liberty/deck_two/incerator)
 "hg" = (
+/obj/item/ammo_magazine/rifle/l42a/abr40,
+/obj/item/ammo_magazine/rifle/l42a/abr40,
+/obj/item/ammo_magazine/rifle/l42a/abr40,
 /obj/item/ammo_box/magazine/M16/pve,
 /obj/item/ammo_box/magazine/M16/pve,
 /obj/item/ammo_box/magazine/M16/pve,
@@ -7221,6 +7235,11 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
+/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb{
+	pixel_x = 6;
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/shotgun/buckshot,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb/m3717{
 	pixel_x = -5;
 	pixel_y = 10

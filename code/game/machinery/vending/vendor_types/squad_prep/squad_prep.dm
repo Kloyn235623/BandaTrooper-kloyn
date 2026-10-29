@@ -861,8 +861,9 @@
 		list("M3 Pattern Small Pouch Webbing", 2, /obj/item/clothing/accessory/storage/webbing/m3/small, VENDOR_ITEM_REGULAR),
 
 		list("HELMET", -1, null, null),
-		list("Armored Militia Cowl", round(scale * 10), /obj/item/clothing/head/militia, VENDOR_ITEM_REGULAR),
-		list("Armored Bucket", round(scale * 10), /obj/item/clothing/head/militia/bucket, VENDOR_ITEM_RECOMMENDED),
+		list("Armored Militia Cowl", 2, /obj/item/clothing/head/militia, VENDOR_ITEM_REGULAR),
+		list("Armored Bucket", 2, /obj/item/clothing/head/militia/bucket, VENDOR_ITEM_RECOMMENDED),
+		list("CLF Reinforced Helmet", 1, /obj/item/clothing/head/helmet/marine/veteran/ua_riot/clf, VENDOR_ITEM_REGULAR),
 
 		list("ARMOR", -1, null, null),
 		list("Colonial Militia Hauberk", round(scale * 10), /obj/item/clothing/suit/storage/militia, VENDOR_ITEM_RECOMMENDED),
@@ -870,10 +871,8 @@
 		list("Colonial Militia Vest", round(scale * 10), /obj/item/clothing/suit/storage/militia/vest, VENDOR_ITEM_REGULAR),
 		list("Colonial Militia Brace", round(scale * 10), /obj/item/clothing/suit/storage/militia/brace, VENDOR_ITEM_REGULAR),
 		list("CLF-WP Raincover", round(scale * 10), /obj/item/clothing/suit/storage/jacket/marine/rmc/service/clf_wy/raincover, VENDOR_ITEM_REGULAR),
-		list("CLF-WP Officer Armor", round(scale * 5), /obj/item/clothing/suit/storage/jacket/marine/rmc/service/clf_wy/officer_armor, VENDOR_ITEM_REGULAR),
 		list("CLF Repainted Body Armor", round(scale * 5), /obj/item/clothing/suit/storage/marine/veteran/ua_riot/clf, VENDOR_ITEM_REGULAR),
 		list("CLF Hunter Rig", round(scale * 5), /obj/item/clothing/suit/storage/marine/veteran/ua_riot/clf/jacket, VENDOR_ITEM_REGULAR),
-		list("CLF Heavy Plated Armor", round(scale * 3), /obj/item/clothing/suit/storage/marine/veteran/ua_riot/clf/heavy, VENDOR_ITEM_REGULAR),
 
 		list("BACKPACK", -1, null, null, null),
 		list("Ammo Rack", round(scale * 5), /obj/item/storage/backpack/marine/ammo_rack, VENDOR_ITEM_REGULAR),
