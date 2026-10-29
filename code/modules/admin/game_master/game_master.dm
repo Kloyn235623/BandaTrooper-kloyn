@@ -205,6 +205,10 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 	switch(action)
 
 		//Spawn Section
+		if("open_human_squad_spawner")
+			ui.user.client?.open_human_squad_spawner_panel()
+			return TRUE
+
 		if("set_xeno_spawns")
 			var/new_number = text2num(params["value"])
 			if(!new_number)

@@ -755,6 +755,9 @@
 	faction = FACTION_YAUTJA
 	crewmonitor_type = /datum/crewmonitor/yautja
 
+/obj/structure/machinery/computer/crew/alt/clf
+	faction = FACTION_CLF
+
 /obj/structure/machinery/computer/crew/upp
 	faction = FACTION_UPP
 
