@@ -48,15 +48,37 @@
 	name = "MG42 ammunition box (7.92x57mm)"
 	desc = "A box of 600 rounds for MG42 belt boxes."
 	icon_state = "base_type71"
+	overlay_gun_type = "_rounds"
+	overlay_content = "_type71_reg"
 	default_ammo = /datum/ammo/bullet/mg42
 	caliber = "7.92x57mm"
 
 /obj/item/ammo_box/rounds/mg3
 	name = "MG3 ammunition box (7.62x51mm)"
 	desc = "A box of 600 rounds for MG3 belt boxes."
-	icon_state = "base_m41"
+	icon_state = "base_type71"
+	overlay_gun_type = "_rounds"
+	overlay_content = "_type71_reg"
 	default_ammo = /datum/ammo/bullet/mg3
 	caliber = "7.62x51mm"
+
+/obj/item/ammo_box/magazine/mg42
+	name = "UPP MG42 belt box (7.92x57mm x 8)"
+	icon_state = "base_type71"
+	overlay_ammo_type = "_type71_reg"
+	overlay_gun_type = null
+	overlay_content = "_type71_reg"
+	magazine_type = /obj/item/ammo_magazine/machinegun/mg42
+	num_of_magazines = 8
+
+/obj/item/ammo_box/magazine/mg3
+	name = "UPP MG3 belt box (7.62x51mm x 8)"
+	icon_state = "base_type71"
+	overlay_ammo_type = "_type71_reg"
+	overlay_gun_type = null
+	overlay_content = "_type71_reg"
+	magazine_type = /obj/item/ammo_magazine/machinegun/mg3
+	num_of_magazines = 8
 
 /obj/item/weapon/gun/machinegun
 	name = "machine gun"
@@ -64,7 +86,8 @@
 	icon = 'modular/weapons/icons/machineguns/mg.dmi'
 	icon_state = "mg42"
 	item_state = "mg42"
-	firesound_volume = 35
+	lineart_gun_icon = "m60"
+	firesound_volume = 45
 	mouse_pointer = 'icons/effects/mouse_pointer/lmg_mouse.dmi'
 	w_class = SIZE_LARGE
 	force = 25
@@ -74,9 +97,14 @@
 	start_semiauto = FALSE
 	start_automatic = TRUE
 	var/held_sprite = "mg42"
+	var/back_sprite = "mg42_back"
+	var/j_store_sprite
 
 /obj/item/weapon/gun/machinegun/Initialize(mapload, spawn_empty)
 	. = ..()
+	item_state_slots[WEAR_BACK] = back_sprite
+	if(j_store_sprite)
+		item_state_slots[WEAR_J_STORE] = j_store_sprite
 	if(current_mag && current_mag.current_rounds > 0)
 		load_into_chamber()
 
@@ -107,10 +135,10 @@
 		WEAR_L_HAND = 'modular/weapons/icons/machineguns/mg42.dmi',
 		WEAR_R_HAND = 'modular/weapons/icons/machineguns/mg42.dmi',
 	)
-	item_state_slots = list(WEAR_BACK = "mg42_back")
 	current_mag = /obj/item/ammo_magazine/machinegun/mg42
 	accepted_ammo = list(/obj/item/ammo_magazine/machinegun/mg42)
 	fire_sound = 'modular/weapons/sound/machineguns/mg42_fire.wav'
+	firesound_volume = 55
 
 /obj/item/weapon/gun/mg3
 	parent_type = /obj/item/weapon/gun/machinegun
@@ -124,12 +152,13 @@
 		WEAR_L_HAND = 'modular/weapons/icons/machineguns/mg3.dmi',
 		WEAR_R_HAND = 'modular/weapons/icons/machineguns/mg3.dmi',
 	)
-	item_state_slots = list(WEAR_BACK = "mg3_on_suit", WEAR_J_STORE = "mg3_on_suit")
 	current_mag = /obj/item/ammo_magazine/machinegun/mg3
 	accepted_ammo = list(/obj/item/ammo_magazine/machinegun/mg3)
 	fire_sound = 'modular/weapons/sound/machineguns/mg3_fire.wav'
-	firesound_volume = 35
+	firesound_volume = 45
 	held_sprite = "mg3"
+	back_sprite = "mg3_on_suit"
+	j_store_sprite = "mg3_on_suit"
 
 /obj/item/weapon/gun/mg3/set_gun_config_values()
 	..()
