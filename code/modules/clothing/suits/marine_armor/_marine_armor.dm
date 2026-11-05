@@ -1022,6 +1022,7 @@
 	unacidable = TRUE
 	actions_types = list(/datum/action/item_action/toggle, /datum/action/item_action/specialist/b18_armor/inject_chemicals)
 	var/injections = 2
+	var/refilling = FALSE
 	/// 1 means the player overdosed with OD_OFF mode. 2 means the plate adjusted the chemicals injected.
 	var/warning_type = FALSE
 	var/list/chemicals_to_inject = list(
@@ -1076,6 +1077,25 @@
 	playsound(loc, "sound/items/air_release.ogg", 100, TRUE)
 	to_chat(wearer, SPAN_DANGER("You hold the two buttons and feel something cool flood into your arm!"))
 	injections = (current_injections - 1)
+	start_refill()
+
+/obj/item/clothing/suit/marine/specialist/proc/start_refill()
+	if(refilling || injections >= initial(injections))
+		return
+	refilling = TRUE
+	addtimer(CALLBACK(src, PROC_REF(refill_injection)), 1 MINUTES)
+
+/obj/item/clothing/suit/marine/specialist/proc/refill_injection()
+	refilling = FALSE
+	if(injections >= initial(injections))
+		return
+	injections++
+	playsound(loc, "sound/effects/refill.ogg", 50, TRUE)
+	if(ishuman(loc))
+		var/mob/living/carbon/human/wearer = loc
+		to_chat(wearer, SPAN_NOTICE("[src] тихо шипит — инъектор пополнился. Доступно шприцов: [injections]/[initial(injections)]."))
+	if(injections < initial(injections))
+		start_refill()
 
 //Army & USASF custom-armors\\
 
