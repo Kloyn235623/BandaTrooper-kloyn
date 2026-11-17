@@ -7,5 +7,18 @@
     "map_item_type": "/obj/item/map/lv522_map",
     "weather_holder": "/datum/weather_ss_map_holder/lv295_blacksite",
 
-    "camouflage": "snow"
+    "camouflage": "snow",
+
+    "environment_traits": { "Fog": true },
+    "traits": [
+        {
+            "Ground": true,
+            "Up": 1
+        },
+        {
+            "Ground": true,
+            "Down": -1
+        }
+    ]
+
 }
