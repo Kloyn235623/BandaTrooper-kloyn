@@ -4,7 +4,7 @@
 	"map_path": "map_files/LV295_Blacksite",
 	"map_file": "LV295_Blacksite.dmm",
     "webmap_url": "LV552",
-    "map_item_type": "/obj/item/map/lv522_map",
+    "map_item_type": "/obj/item/map/tyrargo_rift",
     "weather_holder": "/datum/weather_ss_map_holder/lv295_blacksite",
 
     "camouflage": "snow",
