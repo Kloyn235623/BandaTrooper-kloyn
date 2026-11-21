@@ -284,7 +284,7 @@
 	direct_draw = FALSE
 
 /obj/item/weapon/gun/launcher/grenade/m92/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 18,"rail_x" = 14, "rail_y" = 22, "under_x" = 19, "under_y" = 14, "stock_x" = 19, "stock_y" = 14)
+	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 18,"rail_x" = 14, "rail_y" = 22, "under_x" = 19, "under_y" = 14, "stock_x" = 19, "stock_y" = 14, "sling_x" = 14, "sling_y" = 22)
 
 /obj/item/weapon/gun/launcher/grenade/m92/set_gun_config_values()
 	..()
@@ -321,7 +321,7 @@
 	set_fire_delay(FIRE_DELAY_TIER_1)
 
 /obj/item/weapon/gun/launcher/grenade/m92/upp/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 18,"rail_x" = 14, "rail_y" = 22, "under_x" = 24, "under_y" = 14, "stock_x" = 19, "stock_y" = 14)
+	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 18,"rail_x" = 14, "rail_y" = 22, "under_x" = 24, "under_y" = 14, "stock_x" = 19, "stock_y" = 14, "sling_x" = 14, "sling_y" = 22)
 
 /obj/item/weapon/gun/launcher/grenade/m92/upp/handle_starting_attachment()
 	..()
@@ -399,7 +399,7 @@
 	matter = list("metal" = 7000)
 
 /obj/item/weapon/gun/launcher/grenade/m81/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 18,"rail_x" = 14, "rail_y" = 22, "under_x" = 19, "under_y" = 14, "stock_x" = 19, "stock_y" = 14)
+	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 18,"rail_x" = 14, "rail_y" = 22, "under_x" = 19, "under_y" = 14, "stock_x" = 19, "stock_y" = 14, "sling_x" = 14, "sling_y" = 22)
 
 /obj/item/weapon/gun/launcher/grenade/m81/set_gun_config_values()
 	..()
@@ -459,7 +459,7 @@
 	update_attachable(S.slot)
 
 /obj/item/weapon/gun/launcher/grenade/m81/m79/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 18,"rail_x" = 9, "rail_y" = 22, "under_x" = 19, "under_y" = 14, "stock_x" = 14, "stock_y" = 14)
+	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 18,"rail_x" = 9, "rail_y" = 22, "under_x" = 19, "under_y" = 14, "stock_x" = 14, "stock_y" = 14, "sling_x" = 9, "sling_y" = 22)
 
 /obj/item/weapon/gun/launcher/grenade/m81/m79/set_bullet_traits()
 	LAZYADD(traits_to_give, list(

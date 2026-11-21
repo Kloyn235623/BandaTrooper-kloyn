@@ -77,7 +77,7 @@
 	start_automatic = TRUE
 
 /obj/item/weapon/gun/rifle/m41a/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 18,"rail_x" = 12, "rail_y" = 23, "under_x" = 24, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 26, "side_rail_y" = 16)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 18,"rail_x" = 12, "rail_y" = 23, "under_x" = 24, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 26, "side_rail_y" = 16, "sling_x" = 12, "sling_y" = 23)
 
 
 /obj/item/weapon/gun/rifle/m41a/set_gun_config_values()
@@ -310,7 +310,7 @@
 	)
 
 /obj/item/weapon/gun/rifle/nsg23/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 16,"rail_x" = 13, "rail_y" = 20, "under_x" = 19, "under_y" = 11, "stock_x" = 5, "stock_y" = 17, "side_rail_x" = 24, "side_rail_y" = 16)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 16,"rail_x" = 13, "rail_y" = 20, "under_x" = 19, "under_y" = 11, "stock_x" = 5, "stock_y" = 17, "side_rail_x" = 24, "side_rail_y" = 16, "sling_x" = 13, "sling_y" = 20)
 
 /obj/item/weapon/gun/rifle/nsg23/set_gun_config_values()
 	..()
@@ -449,7 +449,7 @@
 	update_attachable(H.slot)
 
 /obj/item/weapon/gun/rifle/m41a/elite/xm40/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 17,"rail_x" = 12, "rail_y" = 23, "under_x" = 24, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 25, "side_rail_y" = 17)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 17,"rail_x" = 12, "rail_y" = 23, "under_x" = 24, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 25, "side_rail_y" = 17, "sling_x" = 12, "sling_y" = 23)
 
 /obj/item/weapon/gun/rifle/m41a/elite/xm40/set_gun_config_values()
 	..()
@@ -498,7 +498,7 @@
 	start_automatic = TRUE
 
 /obj/item/weapon/gun/rifle/m41aMK1/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 18,"rail_x" = 12, "rail_y" = 23, "under_x" = 23, "under_y" = 13, "stock_x" = 24, "stock_y" = 14, "side_rail_x" = 23, "side_rail_y" = 16)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 18,"rail_x" = 12, "rail_y" = 23, "under_x" = 23, "under_y" = 13, "stock_x" = 24, "stock_y" = 14, "side_rail_x" = 23, "side_rail_y" = 16, "sling_x" = 12, "sling_y" = 23)
 
 
 /obj/item/weapon/gun/rifle/m41aMK1/set_gun_config_values()
@@ -660,7 +660,7 @@
 	start_automatic = TRUE
 
 /obj/item/weapon/gun/rifle/ag80/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 18,"rail_x" = 12, "rail_y" = 22, "under_x" = 21, "under_y" = 14, "stock_x" = 22, "stock_y" = 14)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 18,"rail_x" = 12, "rail_y" = 22, "under_x" = 21, "under_y" = 14, "stock_x" = 22, "stock_y" = 14, "sling_x" = 12, "sling_y" = 22)
 
 /obj/item/weapon/gun/rifle/ag80/set_gun_config_values()
 	..()
@@ -717,7 +717,7 @@
 	map_specific_decoration = FALSE
 
 /obj/item/weapon/gun/rifle/m20a/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 19,"rail_x" = 12, "rail_y" = 20, "under_x" = 18, "under_y" = 15, "stock_x" = 22, "stock_y" = 15, "side_rail_x" = 23, "side_rail_y" = 16, "special_x" = 16, "special_y" = 16) // SS220 EDIT: Add special slot offset for M20A grenade launcher
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 19,"rail_x" = 12, "rail_y" = 20, "under_x" = 18, "under_y" = 15, "stock_x" = 22, "stock_y" = 15, "side_rail_x" = 23, "side_rail_y" = 16, "special_x" = 16, "special_y" = 16, "sling_x" = 12, "sling_y" = 20) // SS220 EDIT: Add special slot offset for M20A grenade launcher
 
 /obj/item/weapon/gun/rifle/m20a/set_gun_config_values()
 	..()
@@ -762,7 +762,7 @@
 	start_automatic = TRUE
 
 /obj/item/weapon/gun/rifle/m20a/merc/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 28, "muzzle_y" = 19,"rail_x" = 12, "rail_y" = 20, "under_x" = 14, "under_y" = 15, "stock_x" = 22, "stock_y" = 15, "side_rail_x" = 23, "side_rail_y" = 16)
+	attachable_offset = list("muzzle_x" = 28, "muzzle_y" = 19,"rail_x" = 12, "rail_y" = 20, "under_x" = 14, "under_y" = 15, "stock_x" = 22, "stock_y" = 15, "side_rail_x" = 23, "side_rail_y" = 16, "sling_x" = 12, "sling_y" = 20)
 
 /obj/item/weapon/gun/rifle/m20a/merc/set_gun_config_values()
 	..()
@@ -857,7 +857,7 @@
 	AddComponent(/datum/component/iff_fire_prevention)
 
 /obj/item/weapon/gun/rifle/m46c/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 17, "rail_x" = 11, "rail_y" = 19, "under_x" = 24, "under_y" = 12, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 26, "side_rail_y" = 17)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 17, "rail_x" = 11, "rail_y" = 19, "under_x" = 24, "under_y" = 12, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 26, "side_rail_y" = 17, "sling_x" = 11, "sling_y" = 19)
 
 /obj/item/weapon/gun/rifle/m46c/set_gun_config_values()
 	..()
@@ -962,7 +962,7 @@
 
 
 /obj/item/weapon/gun/rifle/mar40/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 28, "muzzle_y" = 17,"rail_x" = 16, "rail_y" = 20, "under_x" = 24, "under_y" = 15, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 25, "side_rail_y" = 17)
+	attachable_offset = list("muzzle_x" = 28, "muzzle_y" = 17,"rail_x" = 16, "rail_y" = 20, "under_x" = 24, "under_y" = 15, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 25, "side_rail_y" = 17, "sling_x" = 16, "sling_y" = 20)
 
 
 /obj/item/weapon/gun/rifle/mar40/set_gun_config_values()
@@ -1076,7 +1076,7 @@
 	flags_gun_features = GUN_CAN_POINTBLANK|GUN_WIELDED_FIRING_ONLY|GUN_AUTO_EJECT_CASINGS
 
 /obj/item/weapon/gun/rifle/mar40/lmg/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 16,"rail_x" = 16, "rail_y" = 20, "under_x" = 26, "under_y" = 16, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 25, "side_rail_y" = 17)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 16,"rail_x" = 16, "rail_y" = 20, "under_x" = 26, "under_y" = 16, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 25, "side_rail_y" = 17, "sling_x" = 16, "sling_y" = 20)
 
 /obj/item/weapon/gun/rifle/mar40/lmg/set_gun_config_values()
 	..()
@@ -1172,7 +1172,7 @@
 	update_attachable(S.slot)
 
 /obj/item/weapon/gun/rifle/m16/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 17,"rail_x" = 9, "rail_y" = 20, "under_x" = 22, "under_y" = 14, "stock_x" = 15, "stock_y" = 14, "side_rail_x" = 25, "side_rail_y" = 16)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 17,"rail_x" = 9, "rail_y" = 20, "under_x" = 22, "under_y" = 14, "stock_x" = 15, "stock_y" = 14, "side_rail_x" = 25, "side_rail_y" = 16, "sling_x" = 9, "sling_y" = 20)
 
 /obj/item/weapon/gun/rifle/m16/set_gun_config_values()
 	..()
@@ -1292,7 +1292,7 @@
 	)
 
 /obj/item/weapon/gun/rifle/xm177/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 30, "muzzle_y" = 18,"rail_x" = 9, "rail_y" = 20, "under_x" = 19, "under_y" = 13, "stock_x" = 15, "stock_y" = 14, "side_rail_x" = 21, "side_rail_y" = 16)
+	attachable_offset = list("muzzle_x" = 30, "muzzle_y" = 18,"rail_x" = 9, "rail_y" = 20, "under_x" = 19, "under_y" = 13, "stock_x" = 15, "stock_y" = 14, "side_rail_x" = 21, "side_rail_y" = 16, "sling_x" = 9, "sling_y" = 20)
 
 /obj/item/weapon/gun/rifle/xm177/handle_starting_attachment()
 	..()
@@ -1377,7 +1377,7 @@
 	update_attachable(S.slot)
 
 /obj/item/weapon/gun/rifle/ar10/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 17,"rail_x" = 8, "rail_y" = 20, "under_x" = 22, "under_y" = 14, "stock_x" = 15, "stock_y" = 14, "side_rail_x" = 27, "side_rail_y" = 16)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 17,"rail_x" = 8, "rail_y" = 20, "under_x" = 22, "under_y" = 14, "stock_x" = 15, "stock_y" = 14, "side_rail_x" = 27, "side_rail_y" = 16, "sling_x" = 8, "sling_y" = 20)
 
 /obj/item/weapon/gun/rifle/ar10/set_gun_config_values()
 	..()
@@ -1513,7 +1513,7 @@
 	bonus_overlay_y = -1
 
 /obj/item/weapon/gun/rifle/lmg/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 19,"rail_x" = 10, "rail_y" = 23, "under_x" = 26, "under_y" = 16, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 27, "side_rail_y" = 18)
+	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 19,"rail_x" = 10, "rail_y" = 23, "under_x" = 26, "under_y" = 16, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 27, "side_rail_y" = 18, "sling_x" = 10, "sling_y" = 23)
 
 /obj/item/weapon/gun/rifle/lmg/set_gun_config_values()
 	..()
@@ -1562,7 +1562,7 @@
 	damage_mult = BASE_BULLET_DAMAGE_MULT + BULLET_DAMAGE_MULT_TIER_2//equal to m41a dmg
 
 /obj/item/weapon/gun/rifle/lmg/tactical/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 19,"rail_x" = 10, "rail_y" = 23, "under_x" = 26, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 27, "side_rail_y" = 18)
+	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 19,"rail_x" = 10, "rail_y" = 23, "under_x" = 26, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 27, "side_rail_y" = 18, "sling_x" = 10, "sling_y" = 23)
 
 /obj/item/weapon/gun/rifle/lmg/army
 	desc = "The US Army's adoption of the M41AE2 adds a longer barrel and improved retention system, operating in a more traditional machine gun role."
@@ -1603,7 +1603,7 @@
 	)
 
 /obj/item/weapon/gun/rifle/lmg/recon/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 19,"rail_x" = 10, "rail_y" = 23, "under_x" = 24, "under_y" = 11, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 27, "side_rail_y" = 18)
+	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 19,"rail_x" = 10, "rail_y" = 23, "under_x" = 24, "under_y" = 11, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 27, "side_rail_y" = 18, "sling_x" = 10, "sling_y" = 23)
 //-------------------------------------------------------
 
 
@@ -1658,7 +1658,7 @@
 	start_automatic = TRUE
 
 /obj/item/weapon/gun/rifle/type71/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 17,"rail_x" = 10, "rail_y" = 23, "under_x" = 20, "under_y" = 13, "stock_x" = 11, "stock_y" = 13, "side_rail_x" = 23, "side_rail_y" = 16)
+	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 17,"rail_x" = 10, "rail_y" = 23, "under_x" = 20, "under_y" = 13, "stock_x" = 11, "stock_y" = 13, "side_rail_x" = 23, "side_rail_y" = 16, "sling_x" = 10, "sling_y" = 23)
 
 /obj/item/weapon/gun/rifle/type71/set_gun_config_values()
 	..()
@@ -1718,7 +1718,7 @@
 	recoil_unwielded = RECOIL_AMOUNT_TIER_4
 
 /obj/item/weapon/gun/rifle/type71/carbine/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 35, "muzzle_y" = 17,"rail_x" = 10, "rail_y" = 22, "under_x" = 23, "under_y" = 14, "stock_x" = 21, "stock_y" = 18, "side_rail_x" = 24, "side_rail_y" = 17)
+	attachable_offset = list("muzzle_x" = 35, "muzzle_y" = 17,"rail_x" = 10, "rail_y" = 22, "under_x" = 23, "under_y" = 14, "stock_x" = 21, "stock_y" = 18, "side_rail_x" = 24, "side_rail_y" = 17, "sling_x" = 10, "sling_y" = 22)
 
 /obj/item/weapon/gun/rifle/lw317
 	name = "\improper LW-317 pulse carbine"
@@ -1761,7 +1761,7 @@
 	recoil_unwielded = RECOIL_AMOUNT_TIER_3
 
 /obj/item/weapon/gun/rifle/lw317/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 17,"rail_x" = 16, "rail_y" = 23, "under_x" = 25, "under_y" = 12, "stock_x" = 21, "stock_y" = 18, "side_rail_x" = 24, "side_rail_y" = 17)
+	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 17,"rail_x" = 16, "rail_y" = 23, "under_x" = 25, "under_y" = 12, "stock_x" = 21, "stock_y" = 18, "side_rail_x" = 24, "side_rail_y" = 17, "sling_x" = 16, "sling_y" = 23)
 
 /obj/item/weapon/gun/rifle/lw317/specops
 	current_mag = /obj/item/ammo_magazine/rifle/lw317/ap
@@ -1866,7 +1866,7 @@
 	//map_specific_decoration = TRUE
 
 /obj/item/weapon/gun/rifle/m49a/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 43, "muzzle_y" = 17,"rail_x" = 22, "rail_y" = 21, "under_x" = 30, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 31, "side_rail_y" = 18, "special_x" = 37, "special_y" = 16)
+	attachable_offset = list("muzzle_x" = 43, "muzzle_y" = 17,"rail_x" = 22, "rail_y" = 21, "under_x" = 30, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 31, "side_rail_y" = 18, "special_x" = 37, "special_y" = 16, "sling_x" = 22, "sling_y" = 21)
 
 /obj/item/weapon/gun/rifle/m49a/set_gun_config_values()
 	..()
@@ -2042,7 +2042,7 @@
 	map_specific_decoration = FALSE
 
 /obj/item/weapon/gun/rifle/l42a/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 19,"rail_x" = 12, "rail_y" = 20, "under_x" = 18, "under_y" = 15, "stock_x" = 22, "stock_y" = 10, "side_rail_x" = 22, "side_rail_y" = 17)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 19,"rail_x" = 12, "rail_y" = 20, "under_x" = 18, "under_y" = 15, "stock_x" = 22, "stock_y" = 10, "side_rail_x" = 22, "side_rail_y" = 17, "sling_x" = 12, "sling_y" = 20)
 
 /obj/item/weapon/gun/rifle/l42a/set_gun_config_values()
 	..()
@@ -2182,7 +2182,7 @@
 	start_automatic = TRUE
 
 /obj/item/weapon/gun/rifle/r81m1a/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 46, "muzzle_y" = 20,"rail_x" = 11, "rail_y" = 21, "under_x" = 30, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 24, "side_rail_y" = 18, "special_x" = 30, "special_y" = 16)
+	attachable_offset = list("muzzle_x" = 46, "muzzle_y" = 20,"rail_x" = 11, "rail_y" = 21, "under_x" = 30, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 24, "side_rail_y" = 18, "special_x" = 30, "special_y" = 16, "sling_x" = 11, "sling_y" = 21)
 
 /obj/item/weapon/gun/rifle/r81m1a/set_gun_config_values()
 	..()
@@ -2223,7 +2223,7 @@
 	start_automatic = FALSE
 
 /obj/item/weapon/gun/rifle/r81m1a/m1b/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 19,"rail_x" = 17, "rail_y" = 19, "under_x" = 33, "under_y" = 13, "stock_x" = 19, "stock_y" = 16, "side_rail_x" = 28, "side_rail_y" = 18, "special_x" = 36, "special_y" = 19)
+	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 19,"rail_x" = 17, "rail_y" = 19, "under_x" = 33, "under_y" = 13, "stock_x" = 19, "stock_y" = 16, "side_rail_x" = 28, "side_rail_y" = 18, "special_x" = 36, "special_y" = 19, "sling_x" = 17, "sling_y" = 19)
 
 /obj/item/weapon/gun/rifle/r81m1a/m1b/set_gun_config_values()
 	..()
@@ -2269,7 +2269,7 @@
 	start_automatic = TRUE
 
 /obj/item/weapon/gun/rifle/r81m1a/m1c/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 43, "muzzle_y" = 17,"rail_x" = 12, "rail_y" = 21, "under_x" = 30, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 20, "side_rail_y" = 18, "special_x" = 29, "special_y" = 16)
+	attachable_offset = list("muzzle_x" = 43, "muzzle_y" = 17,"rail_x" = 12, "rail_y" = 21, "under_x" = 30, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 20, "side_rail_y" = 18, "special_x" = 29, "special_y" = 16, "sling_x" = 12, "sling_y" = 21)
 
 /obj/item/weapon/gun/rifle/r81m1a/m1c/set_gun_config_values()
 	..()
@@ -2319,7 +2319,7 @@
 	starting_attachment_types = list(/obj/item/attachable/bipod/r81, /obj/item/attachable/stock/r81_saw, /obj/item/attachable/scope/mini/r81)
 
 /obj/item/weapon/gun/rifle/r81m1a/m1d/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 43, "muzzle_y" = 17,"rail_x" = 7, "rail_y" = 16, "under_x" = 32, "under_y" = 13, "stock_x" = 22, "stock_y" = 15, "side_rail_x" = 28, "side_rail_y" = 18, "special_x" = 34, "special_y" = 16)
+	attachable_offset = list("muzzle_x" = 43, "muzzle_y" = 17,"rail_x" = 7, "rail_y" = 16, "under_x" = 32, "under_y" = 13, "stock_x" = 22, "stock_y" = 15, "side_rail_x" = 28, "side_rail_y" = 18, "special_x" = 34, "special_y" = 16, "sling_x" = 7, "sling_y" = 16)
 
 /obj/item/weapon/gun/rifle/r81m1a/m1d/set_gun_config_values()
 	..()
@@ -2376,7 +2376,7 @@
 	aim_slowdown = SLOWDOWN_ADS_QUICK
 
 /obj/item/weapon/gun/rifle/rmc_f90/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 16,"rail_x" = 15, "rail_y" = 21, "under_x" = 24, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 25, "side_rail_y" = 16)
+	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 16,"rail_x" = 15, "rail_y" = 21, "under_x" = 24, "under_y" = 13, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 25, "side_rail_y" = 16, "sling_x" = 15, "sling_y" = 21)
 
 
 /obj/item/weapon/gun/rifle/rmc_f90/set_gun_config_values()
@@ -2517,7 +2517,7 @@
 
 
 /obj/item/weapon/gun/rifle/isr/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 16,"rail_x" = 12, "rail_y" = 22, "under_x" = 24, "under_y" = 13, "stock_x" = 5, "stock_y" = 20, "side_rail_x" = 20, "side_rail_y" = 16)
+	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 16,"rail_x" = 12, "rail_y" = 22, "under_x" = 24, "under_y" = 13, "stock_x" = 5, "stock_y" = 20, "side_rail_x" = 20, "side_rail_y" = 16, "sling_x" = 12, "sling_y" = 22)
 
 /obj/item/weapon/gun/rifle/isr/set_gun_config_values()
 	..()
@@ -2567,7 +2567,7 @@
 	start_automatic = TRUE
 
 /obj/item/weapon/gun/rifle/fn107/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 19,"rail_x" = 12, "rail_y" = 20, "under_x" = 18, "under_y" = 14, "stock_x" = 18, "stock_y" = 14, "side_rail_x" = 23, "side_rail_y" = 16)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 19,"rail_x" = 12, "rail_y" = 20, "under_x" = 18, "under_y" = 14, "stock_x" = 18, "stock_y" = 14, "side_rail_x" = 23, "side_rail_y" = 16, "sling_x" = 12, "sling_y" = 20)
 
 /obj/item/weapon/gun/rifle/fn107/set_gun_config_values()
 	..()
@@ -2622,7 +2622,7 @@
 	gun_category = GUN_CATEGORY_HEAVY
 
 /obj/item/weapon/gun/rifle/masm55/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 38, "muzzle_y" = 19,"rail_x" = 12, "rail_y" = 20, "under_x" = 32, "under_y" = 12, "stock_x" = 18, "stock_y" = 13, "side_rail_x" = 23, "side_rail_y" = 16)
+	attachable_offset = list("muzzle_x" = 38, "muzzle_y" = 19,"rail_x" = 12, "rail_y" = 20, "under_x" = 32, "under_y" = 12, "stock_x" = 18, "stock_y" = 13, "side_rail_x" = 23, "side_rail_y" = 16, "sling_x" = 12, "sling_y" = 20)
 
 /obj/item/weapon/gun/rifle/masm55/set_gun_config_values()
 	..()
@@ -2673,7 +2673,7 @@
 	start_automatic = FALSE
 
 /obj/item/weapon/gun/rifle/fpsa/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 23,"rail_x" = 12, "rail_y" = 21, "under_x" = 16, "under_y" = 18, "stock_x" = 14, "stock_y" = 15, "side_rail_x" = 23, "side_rail_y" = 16)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 23,"rail_x" = 12, "rail_y" = 21, "under_x" = 16, "under_y" = 18, "stock_x" = 14, "stock_y" = 15, "side_rail_x" = 23, "side_rail_y" = 16, "sling_x" = 12, "sling_y" = 21)
 
 /obj/item/weapon/gun/rifle/fpsa/set_gun_config_values()
 	..()
