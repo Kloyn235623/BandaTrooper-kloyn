@@ -61,7 +61,7 @@
 	)
 
 /obj/item/weapon/gun/rifle/m49a_custom/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 43, "muzzle_y" = 17,"rail_x" = 23, "rail_y" = 23, "under_x" = 30, "under_y" = 11, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 31, "side_rail_y" = 18, "special_x" = 37, "special_y" = 16)
+	attachable_offset = list("muzzle_x" = 43, "muzzle_y" = 17,"rail_x" = 23, "rail_y" = 23, "under_x" = 30, "under_y" = 11, "stock_x" = 24, "stock_y" = 13, "side_rail_x" = 31, "side_rail_y" = 18, "special_x" = 37, "special_y" = 16, "sling_x" = 23, "sling_y" = 23)
 
 /obj/item/weapon/gun/rifle/m49a_custom/handle_starting_attachment()
 	..()
