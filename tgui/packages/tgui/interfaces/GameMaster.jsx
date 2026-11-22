@@ -24,12 +24,90 @@ export const GameMaster = (props, context) => {
 
           <GameMasterObjectivePanel />
 
+          <GameMasterMissionHubPanel />
+
           <GameMasterCommunicationPanel />
 
           <GameMasterRecordPanel />
         </Stack>
       </Window.Content>
     </Window>
+  );
+};
+
+export const GameMasterMissionHubPanel = (props, context) => {
+  const { data, act } = useBackend();
+
+  return (
+    <Section title="Mission Hub">
+      <Stack vertical>
+        <Stack.Item>
+          Current mission: {data.current_hub_mission || 'None selected'}
+        </Stack.Item>
+        <Stack.Item>
+          <Box color="label" mb={0.5}>Choose the human NPC to place:</Box>
+          <Dropdown
+            options={data.hub_trader_profiles}
+            selected={data.selected_hub_trader_profile}
+            onSelected={(profile) => act('set_hub_trader_profile', { profile })}
+          />
+          <Button onClick={() => act('place_hub_trader')}>
+            Place selected trader
+          </Button>
+          <Button onClick={() => act('place_hub_stash')}>
+            Place group supply locker
+          </Button>
+          <Button onClick={() => act('queue_hub_mission')}>
+            Add mission to queue
+          </Button>
+          <Button
+            color="good"
+            onClick={() => act('advance_hub_mission')}
+            disabled={!data.mission_queue?.length}
+          >
+            Complete task & start next
+          </Button>
+        </Stack.Item>
+        <Stack.Item>
+          <Box color="label">
+            Select a profile, click “Place selected trader”, then click a tile on the map.
+          </Box>
+        </Stack.Item>
+        {(data.mission_queue || []).map((mission_id, index) => (
+          <Stack.Item key={`${mission_id}-${index}`}>
+            {index + 1}. {mission_id}
+            <Button
+              color="bad"
+              onClick={() => act('remove_hub_mission', { mission_id })}
+            >
+              Remove
+            </Button>
+          </Stack.Item>
+        ))}
+        <Stack.Item mt={1}>
+          <Section title="Group supply stock">
+            {(data.group_stash_stock || []).map((entry) => (
+              <Stack key={entry.type} align="center">
+                <Stack.Item grow>{entry.name}</Stack.Item>
+                <Stack.Item>
+                  {entry.count} available{entry.total_worth ? ` · $${entry.total_worth}` : ''}
+                </Stack.Item>
+                <Stack.Item>
+                  <Button
+                    color="good"
+                    onClick={() => act('issue_group_stash_item', { item_type: entry.type })}>
+                    Issue to group
+                  </Button>
+                </Stack.Item>
+              </Stack>
+            ))}
+            {!data.group_stash_stock?.length && (
+              <Box color="label">The shared locker is empty.</Box>
+            )}
+          </Section>
+        </Stack.Item>
+      </Stack>
+    </Section>
   );
 };
 
