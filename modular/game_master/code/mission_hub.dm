@@ -9,52 +9,14 @@
 	/// IDs of missions queued by the GM for the next campaign sequence.
 	var/list/mission_queue = list()
 	var/list/mission_briefs = list()
-	/// Per-player selections among the GM-approved mission queue.
-	var/list/mission_votes = list()
+	var/list/mission_details = list()
 	/// Mission currently active in the shared ship campaign.
 	var/current_hub_mission = null
 	/// GM-defined trader offers: stable item type path text mapped to price.
 	var/list/hub_trader_offers = list()
-	/// GM placed trader and locker locations by map and coordinates.
-	var/list/placed_hub_assets = list()
+	var/list/hub_trader_catalog = list("Quartermaster" = list("buy" = list(), "sell" = list()))
 
 GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
-
-/datum/hub_campaign_state/proc/record_asset(type_path, turf/T, mob/living/carbon/human/hub_trader/trader)
-	if(!T || (!ispath(type_path, /obj/structure) && !ispath(type_path, /mob/living/carbon/human)))
-		return FALSE
-	var/map_file = SSmapping.configs[GROUND_MAP]?.map_file
-	var/key = "[map_file]:[T.x],[T.y],[T.z]"
-	var/list/asset_record = list("type" = "[type_path]", "map" = map_file, "x" = T.x, "y" = T.y, "z" = T.z)
-	if(trader)
-		asset_record["name"] = trader.real_name
-		asset_record["appearance"] = trader.get_hub_appearance()
-	placed_hub_assets[key] = asset_record
-	save()
-	return TRUE
-
-/datum/hub_campaign_state/proc/restore_assets()
-	var/map_file = SSmapping.configs[GROUND_MAP]?.map_file
-	for(var/key in placed_hub_assets)
-		var/list/entry = placed_hub_assets[key]
-		if(entry["map"] != map_file)
-			continue
-		var/turf/T = locate(entry["x"], entry["y"], entry["z"])
-		var/type_path = text2path(entry["type"])
-		if(!T || (!ispath(type_path, /obj/structure) && !ispath(type_path, /mob/living/carbon/human)))
-			continue
-		var/found = FALSE
-		for(var/atom/movable/existing in T)
-			if(existing.type == type_path)
-				found = TRUE
-				break
-		if(!found)
-			var/atom/movable/restored_asset = new type_path(T)
-			if(istype(restored_asset, /mob/living/carbon/human/hub_trader))
-				var/mob/living/carbon/human/hub_trader/restored_trader = restored_asset
-				restored_trader.restore_hub_identity(entry["name"], entry["appearance"])
-				if(!entry["name"] || !islist(entry["appearance"]))
-					record_asset(type_path, T, restored_trader)
 
 /datum/hub_campaign_state/New()
 	. = ..()
@@ -62,23 +24,23 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 	var/list/saved_queue
 	var/list/saved_briefs
 	var/list/saved_offers
-	var/list/saved_assets
-	var/list/saved_votes
+	var/list/saved_catalog
+	var/list/saved_details
 	S["mission_queue"] >> saved_queue
 	S["mission_briefs"] >> saved_briefs
 	S["hub_trader_offers"] >> saved_offers
-	S["placed_hub_assets"] >> saved_assets
-	S["mission_votes"] >> saved_votes
+	S["hub_trader_catalog"] >> saved_catalog
+	S["mission_details"] >> saved_details
 	if(islist(saved_queue))
 		mission_queue = saved_queue.Copy()
 	if(islist(saved_briefs))
 		mission_briefs = saved_briefs.Copy()
 	if(islist(saved_offers))
 		hub_trader_offers = saved_offers.Copy()
-	if(islist(saved_assets))
-		placed_hub_assets = saved_assets.Copy()
-	if(islist(saved_votes))
-		mission_votes = saved_votes.Copy()
+	if(islist(saved_catalog))
+		hub_trader_catalog = saved_catalog.Copy()
+	if(islist(saved_details))
+		mission_details = saved_details.Copy()
 	S["current_hub_mission"] >> current_hub_mission
 	// Migrate the original shared offer table into the Quartermaster catalog.
 	var/list/legacy_offers = list()
@@ -87,15 +49,23 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 			legacy_offers[offer_key] = hub_trader_offers[offer_key]
 	if(length(legacy_offers))
 		hub_trader_offers = list("Quartermaster" = legacy_offers)
+		hub_trader_catalog["Quartermaster"] = list("buy" = legacy_offers.Copy(), "sell" = list())
 		save()
+	else if(!islist(saved_catalog))
+		var/list/previous_quartermaster_offers = hub_trader_offers["Quartermaster"]
+		if(islist(previous_quartermaster_offers))
+			hub_trader_catalog["Quartermaster"] = list("buy" = previous_quartermaster_offers.Copy(), "sell" = list())
+			save()
+	if(!islist(hub_trader_catalog["Quartermaster"]))
+		hub_trader_catalog["Quartermaster"] = list("buy" = list(), "sell" = list())
 
 /datum/hub_campaign_state/proc/save()
 	var/savefile/S = new /savefile("data/mission_hub_gm.sav")
 	S["mission_queue"] << mission_queue
 	S["mission_briefs"] << mission_briefs
 	S["hub_trader_offers"] << hub_trader_offers
-	S["placed_hub_assets"] << placed_hub_assets
-	S["mission_votes"] << mission_votes
+	S["hub_trader_catalog"] << hub_trader_catalog
+	S["mission_details"] << mission_details
 	S["current_hub_mission"] << current_hub_mission
 
 /datum/hub_campaign_state/proc/get_group_stash()
@@ -175,97 +145,69 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 			summary += list(list("type" = item_type, "name" = initial(item_path:name), "count" = entry["count"], "total_worth" = entry["total_worth"]))
 	return summary
 
-/datum/game_master/proc/set_hub_trader_offer(mob/user, trader_role, item_path, price)
-	if(!can_manage_hub(user) || !ispath(item_path, /obj/item) || ispath(item_path, /obj/item/spacecash))
+/datum/game_master/proc/set_hub_trader_offer(mob/user, trader_role, item_path, price, direction = "buy")
+	if(!can_manage_hub(user) || trader_role != "Quartermaster" || !ispath(item_path, /obj/item) || ispath(item_path, /obj/item/spacecash))
 		return FALSE
-	var/list/role_offers = GLOB.hub_campaign_state.hub_trader_offers[trader_role]
+	if(!(direction in list("buy", "sell")) || !isnum(price) || price < 0 || price > 1000000)
+		return FALSE
+	var/list/catalog = GLOB.hub_campaign_state.hub_trader_catalog["Quartermaster"]
+	if(!islist(catalog))
+		catalog = list("buy" = list(), "sell" = list())
+	else
+		catalog = catalog.Copy()
+	var/list/role_offers = catalog[direction]
 	if(!islist(role_offers))
 		role_offers = list()
 	else
 		role_offers = role_offers.Copy()
-	if(!isnum(price) || price < 0 || price > 1000000)
-		return FALSE
 	if(price == 0)
 		role_offers -= item_path
-		if(length(role_offers))
-			GLOB.hub_campaign_state.hub_trader_offers[trader_role] = role_offers
-		else
-			GLOB.hub_campaign_state.hub_trader_offers -= trader_role
-		GLOB.hub_campaign_state.save()
-		message_admins("[key_name_admin(user)] removed [item_path] from [trader_role].")
-		return TRUE
-	role_offers[item_path] = round(price)
-	GLOB.hub_campaign_state.hub_trader_offers[trader_role] = role_offers
+	else
+		role_offers[item_path] = round(price)
+	catalog[direction] = role_offers
+	GLOB.hub_campaign_state.hub_trader_catalog["Quartermaster"] = catalog
+	GLOB.hub_campaign_state.hub_trader_offers["Quartermaster"] = catalog["buy"]
 	GLOB.hub_campaign_state.save()
-	message_admins("[key_name_admin(user)] set [trader_role] price for [item_path] to [round(price)].")
+	var/direction_label = direction == "buy" ? "продажа игрокам" : "покупка у игроков"
+	message_admins("[key_name_admin(user)] изменил цену квартирмейстера ([direction_label]) для [item_path]: [round(price)].")
 	return TRUE
 
-/datum/game_master
-	var/selected_hub_trader_profile = "Quartermaster"
-
 /mob/living/carbon/human/hub_trader
-	name = "mission trader"
-	real_name = "Mission Trader"
+	name = "торговец"
+	real_name = "Торговец"
 	var/trader_role = "Quartermaster"
 
 /mob/living/carbon/human/hub_trader/Initialize(mapload)
 	. = ..()
-	equip_to_slot_or_del(new /obj/item/clothing/under/color/grey(src), WEAR_BODY)
-	equip_to_slot_or_del(new /obj/item/clothing/shoes/black(src), WEAR_FEET)
+	equip_to_slot_or_del(new /obj/item/clothing/under/liaison_suit/black(src), WEAR_BODY)
+	equip_to_slot_or_del(new /obj/item/clothing/suit/storage/bomber/alt(src), WEAR_JACKET)
+	equip_to_slot_or_del(new /obj/item/clothing/shoes/combat(src), WEAR_FEET)
+	equip_to_slot_or_del(new /obj/item/clothing/gloves/black(src), WEAR_HANDS)
+	randomize_hub_identity()
 
 /mob/living/carbon/human/hub_trader/proc/randomize_hub_identity()
 	gender = pick(MALE, FEMALE)
 	var/datum/preferences/random_preferences = new
 	random_preferences.randomize_appearance(src)
 	change_real_name(src, random_name(gender))
-
-/mob/living/carbon/human/hub_trader/proc/get_hub_appearance()
-	var/list/appearance = list()
-	var/list/appearance_vars = list("gender", "age", "body_type", "body_size", "skin_color", "r_skin", "g_skin", "b_skin", "h_style", "f_style", "r_hair", "g_hair", "b_hair", "r_gradient", "g_gradient", "b_gradient", "grad_style", "r_facial", "g_facial", "b_facial", "r_eyes", "g_eyes", "b_eyes", "undershirt", "underwear")
-	for(var/variable in appearance_vars)
-		appearance[variable] = vars[variable]
-	return appearance
-
-/mob/living/carbon/human/hub_trader/proc/restore_hub_identity(saved_name, list/appearance)
-	randomize_hub_identity()
-	if(istext(saved_name) && length(saved_name))
-		change_real_name(src, saved_name)
-	if(!islist(appearance))
-		return
-	for(var/variable in appearance)
-		if(variable in list("gender", "age", "body_type", "body_size", "skin_color", "r_skin", "g_skin", "b_skin", "h_style", "f_style", "r_hair", "g_hair", "b_hair", "r_gradient", "g_gradient", "b_gradient", "grad_style", "r_facial", "g_facial", "b_facial", "r_eyes", "g_eyes", "b_eyes", "undershirt", "underwear"))
-			vars[variable] = appearance[variable]
 	update_body()
 	update_hair()
+	qdel(random_preferences)
 
 /mob/living/carbon/human/hub_trader/quartermaster
 	trader_role = "Quartermaster"
 
-/mob/living/carbon/human/hub_trader/armorer
-	trader_role = "Armorer"
-
-/mob/living/carbon/human/hub_trader/medical
-	trader_role = "Medical Supplier"
-
-/mob/living/carbon/human/hub_trader/mechanic
-	trader_role = "Field Mechanic"
-
 /datum/game_master/proc/get_hub_trader_type(profile)
-	switch(profile)
-		if("Quartermaster")
-			return /mob/living/carbon/human/hub_trader/quartermaster
-		if("Armorer")
-			return /mob/living/carbon/human/hub_trader/armorer
-		if("Medical Supplier")
-			return /mob/living/carbon/human/hub_trader/medical
-		if("Field Mechanic")
-			return /mob/living/carbon/human/hub_trader/mechanic
+	if(profile == "Quartermaster")
+		return /mob/living/carbon/human/hub_trader/quartermaster
 	return null
 
 /mob/living/carbon/human/hub_trader/attack_hand(mob/user)
 	if(!ishuman(user) || !user.Adjacent(src))
 		return ..()
 	user.set_interaction(src)
+	var/list/greetings = list("Ну, удачной охоты", "Алоха!", "Хабар принес?", "Время — деньги, друг!", "В такие времена не стоит сорить деньгами... Но всё же посмотри, что у меня есть!", "Если не убьёшься там, заходи ещё!", "Слушай, повезло тебе сегодня, дорогой, только сейчас куплю задорого, продам задёшево!", "Я тебе один умный вещь скажу, только ты не обижайся. Слушай, деньги — не главное.")
+	say(pick(greetings))
 	tgui_interact(user)
 	return TRUE
 
@@ -273,10 +215,14 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 	var/datum/game_master/gm = user?.client?.game_master_menu
 	if(!gm || !gm.can_manage_hub(user) || W.loc != user)
 		return ..()
-	var/price = tgui_input_number(user, "Set a physical cash price. Enter 0 to remove this item.", "List [W.name] with [trader_role]", 100, 1000000, 0)
+	var/direction = tgui_alert(user, "[W.name]: выберите вкладку для этого товара", "Настройка торговца", list("Купить (торговец продаёт)", "Продать (торговец покупает)", "Отмена"))
+	if(direction == "Отмена" || isnull(direction) || QDELETED(W) || !user.Adjacent(src))
+		return TRUE
+	var/catalog_direction = direction == "Купить (торговец продаёт)" ? "buy" : "sell"
+	var/price = tgui_input_number(user, "Цена наличными. Введите 0, чтобы убрать предмет из выбранной вкладки.", "[direction]: [W.name]", 100, 1000000, 0)
 	if(isnull(price) || QDELETED(W) || !user.Adjacent(src))
 		return TRUE
-	gm.set_hub_trader_offer(user, trader_role, W.type, price)
+	gm.set_hub_trader_offer(user, trader_role, W.type, price, catalog_direction)
 	SStgui.update_uis(src)
 	return TRUE
 
@@ -290,17 +236,23 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 		ui.open()
 
 /mob/living/carbon/human/hub_trader/ui_data(mob/user)
-	var/list/data = list("offers" = list(), "sellables" = list(), "can_manage" = (user?.client && check_client_rights(user.client, R_ADMIN, FALSE)), "trader_role" = trader_role)
-	var/list/role_offers = GLOB.hub_campaign_state.hub_trader_offers[trader_role]
-	if(!islist(role_offers))
-		role_offers = list()
-	for(var/item_path in role_offers)
-		data["offers"] += list(list("name" = initial(item_path:name), "price" = role_offers[item_path], "path" = "[item_path]"))
+	var/list/data = list("offers" = list(), "sellables" = list(), "sell_prices" = list(), "can_manage" = (user?.client && check_client_rights(user.client, R_ADMIN, FALSE)), "trader_role" = trader_role)
+	var/list/catalog = GLOB.hub_campaign_state.hub_trader_catalog["Quartermaster"]
+	var/list/buy_offers = catalog?["buy"]
+	var/list/sell_offers = catalog?["sell"]
+	if(!islist(buy_offers))
+		buy_offers = list()
+	if(!islist(sell_offers))
+		sell_offers = list()
+	for(var/item_path in buy_offers)
+		data["offers"] += list(list("name" = initial(item_path:name), "price" = buy_offers[item_path], "path" = "[item_path]"))
+	for(var/item_path in sell_offers)
+		data["sell_prices"] += list(list("name" = initial(item_path:name), "price" = sell_offers[item_path], "path" = "[item_path]"))
 	if(ishuman(user))
 		for(var/obj/item/sell_item in user.contents)
-			if(istype(sell_item, /obj/item/spacecash) || isnull(role_offers[sell_item.type]))
+			if(istype(sell_item, /obj/item/spacecash) || isnull(sell_offers[sell_item.type]))
 				continue
-			data["sellables"] += list(list("name" = sell_item.name, "price" = role_offers[sell_item.type], "ref" = REF(sell_item)))
+			data["sellables"] += list(list("name" = sell_item.name, "price" = sell_offers[sell_item.type], "ref" = REF(sell_item)))
 	return data
 
 /mob/living/carbon/human/hub_trader/ui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
@@ -314,10 +266,11 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 		var/item_path = text2path(params["path"])
 		if(!ispath(item_path, /obj/item) || ispath(item_path, /obj/item/spacecash))
 			return TRUE
-		var/list/role_offers = GLOB.hub_campaign_state.hub_trader_offers[trader_role]
+		var/list/catalog = GLOB.hub_campaign_state.hub_trader_catalog["Quartermaster"]
+		var/list/role_offers = catalog?["buy"]
 		var/price = role_offers?[item_path]
 		if(!isnum(price) || !hub_take_cash(user, price))
-			to_chat(user, SPAN_WARNING("You do not have enough physical cash."))
+			to_chat(user, SPAN_WARNING("Не хватает наличных."))
 			return TRUE
 		var/obj/item/purchased = new item_path(get_turf(src))
 		user.put_in_hands(purchased)
@@ -326,7 +279,8 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 		var/obj/item/sold_item = locate(params["ref"])
 		if(!istype(sold_item) || sold_item.loc != user || istype(sold_item, /obj/item/spacecash))
 			return TRUE
-		var/list/role_offers = GLOB.hub_campaign_state.hub_trader_offers[trader_role]
+		var/list/catalog = GLOB.hub_campaign_state.hub_trader_catalog["Quartermaster"]
+		var/list/role_offers = catalog?["sell"]
 		var/sale_price = role_offers?[sold_item.type]
 		if(!isnum(sale_price))
 			return TRUE
@@ -338,15 +292,15 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 		return TRUE
 	if(action == "remove_offer")
 		var/item_path = text2path(params["path"])
-		if(!user?.client || !check_client_rights(user.client, R_ADMIN, FALSE) || !ispath(item_path, /obj/item))
+		var/direction = params["direction"]
+		if(!user?.client || !check_client_rights(user.client, R_ADMIN, FALSE) || !ispath(item_path, /obj/item) || !(direction in list("buy", "sell")))
 			return TRUE
-		var/list/role_offers = GLOB.hub_campaign_state.hub_trader_offers[trader_role]
+		var/list/catalog = GLOB.hub_campaign_state.hub_trader_catalog["Quartermaster"]
+		var/list/role_offers = catalog?[direction]
 		if(islist(role_offers))
 			role_offers -= item_path
-			if(length(role_offers))
-				GLOB.hub_campaign_state.hub_trader_offers[trader_role] = role_offers
-			else
-				GLOB.hub_campaign_state.hub_trader_offers -= trader_role
+			catalog[direction] = role_offers
+			GLOB.hub_campaign_state.hub_trader_offers["Quartermaster"] = catalog["buy"]
 		GLOB.hub_campaign_state.save()
 		SStgui.update_uis(src)
 		return TRUE
@@ -378,8 +332,8 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 	return TRUE
 
 /obj/structure/closet/hub_persistent_stash
-	name = "mission hub group supply locker"
-	desc = "Shared group storage for equipment and physical cash between missions."
+	name = "общий склад группы"
+	desc = "Общий склад снаряжения и наличных для всех операций."
 
 /obj/structure/closet/hub_persistent_stash/attackby(obj/item/item, mob/user)
 	if(!ishuman(user) || !istype(item, /obj/item))
@@ -388,12 +342,12 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 		return
 	var/list/items = GLOB.hub_campaign_state.get_group_stash()
 	if(length(items) >= 100)
-		to_chat(user, SPAN_WARNING("The group supply locker is full."))
+		to_chat(user, SPAN_WARNING("Склад группы заполнен."))
 		return
 	if(istype(item, /obj/item/spacecash))
 		var/obj/item/spacecash/cash = item
 		if(cash.counterfeit)
-			to_chat(user, SPAN_WARNING("Counterfeit cash cannot be stored."))
+			to_chat(user, SPAN_WARNING("Поддельные деньги нельзя положить на склад."))
 			return
 	var/list/stored_item = GLOB.hub_campaign_state.serialize_group_item(item)
 	if(!stored_item)
@@ -403,14 +357,14 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 		return
 	GLOB.hub_campaign_state.save_group_stash(items)
 	qdel(item)
-	to_chat(user, SPAN_NOTICE("Equipment added to the group supply locker."))
+	to_chat(user, SPAN_NOTICE("Предмет добавлен на склад группы."))
 
 /obj/structure/closet/hub_persistent_stash/attack_hand(mob/user)
 	if(!ishuman(user))
 		return ..()
 	var/list/items = GLOB.hub_campaign_state.get_group_stash()
 	if(!islist(items) || !length(items))
-		to_chat(user, SPAN_NOTICE("The group supply locker is empty."))
+		to_chat(user, SPAN_NOTICE("Склад группы пуст."))
 		return
 	var/list/item_options = list()
 	var/item_option_index = 0
@@ -424,7 +378,7 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 		if(istype(item_path_option, /obj/item/spacecash))
 			item_label = "$[stored_item["worth"]] [item_label]"
 		item_options["[item_option_index]. [item_label]"] = stored_item
-	var/selection = tgui_input_list(user, "Retrieve group equipment or cash", name, item_options)
+	var/selection = tgui_input_list(user, "Выберите предмет или наличные со склада группы", name, item_options)
 	var/list/selected_item = item_options[selection]
 	if(!selected_item || !user.Adjacent(src) || !(selected_item in items))
 		return
@@ -461,7 +415,7 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 			continue
 		recipients += recipient
 	if(!length(recipients))
-		to_chat(user, SPAN_WARNING("No living group members are in the supply area."))
+		to_chat(user, SPAN_WARNING("В зоне склада нет живых участников группы."))
 		return FALSE
 	var/list/issued = list()
 	for(var/i in 1 to length(items))
@@ -471,7 +425,7 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 			if(length(issued) >= length(recipients))
 				break
 	if(length(issued) < length(recipients))
-		to_chat(user, SPAN_WARNING("The group locker does not have enough copies for everyone present."))
+		to_chat(user, SPAN_WARNING("На складе недостаточно копий для всех присутствующих."))
 		return FALSE
 	for(var/r in 1 to length(recipients))
 		var/item_index = issued[length(issued) - r + 1]
@@ -482,25 +436,33 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 		recipients[r].put_in_hands(gift)
 		items.Cut(item_index, item_index + 1)
 	GLOB.hub_campaign_state.save_group_stash(items)
-	message_admins("[key_name_admin(user)] issued [length(recipients)] [initial(item_path:name)] from the group locker.")
+	message_admins("[key_name_admin(user)] выдал участникам группы [length(recipients)] предметов: [initial(item_path:name)].")
 	return TRUE
 
-/datum/game_master/proc/queue_hub_mission(mob/user, mission_id)
-	if(!can_manage_hub(user) || !istext(mission_id) || !length(mission_id) || length(mission_id) > 64)
+/datum/game_master/proc/queue_hub_mission(mob/user)
+	if(!can_manage_hub(user))
 		return FALSE
 	if(length(GLOB.hub_campaign_state.mission_queue) >= GM_HUB_MAX_MISSIONS)
 		return FALSE
-	if(mission_id in GLOB.hub_campaign_state.mission_queue)
+	var/operation_name = tgui_input_text(user, "Название операции", "Новая операция", "", 64)
+	if(isnull(operation_name) || !length(trim(operation_name)))
 		return FALSE
-	GLOB.hub_campaign_state.mission_queue += mission_id
-	GLOB.hub_campaign_state.mission_votes = list()
-	var/brief = tgui_input_text(user, "Mission briefing shown when the GM starts it", "Mission briefing", multiline = TRUE, max_length = 512)
-	if(isnull(brief))
-		GLOB.hub_campaign_state.mission_queue -= mission_id
+	operation_name = trim(operation_name)
+	if(operation_name in GLOB.hub_campaign_state.mission_queue)
 		return FALSE
-	GLOB.hub_campaign_state.mission_briefs[mission_id] = trim(brief)
+	var/reward = tgui_input_number(user, "Стоимость за работу (награда группе)", "Оплата за задание", 0, 1000000, 0)
+	if(isnull(reward))
+		return FALSE
+	var/objective = tgui_input_text(user, "Что нужно достать", "Цель операции", multiline = TRUE, max_length = 512)
+	if(isnull(objective))
+		return FALSE
+	var/extra_text = tgui_input_text(user, "Дополнительный текст", "Информация для игроков", multiline = TRUE, max_length = 512)
+	if(isnull(extra_text))
+		return FALSE
+	GLOB.hub_campaign_state.mission_queue += operation_name
+	GLOB.hub_campaign_state.mission_details[operation_name] = list("reward" = round(reward), "objective" = trim(objective), "extra_text" = trim(extra_text))
 	GLOB.hub_campaign_state.save()
-	message_admins("[key_name_admin(user)] queued hub mission '[mission_id]'.")
+	message_admins("[key_name_admin(user)] добавил операцию «[operation_name]» в список.")
 	return TRUE
 
 /datum/game_master/proc/remove_hub_mission(mob/user, mission_id)
@@ -508,62 +470,40 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 		return FALSE
 	GLOB.hub_campaign_state.mission_queue -= mission_id
 	GLOB.hub_campaign_state.mission_briefs -= mission_id
-	GLOB.hub_campaign_state.mission_votes = list()
+	GLOB.hub_campaign_state.mission_details -= mission_id
 	GLOB.hub_campaign_state.save()
-	message_admins("[key_name_admin(user)] removed hub mission '[mission_id]' from the queue.")
+	message_admins("[key_name_admin(user)] удалил операцию «[mission_id]» из списка.")
 	return TRUE
 
-/datum/game_master/proc/advance_hub_mission(mob/user)
-	if(!can_manage_hub(user) || !length(GLOB.hub_campaign_state.mission_queue))
+/datum/hub_campaign_state/proc/select_hub_mission(mob/user, mission_id)
+	if(!ishuman(user) || !(mission_id in mission_queue))
 		return FALSE
-	var/selected_mission = GLOB.hub_campaign_state.mission_queue[1]
-	var/highest_vote_count = -1
-	for(var/mission_id in GLOB.hub_campaign_state.mission_queue)
-		var/vote_count = 0
-		for(var/voter_ckey in GLOB.hub_campaign_state.mission_votes)
-			if(GLOB.hub_campaign_state.mission_votes[voter_ckey] == mission_id)
-				vote_count++
-		if(vote_count > highest_vote_count)
-			highest_vote_count = vote_count
-			selected_mission = mission_id
-	GLOB.hub_campaign_state.current_hub_mission = selected_mission
-	var/selected_index = GLOB.hub_campaign_state.mission_queue.Find(selected_mission)
-	if(selected_index)
-		GLOB.hub_campaign_state.mission_queue.Cut(selected_index, selected_index + 1)
-	GLOB.hub_campaign_state.mission_votes = list()
-	GLOB.hub_campaign_state.save()
-	var/brief = GLOB.hub_campaign_state.mission_briefs[GLOB.hub_campaign_state.current_hub_mission]
-	message_admins("[key_name_admin(user)] started next ship mission '[GLOB.hub_campaign_state.current_hub_mission]'.")
-	if(length(brief))
-		to_chat(world, SPAN_NOTICE("<b>MISSION: [GLOB.hub_campaign_state.current_hub_mission]</b><br>[brief]"))
-	return GLOB.hub_campaign_state.current_hub_mission
+	current_hub_mission = mission_id
+	mission_queue -= mission_id
+	var/list/details = mission_details[mission_id]
+	var/objective_text = islist(details) ? details["objective"] : mission_briefs[mission_id]
+	var/extra_text = islist(details) ? details["extra_text"] : ""
+	var/reward = islist(details) ? details["reward"] : 0
+	save()
+	to_chat(world, SPAN_NOTICE("<b>ВЫБРАНА ОПЕРАЦИЯ: [mission_id]</b><br><b>Что нужно достать:</b> [objective_text]<br><b>Дополнительно:</b> [extra_text]<br><b>Оплата за выполнение:</b> $[reward]. Выдачей занимается ГМ."))
+	return TRUE
 
 /datum/hub_campaign_state/proc/get_mission_options(mob/user)
 	var/list/options = list()
-	var/player_vote = user?.ckey ? mission_votes[user.ckey] : null
 	for(var/mission_id in mission_queue)
-		var/vote_count = 0
-		for(var/voter_ckey in mission_votes)
-			if(mission_votes[voter_ckey] == mission_id)
-				vote_count++
+		var/list/details = mission_details[mission_id]
 		options += list(list(
 			"id" = mission_id,
-			"brief" = mission_briefs[mission_id] || "No mission briefing provided.",
-			"votes" = vote_count,
-			"selected" = player_vote == mission_id
+			"name" = mission_id,
+			"reward" = islist(details) ? details["reward"] : 0,
+			"objective" = islist(details) ? details["objective"] : mission_briefs[mission_id],
+			"extra_text" = islist(details) ? details["extra_text"] : ""
 		))
 	return options
 
-/datum/hub_campaign_state/proc/cast_mission_vote(mob/user, mission_id)
-	if(!user?.ckey || !(mission_id in mission_queue))
-		return FALSE
-	mission_votes[user.ckey] = mission_id
-	save()
-	return TRUE
-
 /obj/structure/machinery/computer/hub_mission_console
-	name = "mission selection console"
-	desc = "Review mission briefings and vote for the next assignment. A Game Master authorizes the final mission."
+	name = "консоль выбора операции"
+	desc = "Любой игрок может выбрать следующую операцию. За выполненную работу ГМ выдаёт оплату вручную."
 	icon_state = "computer_generic"
 	use_power = USE_POWER_NONE
 
@@ -577,8 +517,13 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 		ui.open()
 
 /obj/structure/machinery/computer/hub_mission_console/ui_data(mob/user)
+	var/current_details = GLOB.hub_campaign_state.mission_details[GLOB.hub_campaign_state.current_hub_mission]
 	return list(
 		"current_mission" = GLOB.hub_campaign_state.current_hub_mission,
+		"current_objective" = islist(current_details) ? current_details["objective"] : null,
+		"current_extra_text" = islist(current_details) ? current_details["extra_text"] : null,
+		"current_reward" = islist(current_details) ? current_details["reward"] : null,
+		"can_select" = ishuman(user),
 		"missions" = GLOB.hub_campaign_state.get_mission_options(user)
 	)
 
@@ -587,9 +532,9 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 	if(.)
 		return
 	var/mob/user = ui.user
-	if(action != "vote_mission" || !ishuman(user) || !user.Adjacent(src))
+	if(action != "select_mission" || !ishuman(user) || !user.Adjacent(src))
 		return
-	if(GLOB.hub_campaign_state.cast_mission_vote(user, params["mission_id"]))
+	if(GLOB.hub_campaign_state.select_hub_mission(user, params["mission_id"]))
 		. = TRUE
 		SStgui.update_uis(src)
 
