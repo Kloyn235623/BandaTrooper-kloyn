@@ -9,6 +9,8 @@
 	/// IDs of missions queued by the GM for the next campaign sequence.
 	var/list/mission_queue = list()
 	var/list/mission_briefs = list()
+	/// Per-player selections among the GM-approved mission queue.
+	var/list/mission_votes = list()
 	/// Mission currently active in the shared ship campaign.
 	var/current_hub_mission = null
 	/// GM-defined trader offers: stable item type path text mapped to price.
@@ -18,12 +20,16 @@
 
 GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 
-/datum/hub_campaign_state/proc/record_asset(type_path, turf/T)
+/datum/hub_campaign_state/proc/record_asset(type_path, turf/T, mob/living/carbon/human/hub_trader/trader)
 	if(!T || (!ispath(type_path, /obj/structure) && !ispath(type_path, /mob/living/carbon/human)))
 		return FALSE
 	var/map_file = SSmapping.configs[GROUND_MAP]?.map_file
 	var/key = "[map_file]:[T.x],[T.y],[T.z]"
-	placed_hub_assets[key] = list("type" = "[type_path]", "map" = map_file, "x" = T.x, "y" = T.y, "z" = T.z)
+	var/list/asset_record = list("type" = "[type_path]", "map" = map_file, "x" = T.x, "y" = T.y, "z" = T.z)
+	if(trader)
+		asset_record["name"] = trader.real_name
+		asset_record["appearance"] = trader.get_hub_appearance()
+	placed_hub_assets[key] = asset_record
 	save()
 	return TRUE
 
@@ -43,7 +49,12 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 				found = TRUE
 				break
 		if(!found)
-			new type_path(T)
+			var/atom/movable/restored_asset = new type_path(T)
+			if(istype(restored_asset, /mob/living/carbon/human/hub_trader))
+				var/mob/living/carbon/human/hub_trader/restored_trader = restored_asset
+				restored_trader.restore_hub_identity(entry["name"], entry["appearance"])
+				if(!entry["name"] || !islist(entry["appearance"]))
+					record_asset(type_path, T, restored_trader)
 
 /datum/hub_campaign_state/New()
 	. = ..()
@@ -52,10 +63,12 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 	var/list/saved_briefs
 	var/list/saved_offers
 	var/list/saved_assets
+	var/list/saved_votes
 	S["mission_queue"] >> saved_queue
 	S["mission_briefs"] >> saved_briefs
 	S["hub_trader_offers"] >> saved_offers
 	S["placed_hub_assets"] >> saved_assets
+	S["mission_votes"] >> saved_votes
 	if(islist(saved_queue))
 		mission_queue = saved_queue.Copy()
 	if(islist(saved_briefs))
@@ -64,6 +77,8 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 		hub_trader_offers = saved_offers.Copy()
 	if(islist(saved_assets))
 		placed_hub_assets = saved_assets.Copy()
+	if(islist(saved_votes))
+		mission_votes = saved_votes.Copy()
 	S["current_hub_mission"] >> current_hub_mission
 	// Migrate the original shared offer table into the Quartermaster catalog.
 	var/list/legacy_offers = list()
@@ -80,6 +95,7 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 	S["mission_briefs"] << mission_briefs
 	S["hub_trader_offers"] << hub_trader_offers
 	S["placed_hub_assets"] << placed_hub_assets
+	S["mission_votes"] << mission_votes
 	S["current_hub_mission"] << current_hub_mission
 
 /datum/hub_campaign_state/proc/get_group_stash()
@@ -192,6 +208,36 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 	real_name = "Mission Trader"
 	var/trader_role = "Quartermaster"
 
+/mob/living/carbon/human/hub_trader/Initialize(mapload)
+	. = ..()
+	equip_to_slot_or_del(new /obj/item/clothing/under/color/grey(src), WEAR_BODY)
+	equip_to_slot_or_del(new /obj/item/clothing/shoes/black(src), WEAR_FEET)
+
+/mob/living/carbon/human/hub_trader/proc/randomize_hub_identity()
+	gender = pick(MALE, FEMALE)
+	var/datum/preferences/random_preferences = new
+	random_preferences.randomize_appearance(src)
+	change_real_name(src, random_name(gender))
+
+/mob/living/carbon/human/hub_trader/proc/get_hub_appearance()
+	var/list/appearance = list()
+	var/list/appearance_vars = list("gender", "age", "body_type", "body_size", "skin_color", "r_skin", "g_skin", "b_skin", "h_style", "f_style", "r_hair", "g_hair", "b_hair", "r_gradient", "g_gradient", "b_gradient", "grad_style", "r_facial", "g_facial", "b_facial", "r_eyes", "g_eyes", "b_eyes", "undershirt", "underwear")
+	for(var/variable in appearance_vars)
+		appearance[variable] = vars[variable]
+	return appearance
+
+/mob/living/carbon/human/hub_trader/proc/restore_hub_identity(saved_name, list/appearance)
+	randomize_hub_identity()
+	if(istext(saved_name) && length(saved_name))
+		change_real_name(src, saved_name)
+	if(!islist(appearance))
+		return
+	for(var/variable in appearance)
+	if(variable in list("gender", "age", "body_type", "body_size", "skin_color", "r_skin", "g_skin", "b_skin", "h_style", "f_style", "r_hair", "g_hair", "b_hair", "r_gradient", "g_gradient", "b_gradient", "grad_style", "r_facial", "g_facial", "b_facial", "r_eyes", "g_eyes", "b_eyes", "undershirt", "underwear"))
+			vars[variable] = appearance[variable]
+	update_body()
+	update_hair()
+
 /mob/living/carbon/human/hub_trader/quartermaster
 	trader_role = "Quartermaster"
 
@@ -217,11 +263,11 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 	return null
 
 /mob/living/carbon/human/hub_trader/attack_hand(mob/user)
-	. = ..()
-	if(. || !ishuman(user))
-		return
+	if(!ishuman(user) || !user.Adjacent(src))
+		return ..()
 	user.set_interaction(src)
 	tgui_interact(user)
+	return TRUE
 
 /mob/living/carbon/human/hub_trader/attackby(obj/item/W, mob/living/user)
 	var/datum/game_master/gm = user?.client?.game_master_menu
@@ -447,6 +493,7 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 	if(mission_id in GLOB.hub_campaign_state.mission_queue)
 		return FALSE
 	GLOB.hub_campaign_state.mission_queue += mission_id
+	GLOB.hub_campaign_state.mission_votes = list()
 	var/brief = tgui_input_text(user, "Mission briefing shown when the GM starts it", "Mission briefing", multiline = TRUE, max_length = 512)
 	if(isnull(brief))
 		GLOB.hub_campaign_state.mission_queue -= mission_id
@@ -461,6 +508,7 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 		return FALSE
 	GLOB.hub_campaign_state.mission_queue -= mission_id
 	GLOB.hub_campaign_state.mission_briefs -= mission_id
+	GLOB.hub_campaign_state.mission_votes = list()
 	GLOB.hub_campaign_state.save()
 	message_admins("[key_name_admin(user)] removed hub mission '[mission_id]' from the queue.")
 	return TRUE
@@ -468,13 +516,87 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 /datum/game_master/proc/advance_hub_mission(mob/user)
 	if(!can_manage_hub(user) || !length(GLOB.hub_campaign_state.mission_queue))
 		return FALSE
-	GLOB.hub_campaign_state.current_hub_mission = GLOB.hub_campaign_state.mission_queue[1]
-	GLOB.hub_campaign_state.mission_queue.Cut(1, 2)
+	var/selected_mission = GLOB.hub_campaign_state.mission_queue[1]
+	var/highest_vote_count = -1
+	for(var/mission_id in GLOB.hub_campaign_state.mission_queue)
+		var/vote_count = 0
+		for(var/voter_ckey in GLOB.hub_campaign_state.mission_votes)
+			if(GLOB.hub_campaign_state.mission_votes[voter_ckey] == mission_id)
+				vote_count++
+		if(vote_count > highest_vote_count)
+			highest_vote_count = vote_count
+			selected_mission = mission_id
+	GLOB.hub_campaign_state.current_hub_mission = selected_mission
+	var/selected_index = GLOB.hub_campaign_state.mission_queue.Find(selected_mission)
+	if(selected_index)
+		GLOB.hub_campaign_state.mission_queue.Cut(selected_index, selected_index + 1)
+	GLOB.hub_campaign_state.mission_votes = list()
 	GLOB.hub_campaign_state.save()
 	var/brief = GLOB.hub_campaign_state.mission_briefs[GLOB.hub_campaign_state.current_hub_mission]
 	message_admins("[key_name_admin(user)] started next ship mission '[GLOB.hub_campaign_state.current_hub_mission]'.")
 	if(length(brief))
 		to_chat(world, SPAN_NOTICE("<b>MISSION: [GLOB.hub_campaign_state.current_hub_mission]</b><br>[brief]"))
 	return GLOB.hub_campaign_state.current_hub_mission
+
+/datum/hub_campaign_state/proc/get_mission_options(mob/user)
+	var/list/options = list()
+	var/player_vote = user?.ckey ? mission_votes[user.ckey] : null
+	for(var/mission_id in mission_queue)
+		var/vote_count = 0
+		for(var/voter_ckey in mission_votes)
+			if(mission_votes[voter_ckey] == mission_id)
+				vote_count++
+		options += list(list(
+			"id" = mission_id,
+			"brief" = mission_briefs[mission_id] || "No mission briefing provided.",
+			"votes" = vote_count,
+			"selected" = player_vote == mission_id
+		))
+	return options
+
+/datum/hub_campaign_state/proc/cast_mission_vote(mob/user, mission_id)
+	if(!user?.ckey || !(mission_id in mission_queue))
+		return FALSE
+	mission_votes[user.ckey] = mission_id
+	save()
+	return TRUE
+
+/obj/structure/machinery/computer/hub_mission_console
+	name = "mission selection console"
+	desc = "Review mission briefings and vote for the next assignment. A Game Master authorizes the final mission."
+	icon_state = "computer_generic"
+	use_power = USE_POWER_NONE
+
+/obj/structure/machinery/computer/hub_mission_console/ui_state(mob/user)
+	return GLOB.not_incapacitated_and_adjacent_state
+
+/obj/structure/machinery/computer/hub_mission_console/tgui_interact(mob/user, datum/tgui/ui)
+	ui = SStgui.try_update_ui(user, src, ui)
+	if(!ui)
+		ui = new(user, src, "MissionSelectionConsole", name)
+		ui.open()
+
+/obj/structure/machinery/computer/hub_mission_console/ui_data(mob/user)
+	return list(
+		"current_mission" = GLOB.hub_campaign_state.current_hub_mission,
+		"missions" = GLOB.hub_campaign_state.get_mission_options(user)
+	)
+
+/obj/structure/machinery/computer/hub_mission_console/ui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
+	. = ..()
+	if(.)
+		return
+	var/mob/user = ui.user
+	if(action != "vote_mission" || !ishuman(user) || !user.Adjacent(src))
+		return
+	if(GLOB.hub_campaign_state.cast_mission_vote(user, params["mission_id"]))
+		. = TRUE
+		SStgui.update_uis(src)
+
+/obj/structure/machinery/computer/hub_mission_console/attack_hand(mob/user)
+	if(..())
+		return
+	tgui_interact(user)
+	return TRUE
 
 #undef GM_HUB_MAX_MISSIONS
