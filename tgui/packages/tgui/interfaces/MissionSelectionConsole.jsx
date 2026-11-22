@@ -8,33 +8,37 @@ export const MissionSelectionConsole = (props, context) => {
   return (
     <Window width={560} height={500}>
       <Window.Content scrollable>
-        <Section title="Next mission">
+        <Section title="Следующая операция">
           <Box color="label">
-            Review the briefing and vote. A Game Master will assign the winning
-            mission.
+            Выбрать операцию может любой игрок. Оплату за выполненное задание выдаёт ГМ.
           </Box>
           {data.current_mission && (
             <Box mt={1} color="good">
-              Current assignment: {data.current_mission}
+              Текущая операция: {data.current_mission}
+              {data.current_objective && <Box mt={0.5}>Что нужно достать: {data.current_objective}</Box>}
+              {data.current_extra_text && <Box mt={0.5}>{data.current_extra_text}</Box>}
+              {data.current_reward != null && <Box mt={0.5}>Оплата за выполнение: ${data.current_reward} (выдаёт ГМ)</Box>}
             </Box>
           )}
         </Section>
         {(data.missions || []).map((mission) => (
-          <Section key={mission.id} title={mission.id}>
+          <Section key={mission.id} title={mission.name || mission.id}>
             <Stack align="center">
               <Stack.Item grow>
-                <Box style={{ whiteSpace: 'pre-wrap' }}>{mission.brief}</Box>
-                <Box color="label" mt={0.5}>
-                  {mission.votes} vote{mission.votes === 1 ? '' : 's'}
-                </Box>
+                <Box><b>Оплата за работу:</b> ${mission.reward || 0} (выдаёт ГМ)</Box>
+                <Box mt={0.5} style={{ whiteSpace: 'pre-wrap' }}><b>Что нужно достать:</b> {mission.objective}</Box>
+                {!!mission.extra_text && (
+                  <Box mt={0.5} style={{ whiteSpace: 'pre-wrap' }}>{mission.extra_text}</Box>
+                )}
               </Stack.Item>
               <Stack.Item>
                 <Button
-                  color={mission.selected ? 'good' : 'blue'}
-                  icon={mission.selected ? 'check' : 'vote-yea'}
-                  onClick={() => act('vote_mission', { mission_id: mission.id })}
+                  color="good"
+                  icon="play"
+                  disabled={!data.can_select}
+                  onClick={() => act('select_mission', { mission_id: mission.id })}
                 >
-                  {mission.selected ? 'Your choice' : 'Choose'}
+                  Выбрать операцию
                 </Button>
               </Stack.Item>
             </Stack>
@@ -43,7 +47,7 @@ export const MissionSelectionConsole = (props, context) => {
         {!data.missions?.length && (
           <Section>
             <Box color="label">
-              No missions are available yet. Ask a Game Master to add options.
+              Пока нет доступных операций. Попросите ГМ добавить задание.
             </Box>
           </Section>
         )}

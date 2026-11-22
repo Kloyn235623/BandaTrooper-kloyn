@@ -39,41 +39,29 @@ export const GameMasterMissionHubPanel = (props, context) => {
   const { data, act } = useBackend();
 
   return (
-    <Section title="Mission Hub">
+    <Section title="Штаб операций и снабжения">
       <Stack vertical>
         <Stack.Item>
-          Current mission: {data.current_hub_mission || 'None selected'}
+          Текущая операция: {data.current_hub_mission || 'не выбрана'}
         </Stack.Item>
         <Stack.Item>
-          <Box color="label" mb={0.5}>Choose the human NPC to place:</Box>
-          <Dropdown
-            options={data.hub_trader_profiles}
-            selected={data.selected_hub_trader_profile}
-            onSelected={(profile) => act('set_hub_trader_profile', { profile })}
-          />
+          <Box color="label" mb={0.5}>Торговец: квартирмейстер</Box>
           <Button onClick={() => act('place_hub_trader')}>
-            Place selected trader
+            Разместить торговца
           </Button>
           <Button onClick={() => act('place_hub_stash')}>
-            Place group supply locker
+            Разместить общий склад группы
           </Button>
           <Button onClick={() => act('place_hub_mission_console')}>
-            Place mission selection console
+            Разместить консоль операций
           </Button>
           <Button onClick={() => act('queue_hub_mission')}>
-            Add mission to queue
-          </Button>
-          <Button
-            color="good"
-            onClick={() => act('advance_hub_mission')}
-            disabled={!data.mission_queue?.length}
-          >
-            Complete task & start next
+            Добавить операцию
           </Button>
         </Stack.Item>
         <Stack.Item>
           <Box color="label">
-            Select a profile, click “Place selected trader”, then click a tile on the map.
+            Нажмите кнопку размещения, затем выберите клетку на карте.
           </Box>
         </Stack.Item>
         {(data.mission_queue || []).map((mission_id, index) => (
@@ -83,29 +71,29 @@ export const GameMasterMissionHubPanel = (props, context) => {
               color="bad"
               onClick={() => act('remove_hub_mission', { mission_id })}
             >
-              Remove
+              Удалить
             </Button>
           </Stack.Item>
         ))}
         <Stack.Item mt={1}>
-          <Section title="Group supply stock">
+          <Section title="Общий склад группы">
             {(data.group_stash_stock || []).map((entry) => (
               <Stack key={entry.type} align="center">
                 <Stack.Item grow>{entry.name}</Stack.Item>
                 <Stack.Item>
-                  {entry.count} available{entry.total_worth ? ` · $${entry.total_worth}` : ''}
+                  Доступно: {entry.count}{entry.total_worth ? ` · $${entry.total_worth}` : ''}
                 </Stack.Item>
                 <Stack.Item>
                   <Button
                     color="good"
                     onClick={() => act('issue_group_stash_item', { item_type: entry.type })}>
-                    Issue to group
+                    Выдать группе
                   </Button>
                 </Stack.Item>
               </Stack>
             ))}
             {!data.group_stash_stock?.length && (
-              <Box color="label">The shared locker is empty.</Box>
+              <Box color="label">Общий склад пуст.</Box>
             )}
           </Section>
         </Stack.Item>

@@ -7,36 +7,39 @@ import { Window } from '../layouts';
 export const MissionHubTrader = (props, context) => {
   const { data, act } = useBackend();
   const [tab, setTab] = useState('buy');
+  const entries = tab === 'buy'
+    ? data.offers
+    : (data.can_manage ? data.sell_prices : data.sellables);
 
   return (
     <Window width={500} height={560} theme="ntos">
       <Window.Content scrollable>
         <Section
-          title={data.trader_role || 'Mission Trader'}
+          title={data.trader_role === 'Quartermaster' ? 'Квартирмейстер' : 'Торговец'}
           color="good"
-          buttons={<Box color="good">SHIP SUPPLY NETWORK</Box>}>
+          buttons={<Box color="good">Снабжение корабля</Box>}>
           <Box color="label" mb={1}>
-            Equipment exchange · physical cash only
+            Обмен снаряжением · только наличные
           </Box>
           <Tabs>
             <Tabs.Tab
               selected={tab === 'buy'}
               onClick={() => setTab('buy')}>
-              Buy
+              Купить
             </Tabs.Tab>
             <Tabs.Tab
               selected={tab === 'sell'}
               onClick={() => setTab('sell')}>
-              Sell
+              Продать
             </Tabs.Tab>
           </Tabs>
           {data.can_manage && (
             <Box color="good" mt={1}>
-              GM: hold an item and click this person to list it. Set price to 0 to remove it.
+              ГМ: возьмите предмет и нажмите на торговца, чтобы настроить цену. Ноль удаляет его из выбранного каталога.
             </Box>
           )}
           <Stack vertical mt={1}>
-            {(tab === 'buy' ? data.offers : data.sellables)?.map((entry) => (
+            {entries?.map((entry) => (
               <Stack.Item key={entry.ref || entry.path}>
                 <Section level={2}>
                   <Stack align="center">
@@ -48,22 +51,24 @@ export const MissionHubTrader = (props, context) => {
                     <Stack.Item>
                       <Box color="label">${entry.price}</Box>
                     </Stack.Item>
-                    <Stack.Item>
-                      <Button
-                        color="good"
-                        icon={tab === 'buy' ? 'cart-plus' : 'cash-register'}
-                        onClick={() =>
-                          act(tab, tab === 'buy' ? { path: entry.path } : { ref: entry.ref })
-                        }>
-                        {tab === 'buy' ? 'Purchase' : 'Sell'}
-                      </Button>
-                    </Stack.Item>
-                    {tab === 'buy' && data.can_manage && (
+                    {!data.can_manage && (
+                      <Stack.Item>
+                        <Button
+                          color="good"
+                          icon={tab === 'buy' ? 'cart-plus' : 'cash-register'}
+                          onClick={() =>
+                            act(tab, tab === 'buy' ? { path: entry.path } : { ref: entry.ref })
+                          }>
+                          {tab === 'buy' ? 'Купить' : 'Продать'}
+                        </Button>
+                      </Stack.Item>
+                    )}
+                    {data.can_manage && (
                       <Stack.Item>
                         <Button
                           color="bad"
                           icon="trash"
-                          onClick={() => act('remove_offer', { path: entry.path })}
+                          onClick={() => act('remove_offer', { path: entry.path, direction: tab })}
                         />
                       </Stack.Item>
                     )}
@@ -71,12 +76,14 @@ export const MissionHubTrader = (props, context) => {
                 </Section>
               </Stack.Item>
             ))}
-            {!(tab === 'buy' ? data.offers : data.sellables)?.length && (
+            {!entries?.length && (
               <Stack.Item>
                 <Box color="label" textAlign="center" mt={3}>
                   {tab === 'buy'
-                    ? 'No equipment is currently listed.'
-                    : 'No listed items in your inventory.'}
+                    ? 'Снаряжение пока не выставлено.'
+                    : data.can_manage
+                      ? 'Список покупки у игроков пуст.'
+                      : 'У вас нет выставленных предметов.'}
                 </Box>
               </Stack.Item>
             )}

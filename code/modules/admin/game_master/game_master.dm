@@ -11,8 +11,6 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 /proc/open_game_master_panel(client/using_client)
 	set name = "Game Master Panel"
 	set category = "Game Master"
-	GLOB.hub_campaign_state?.restore_assets()
-
 	if(using_client.game_master_menu)
 		using_client.game_master_menu.tgui_interact(using_client.mob)
 		return
@@ -68,7 +66,6 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 #define HUB_STASH_PLACE_ACTION "hub_stash_place_action"
 #define HUB_MISSION_CONSOLE_PLACE_ACTION "hub_mission_console_place_action"
 
-#define HUB_TRADER_PROFILES list("Quartermaster", "Armorer", "Medical Supplier", "Field Mechanic")
 
 
 /datum/game_master
@@ -186,7 +183,6 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 	data["mission_queue"] = GLOB.hub_campaign_state.mission_queue.Copy()
 	data["current_hub_mission"] = GLOB.hub_campaign_state.current_hub_mission
 	data["group_stash_stock"] = GLOB.hub_campaign_state.get_group_stash_summary()
-	data["selected_hub_trader_profile"] = selected_hub_trader_profile
 
 	// Communication stuff
 	data["radio_clarity"] = GLOB.radio_communication_clarity
@@ -207,7 +203,6 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 	data["spawnable_hives"] = ALL_XENO_HIVES
 
 	data["selectable_behaviors"] = SELECTABLE_XENO_BEHAVIORS
-	data["hub_trader_profiles"] = HUB_TRADER_PROFILES
 
 	return data
 
@@ -342,23 +337,11 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 
 		//Communication Section
 		if("queue_hub_mission")
-			var/mission_id = tgui_input_text(ui.user, "Mission identifier", "Queue next mission", max_length = 64)
-			if(mission_id)
-				queue_hub_mission(ui.user, trim(mission_id))
+			queue_hub_mission(ui.user)
 			return TRUE
 
 		if("remove_hub_mission")
 			remove_hub_mission(ui.user, params["mission_id"])
-			return TRUE
-
-		if("advance_hub_mission")
-			advance_hub_mission(ui.user)
-			return TRUE
-
-		if("set_hub_trader_profile")
-			var/profile = params["profile"]
-			if(can_manage_hub(ui.user) && profile in HUB_TRADER_PROFILES)
-				selected_hub_trader_profile = profile
 			return TRUE
 
 		if("issue_group_stash_item")
@@ -518,12 +501,10 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 			var/turf/place_turf = get_turf(object)
 			if(!place_turf || !can_manage_hub(user))
 				return TRUE
-			var/trader_type = get_hub_trader_type(selected_hub_trader_profile)
+			var/trader_type = get_hub_trader_type("Quartermaster")
 			if(!trader_type)
 				return TRUE
-			var/mob/living/carbon/human/hub_trader/trader = new trader_type(place_turf)
-			trader.randomize_hub_identity()
-			GLOB.hub_campaign_state.record_asset(trader_type, place_turf, trader)
+			new trader_type(place_turf)
 			reset_click_overrides()
 			return TRUE
 
@@ -532,7 +513,6 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 			if(!stash_turf || !can_manage_hub(user))
 				return TRUE
 			new /obj/structure/closet/hub_persistent_stash(stash_turf)
-			GLOB.hub_campaign_state.record_asset(/obj/structure/closet/hub_persistent_stash, stash_turf)
 			reset_click_overrides()
 			return TRUE
 
@@ -541,7 +521,6 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 			if(!console_turf || !can_manage_hub(user))
 				return TRUE
 			new /obj/structure/machinery/computer/hub_mission_console(console_turf)
-			GLOB.hub_campaign_state.record_asset(/obj/structure/machinery/computer/hub_mission_console, console_turf)
 			reset_click_overrides()
 			return TRUE
 		else
