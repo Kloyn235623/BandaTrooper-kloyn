@@ -11,6 +11,7 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 /proc/open_game_master_panel(client/using_client)
 	set name = "Game Master Panel"
 	set category = "Game Master"
+	GLOB.hub_campaign_state?.restore_assets()
 
 	if(using_client.game_master_menu)
 		using_client.game_master_menu.tgui_interact(using_client.mob)
@@ -63,6 +64,10 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 #define BEHAVIOR_CLICK_INTERCEPT_ACTION "behavior_click_intercept_action"
 #define OBJECTIVE_CLICK_INTERCEPT_ACTION "objective_click_intercept_action"
 #define RECORD_CREATE_CLICK_INTERCEPT_ACTION "record_create_click_intercept_action"
+#define HUB_TRADER_PLACE_ACTION "hub_trader_place_action"
+#define HUB_STASH_PLACE_ACTION "hub_stash_place_action"
+
+#define HUB_TRADER_PROFILES list("Quartermaster", "Armorer", "Medical Supplier", "Field Mechanic")
 
 
 /datum/game_master
@@ -176,6 +181,11 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 	// Objective stuff
 	data["objective_click_intercept"] = objective_click_intercept
 	data["game_master_objectives"] = length(GLOB.game_master_objectives) ? GLOB.game_master_objectives : ""
+	// Mission hub sequence (Game Master controlled).
+	data["mission_queue"] = GLOB.hub_campaign_state.mission_queue.Copy()
+	data["current_hub_mission"] = GLOB.hub_campaign_state.current_hub_mission
+	data["group_stash_stock"] = GLOB.hub_campaign_state.get_group_stash_summary()
+	data["selected_hub_trader_profile"] = selected_hub_trader_profile
 
 	// Communication stuff
 	data["radio_clarity"] = GLOB.radio_communication_clarity
@@ -196,6 +206,7 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 	data["spawnable_hives"] = ALL_XENO_HIVES
 
 	data["selectable_behaviors"] = SELECTABLE_XENO_BEHAVIORS
+	data["hub_trader_profiles"] = HUB_TRADER_PROFILES
 
 	return data
 
@@ -329,6 +340,40 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 			remove_objective(objective_atom)
 
 		//Communication Section
+		if("queue_hub_mission")
+			var/mission_id = tgui_input_text(ui.user, "Mission identifier", "Queue next mission", max_length = 64)
+			if(mission_id)
+				queue_hub_mission(ui.user, trim(mission_id))
+			return TRUE
+
+		if("remove_hub_mission")
+			remove_hub_mission(ui.user, params["mission_id"])
+			return TRUE
+
+		if("advance_hub_mission")
+			advance_hub_mission(ui.user)
+			return TRUE
+
+		if("set_hub_trader_profile")
+			var/profile = params["profile"]
+			if(can_manage_hub(ui.user) && profile in HUB_TRADER_PROFILES)
+				selected_hub_trader_profile = profile
+			return TRUE
+
+		if("issue_group_stash_item")
+			issue_group_stash_item(ui.user, params["item_type"])
+			return TRUE
+
+		if("place_hub_trader")
+			reset_click_overrides()
+			current_click_intercept_action = HUB_TRADER_PLACE_ACTION
+			return TRUE
+
+		if("place_hub_stash")
+			reset_click_overrides()
+			current_click_intercept_action = HUB_STASH_PLACE_ACTION
+			return TRUE
+
 		if("use_game_master_phone")
 			game_master_phone.attack_hand(ui.user)
 
@@ -461,6 +506,29 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 			var/mob/living/carbon/human/target = object
 			GLOB.data_core.manifest_inject(target)
 			to_chat(user, SPAN_NOTICE("Record created for [target.real_name]"))
+			return TRUE
+
+		if(HUB_TRADER_PLACE_ACTION)
+			var/turf/place_turf = get_turf(object)
+			if(!place_turf || !can_manage_hub(user))
+				return TRUE
+			var/trader_type = get_hub_trader_type(selected_hub_trader_profile)
+			if(!trader_type)
+				return TRUE
+			var/mob/living/carbon/human/hub_trader/trader = new trader_type(place_turf)
+			trader.real_name = "[trader.trader_role] ([rand(100,999)])"
+			trader.name = trader.real_name
+			GLOB.hub_campaign_state.record_asset(trader_type, place_turf)
+			reset_click_overrides()
+			return TRUE
+
+		if(HUB_STASH_PLACE_ACTION)
+			var/turf/stash_turf = get_turf(object)
+			if(!stash_turf || !can_manage_hub(user))
+				return TRUE
+			new /obj/structure/closet/hub_persistent_stash(stash_turf)
+			GLOB.hub_campaign_state.record_asset(/obj/structure/closet/hub_persistent_stash, stash_turf)
+			reset_click_overrides()
 			return TRUE
 		else
 			if(LAZYACCESS(modifiers, MIDDLE_CLICK))
