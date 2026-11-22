@@ -233,7 +233,7 @@ GLOBAL_DATUM_INIT(hub_campaign_state, /datum/hub_campaign_state, new)
 	if(!islist(appearance))
 		return
 	for(var/variable in appearance)
-	if(variable in list("gender", "age", "body_type", "body_size", "skin_color", "r_skin", "g_skin", "b_skin", "h_style", "f_style", "r_hair", "g_hair", "b_hair", "r_gradient", "g_gradient", "b_gradient", "grad_style", "r_facial", "g_facial", "b_facial", "r_eyes", "g_eyes", "b_eyes", "undershirt", "underwear"))
+		if(variable in list("gender", "age", "body_type", "body_size", "skin_color", "r_skin", "g_skin", "b_skin", "h_style", "f_style", "r_hair", "g_hair", "b_hair", "r_gradient", "g_gradient", "b_gradient", "grad_style", "r_facial", "g_facial", "b_facial", "r_eyes", "g_eyes", "b_eyes", "undershirt", "underwear"))
 			vars[variable] = appearance[variable]
 	update_body()
 	update_hair()
