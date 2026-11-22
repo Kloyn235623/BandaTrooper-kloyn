@@ -66,6 +66,7 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 #define RECORD_CREATE_CLICK_INTERCEPT_ACTION "record_create_click_intercept_action"
 #define HUB_TRADER_PLACE_ACTION "hub_trader_place_action"
 #define HUB_STASH_PLACE_ACTION "hub_stash_place_action"
+#define HUB_MISSION_CONSOLE_PLACE_ACTION "hub_mission_console_place_action"
 
 #define HUB_TRADER_PROFILES list("Quartermaster", "Armorer", "Medical Supplier", "Field Mechanic")
 
@@ -374,6 +375,11 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 			current_click_intercept_action = HUB_STASH_PLACE_ACTION
 			return TRUE
 
+		if("place_hub_mission_console")
+			reset_click_overrides()
+			current_click_intercept_action = HUB_MISSION_CONSOLE_PLACE_ACTION
+			return TRUE
+
 		if("use_game_master_phone")
 			game_master_phone.attack_hand(ui.user)
 
@@ -516,9 +522,8 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 			if(!trader_type)
 				return TRUE
 			var/mob/living/carbon/human/hub_trader/trader = new trader_type(place_turf)
-			trader.real_name = "[trader.trader_role] ([rand(100,999)])"
-			trader.name = trader.real_name
-			GLOB.hub_campaign_state.record_asset(trader_type, place_turf)
+			trader.randomize_hub_identity()
+			GLOB.hub_campaign_state.record_asset(trader_type, place_turf, trader)
 			reset_click_overrides()
 			return TRUE
 
@@ -528,6 +533,15 @@ GLOBAL_VAR_INIT(radio_communication_clarity, 100)
 				return TRUE
 			new /obj/structure/closet/hub_persistent_stash(stash_turf)
 			GLOB.hub_campaign_state.record_asset(/obj/structure/closet/hub_persistent_stash, stash_turf)
+			reset_click_overrides()
+			return TRUE
+
+		if(HUB_MISSION_CONSOLE_PLACE_ACTION)
+			var/turf/console_turf = get_turf(object)
+			if(!console_turf || !can_manage_hub(user))
+				return TRUE
+			new /obj/structure/machinery/computer/hub_mission_console(console_turf)
+			GLOB.hub_campaign_state.record_asset(/obj/structure/machinery/computer/hub_mission_console, console_turf)
 			reset_click_overrides()
 			return TRUE
 		else

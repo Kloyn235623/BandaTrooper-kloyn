@@ -57,6 +57,9 @@ export const GameMasterMissionHubPanel = (props, context) => {
           <Button onClick={() => act('place_hub_stash')}>
             Place group supply locker
           </Button>
+          <Button onClick={() => act('place_hub_mission_console')}>
+            Place mission selection console
+          </Button>
           <Button onClick={() => act('queue_hub_mission')}>
             Add mission to queue
           </Button>
