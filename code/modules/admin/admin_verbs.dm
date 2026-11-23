@@ -391,6 +391,7 @@ GLOBAL_LIST_INIT(roundstart_mod_verbs, list(
 		add_verb(src, /client/proc/toggle_rappel_menu)
 		add_verb(src, /client/proc/toggle_fire_support_menu)
 		add_verb(src, /client/proc/gm_lighting)
+		add_verb(src, /client/proc/gm_base_lighting) // SS220 EDIT: expose optimized base-lighting control
 // SS220 EDIT - START - HALO upstream PR #171 Shipmap Lighting Verb
 		add_verb(src, /client/proc/gm_shipmap_lighting)
 // SS220 EDIT - END
@@ -452,6 +453,7 @@ GLOBAL_LIST_INIT(roundstart_mod_verbs, list(
 		/client/proc/toggle_intro,
 		/client/proc/toggle_slot_preferences, // SS220 EDIT: Dog War slot preferences toggle
 		/client/proc/gm_lighting,
+		/client/proc/gm_base_lighting, // SS220 EDIT: remove base-lighting control with GM verbs
 		/client/proc/toggle_droppod_menu, // SS220 EDIT: keep modular HALO droppod verb removable with the shared admin hide list
 		/client/proc/open_world_edit_panel, // SS220 EDIT: keep World Edit removable with the shared admin verb reset path
 		GLOB.admin_verbs_admin,

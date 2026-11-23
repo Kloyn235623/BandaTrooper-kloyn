@@ -3856,7 +3856,7 @@
 /area/golden_arrow/hangar)
 "iJ" = (
 /obj/structure/ladder{
-	id = "enginorth1"444";
+	id = "enginorth1";
 	height = -1;
 	pixel_y = 16
 	},

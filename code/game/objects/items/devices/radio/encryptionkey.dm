@@ -340,6 +340,15 @@
 	channels = list(RADIO_CHANNEL_WY_WO = TRUE, RADIO_CHANNEL_WY = TRUE)
 
 //---------------------------------------------------
+//Hyperdyne Keys
+
+/obj/item/device/encryptionkey/hyperdyne
+	name = "\improper Hyperdyne Corporation encryption key"
+	icon_state = "ce_key"
+	channels = list(RADIO_CHANNEL_HYPERDYNE = TRUE)
+	tracking_options = list("Corporate Liaison" = TRACKER_CL)
+
+//---------------------------------------------------
 //UPP Keys
 /obj/item/device/encryptionkey/upp
 	name = "\improper UPP Naval Infantry Radio Encryption Key"
@@ -500,3 +509,7 @@
 	name = "\improper French FIL Radio Encryption Key"
 	icon_state = "stripped_key"
 	channels = list(RADIO_CHANNEL_FIL = TRUE, RADIO_CHANNEL_COLONY = TRUE)
+/obj/item/device/encryptionkey/wy_sec // SS220 EDIT: restore the security key used by the imported colony headset.
+	name = "\\improper Weyland-Yutani Security encryption key"
+	icon_state = "wy_sec_key"
+	channels = list(RADIO_CHANNEL_WY_PUB = TRUE, RADIO_CHANNEL_WY_SEC = TRUE)

@@ -384,6 +384,12 @@
 /obj/item/clothing/head/cmcap/boonie/snow
 	icon_state = "booniehat_snow"
 
+/obj/item/clothing/head/cmcap/boonie/fisherman
+	name = "\improper fisherman's boonie hat"
+	desc = "A floppy boonie hat with hooks, lines, and sinkers tucked around the band—clearly the choice of a seasoned angler. Offers shade from the sun and some rain protection."
+	icon_state = "booniehat_fisher"
+	flags_atom = FPRINT|NO_SNOW_TYPE
+
 /obj/item/clothing/head/cmcap/co
 	name = "\improper USCM Commanding officer cap"
 	icon_state = "cocap"
@@ -658,6 +664,111 @@
 	name = "\improper PMC field officer beret"
 	icon_state = "field_officer_hat"
 
+/obj/item/clothing/head/cmcap/upp
+	name = "\improper UL2 cap"
+	desc = "Standard issue patrol cap of the UPP's military."
+	icon = 'icons/obj/items/clothing/cm_hats.dmi'
+	icon_state = "upp_cap"
+	item_icons = list(
+		WEAR_HEAD = 'icons/mob/humans/onmob/head_1.dmi'
+	)
+	siemens_coefficient = 2
+	flags_armor_protection = BODY_FLAG_HEAD
+	armor_melee = CLOTHING_ARMOR_VERYLOW
+	armor_bullet = CLOTHING_ARMOR_NONE
+	armor_laser = CLOTHING_ARMOR_NONE
+	armor_energy = CLOTHING_ARMOR_NONE
+	armor_bomb = CLOTHING_ARMOR_NONE
+	armor_bio = CLOTHING_ARMOR_NONE
+	armor_rad = CLOTHING_ARMOR_NONE
+	armor_internaldamage = CLOTHING_ARMOR_NONE
+	flags_cold_protection = BODY_FLAG_HEAD
+	min_cold_protection_temperature = ICE_PLANET_MIN_COLD_PROT
+	flags_inventory = null
+/obj/item/clothing/head/cmcap/upp/civi
+	name = "\improper UL2c cap"
+	icon_state = "upp_cap_civi"
+/obj/item/clothing/head/cmcap/upp/civi/plant_worker
+	name = "white worker cap"
+	desc = "A simple white fabric cap, commonly worn by various UPP workers to keep hair contained and maintain cleanliness. Lightweight and practical, but not very durable."
+	icon_state = "plant_work_cap"
+/obj/item/clothing/head/cmcap/upp/boonie
+	name = "\improper UL5 hat"
+	desc = "Standard issue soft brimmed hat for Territorial Guard units stationed in areas with extreme heat."
+	icon_state = "upp_boonie"
+/obj/item/clothing/head/cmcap/upp/boonie/canc
+	name = "\improper boonie hat"
+	desc = "A boonie hat in CANC uniform colors."
+	icon_state = "canc_boonie"
+/obj/item/clothing/head/cmcap/upp/beret/guerilla
+	name = "\improper red beret"
+	desc = "A red beret popular with communist revolutionaries."
+	icon_state = "upp_beret_revolution"
+/obj/item/clothing/head/cmcap/upp/peaked
+	name = "\improper UL3 peaked cap"
+	desc = "Standard issue peaked service cap of the UPP's military."
+	icon_state = "upp_peaked"
+/obj/item/clothing/head/cmcap/upp/peaked/police
+	name = "\improper UL3 PaP peaked cap"
+	desc = "Standard issue peaked cap of the People's Armed Police."
+	icon_state = "upp_peaked_police"
+/obj/item/clothing/head/cmcap/upp/peaked/mss
+	name = "\improper UL3 MSS peaked cap"
+	desc = "Standard issue peaked cap of the Ministry of Space Security."
+	icon_state = "upp_peaked_mss"
+/obj/item/clothing/head/cmcap/upp/ushanka
+	name = "\improper UL2 ushanka"
+	desc = "Standard issue cold weather hat of the UPP's military."
+	icon_state = "upp_ushanka"
+	item_state = "upp_ushanka"
+	var/tied = FALSE
+	var/original_state = "upp_ushanka"
+	flags_inv_hide = HIDEEARS
+/obj/item/clothing/head/cmcap/upp/ushanka/verb/flaps_up()
+	set name = "Tie Up/Down"
+	set category = "Object"
+	set src in usr
+	if(usr.is_mob_incapacitated())
+		return
+	tied = !tied
+	if(tied)
+		to_chat(usr, SPAN_NOTICE("You tie \the [src] up."))
+		icon_state += "_up"
+	else
+		to_chat(usr, SPAN_NOTICE("You untie \the [src]."))
+		icon_state = original_state
+	update_clothing_icon(src) //Update the on-mob icon.
+/obj/item/clothing/head/cmcap/upp/ushanka/civi
+	name = "\improper UL2c ushanka"
+	icon_state = "upp_ushanka_civi"
+	item_state = "upp_ushanka_civi"
+	original_state = "upp_ushanka_civi"
+/obj/item/clothing/head/cmcap/upp/beret
+	name = "\improper UL3 beret"
+	desc = "Standard issue beret of the UPP's military."
+	icon_state = "upp_beret"
+	item_state = "upp_beret"
+/obj/item/clothing/head/cmcap/upp/beret/army
+	name = "\improper UL3 Army beret"
+	desc = "A well-made beret worn by reservists of the UPP armed forces. It signifies their continued commitment to the cause, even while not on active duty, and serves as a symbol of unity and service."
+	icon_state = "upp_army_beret"
+	item_state = "upp_army_beret"
+/obj/item/clothing/head/cmcap/upp/beret/naval
+	name = "\improper UL4 Naval Infantry beret"
+	desc = "A black beret worn by the UPP's Naval Infantry. Wear it with pride."
+	icon_state = "upp_beret_naval"
+	item_state = "upp_beret_naval"
+/obj/item/clothing/head/cmcap/upp/beret/sof
+	name = "\improper UL5 Space Operations Force beret"
+	desc = "A finely crafted beret worn by members of the UPP Space Operations Forces. It signifies service in the void, from deep-space missions to planetary operations, and is a mark of discipline and camaraderie among its wearers."
+	icon_state = "sof_beret"
+	item_state = "sof_beret"
+/obj/item/clothing/head/helmet/marine/veteran/upp/firefighter
+	name = "T-20 firefighter helmet"
+	desc = "A reinforced, heat-resistant helmet issued to UPP emergency responders. Its durable composite shell provides protection against falling debris and extreme heat, while the attached fire-resistant shroud shields the wearer’s neck and shoulders. A red star is emblazoned on the front, marking its service within the Union."
+	icon_state = "firefighter"
+	flags_heat_protection = BODY_FLAG_HEAD
+	max_heat_protection_temperature = FIRE_HELMET_MAX_HEAT_PROT
 //==========================//PROTECTIVE\\===============================\\
 //=======================================================================\\
 

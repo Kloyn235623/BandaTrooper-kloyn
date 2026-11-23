@@ -5,7 +5,7 @@
     "environment_traits": {
         "COLD": true
     },
-    "weather_holder": "/datum/weather_ss_map_holder/sorokyne",
+    "weather_holder": "/datum/weather_ss_map_holder/sorokyne_legacy",
     "defcon_triggers": [
         3300,
         2100,
@@ -26,7 +26,6 @@
         "xeno_hive_charlie": 0,
         "xeno_hive_delta": 0
     },
-    "nightmare_path": "maps/Nightmare/maps/Ice_Colony_v1/",
     "camouflage": "snow",
     "gamemodes": [
         "Distress Signal",

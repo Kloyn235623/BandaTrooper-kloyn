@@ -1738,7 +1738,7 @@
 /area/fire_colony/interior/hangar/lb_dropship)
 "RH" = (
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
-/obj/structure/machinery/door/poddoor/hybrisa/shutters/open{
+/obj/structure/machinery/door/poddoor/hybrisa/open_shutters{
 	id = "hangar_ice_1"
 	},
 /turf/open/floor/corsat,
@@ -1961,7 +1961,7 @@
 /turf/closed/wall/lava/solaris_dark,
 /area/fire_colony/interior/hangar/alpha)
 "Wn" = (
-/obj/structure/machinery/door/poddoor/hybrisa/shutters/open{
+/obj/structure/machinery/door/poddoor/hybrisa/open_shutters{
 	id = "hangar_ice_1"
 	},
 /turf/open/floor/corsat,

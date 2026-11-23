@@ -19,6 +19,12 @@
 	desc = "A large sign reading 'Lazarus Landing' the rest of it is smeared in blood."
 	icon_state = "laz_sign_d"
 
+/obj/structure/lz_sign/lazarus_sign/clean
+	name = "Lazarus Landing Sign"
+	desc = "A large sign reading 'lazarus landing por-' the rest of it is smeared in blood."
+	icon = 'icons/obj/structures/props/landing_signs.dmi'
+	icon_state = "laz_sign_clean"
+
 /obj/structure/lz_sign/solaris_sign
 	name = "Solaris Ridge Sign"
 	desc = "A large sign that reads 'Solaris Ridge -', the rest of it is scraped away."
@@ -49,11 +55,11 @@
 
 /obj/structure/lz_sign/sorokyne_sign
 	name = "Sorokyne landing sign"
-	desc = "A large sign that reads 'Sorokyne - СОРОКІНО - POP. 110' The Company logo is proudly emblazoned in the corner. Don't eat the resin coated snow."
+	desc = "A large sign that reads 'Sorokyne - СОРОКІНО - POP. 110' The UPP 'Star' logo is proudly emblazoned in the corner."
 	icon_state = "sorokyne_sign_1"
 
 /obj/structure/lz_sign/sorokyne_sign/interior
-	desc = "A large sign that reads 'Sorokyne - СОРОКІНО - POP. 110' The Company logo is proudly emblazoned in the corner. Someone has crudely written 'FUCK OFF' in teal paint across the majority of the sign."
+	desc = "A large sign that reads 'Sorokyne - СОРОКІНО - POP. 110' The UPP 'Star' is proudly emblazoned in the corner. Someone has crudely written 'FUCK OFF' in teal paint across the majority of the sign."
 	icon_state = "sorokyne_sign_2"
 
 /obj/structure/lz_sign/new_varadero

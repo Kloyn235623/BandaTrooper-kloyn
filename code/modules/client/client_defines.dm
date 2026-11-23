@@ -71,6 +71,9 @@
 
 	var/datum/entity/player_entity/player_entity = null
 
+	/// Fast membership cache for render relay objects currently added to this client's screen.
+	var/alist/render_plates_shown = alist() // SS220 EDIT: avoid repeated linear screen-list searches for multiz planes.
+
 	//Asset cache
 	// List of all asset filenames sent to this client by the asset cache, along with their assoicated md5s
 	var/list/sent_assets = list()

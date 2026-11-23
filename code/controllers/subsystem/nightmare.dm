@@ -75,12 +75,25 @@ SUBSYSTEM_DEF(nightmare)
 /// Load nightmare steps relevant to a map
 /datum/controller/subsystem/nightmare/proc/load_map_config(context_name, map_type)
 	var/datum/map_config/MC = SSmapping.configs[map_type]
+	// SS220 EDIT - START
+	if(!MC.nightmare_path)
+		return
+	var/scenario_file = "[MC.nightmare_path]/[NIGHTMARE_FILE_SCENARIO]"
+	var/base_file = "[MC.nightmare_path]/[NIGHTMARE_FILE_BASE]"
+	var/has_scenario = fexists(scenario_file)
+	var/has_base = fexists(base_file)
+	if(!has_scenario && !has_base)
+		log_debug("Nightmare: Skipping empty map context {[context_name],[map_type]} (no map-specific config files)")
+		return
+	// SS220 EDIT - END
 	var/datum/nmcontext/CTX = new /datum/nmcontext/map
 	contexts[context_name] = CTX
 	CTX.config["prefix_map"] = "maps/[MC.map_path]"
 	CTX.config["prefix_nightmare"] = MC.nightmare_path
-	load_file("[MC.nightmare_path]/[NIGHTMARE_FILE_SCENARIO]", "[context_name]-[NIGHTMARE_ACT_SCENARIO]")
-	load_file("[MC.nightmare_path]/[NIGHTMARE_FILE_BASE]", "[context_name]-[NIGHTMARE_ACT_BASE]")
+	if(has_scenario)
+		load_file(scenario_file, "[context_name]-[NIGHTMARE_ACT_SCENARIO]")
+	if(has_base)
+		load_file(base_file, "[context_name]-[NIGHTMARE_ACT_BASE]")
 	log_debug("Nightmare: Loaded map environment {[context_name],[map_type]}")
 
 /// Returns a value from the global scenario

@@ -1197,6 +1197,26 @@
 	frequency = WY_FREQ
 	initial_keys = list(/obj/item/device/encryptionkey/colony, /obj/item/device/encryptionkey/WY)
 
+/obj/item/device/radio/headset/distress/WY/security
+	name = "WY corporate security headset"
+	desc = "A headset commonly worn by WY corporate security personnel."
+	initial_keys = list(/obj/item/device/encryptionkey/colony, /obj/item/device/encryptionkey/wy_sec)
+/obj/item/device/radio/headset/distress/WY/security/guard
+	name = "WY personal protection headset"
+	desc = "Issued to Corporate Security personnel. Channels are as follows: :v - marine command, :a - alpha squad, :b - bravo squad, :c - charlie squad, :d - delta squad, :n - engineering, :m - medbay, :u - requisitions, :j - JTAC, :t - intel, :1 for WY Public, :y for WY Corporate and #y for WY Security."
+	misc_tracking = TRUE
+	locate_setting = TRACKER_CL
+	inbuilt_tracking_options = list(
+		"Corporate Liaison" = TRACKER_CL
+	)
+/obj/item/device/radio/headset/distress/hyperdyne
+	name = "HC corporate headset"
+	desc = "A headset commonly worn by Hyperdyne corporate personnel."
+	icon_state = "generic_headset"
+	frequency = HDC_FREQ
+	initial_keys = list(/obj/item/device/encryptionkey/colony, /obj/item/device/encryptionkey/hyperdyne)
+	has_hud = TRUE
+	hud_type = MOB_HUD_FACTION_HC
 /obj/item/device/radio/headset/distress/dutch
 	name = "Dutch's Dozen headset"
 	desc = "A special headset used by small groups of trained operatives. Or terrorists. To access the colony channel, use :h."
@@ -1464,10 +1484,21 @@
 
 /obj/item/device/radio/headset/distress/NSPA
 	name = "NSPA Headset"
-	desc = "NSPA headset."
+	desc = "A special headset used by the NSPA."
 	frequency = RMC_FREQ
 	icon_state = "vai_headset"
 	initial_keys = list(/obj/item/device/encryptionkey/public, /obj/item/device/encryptionkey/royal_marine)
+	volume = RADIO_VOLUME_IMPORTANT
+
+/obj/item/device/radio/headset/distress/PaP
+	name = "\improper UPP PaP headset"
+	desc = "A special headset used by the People's Armed Police of the UPP."
+	frequency = UPP_FREQ
+	icon_state = "sec_headset"
+	initial_keys = list(/obj/item/device/encryptionkey/colony, /obj/item/device/encryptionkey/upp)
+	ignore_z = FALSE
+	has_hud = TRUE
+	hud_type = list(MOB_HUD_FACTION_PAP, MOB_HUD_FACTION_UPP)
 	volume = RADIO_VOLUME_IMPORTANT
 
 /obj/item/device/radio/headset/almayer/highcom

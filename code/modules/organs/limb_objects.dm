@@ -6,95 +6,83 @@
 	///What bone would be in this limb?
 	var/bone_type
 
-/obj/item/limb/New(loc, mob/living/carbon/human/H)
+/obj/item/limb/New(loc, mob/living/carbon/human/limbus)
 	..(loc)
-	if(!istype(H))
+	if(!istype(limbus))
 		return
 
 	//Forming icon for the limb
 
 	//Setting base icon for this mob's race
 	var/icon/base
-	if(H.species && H.species.icobase)
-		base = icon(H.species.icobase)
+	if(limbus.species && limbus.species.icobase)
+		base = icon(limbus.species.icobase)
 	else
 		base = icon('icons/mob/humans/species/r_human.dmi')
 
 
 	icon = base
-	var/datum/skin_color/set_skin_color = GLOB.skin_color_list[H.skin_color]
-	var/datum/body_type/set_body_type = GLOB.body_type_list[H.body_type]
-	var/datum/body_size/set_body_size = GLOB.body_size_list[H.body_size]
+	var/datum/skin_color/set_skin_color = GLOB.skin_color_list[limbus.skin_color] || GLOB.skin_color_list[SKIN_COLOR_PALE2]
+	var/skin_color_icon = set_skin_color?.icon_name
 
-	var/skin_color_icon
-	var/body_type_icon
-	var/body_size_icon
+	var/datum/body_type/set_body_type = GLOB.body_type_list[limbus.body_type] || GLOB.body_type_list[BODY_TYPE_LEAN]
+	var/body_type_icon = set_body_type?.icon_name
 
-	if(!set_skin_color)
-		skin_color_icon = "pale2"
-	else
-		skin_color_icon = set_skin_color.icon_name
+	var/datum/body_size/set_body_size = GLOB.body_size_list[limbus.body_size] || GLOB.body_size_list[BODY_SIZE_AVERAGE]
+	var/body_size_icon = set_body_size?.icon_name
 
-	if(!set_body_type)
-		body_type_icon = "lean"
-	else
-		body_type_icon = set_body_type.icon_name
+	if(isspeciesyautja(limbus))
+		skin_color_icon = limbus.skin_color
+		body_type_icon = limbus.body_type
 
-	if(!set_body_size)
-		body_size_icon = "avg"
-	else
-		body_size_icon = set_body_size.icon_name
+	if(isspeciesyautja(limbus))
+		skin_color_icon = limbus.skin_color
+		body_type_icon = limbus.body_type
 
-	if(isspeciesyautja(H))
-		skin_color_icon = H.skin_color
-		body_type_icon = H.body_type
+	if(isspeciessangheili(limbus) || isspeciesunggoy(limbus) || isspeciesruuhtian(limbus) || isspeciesspartan(limbus)) // SS220 EDIT: HALO limb item visuals
+		skin_color_icon = limbus.skin_color
+		body_type_icon = limbus.body_type
 
-	if(isspeciessangheili(H) || isspeciesunggoy(H) || isspeciesruuhtian(H) || isspeciesspartan(H)) // SS220 EDIT: HALO limb item visuals
-		skin_color_icon = H.skin_color
-		body_type_icon = H.body_type
-
-	icon_state = "[get_limb_icon_name(H.species, body_size_icon, body_type_icon, H.gender, initial(name), skin_color_icon)]" // SS220 EDIT: dropped limb icons must stay keyed by canonical limb ids on localized servers
+	icon_state = "[get_limb_icon_name(limbus.species, body_size_icon, body_type_icon, limbus.gender, initial(name), skin_color_icon, limbus.body_presentation)]" // SS220 EDIT: use canonical limb ids and the selected body presentation.
 	setDir(SOUTH)
 	apply_transform(turn(transform, rand(70,130)))
 
-
-
 /obj/item/limb/arm/l_arm
 	name = "left arm"
-	icon_state = "l_arm"
+	icon_state = "pale0_left_arm"
 	bone_type = /obj/item/clothing/accessory/limb/skeleton/l_arm
 /obj/item/limb/foot/l_foot
 	name = "left foot"
-	icon_state = "l_foot"
+	icon_state = "pale0_left_foot"
 	bone_type = /obj/item/clothing/accessory/limb/skeleton/l_foot
 /obj/item/limb/hand/l_hand
 	name = "left hand"
-	icon_state = "l_hand"
+	icon_state = "pale0_left_hand"
 	bone_type = /obj/item/clothing/accessory/limb/skeleton/l_hand
 /obj/item/limb/leg/l_leg
 	name = "left leg"
-	icon_state = "l_leg"
+	icon_state = "pale0_left_leg"
 	bone_type = /obj/item/clothing/accessory/limb/skeleton/l_leg
 /obj/item/limb/arm/r_arm
 	name = "right arm"
-	icon_state = "r_arm"
+	icon_state = "pale0_right_arm"
 	bone_type = /obj/item/clothing/accessory/limb/skeleton/r_arm
 /obj/item/limb/foot/r_foot
 	name = "right foot"
-	icon_state = "r_foot"
+	icon_state = "pale0_right_foot"
 	bone_type = /obj/item/clothing/accessory/limb/skeleton/r_foot
 /obj/item/limb/hand/r_hand
 	name = "right hand"
-	icon_state = "r_hand"
+	icon_state = "pale0_right_hand"
 	bone_type = /obj/item/clothing/accessory/limb/skeleton/r_hand
 /obj/item/limb/leg/r_leg
 	name = "right leg"
-	icon_state = "r_leg"
+	icon_state = "pale0_right_leg"
 	bone_type = /obj/item/clothing/accessory/limb/skeleton/r_leg
 
 /obj/item/limb/head
 	name = "head"
-	icon_state = "head_m"
+	icon_state = "pale0_head"
 	bone_type = /obj/item/clothing/accessory/limb/skeleton/head
 	unacidable = TRUE
 	var/mob/living/brain/brainmob

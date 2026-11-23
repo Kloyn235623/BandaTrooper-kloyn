@@ -153,6 +153,25 @@
 /turf/proc/update_icon() //Base parent. - Abby
 	return
 
+// SS220 EDIT - START
+/turf/proc/update_vis_contents()
+	if(!istype(src, /turf/open_space))
+		return
+	vis_contents.Cut()
+	for(var/obj/vis_contents_holder/holder in src)
+		qdel(holder)
+	var/turf/below = SSmapping.get_turf_below(src)
+	var/depth = 0
+	while(below && depth <= OPEN_SPACE_PLANE_START - OPEN_SPACE_PLANE_END)
+		var/below_transparent = istype(below, /turf/open_space)
+		new /obj/vis_contents_holder(src, below, depth, !below_transparent || !istype(below, /turf/open_space))
+		if(!below_transparent)
+			break
+		below = SSmapping.get_turf_below(below)
+		depth++
+	return
+// SS220 EDIT - END
+
 /// Call to move a turf from its current area to a new one
 /turf/proc/change_area(area/old_area, area/new_area)
 	//dont waste our time
@@ -411,10 +430,13 @@
 	//hybrid lighting
 	var/list/old_hybrid_lights_affecting = hybrid_lights_affecting?.Copy()
 	var/old_directional_opacity = directional_opacity
+	var/turf/above_turf = SSmapping.get_turf_above(src) // SS220 EDIT: refresh multiz visibility after replacing a supporting floor.
 
 	changing_turf = TRUE
 	qdel(src) //Just get the side effects and call Destroy
 	var/turf/W = new path(src)
+	if(istype(above_turf, /turf/open_space))
+		above_turf.update_vis_contents() // SS220 EDIT: update the view through open space when the floor below changes.
 
 	for(var/i in W.contents)
 		var/datum/A = i
@@ -879,3 +901,50 @@ GLOBAL_LIST_INIT(blacklisted_automated_baseturfs, typecacheof(list(
 	if(T.name != name)
 		T.name = name
 	return T
+/turf/proc/remove_flag(flag)
+	turf_flags &= ~flag
+/turf/proc/on_throw_end(atom/movable/thrown_atom)
+	return TRUE
+/turf/proc/z_impact(mob/living/victim, height, stun_modifier = 1, damage_modifier = 1, fracture_modifier = 0)
+	if(ishuman_strict(victim))
+		var/mob/living/carbon/human/human_victim = victim
+		if (stun_modifier > 0)
+			human_victim.KnockDown(0.7 *height * stun_modifier)
+			human_victim.Superslow(3 * height * stun_modifier)
+			human_victim.Slow(5 * height * stun_modifier)
+		if (damage_modifier > 0)
+			var/total_damage = ((20 * height) ** 1.3) * damage_modifier
+			human_victim.apply_damage(total_damage / 2, BRUTE, "r_leg")
+			human_victim.apply_damage(total_damage / 2, BRUTE, "l_leg")
+		if (fracture_modifier > 0)
+			var/obj/limb/leg/found_rleg = locate(/obj/limb/leg/l_leg) in human_victim.limbs
+			var/obj/limb/leg/found_lleg = locate(/obj/limb/leg/r_leg) in human_victim.limbs
+			found_rleg?.fracture(100 * fracture_modifier)
+			found_lleg?.fracture(100 * fracture_modifier)
+	if(isxeno(victim))
+		var/mob/living/carbon/xenomorph/xeno_victim = victim
+		if(stun_modifier > 0)
+			if(xeno_victim.mob_size >= MOB_SIZE_BIG)
+				xeno_victim.KnockDown(height * 1.5 * stun_modifier)
+				xeno_victim.Stun(height * 1.5 * stun_modifier)
+				xeno_victim.Slow(height * 3.5 * stun_modifier)
+				xeno_victim.Daze(height * 2.5 * stun_modifier)
+			else
+				xeno_victim.KnockDown(height * 0.5 * stun_modifier)
+				xeno_victim.Stun(height * 0.5 * stun_modifier)
+				xeno_victim.Superslow(height * 1 * stun_modifier)
+				xeno_victim.Slow(height * 2 * stun_modifier)
+				xeno_victim.Daze(height * 1.5 * stun_modifier)
+	if(damage_modifier > 0.5)
+		playsound(loc, "slam", 50, 1)
+/turf/proc/on_climb_down(victim)
+	if(!isxeno(victim))
+		return
+	var/mob/living/carbon/xenomorph/xeno_victim = victim
+	if(xeno_victim.mob_size >= MOB_SIZE_BIG)
+		xeno_victim.Superslow(1.5)
+		xeno_victim.Slow(2)
+		xeno_victim.Daze(1.5)
+	xeno_victim.Superslow(1)
+	xeno_victim.Slow(1.5)
+	xeno_victim.Daze(1)

@@ -1,11 +1,8 @@
 #define AREA_NO_PARA (1<<5)
-#define AMBIENCE_SHIP_ALT 'sound/ambience/shipambience1.ogg'
 #define AMBIENCE_TYRARGO_CITY 'sound/ambience/tyrargo_city_ambience.ogg'
 #define AMBIENCE_TYRARGO_SEWER_CITY 'sound/ambience/tyrargo_sewer_ambience.ogg'
 #define AMBIENCE_ANTRE 'sound/ambience/venir_hallway.ogg'
 #define AMBIENCE_ANTRE_ADJACENT 'sound/ambience/venir_hallway_adjacent.ogg'
-#define MINIMAP_AREA_GLASS "#80a0b0ee"
-#define MINIMAP_AREA_MINING "#4d3619e7"
 #define JOB_ARMY_CO "US Army Commander"
 #define JOB_ARMY_SYN "US Army Synthetic"
 #define WALL_FOREST "forest_veg"
@@ -14,6 +11,7 @@
 #include "code\areas.dm"
 #include "code\rendering.dm"
 #include "code\look_up.dm"
+#include "code\observer_navigation.dm"
 #include "code\resource_fallbacks.dm"
 #include "code\heavy_cable.dm"
 #include "code\map_objects.dm"
@@ -42,3 +40,4 @@
 #include "code\antre_floodlights.dm"
 #include "code\antre_more.dm"
 #include "code\antre_dependencies.dm"
+#include "code\map_dependencies.dm"

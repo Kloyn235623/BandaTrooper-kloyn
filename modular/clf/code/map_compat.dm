@@ -90,14 +90,7 @@
 
 /turf/open_space/LateInitialize()
 	. = ..()
-	var/turf/below = SSmapping.get_turf_below(src)
-	var/z_offset = 0
-	while(below && z_offset <= OPEN_SPACE_PLANE_START - OPEN_SPACE_PLANE_END)
-		new /obj/vis_contents_holder(src, below, z_offset)
-		if(!istype(below, /turf/open_space))
-			break
-		below = SSmapping.get_turf_below(below)
-		z_offset++
+	update_vis_contents()
 
 /turf/open_space/Entered(atom/movable/entered_movable, atom/old_loc)
 	. = ..()

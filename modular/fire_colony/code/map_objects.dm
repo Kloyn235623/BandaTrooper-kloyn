@@ -532,6 +532,10 @@
 	icon_state = "briefcase_d"
 	item_state = "briefcase_d"
 
+/obj/item/storage/briefcase/flap/black
+	name = "black flap-closure briefcase"
+	color = "#202020"
+
 // From source/pr203:code/game/objects/items/tools/cleaning_tools.dm
 /obj/item/tool/warning_cone/blue // utility work.
 	icon_state = "cone_blue"
@@ -745,7 +749,7 @@
 	desc = "It's a storage unit for Lasalle Bionational biohazard gear."
 	icon_state = "bion"
 	icon_closed = "bion"
-	icon_opened = "bionopen"
+	icon_opened = "bioopen"
 
 // From source/pr203:code/game/objects/structures/crates_lockers/closets/l3closet.dm
 /obj/structure/closet/bionational_closet/Initialize()
@@ -759,11 +763,11 @@
 /obj/structure/closet/secure_closet/freezer/alt
 	name = "\improper refrigerator"
 	icon_state = "altfridge1"
-	icon_closed = "altfridge"
-	icon_locked = "altfridge1"
-	icon_opened = "altfridgeopen"
-	icon_broken = "altfridgebroken"
-	icon_off = "altfridge1"
+	icon_closed = "fridge"
+	icon_locked = "fridge1"
+	icon_opened = "fridgeopen"
+	icon_broken = "fridgebroken"
+	icon_off = "fridge1"
 
 // From source/pr203:code/game/objects/structures/crates_lockers/closets/secure/freezer.dm
 /obj/structure/closet/secure_closet/freezer/alt/update_icon()
@@ -795,12 +799,12 @@
 // From source/pr203:code/game/objects/structures/crates_lockers/closets/secure/freezer.dm
 /obj/structure/closet/secure_closet/freezer/alt_1
 	name = "\improper refrigerator"
-	icon_state = "alt1fridge1"
-	icon_closed = "alt1fridge"
-	icon_locked = "alt1fridge1"
-	icon_opened = "alt1fridgeopen"
-	icon_broken = "alt1fridgebroken"
-	icon_off = "alt1fridge1"
+	icon_state = "fridge1"
+	icon_closed = "fridge"
+	icon_locked = "fridge1"
+	icon_opened = "fridgeopen"
+	icon_broken = "fridgebroken"
+	icon_off = "fridge1"
 
 // From source/pr203:code/game/objects/structures/crates_lockers/closets/secure/freezer.dm
 /obj/structure/closet/secure_closet/freezer/alt_1/update_icon()
@@ -832,12 +836,12 @@
 // From source/pr203:code/game/objects/structures/crates_lockers/closets/secure/security.dm
 /obj/structure/closet/secure_closet/seegson/security
 	name = "Seegson Security locker"
-	icon_state = "secure_yalt_locked_warrant"
-	icon_closed = "secure_yalt_unlocked_warrant"
-	icon_locked = "secure_yalt_locked_warrant"
-	icon_opened = "secure_yalt_open_warrant"
-	icon_broken = "secure_yalt_locked_warrant"
-	icon_off = "secure_yalt_closed_warrant"
+	icon_state = "secure_locked_warrant"
+	icon_closed = "secure_unlocked_warrant"
+	icon_locked = "secure_locked_warrant"
+	icon_opened = "secure_open_warrant"
+	icon_broken = "secure_locked_warrant"
+	icon_off = "secure_closed_warrant"
 
 // From source/pr203:code/game/objects/structures/crates_lockers/closets/secure/security.dm
 /obj/structure/closet/secure_closet/seegson/security/Initialize()
@@ -856,7 +860,7 @@
 	desc = "It's a storage unit for advanced fire-resistance gear."
 	icon_state = "firecloset_alt"
 	icon_closed = "firecloset_alt"
-	icon_opened = "firecloset_altopen"
+	icon_opened = "fireclosetopen"
 
 // From source/pr203:code/game/objects/structures/crates_lockers/closets/utility_closets.dm
 /obj/structure/closet/firecloset/alt/update_icon()
@@ -967,6 +971,9 @@
 	door = TRUE
 	forms_junctions = FALSE
 	icon = 'icons/obj/structures/props/fences/fence_alt_door.dmi'
+
+/obj/structure/fence/slim/blue/door/update_icon()
+	icon_state = cut ? "brokendoor" : "door_closed"
 
 // From source/pr203:code/game/objects/structures/fence.dm
 /obj/structure/prop/fence
@@ -2733,125 +2740,7 @@
 	bound_width = 32
 	bound_height = 64
 
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/timed_event
-	icon = 'icons/landmarks.dmi'
-	icon_state = "o_red"
-
-	var/static/list/notification_areas = list()
-
-	/// How long to wait until the event should occur
-	var/time
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/timed_event/Initialize(mapload, ...)
-	. = ..()
-
-	icon = null
-
-	if(isnull(time))
-		log_mapping("[type] (x: [x], y: [y], z: [z]) was created without a time.")
-		return INITIALIZE_HINT_QDEL
-
-	SSticker.OnRoundstart(CALLBACK(src, PROC_REF(handle_round_start)))
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/timed_event/scrapeaway
-	icon_state = "o_blue"
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/timed_event/scrapeaway/generate_callback()
-	return CALLBACK(get_turf(src), TYPE_PROC_REF(/turf, ScrapeAway))
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/timed_event/scrapeaway/announce_event(time_to_grab)
-	var/announcement_areas = english_list(notification_areas[type]["[time_to_grab]"])
-
-	var/marine_announcement_text = SSmapping.configs[GROUND_MAP].environment_traits[ZTRAIT_IN_SPACE] \
-		? "Structural collapse detected in [announcement_areas]. Be advised that new routes may be accessible." \
-		: "Geological shifts detected in [announcement_areas]. Be advised that new routes may be accessible."
-
-	marine_announcement(marine_announcement_text, "Priority Announcement")
-
-	var/xeno_announcement_text = SSmapping.configs[GROUND_MAP].environment_traits[ZTRAIT_IN_SPACE] \
-		? "The shattered metal of this place has collapsed, providing new routes in [announcement_areas]." \
-		: "The ground of this world trembles, and new routes are accessible in [announcement_areas]."
-
-	xeno_announcement(SPAN_XENOANNOUNCE(xeno_announcement_text), "everything", XENO_GENERAL_ANNOUNCE)
-
-	qdel(src)
-
-/// Mapping helper placed on turfs that toggles the destructiblity of the turf after a specified duration.
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/sentry_landmark
-	icon = 'icons/landmarks.dmi'
-	icon_state = "map_sentry"
-
-	var/abstract_type = /obj/effect/sentry_landmark
-
-	/// Which landing zone this landmark should be connected to
-	var/landing_zone
-
-	/// Which position this sentry should spawn at
-	var/position
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/sentry_landmark/Initialize(mapload, ...)
-	. = ..()
-
-	if(type == abstract_type)
-		#if !defined(UNIT_TESTS)
-		log_mapping("A [type] was created that should not have been! Use a subtype instead.")
-		#endif
-		return INITIALIZE_HINT_QDEL
-
-	LAZYADDASSOCLIST(GLOB.sentry_spawns[landing_zone], position, get_turf(src))
-
-	return INITIALIZE_HINT_QDEL
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/sentry_landmark/lz_1
-	abstract_type = /obj/effect/sentry_landmark/lz_1
-	landing_zone = /obj/docking_port/stationary/marine_dropship/lz1
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/sentry_landmark/lz_1/top_left
-	position = SENTRY_TOP_LEFT
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/sentry_landmark/lz_1/top_right
-	position = SENTRY_TOP_RIGHT
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/sentry_landmark/lz_1/bottom_left
-	position = SENTRY_BOTTOM_LEFT
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/sentry_landmark/lz_1/bottom_right
-	position = SENTRY_BOTTOM_RIGHT
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/sentry_landmark/lz_2
-	abstract_type = /obj/effect/sentry_landmark/lz_2
-	landing_zone = /obj/docking_port/stationary/marine_dropship/lz2
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/sentry_landmark/lz_2/top_left
-	position = SENTRY_TOP_LEFT
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/sentry_landmark/lz_2/top_right
-	position = SENTRY_TOP_RIGHT
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/sentry_landmark/lz_2/bottom_left
-	position = SENTRY_BOTTOM_LEFT
-
-// From source/pr203:code/modules/mapping/mapping_helpers.dm
-/obj/effect/sentry_landmark/lz_2/bottom_right
-	position = SENTRY_BOTTOM_RIGHT
-
+// SS220 EDIT: shared timed-event and sentry landmark implementations now come from code/modules/mapping/mapping_helpers.dm.
 // From source/pr203:code/modules/paperwork/photocopier.dm
 /obj/structure/machinery/photocopier/alt
 	icon_state = "altbigscanner"
@@ -3012,5 +2901,74 @@
 	load_misc(VAN)
 	handle_direction(VAN)
 	VAN.update_icon()
+
+// Fire Colony Lasalle-Bionational map dependencies.
+/obj/structure/shuttle/part/dropship_lb
+	name = "Lasalle-Bionational dropship"
+	icon = 'icons/turf/twedropship.dmi'
+	icon_state = "0,0"
+
+/obj/structure/shuttle/part/dropship_lb/transparent
+	opacity = FALSE
+
+/turf/closed/shuttle/dropship_lb
+	name = "Lasalle-Bionational dropship"
+	icon = 'icons/turf/twedropship.dmi'
+	icon_state = "0,0"
+
+/turf/closed/shuttle/dropship_lb/transparent
+	opacity = FALSE
+
+/obj/effect/landmark/survivor_spawner/fire_colony_lb_merc
+	name = "Lasalle-Bionational HIG survivor spawner"
+	equipment = /datum/equipment_preset/survivor/lasalle_merc/standard
+	synth_equipment = /datum/equipment_preset/synth/survivor/lasalle_merc
+
+/obj/effect/landmark/survivor_spawner/fire_colony_lb_merc_medic
+	equipment = /datum/equipment_preset/survivor/lasalle_merc/medic
+	synth_equipment = /datum/equipment_preset/synth/survivor/lasalle_merc
+
+/obj/effect/landmark/survivor_spawner/fire_colony_lb_merc_engineer
+	equipment = /datum/equipment_preset/survivor/lasalle_merc/engineer
+	synth_equipment = /datum/equipment_preset/synth/survivor/lasalle_merc
+
+/obj/effect/landmark/survivor_spawner/fire_colony_lb_merc_leader
+	equipment = /datum/equipment_preset/survivor/lasalle_merc/leader
+	synth_equipment = /datum/equipment_preset/synth/survivor/lasalle_merc
+
+/obj/effect/landmark/survivor_spawner/fire_colony_lb_merc_commander
+	equipment = /datum/equipment_preset/survivor/lasalle_merc/lasalle_commander
+	synth_equipment = /datum/equipment_preset/synth/survivor/lasalle_merc
+
+/obj/effect/landmark/survivor_spawner/fire_colony_lb_merc_synth
+	equipment = /datum/equipment_preset/synth/survivor/lasalle_merc
+
+/datum/equipment_preset/corpse/lb_merc
+	name = "Corpse - Lasalle-Bionational HIG Operator"
+	assignment = JOB_LB_MERC
+	rank = JOB_LB_MERC
+	faction = FACTION_LASALLE_BIONATIONAL
+	idtype = /obj/item/card/id/silver/cl/lasalle_bionational
+
+/datum/equipment_preset/corpse/lb_merc/load_gear(mob/living/carbon/human/new_human)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/veteran/lb_merc(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/veteran/lb_merc(new_human), WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine/veteran/lb_merc(new_human), WEAR_HEAD)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine/veteran/lb_merc(new_human), WEAR_HANDS)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/veteran/pmc/lb_merc/knife(new_human), WEAR_FEET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/mask/gas/pmc/lasalle(new_human), WEAR_FACE)
+	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress/lasalle_bionational/lb_merc(new_human), WEAR_L_EAR)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/lightpack/black/five_slot(new_human), WEAR_BACK)
+
+/datum/equipment_preset/corpse/lb_merc/burst
+	name = "Corpse - Burst Lasalle-Bionational HIG Operator"
+	xenovictim = TRUE
+
+/obj/effect/landmark/corpsespawner/lb_merc
+	name = "Corpse - Lasalle-Bionational HIG Operator"
+	equip_path = /datum/equipment_preset/corpse/lb_merc
+
+/obj/effect/landmark/corpsespawner/lb_merc/burst
+	equip_path = /datum/equipment_preset/corpse/lb_merc/burst
 
 //PRESET: wheels installed, destroyed

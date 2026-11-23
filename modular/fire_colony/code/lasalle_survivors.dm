@@ -33,6 +33,13 @@
 /datum/equipment_preset/survivor/lasalle_merc/load_vanity(mob/living/carbon/human/new_human)
 	return
 
+/datum/equipment_preset/survivor/lasalle_merc/load_gear(mob/living/carbon/human/new_human)
+	// Admin variable-spawn selects this base HIG preset directly. Give it the
+	// same standard kit as the operator variant instead of spawning it unequipped.
+	var/datum/equipment_preset/survivor/lasalle_merc/standard/operator_preset = new
+	operator_preset.load_gear(new_human)
+	qdel(operator_preset)
+
 /datum/equipment_preset/survivor/lasalle_merc/standard
 	name = "Survivor - Lasalle-Bionational - HIG - Operator"
 

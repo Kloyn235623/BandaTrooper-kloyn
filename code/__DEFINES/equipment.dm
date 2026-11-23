@@ -48,6 +48,8 @@
 #define USES_SEEING (1<<19)
 // Can be quick drawn
 #define QUICK_DRAWABLE (1<<20)
+/// The movable should not fall when entering open space.
+#define NO_ZFALL (1<<21) // SS220 EDIT: let map platforms remain anchored to their authored Z level.
 
 //==========================================================================================
 

@@ -607,6 +607,44 @@
 	new /obj/item/ammo_magazine/rifle/m41aMK1(src)
 	new /obj/item/ammo_magazine/rifle/m41aMK1(src)
 
+/obj/item/storage/belt/security/brown
+	name = "\improper 6B80 pattern ammo rig"
+	desc = "The 6B80 is an outdated but reliable ammo rig, formerly standard for the UPP Army. Its modular belt holds various munitions, still used by UPP security forces and reserves for its rugged design."
+	icon_state = "securitybelt_brown"
+	item_state = "security_brown"//Could likely use a better one.
+	w_class = SIZE_LARGE
+	storage_slots = 5
+	max_w_class = SIZE_MEDIUM
+	max_storage_space = 20
+	can_hold = list(
+		/obj/item/attachable/bayonet,
+		/obj/item/device/flashlight/flare,
+		/obj/item/ammo_magazine/rifle,
+		/obj/item/ammo_magazine/smg,
+		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/sniper,
+		/obj/item/ammo_magazine/handful,
+		/obj/item/explosive/grenade,
+		/obj/item/explosive/mine,
+		/obj/item/reagent_container/food/snacks,
+	)
+	bypass_w_limit = list(
+		/obj/item/ammo_magazine/rifle,
+		/obj/item/ammo_magazine/smg,
+	)
+
+/obj/item/storage/belt/security/brown/full/fill_preset_inventory()
+	new /obj/item/ammo_magazine/rifle/ak4047(src)
+	new /obj/item/ammo_magazine/rifle/ak4047(src)
+	new /obj/item/ammo_magazine/rifle/ak4047(src)
+	new /obj/item/ammo_magazine/rifle/ak4047(src)
+	new /obj/item/ammo_magazine/rifle/ak4047(src)
+
+/obj/item/storage/belt/security/brown/half_full/fill_preset_inventory()
+	new /obj/item/ammo_magazine/rifle/ak4047(src)
+	new /obj/item/ammo_magazine/rifle/ak4047(src)
+
 /obj/item/storage/belt/security/MP
 	name = "\improper M276 pattern military police rig"
 	desc = "The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This version is filled with an array of small pouches, meant to carry non-lethal equipment and restraints."
@@ -1029,6 +1067,15 @@
 		dump_ammo_to(M, user, M.transfer_handful_amount)
 	else
 		return ..()
+
+/obj/item/storage/belt/shotgun/black/full/fill_preset_inventory()
+	for(var/i = 1 to storage_slots)
+		new /obj/item/ammo_magazine/handful/shotgun/slug(src)
+
+/obj/item/storage/belt/shotgun/black/full/random/fill_preset_inventory()
+	for(var/i = 1 to storage_slots)
+		var/random_shell_type = pick(GLOB.shotgun_handfuls_12g)
+		new random_shell_type(src)
 
 /obj/item/storage/belt/shotgun/wy
 	name = "\improper WY-TM406 pattern shotgun shell loading rig"
@@ -2669,3 +2716,11 @@
 	new /obj/item/storage/box/packet/rmc/mini/holo(src)
 
 #undef MAXIMUM_MORTARSHELL_COUNT
+/obj/item/storage/belt/security/MP/upp // SS220 EDIT: support the lowercase map path for the UPP MP rig.
+	name = "\\improper Type 43 military police rig"
+	desc = "A UPP military police belt with modular pouches for non-lethal equipment and restraints."
+
+/obj/item/storage/belt/gun/type47/sof // SS220 EDIT: add the UPP SOF pistol rig placed on the Sorokyne supply ship.
+	name = "\\improper Type 47-S pistol holster rig"
+	icon_state = "korovin_black_holster"
+	item_state = "upp_belt"

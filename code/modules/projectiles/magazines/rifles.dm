@@ -805,3 +805,33 @@
 	ammo_band_icon = "+fpsa_band"
 	ammo_band_icon_empty = "+fpsa_band_e"
 	ammo_band_color = AMMO_BAND_COLOR_AP
+/obj/item/ammo_magazine/rifle/ak4047 // SS220 EDIT: restore Sorokyne map AK-4047 ammunition types and visuals.
+	name = "\\improper AK-4047 magazine (10x27mm)"
+	desc = "A rugged 45-round magazine for the AK-4047 rifle."
+	caliber = "10x27mm"
+	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/upp.dmi'
+	icon_state = "ak4047"
+	w_class = SIZE_MEDIUM
+	default_ammo = /datum/ammo/bullet/rifle/upp
+	max_rounds = 45
+	gun_type = /obj/item/weapon/gun/rifle/ak4047
+	ammo_band_icon = "+ak4047_band"
+	ammo_band_icon_empty = "+ak4047_band_e"
+
+/obj/item/ammo_magazine/rifle/ak4047/ap
+	name = "\\improper AK-4047 AP magazine (10x27mm)"
+	desc = "A 10x27mm magazine loaded with armor-piercing rounds for the AK-4047."
+	default_ammo = /datum/ammo/bullet/rifle/upp/ap
+	ammo_band_color = AMMO_BAND_COLOR_AP
+
+/obj/item/ammo_magazine/rifle/ak4047/heap
+	name = "\\improper AK-4047 HEAP magazine (10x27mm)"
+	desc = "A 10x27mm magazine loaded with high-explosive armor-piercing rounds for the AK-4047."
+	default_ammo = /datum/ammo/bullet/rifle/upp/heap
+	ammo_band_color = AMMO_BAND_COLOR_HEAP
+
+/obj/item/ammo_magazine/rifle/ak4047/incendiary
+	name = "\\improper AK-4047 incendiary magazine (10x27mm)"
+	desc = "A 10x27mm magazine loaded with incendiary rounds for the AK-4047."
+	default_ammo = /datum/ammo/bullet/rifle/upp/incendiary
+	ammo_band_color = AMMO_BAND_COLOR_INCENDIARY

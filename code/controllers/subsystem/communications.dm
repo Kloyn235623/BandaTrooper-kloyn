@@ -121,6 +121,8 @@ Radiochat range: 1441 to 1489 (most devices refuse to be tune to other frequency
 #define CANC_MED_FREQ 1303
 #define CANC_SOF_FREQ 1304
 #define LB_FREQ 1401 // SS220 EDIT: Fire Colony survivor radio
+//Hyperdyne channels (1331-1399)
+#define HDC_FREQ 1331
 
 //General Radio
 #define MIN_FREQ 1460 // ------------------------------------------------------
@@ -210,6 +212,7 @@ GLOBAL_LIST_INIT(radiochannels, list(
 
 	RADIO_CHANNEL_COLONY = COLONY_FREQ,
 
+	RADIO_CHANNEL_HYPERDYNE = HDC_FREQ,
 
 	RADIO_CHANNEL_WY = WY_FREQ,
 	RADIO_CHANNEL_PMC_GEN = PMC_FREQ,
@@ -358,6 +361,7 @@ SUBSYSTEM_DEF(radio)
 		"[CANC_SOF_FREQ]" = "cancradio",
 		"[PFA_FREQ]" = "pfaradio",
 		"[JSC_FREQ]" = "jscradio",
+		"[HDC_FREQ]" = "hdcradio",
 	)
 
 /datum/controller/subsystem/radio/proc/add_object(obj/device as obj, new_frequency as num, filter = null as text|null)

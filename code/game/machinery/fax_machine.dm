@@ -1,4 +1,4 @@
-GLOBAL_LIST_INIT_TYPED(allfaxes, /obj/structure/machinery/faxmachine, list())
+GLOBAL_LIST_INIT(allfaxes, list()) // SS220 EDIT: use an untyped global list to avoid a malformed object-list typepath.
 GLOBAL_LIST_EMPTY(alldepartments)
 
 #define DEPARTMENT_WY "Weyland-Yutani"

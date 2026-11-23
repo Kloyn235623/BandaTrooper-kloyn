@@ -783,7 +783,8 @@ SUBSYSTEM_DEF(minimaps)
 	return TRUE // SS220 EDIT: all tactical-map viewers may inspect available ground levels; drawing still uses can_draw().
 
 /datum/tacmap/drawing/status_tab_view/can_change_level(mob/user)
-	return FALSE
+	// return FALSE
+	return TRUE // SS220 EDIT: allow level selection in the status tactical map.
 
 /datum/tacmap/proc/get_viewer_holder(mob/user)
 	var/list/levels = SSmapping.levels_by_trait(targeted_ztrait)
@@ -959,7 +960,8 @@ SUBSYSTEM_DEF(minimaps)
 	data["canvasCooldownDuration"] = CANVAS_COOLDOWN_TIME
 	data["mapFallback"] = wiki_map_fallback
 	data["canDraw"] = FALSE
-	data["canViewTacmap"] = FALSE
+	// data["canViewTacmap"] = FALSE
+	data["canViewTacmap"] = TRUE // SS220 EDIT: expose the live multi-level map in status view.
 	data["canViewCanvas"] = TRUE
 	data["isxeno"] = FALSE
 
@@ -971,7 +973,8 @@ SUBSYSTEM_DEF(minimaps)
 	data["canvasCooldownDuration"] = CANVAS_COOLDOWN_TIME
 	data["mapFallback"] = wiki_map_fallback
 	data["canDraw"] = FALSE
-	data["canViewTacmap"] = FALSE
+	// data["canViewTacmap"] = FALSE
+	data["canViewTacmap"] = TRUE // SS220 EDIT: expose the live multi-level map in status view.
 	data["canViewCanvas"] = TRUE
 	data["isxeno"] = TRUE
 

@@ -15,6 +15,7 @@
 	var/junction = 0 //Because everything is terrible, I'm making this a fence-level var
 	var/basestate = "fence"
 	var/forms_junctions = TRUE
+	var/door = FALSE // SS220 EDIT: preserve dedicated mapped fence-door icon states during icon refresh.
 
 /obj/structure/fence/initialize_pass_flags(datum/pass_flags_container/PF)
 	..()
@@ -236,6 +237,9 @@
 
 //merges adjacent full-tile windows into one (blatant ripoff from game/smoothwall.dm)
 /obj/structure/fence/update_icon()
+	if(door)
+		icon_state = cut ? "brokendoor" : "door_closed" // SS220 EDIT: don't replace chainlink door states with a missing fence junction state.
+		return
 	//A little cludge here, since I don't know how it will work with slim windows. Most likely VERY wrong.
 	//this way it will only update full-tile ones
 	//This spawn is here so windows get properly updated when one gets deleted.
@@ -325,6 +329,19 @@ GLOBAL_LIST_INIT(all_electric_fences, list())
 	name = "fence"
 	desc = "A large metal mesh strewn between two poles. Intended as a cheap way to separate areas, while allowing one to see through it."
 	icon = 'icons/obj/structures/props/fences/dark_fence.dmi'
+
+/obj/structure/fence/dark/overgrown
+	name = "overgrown fence"
+	desc = "A large metal mesh strewn between two poles, tangled with vines and creeping growth. Still separates areas, but nature is reclaiming it."
+	icon = 'icons/obj/structures/props/fences/overgrown_dark_fence.dmi'
+
+/obj/structure/fence/slim/door // SS220 EDIT: supply the dedicated mapped chainlink door subtype and sprite.
+	name = "fence door"
+	desc = "A sturdy chainlink door set between two metal poles. A cheap way to section off areas while still allowing visibility through it."
+	icon_state = "door_closed"
+	door = TRUE
+	forms_junctions = FALSE
+	icon = 'icons/obj/structures/props/fences/fence_alt_door.dmi'
 
 /obj/structure/fence/dark/warning
 	name = "fence"
