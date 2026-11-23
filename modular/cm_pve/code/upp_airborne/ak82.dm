@@ -32,7 +32,7 @@
 	start_automatic = TRUE
 
 /obj/item/weapon/gun/rifle/ak82/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 31, "muzzle_y" = 18, "rail_x" = 15, "rail_y" = 22, "under_x" = 24, "under_y" = 15, "stock_x" = 23, "stock_y" = 13, "side_rail_x" = 18, "side_rail_y" = 18)
+	attachable_offset = list("muzzle_x" = 31, "muzzle_y" = 18, "rail_x" = 15, "rail_y" = 22, "under_x" = 24, "under_y" = 15, "stock_x" = 23, "stock_y" = 13, "side_rail_x" = 18, "side_rail_y" = 18, "sling_x" = 15, "sling_y" = 22)
 
 /obj/item/weapon/gun/rifle/ak82/set_gun_config_values()
 	..()

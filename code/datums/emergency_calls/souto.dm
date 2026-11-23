@@ -62,7 +62,7 @@
 	start_automatic = TRUE
 
 /obj/item/weapon/gun/rifle/m41aMK1/airsoft/set_gun_attachment_offsets()
-	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 18,"rail_x" = 12, "rail_y" = 23, "under_x" = 23, "under_y" = 13, "stock_x" = 24, "stock_y" = 14, "side_rail_x" = 23, "side_rail_y" = 16)
+	attachable_offset = list("muzzle_x" = 32, "muzzle_y" = 18,"rail_x" = 12, "rail_y" = 23, "under_x" = 23, "under_y" = 13, "stock_x" = 24, "stock_y" = 14, "side_rail_x" = 23, "side_rail_y" = 16, "sling_x" = 12, "sling_y" = 23) // SS220 EDIT: add offset for new sling slot
 
 
 /obj/item/weapon/gun/rifle/m41aMK1/airsoft/set_gun_config_values()
