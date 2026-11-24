@@ -55,6 +55,9 @@
 /datum/controller/subsystem/mapping/proc/get_turf_below(turf/T)
 	if (!T)
 		return
+	var/datum/turf_reservation/reservation = SSmapping.used_turfs[T]
+	if(reservation)
+		return reservation.get_turf_below(T)
 	var/offset = level_trait(T.z, ZTRAIT_DOWN)
 	if (!offset)
 		return
@@ -64,6 +67,9 @@
 /datum/controller/subsystem/mapping/proc/get_turf_above(turf/T)
 	if (!T)
 		return
+	var/datum/turf_reservation/reservation = SSmapping.used_turfs[T]
+	if(reservation)
+		return reservation.get_turf_above(T)
 	var/offset = level_trait(T.z, ZTRAIT_UP)
 	if (!offset)
 		return

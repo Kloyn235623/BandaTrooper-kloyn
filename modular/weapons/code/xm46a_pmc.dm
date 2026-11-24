@@ -4,6 +4,7 @@
 	desc = "A black Weyland-Yutani XM46A with a corporate firing lock and a PN 30mm underslung grenade launcher. Accepts M41A MK1 and MK2 magazines."
 	icon = 'modular/weapons/icons/wy/xm46a_black_inventory.dmi'
 	icon_state = "xm46a"
+	lineart_gun_icon = "m46c"
 	current_mag = /obj/item/ammo_magazine/rifle/ap
 	starting_attachment_types = list(/obj/item/attachable/attached_gun/grenade/mk1, /obj/item/attachable/stock/rifle/collapsible)
 	item_icons = list(

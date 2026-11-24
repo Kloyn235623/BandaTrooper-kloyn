@@ -64,6 +64,16 @@
 	using.screen_loc = ui_ghost_slot2
 	static_inventory += using
 
+	// SS220 EDIT - START
+	using = new /atom/movable/screen/ghost/ground_level/below()
+	using.screen_loc = ui_ghost_slot1
+	static_inventory += using
+
+	using = new /atom/movable/screen/ghost/ground_level/above()
+	using.screen_loc = "SOUTH:6,CENTER+3:0"
+	static_inventory += using
+	// SS220 EDIT - END
+
 	using = new /atom/movable/screen/ghost/minimap()
 	using.screen_loc = ui_ghost_slot3
 	static_inventory += using

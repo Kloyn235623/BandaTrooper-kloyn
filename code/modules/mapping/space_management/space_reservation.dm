@@ -146,9 +146,12 @@
 		var/turf/T = i
 		reserved_turfs |= T
 		SSmapping.unused_turfs["[T.z]"] -= T
-		SSmapping.used_turfs[T] = src
 		T.turf_flags = (T.turf_flags | RESERVATION_TURF) & ~UNUSED_RESERVATION_TURF
-		T.ChangeTurf(turf_type, turf_type)
+		// SS220 EDIT - START
+		// Old ordering exposed a turf to multiz callbacks before its reservation bounds existed.
+		// SSmapping.used_turfs[T] = src
+		// T.ChangeTurf(turf_type, turf_type)
+		// SS220 EDIT - END
 
 	bottom_left_turfs += BL
 	top_right_turfs += TR
@@ -165,6 +168,13 @@
 	if(failed_reservation)
 		Release()
 		return FALSE
+
+	// SS220 EDIT - START
+	// Publish/convert reserved turfs only after all requested Z-level bounds are available.
+	for(var/turf/T as anything in reserved_turfs)
+		SSmapping.used_turfs[T] = src
+		T.ChangeTurf(turf_type, turf_type)
+	// SS220 EDIT - END
 
 	generate_cordon()
 	return TRUE

@@ -524,6 +524,27 @@
 	name = "Marine Space Force Herculis patch"
 	desc = "A fire-resistant shoulder patch, depicting the logo of Marine Space Force III, Herculis, deployed throughout the Anglo-Japanese arm from the outer veil to the ICSC Network, this patch is often worn by any general assigned to the MSF Herculis, US Space Command and UA Allied Command Generals often have their own patches."
 	icon_state = "msfpatch"
+//Seegson patches
+/obj/item/clothing/accessory/patch/seegson_patch
+	name = "Seegson patch"
+	desc = "The patch issued by a Seegson conglomerate employee is old and worn, but still holds its shape despite being made of cheap materials."
+	desc_lore = "Does anyone still remember a company called Seegson? A second-rate company producing cheap knockoffs, as the colonial newspaper began calling it after 2135."
+	icon_state = "seegsonpatch"
+
+//Lasalle patches
+/obj/item/clothing/accessory/patch/lasalle_patch_alt
+	name = "Lasalle Bionational patch"
+	desc = "The patch issued to Lasalle Bionational employees is fire-resistant and acid-resistant. It smells foul, reeking of the company's lab."
+	desc_lore = "Lasalle is famous for its scientists, who, after leaving Weyland Yutani, went on to start their own company and become involved in agriculture and bioweapons development. But it seems you were just a technical worker or a janitor, since all that remains of your work is a patch."
+	icon_state = "lasallepatch"
+
+//Hyperdyne patches
+/obj/item/clothing/accessory/patch/hyperdyne_patch
+	name = "Hyperdyne Systems patch"
+	desc = "A patch worn by employees of Hyperdyne Systems, once a great developer of synthetics and a creator of some fine weapons and space exploration."
+	desc_lore = "It seems you previously worked for this corporation, whether it was part of Weyland Yutani at the time or whether it had already bought out its assets. The important thing is that you remember your time there, but it's more likely you were just a laborer working in a manufacturing site, now company entirely on the UPP market."
+	icon_state = "hyperdynepatch"
+
 //Flag patches
 /obj/item/clothing/accessory/patch/ua
 	name = "UA flag patch"
@@ -531,7 +552,6 @@
 	icon_state = "uaflagpatch"
 
 /obj/item/clothing/accessory/patch/brazil
-
 	name = "Brazilian flag patch"
 	desc = "A fire-resistant shoulder patch, with the flag of Brazil, a large South American nation of Earth."
 	icon_state = "brazilpatch"
@@ -591,6 +611,17 @@
 	icon_state = "gas_packed"
 	w_class = SIZE_SMALL
 	slot = ACCESSORY_SLOT_GASMASK
+// Hyperdyne patch
+/obj/item/clothing/accessory/patch/hyperdyne_patch
+	name = "Hyperdyne Corporation patch"
+	desc = "A sleek corporate patch bearing the logo of the Hyperdyne Corporation—one of the most powerful conglomerates. Known for synthetic production, AI research, and deep-space logistics. Wearing this patch implies loyalty to profit over people."
+	icon_state = "hyperdynepatch"
+
+/obj/item/clothing/accessory/patch/conam_patch // SS220 EDIT: add the corporate patch type used by Con-Am 81 survivors.
+	name = "Con-Amalgamated patch"
+	desc = "A corporate shoulder patch bearing the Con-Amalgamated insignia."
+	icon_state = "conampatch"
+	item_state = "conampatch"
 
 /obj/item/clothing/accessory/gaspacked/attack_self(mob/user)
 	if(user.get_active_hand() != src)

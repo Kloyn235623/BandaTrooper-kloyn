@@ -1,5 +1,6 @@
 /obj/effect/decal
 	plane = FLOOR_PLANE
+	vis_flags = VIS_HIDE // Keep decals on their authored Z-level when open-space visuals relay the turf below.
 
 // Used for spray that you spray at walls, tables, hydrovats etc
 /obj/effect/decal/spraystill
@@ -142,3 +143,9 @@
 /obj/effect/decal/mecha_wreckage/hoverpod
 	name = "Hover pod wreckage"
 	icon_state = "engineering_pod-broken"
+
+/obj/effect/eggs/eggcluster
+	icon = 'icons/effects/effects.dmi'
+	name = "egg cluster"
+	desc = "They seem to pulse slightly with an inner life"
+	icon_state = "eggs_white"

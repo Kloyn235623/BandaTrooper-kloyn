@@ -62,6 +62,8 @@
 #define MOB_HUD_FACTION_IASF 27
 #define MOB_HUD_FACTION_LB 28 // SS220 EDIT: Fire Colony Lasalle survivor HUD
 #define MOB_HUD_MYCOTOXIN 29
+#define MOB_HUD_FACTION_HC 30 // SS220 EDIT: Hyperdyne faction HUD without colliding with local factions.
+#define MOB_HUD_FACTION_PAP 31 // SS220 EDIT: People's Armed Police HUD without colliding with local factions.
 
 //for SL/FTL/LZ targeting on locator huds
 #define TRACKER_SL "track_sl"

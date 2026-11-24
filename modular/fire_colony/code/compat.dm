@@ -4,13 +4,6 @@
 /turf/open/fire_colony/lava_no_burn/is_weedable()
 	return NOT_WEEDABLE
 
-/datum/weather_event
-	var/fullscreen_type
-	var/should_sound_weather_alarm = FALSE
-
-/datum/weather_event/proc/end_weather_event()
-	return
-
 /obj/item/clothing/suit/storage/marine
 	var/lamp_icon = "lamp"
 	var/lamp_light_color
@@ -34,12 +27,7 @@
 	new /obj/item/tool/extinguisher/mini(src)
 	new /obj/item/storage/box/m94(src)
 
-/obj/structure/sign/calendar
-	var/calendar_faction
-
-/obj/structure/fence
-	var/door = FALSE
-
+// SS220 EDIT: calendar_faction and fence.door are declared by their shared upstream types.
 /obj/structure/inflatable
 	var/icon_suffix = ""
 	var/origin = /obj/item/inflatable
@@ -54,34 +42,12 @@
 		return
 	addtimer(CALLBACK(src, PROC_REF(play_random_sound)), rand(min_delay, max_delay))
 
-GLOBAL_LIST_INIT_TYPED(sentry_spawns, /list/obj/effect/sentry_landmark, list())
-
 /obj/item/trash/hotdog/alt
 	name = "Hotdog wrapper"
 	icon_state = "unbranded_hotdog"
 	desc = "A musty plastic film that once held a hotdog."
 
-/obj/effect/timed_event/proc/handle_round_start()
-	var/actual_time = time MINUTES
-	if(!check_valid_type())
-		return
-	addtimer(generate_callback(), actual_time)
-	if(notification_areas[type]?["[actual_time]"])
-		LAZYORASSOCLIST(notification_areas[type], "[actual_time]", get_area(src))
-		qdel(src)
-	else
-		addtimer(CALLBACK(src, PROC_REF(announce_event), actual_time), actual_time)
-		LAZYORASSOCLIST(notification_areas[type], "[actual_time]", get_area(src))
-
-/obj/effect/timed_event/proc/check_valid_type()
-	return TRUE
-
-/obj/effect/timed_event/proc/generate_callback()
-	return
-
-/obj/effect/timed_event/proc/announce_event(time_to_grab)
-	return
-
+// SS220 EDIT: generic timed-event procs are supplied by code/modules/mapping/mapping_helpers.dm.
 /obj/effect/vehicle_spawner/rt01/decrepit/spawn_vehicle()
 	var/obj/vehicle/multitile/rt01/van = new(loc)
 	load_misc(van)

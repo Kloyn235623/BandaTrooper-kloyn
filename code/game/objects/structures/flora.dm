@@ -163,6 +163,31 @@ PLANT_CUT_MACHETE = 3 = Needs at least a machete to be cut down
 /obj/structure/flora/tree/jungle/bigtreeTL
 	icon_state = "bigtreeTL"
 
+// LV-624 roof flora is rendered through the roof system and spans multiple tiles.
+/obj/structure/roof/flora/tree/jungle/bigtreeTR // SS220 EDIT: keep the imported Lazarus Landing tree on the roof rendering path.
+	name = "huge tree"
+	icon = 'icons/obj/structures/props/natural/vegetation/ground_map64.dmi'
+	icon_state = "bigtreeTR"
+	desc = "What an enormous tree!"
+	density = FALSE
+	layer = ABOVE_XENO_LAYER
+	bound_height = 128
+	bound_width = 128
+	explo_proof = TRUE
+	unacidable = TRUE
+
+/obj/structure/roof/flora/tree/jungle/bigtreeTL // SS220 EDIT: keep the imported Lazarus Landing tree on the roof rendering path.
+	name = "huge tree"
+	icon = 'icons/obj/structures/props/natural/vegetation/ground_map64.dmi'
+	icon_state = "bigtreeTL"
+	desc = "What an enormous tree!"
+	density = FALSE
+	layer = ABOVE_XENO_LAYER
+	bound_height = 128
+	bound_width = 128
+	explo_proof = TRUE
+	unacidable = TRUE
+
 /obj/structure/flora/tree/jungle/bigtreeBOT
 	icon_state = "bigtreeBOT"
 
@@ -361,6 +386,17 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	overlay_type = "tallgrass_overlay_corner"
 	center = FALSE
 
+// SOROKYNE
+/obj/structure/flora/grass/tallgrass/jungle_alt
+	color = COLOR_G_SORO
+	icon_state = "tallgrass"
+	desc = "A thick carpet of bristling junglegrass, vibrant and untamed."
+
+/obj/structure/flora/grass/tallgrass/jungle_alt/corner
+	icon_state = "tallgrass_corner"
+	overlay_type = "tallgrass_overlay_corner"
+	center = FALSE
+
 //LV - JUNGLE MAPS//
 
 /obj/structure/flora/grass/tallgrass/jungle
@@ -373,6 +409,39 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	icon_state = "tallgrass_corner"
 	overlay_type = "tallgrass_overlay_corner"
 	center = FALSE
+
+/obj/structure/flora/grass/tallgrass/jungle_alt_2 // SS220 EDIT: define LV-624's mapped pale jungle grass variant.
+	color = "#9ac68c"
+	icon_state = "tallgrass"
+	desc = "A clump of vibrant jungle grasses"
+	fire_flag = FLORA_BURN_SPREAD_ONCE
+
+/obj/structure/flora/grass/tallgrass/jungle_alt_2/corner
+	icon_state = "tallgrass_corner"
+	overlay_type = "tallgrass_overlay_corner"
+	center = FALSE
+
+// Large Jungle Bush - SORO - (Colorable)
+
+/obj/structure/flora/jungle/thickbush/large_jungle_bush
+	name = "bush"
+	desc = "A large jungle bush, it'll take something sharp and a lot of determination to clear away."
+	icon = 'icons/obj/structures/props/natural/vegetation/colorable_junge_bush.dmi'
+	icon_state = "bush1"
+	density = FALSE
+	layer = ABOVE_XENO_LAYER
+	fire_flag = FLORA_BURN_NO_SPREAD
+	health = 100
+
+/obj/structure/flora/jungle/thickbush/large_jungle_bush/attack_alien(mob/living/carbon/xenomorph/current_xenomorph)
+	if(unslashable)
+		return XENO_NO_DELAY_ACTION
+	current_xenomorph.animation_attack_on(src)
+	playsound(src, 'sound/effects/vegetation_hit.ogg', 25, 1)
+	current_xenomorph.visible_message(SPAN_DANGER("[current_xenomorph] slashes at [src]!"),
+	SPAN_DANGER("You slash at [src]!"), null, 5, CHAT_TYPE_XENO_COMBAT)
+	update_health(rand(current_xenomorph.melee_damage_lower, current_xenomorph.melee_damage_upper))
+	return XENO_ATTACK_ACTION
 
 //REDEMPTION VALLEY//
 /obj/structure/flora/grass/tallgrass/crop
@@ -658,6 +727,40 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	icon_state = "light_3"
 	icon_tag = "light"
 
+/obj/structure/flora/jungle/vines/blue
+	name = "vines"
+	desc = "A mass of twisted vines."
+	icon = 'icons/effects/vines/blue_vines.dmi'
+
+/obj/structure/flora/jungle/vines/blue/light_1
+	icon_state = "light_1"
+	icon_tag = "light"
+
+/obj/structure/flora/jungle/vines/blue/light_2
+	icon_state = "light_2"
+	icon_tag = "light"
+
+/obj/structure/flora/jungle/vines/blue/light_3
+	icon_state = "light_3"
+	icon_tag = "light"
+
+/obj/structure/flora/jungle/vines/dead
+	name = "dead vines"
+	desc = "A mass of twisted dead vines."
+	icon = 'icons/effects/vines/dead_vines.dmi'
+
+/obj/structure/flora/jungle/vines/dead/light_1
+	icon_state = "light_1"
+	icon_tag = "light"
+
+/obj/structure/flora/jungle/vines/dead/light_2
+	icon_state = "light_2"
+	icon_tag = "light"
+
+/obj/structure/flora/jungle/vines/dead/light_3
+	icon_state = "light_3"
+	icon_tag = "light"
+
 //heavy hide you
 /obj/structure/flora/jungle/vines/heavy
 	desc = "A thick, coiled mass of twisted vines."
@@ -667,6 +770,28 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	variations = 6
 
 /obj/structure/flora/jungle/vines/heavy/New()
+	..()
+	icon_state = pick("heavy_1","heavy_2","heavy_3","heavy_4","heavy_5","heavy_6")
+
+/obj/structure/flora/jungle/vines/blue/heavy
+	desc = "A thick, coiled mass of twisted vines."
+	opacity = TRUE
+	icon_state = "heavy_6"
+	icon_tag = "heavy"
+	variations = 6
+
+/obj/structure/flora/jungle/vines/blue/heavy/New()
+	..()
+	icon_state = pick("heavy_1","heavy_2","heavy_3","heavy_4","heavy_5","heavy_6")
+
+/obj/structure/flora/jungle/vines/dead/heavy
+	desc = "A thick, coiled mass of twisted dead vines."
+	opacity = TRUE
+	icon_state = "heavy_6"
+	icon_tag = "heavy"
+	variations = 6
+
+/obj/structure/flora/jungle/vines/dead/heavy/New()
 	..()
 	icon_state = pick("heavy_1","heavy_2","heavy_3","heavy_4","heavy_5","heavy_6")
 
@@ -775,3 +900,73 @@ ICEY GRASS. IT LOOKS LIKE IT'S MADE OF ICE.
 	desc = "Looks like some of that fruit might be edible."
 	icon_tag = "plant"
 	variations  = 7
+/obj/structure/flora/tree/tyrargo
+	icon = 'icons/obj/structures/props/natural/vegetation/tyrargo_pine_tree.dmi'
+	icon_state = "pine_1_snow"
+/obj/structure/flora/tree/tyrargo/tree_2
+	icon_state = "pine_1"
+/obj/structure/flora/tree/tyrargo/tree_3
+	icon_state = "bald"
+/obj/structure/flora/tree/tyrargo/tree_4
+	icon_state = "dead_tree1"
+/obj/structure/flora/tree/tyrargo/tree_5
+	icon_state = "dead_tree2"
+/obj/structure/flora/tree/tyrargo/tree_6
+	icon_state = "dead_tree3"
+/obj/structure/flora/tree/tyrargo_small
+	icon = 'icons/obj/structures/props/natural/vegetation/tyrargo_dead_trees.dmi'
+	icon_state = "tree_1"
+/obj/structure/flora/tree/tyrargo_small/tree_2
+	icon_state = "tree_2"
+/obj/structure/flora/tree/tyrargo_small/tree_3
+	icon_state = "tree_3"
+/obj/structure/flora/tree/tyrargo_small/tree_4
+	icon_state = "tree_4"
+/obj/structure/flora/tree/tyrargo_small/tree_5
+	icon_state = "tree_5"
+/obj/structure/flora/tree/tyrargo_small/tree_stump
+	icon_state = "tree_stump"
+	density = FALSE
+/*
+	Canyon Bushes
+*/
+/obj/structure/flora/bush/canyon
+	name = "bush"
+	icon = 'icons/obj/structures/props/natural/vegetation/canyon_flora.dmi'
+	desc = "A small, leafy bush."
+	icon_state = "green_small_bush"
+	cut_level = PLANT_CUT_KNIFE
+	layer = ABOVE_XENO_LAYER
+/obj/structure/flora/bush/canyon/bush
+/obj/structure/flora/bush/canyon/bush/alt1
+	icon_state = "orange_small_bush"
+/obj/structure/flora/bush/canyon/bush/alt2
+	icon_state = "yellow_small_bush"
+/obj/structure/flora/bush/canyon/tree
+	name = "small tree"
+	desc = "A small, leafy tree."
+	icon_state = "green_small_tree"
+/obj/structure/flora/bush/canyon/tree/alt1
+	icon_state = "orange_small_tree"
+/obj/structure/flora/bush/canyon/tree/alt2
+	icon_state = "yellow_small_tree"
+/obj/structure/flora/bush/canyon/grass_green
+	name = "grass"
+	desc = "A small patch of grass."
+	icon_state = "green_grass_1"
+/obj/structure/flora/bush/canyon/grass_green/alt1
+	icon_state = "green_grass_2"
+/obj/structure/flora/bush/canyon/grass_green/alt2
+	icon_state = "green_grass_3"
+/obj/structure/flora/bush/canyon/grass_orange
+	icon_state = "orange_grass_1"
+/obj/structure/flora/bush/canyon/grass_orange/alt1
+	icon_state = "orange_grass_2"
+/obj/structure/flora/bush/canyon/grass_orange/alt2
+	icon_state = "orange_grass_3"
+/obj/structure/flora/bush/canyon/grass_yellow
+	icon_state = "yellow_grass_1"
+/obj/structure/flora/bush/canyon/grass_yellow/alt1
+	icon_state = "yellow_grass_2"
+/obj/structure/flora/bush/canyon/grass_yellow/alt2
+	icon_state = "yellow_grass_3"

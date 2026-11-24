@@ -14,10 +14,11 @@ GLOBAL_DATUM_INIT(openspace_backdrop_one_for_all, /atom/movable/openspace_backdr
 	vis_flags = VIS_HIDE
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 
-/obj/vis_contents_holder/Initialize(mapload, turf/below, z_offset)
+/obj/vis_contents_holder/Initialize(mapload, turf/below, z_offset, show_backdrop = TRUE)
 	. = ..()
 	plane -= z_offset
-	vis_contents += GLOB.openspace_backdrop_one_for_all
+	if(show_backdrop)
+		vis_contents += GLOB.openspace_backdrop_one_for_all
 	vis_contents += below
 	name = null
 

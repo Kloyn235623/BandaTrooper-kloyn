@@ -76,15 +76,19 @@
 
 // Unit tests
 #include "admin_music.dm" // SS220 EDIT: cover the modular Admin Music Panel preset parsing, validation, and merge/save helpers
+#include "admin_select_equipment.dm"
+#include "survivor_imported_presets.dm"
 #include "autowiki.dm"
 #include "check_runtimes.dm"
 #include "create_and_destroy.dm"
+#include "duplicate_sprite_accessories.dm"
 #include "emote_panels.dm"
 #include "game_rule_panel.dm" // SS220 EDIT: include Game Rule Panel unit tests
 #include "gc_regressions.dm"
 #include "missing_icons.dm"
 #include "resist.dm"
 #include "spawn_humans.dm"
+#include "space_reservation_multiz.dm"
 #include "spritesheets.dm"
 #include "subsystem_init.dm"
 #include "tgui_create_message.dm"

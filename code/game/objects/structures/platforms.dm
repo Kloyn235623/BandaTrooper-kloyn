@@ -6,13 +6,15 @@
 	desc = "A square metal surface resting on four legs."
 	icon = 'icons/obj/structures/props/platforms.dmi'
 	icon_state = "platform"
+	vis_flags = 0 // SS220 EDIT: platforms must stay on their mapped Z instead of inheriting an open-space floor's plane.
 	climbable = TRUE
 	anchored = TRUE
 	density = TRUE
 	throwpass = TRUE //You can throw objects over this, despite its density.
 	layer = OBJ_LAYER
 	breakable = FALSE
-	flags_atom = ON_BORDER
+	// flags_atom = ON_BORDER
+	flags_atom = ON_BORDER|NO_ZFALL // SS220 EDIT: map-loaded platforms must not fall into the turf below.
 	unacidable = TRUE
 	unslashable = TRUE
 	climb_delay = CLIMB_DELAY_SHORT
@@ -31,16 +33,16 @@
 	var/image/I = image(icon, src, "platform_overlay", LADDER_LAYER, dir)//ladder layer puts us just above weeds.
 	switch(dir)
 		if(SOUTH)
-			layer = ABOVE_MOB_LAYER+0.1
+			layer = ABOVE_MOB_LAYER
 			I.pixel_y = -16
 		if(NORTH)
 			I.pixel_y = 16
 		if(EAST)
 			I.pixel_x = 16
-			layer = ABOVE_MOB_LAYER+0.1
+			layer = MOB_LAYER
 		if(WEST)
 			I.pixel_x = -16
-			layer = ABOVE_MOB_LAYER+0.1
+			layer = MOB_LAYER
 	overlays += I
 
 /obj/structure/platform/initialize_pass_flags(datum/pass_flags_container/PF)
@@ -85,12 +87,14 @@
 	desc = "A square metal surface resting on four legs."
 	icon = 'icons/obj/structures/props/platforms.dmi'
 	icon_state = "platform_deco"
+	vis_flags = 0 // SS220 EDIT: platform trim must stay on its mapped Z instead of inheriting an open-space floor's plane.
 	anchored = TRUE
 	density = FALSE
 	throwpass = TRUE
 	layer = OBJ_LAYER
 	breakable = FALSE
-	flags_atom = ON_BORDER
+	// flags_atom = ON_BORDER
+	flags_atom = ON_BORDER|NO_ZFALL // SS220 EDIT: mapped platform trim must not fall into the turf below.
 	unacidable = TRUE
 	unslashable = TRUE
 
@@ -462,6 +466,9 @@
 /obj/structure/platform_decoration/stone/runed_sandstone/west
 	dir = WEST
 
+/obj/structure/platform/wood
+	icon_state = "wood_platform"
+
 //------------------------------//
 //    Metal Stairs Platforms    //
 //------------------------------//
@@ -487,6 +494,12 @@
 
 /obj/structure/platform/metal/stair_cut/strata_right
 	icon_state = "strata_metalplatform_stair_alt"
+
+/obj/structure/platform/metal/stair_cut/strata_left/alt
+	icon_state = "alt_strata_metalplatform_stair"
+
+/obj/structure/platform/metal/stair_cut/strata_right/alt
+	icon_state = "alt_strata_metalplatform_stair_alt"
 
 /obj/structure/platform/metal/stair_cut/shiva_left
 	icon_state = "shiva_stair"
@@ -530,11 +543,25 @@
 
 /obj/structure/platform/stone/stair_cut/runed_sandstone_left
 	icon_state = "stone_stair"
-	color = "#b29082"
+	color = "#b6a38f"
 
 /obj/structure/platform/stone/stair_cut/runed_sandstone_right
 	icon_state = "stone_stair_alt"
-	color = "#b29082"
+	color = "#b6a38f"
+
+/// Ancient-Temple platform stair-cut
+
+/obj/structure/platform/stone/stair_cut/ancient_temple_left
+	icon_state = "ancient_platform_stair_left"
+
+/obj/structure/platform/stone/stair_cut/ancient_temple_right
+	icon_state = "ancient_platform_stair_right"
+
+/obj/structure/platform/stone/stair_cut/ancient_temple_alt_left
+	icon_state = "ancient_platform_stair_alt_left"
+
+/obj/structure/platform/stone/stair_cut/ancient_temple_alt_right
+	icon_state = "ancient_platform_stair_alt_right"
 
 //------------------------------------//
 //       Metal based Platforms        //
@@ -603,6 +630,41 @@
 /obj/structure/platform/metal/strata/west
 	dir = WEST
 
+// Alt Strata Platform (Light-Grey)
+
+/obj/structure/platform/metal/strata/alt
+	name = "raised metal edge"
+	desc = "A raised level of metal, often used to elevate areas above others. You could probably climb it."
+	icon_state = "alt_strata_metalplatform"
+
+/obj/structure/platform/metal/strata/alt/north
+	dir = NORTH
+/obj/structure/platform/metal/strata/alt/east
+	dir = EAST
+/obj/structure/platform/metal/strata/alt/west
+	dir = WEST
+
+
+// Hunter Platforms
+
+/obj/structure/platform/metal/hunter
+	icon_state = "hunter_platform"
+	name = "raised metal edge"
+	desc =  "A raised level of metal, often used to elevate areas above others, or construct bridges. You could probably climb it."
+
+/obj/structure/platform/metal/hunter/north
+	dir = NORTH
+/obj/structure/platform/metal/hunter/east
+	dir = EAST
+/obj/structure/platform/metal/hunter/west
+	dir = WEST
+
+/obj/structure/prop/hunter/fake_platform/hunter/stair_cut/hunter_left
+	icon_state = "hunter_platform_stair"
+
+/obj/structure/prop/hunter/fake_platform/hunter/stair_cut/hunter_right
+	icon_state = "hunter_platform_stair_alt"
+
 //------------------------------------//
 //       Rock based Platforms         //
 //------------------------------------//
@@ -660,7 +722,7 @@
 /obj/structure/platform/stone/runed_sandstone
 	name = "sandstone temple platform"
 	icon_state = "stone"
-	color = "#b29082"
+	color = "#b6a38f"
 
 /obj/structure/platform/stone/runed_sandstone/north
 	dir = NORTH
@@ -668,6 +730,32 @@
 	dir = EAST
 /obj/structure/platform/stone/runed_sandstone/west
 	dir = WEST
+
+/// Ancient-Temple platforms
+
+/obj/structure/platform/stone/ancient_temple
+	name = "stone platform"
+	desc = "A platform supporting elevated ground, made of stone. It appears to be carved with deocorative symbols."
+	icon_state = "ancient_platform"
+
+/obj/structure/platform/stone/ancient_temple/north
+	dir = NORTH
+/obj/structure/platform/stone/ancient_temple/east
+	dir = EAST
+/obj/structure/platform/stone/ancient_temple/west
+	dir = WEST
+
+
+/obj/structure/platform/stone/ancient_temple/alt
+	icon_state = "ancient_platform_alt"
+
+/obj/structure/platform/stone/ancient_temple/alt/north
+	dir = NORTH
+/obj/structure/platform/stone/ancient_temple/alt/east
+	dir = EAST
+/obj/structure/platform/stone/ancient_temple/alt/west
+	dir = WEST
+
 
 //------------------------------------//
 // Metal based Platforms "decoration" //
@@ -727,6 +815,19 @@
 /obj/structure/platform_decoration/metal/shiva/west
 	dir = WEST
 
+// Alt Strata Platform Deco (Light-Grey)
+
+/obj/structure/platform_decoration/metal/strata/alt
+	name = "raised metal corner"
+	desc = "A raised level of metal, often used to elevate areas above others. This is the corner."
+	icon_state = "alt_strata_metalplatform_deco"
+
+/obj/structure/platform_decoration/metal/strata/alt/north
+	dir = NORTH
+/obj/structure/platform_decoration/metal/strata/alt/east
+	dir = EAST
+/obj/structure/platform_decoration/metal/strata/alt/west
+	dir = WEST
 
 /obj/structure/platform_decoration/metal/strata
 	name = "raised metal corner"
@@ -797,13 +898,37 @@
 /obj/structure/platform_decoration/stone/runed_sandstone
 	name = "sandstone temple platform corner"
 	icon_state = "stone_deco"
-	color = "#b29082"
+	color = "#b6a38f"
 
 /obj/structure/platform_decoration/stone/runed_sandstone/north
 	dir = NORTH
 /obj/structure/platform_decoration/stone/runed_sandstone/east
 	dir = EAST
 /obj/structure/platform_decoration/stone/runed_sandstone/west
+	dir = WEST
+
+/// Ancient-Temple platform deco
+
+/obj/structure/platform_decoration/stone/ancient_temple
+	name = "stone platform corner"
+	desc = "A platform supporting elevated ground, made of stone. It appears to be carved with deocorative symbols."
+	icon_state = "ancient_platform_deco"
+
+/obj/structure/platform_decoration/stone/ancient_temple/north
+	dir = NORTH
+/obj/structure/platform_decoration/stone/ancient_temple/east
+	dir = EAST
+/obj/structure/platform_decoration/stone/ancient_temple/west
+	dir = WEST
+
+/obj/structure/platform_decoration/stone/ancient_temple/alt
+	icon_state = "ancient_platform_alt_deco"
+
+/obj/structure/platform_decoration/stone/ancient_temple/alt/north
+	dir = NORTH
+/obj/structure/platform_decoration/stone/ancient_temple/alt/east
+	dir = EAST
+/obj/structure/platform_decoration/stone/ancient_temple/alt/west
 	dir = WEST
 
 /// Hybrisa Platforms
@@ -1058,21 +1183,47 @@
 	name = "metal post"
 	desc = "A simple metal post."
 	icon_state = "post_deco"
-
 /obj/structure/platform_decoration/metal/post/north
 	dir = NORTH
 /obj/structure/platform_decoration/metal/post/east
 	dir = EAST
 /obj/structure/platform_decoration/metal/post/west
 	dir = WEST
-
 /obj/structure/platform_decoration/metal/post_small
 	name = "metal post"
 	desc = "A simple metal post."
 	icon_state = "post_small_deco"
-
 /obj/structure/platform_decoration/metal/post_small/north
 	dir = NORTH
 /obj/structure/platform_decoration/metal/post_small/east
 	dir = EAST
 /obj/structure/platform_decoration/metal/post_small/west
+//------------------------------//
+//    Wooden Stairs Platforms    //
+/obj/structure/platform/wood
+	icon_state = "wood_platform"
+	name = "wooden platform"
+	desc = "A raised level of wood, often used to elevate areas above others. You could probably climb it."
+/obj/structure/platform/wood/north
+/obj/structure/platform/wood/east
+/obj/structure/platform/wood/west
+/obj/structure/platform/wood/stair_cut
+	icon_state = "wood_platform_stair"
+/obj/structure/platform/wood/stair_cut/platform_left
+/obj/structure/platform/wood/stair_cut/platform_right
+	icon_state = "wood_platform_stair_alt"
+//------------------------------------//
+// Wood based Platforms "decoration" //
+/obj/structure/platform_decoration/wood
+	icon_state = "wood_platform_deco"
+/obj/structure/platform_decoration/wood/north
+/obj/structure/platform_decoration/wood/east
+/obj/structure/platform_decoration/wood/west
+/obj/structure/platform_decoration/wood/northeast
+	dir = NORTHEAST
+/obj/structure/platform_decoration/wood/northwest
+	dir = NORTHWEST
+/obj/structure/platform_decoration/wood/southeast
+	dir = SOUTHEAST
+/obj/structure/platform_decoration/wood/southwest
+	dir = SOUTHWEST

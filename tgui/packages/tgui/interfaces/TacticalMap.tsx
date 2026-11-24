@@ -196,6 +196,7 @@ const ViewMapPanel = (props) => {
   return (
     <Section fill>
       <ByondUi
+        key={data.mapRef}
         height="100%"
         width="100%"
         params={{

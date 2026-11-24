@@ -16,7 +16,9 @@ GLOBAL_LIST_INIT_TYPED(huds, /datum/mob_hud, flatten_numeric_alist(alist(
 	MOB_HUD_FACTION_ARMY = new /datum/mob_hud/faction/army(),
 	MOB_HUD_FACTION_NAVY = new /datum/mob_hud/faction/navy(),
 	MOB_HUD_FACTION_UPP = new /datum/mob_hud/faction/upp(),
+	MOB_HUD_FACTION_PAP = new /datum/mob_hud/faction/pap(),
 	MOB_HUD_FACTION_WY = new /datum/mob_hud/faction/wy(),
+	MOB_HUD_FACTION_HC = new /datum/mob_hud/faction/hyperdyne(),
 	MOB_HUD_FACTION_TWE = new /datum/mob_hud/faction/twe(),
 	MOB_HUD_FACTION_IASF = new /datum/mob_hud/faction/iasf(),
 	MOB_HUD_FACTION_LB = new /datum/mob_hud/faction/lasalle_bionational(), // SS220 EDIT: Fire Colony survivor HUD
@@ -231,8 +233,17 @@ GLOBAL_LIST_INIT_TYPED(huds, /datum/mob_hud, flatten_numeric_alist(alist(
 /datum/mob_hud/faction/upp
 	faction_to_check = FACTION_UPP
 
+/datum/mob_hud/faction/pap
+	faction_to_check = FACTION_PAP
+
 /datum/mob_hud/faction/wy
 	faction_to_check = FACTION_WY
+
+/datum/mob_hud/faction/hyperdyne
+	faction_to_check = FACTION_HYPERDYNE
+
+/datum/mob_hud/faction/conam
+	faction_to_check = FACTION_CONAM
 
 /datum/mob_hud/faction/twe
 	faction_to_check = FACTION_TWE
@@ -289,13 +300,16 @@ GLOBAL_LIST_INIT_TYPED(huds, /datum/mob_hud, flatten_numeric_alist(alist(
 	for(var/datum/mob_hud/hud in GLOB.huds)
 		if(istype(hud, /datum/mob_hud/xeno)) //this one is xeno only
 			continue
+		if(istype(hud, /datum/mob_hud/faction))
+			// Only add to a faction hud if we are that faction
+			var/datum/mob_hud/faction/faction_hud = hud
+			if(faction_hud.faction_to_check != faction)
+				continue
 		hud.add_to_hud(src)
 
 /mob/living/carbon/xenomorph/add_to_all_mob_huds()
-	for(var/datum/mob_hud/hud in GLOB.huds)
-		if(!istype(hud, /datum/mob_hud/xeno))
-			continue
-		hud.add_to_hud(src)
+	var/datum/mob_hud/hud = GLOB.huds[MOB_HUD_XENO_STATUS]
+	hud.add_to_hud(src)
 
 
 /mob/proc/remove_from_all_mob_huds()

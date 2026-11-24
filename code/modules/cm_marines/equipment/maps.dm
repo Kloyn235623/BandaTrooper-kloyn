@@ -60,6 +60,11 @@
 	desc = "A satellite printout of the Lazarus Landing colony on LV-624."
 	html_link = "images/6/6f/LV624.png"
 
+/obj/item/map/lv624_lazarus_landing_map
+	name = "\improper Lazarus Landing Map"
+	desc = "A satellite printout of the Lazarus Landing colony on LV-624."
+	html_link = "images/6/6f/LV624.png"
+
 /obj/item/map/ice_colony_map
 	name = "\improper Ice Colony map"
 	desc = "A satellite printout of the Ice Colony."
@@ -201,12 +206,25 @@
 	color = "cyan"
 // SS220 EDIT - END
 
+/obj/item/map/cape_river
+	name = "\improper Cape River map"
+	desc = "A labeled blueprint of the Con-Am mining outpost Cape River"
+	html_link = "images/4/46/Cape_River.png"
+	color = "red"
+
+/obj/item/map/galaxy
+	name = "\improper Galaxy map"
+	desc = "A diagrammatic map of the milky way, laid out by sector."
+	html_link = "images/9/9e/Galaxy_Map.png"
+	color = "#005eab"
+
 GLOBAL_LIST_INIT_TYPED(map_type_list, /obj/item/map, setup_all_maps())
 
 /proc/setup_all_maps()
 	return list(
 		MAP_LV_624 = new /obj/item/map/lazarus_landing_map(),
 		MAP_LV_624_REPAIRED = new /obj/item/map/lazarus_landing_map(),
+		MAP_LV_624_LAZARUS_LANDING = new /obj/item/map/lv624_lazarus_landing_map(),
 		MAP_ICE_COLONY = new /obj/item/map/ice_colony_map(),
 		MAP_ICE_COLONY_V1 = new /obj/item/map/ice_colony_map/v1(),
 		MAP_ICE_COLONY_V2 = new /obj/item/map/ice_colony_map/v2(),
@@ -229,6 +247,8 @@ GLOBAL_LIST_INIT_TYPED(map_type_list, /obj/item/map, setup_all_maps())
 		MAP_NEW_VARADERO = new /obj/item/map/new_varadero(),
 		MAP_NEW_VARADERO_REPAIRED = new /obj/item/map/new_varadero(),
 		MAP_DERELICT_ALMAYER = new /obj/item/map/almayer(),
+		MAP_LV522_LUKES_LANDING = new /obj/item/map/lv522_map(),
+		MAP_LV522_CHANCES_CLAIM_LUKES_LANDING = new /obj/item/map/lv522_map(),
 		MAP_LV295_BLACKSITE = new /obj/item/map/lv522_map(),
 		MAP_SI391_SEKHMET = new /obj/item/map/lazarus_landing_map(),
 		MAP_BMG290_OTOGI_EGRESS_POINT = new /obj/item/map/new_varadero(),
@@ -247,6 +267,10 @@ GLOBAL_LIST_INIT_TYPED(map_type_list, /obj/item/map, setup_all_maps())
 		MAP_LV818_FEATURELESS_JUNGLE = new /obj/item/map/lv522_map(),
 		MAP_LV295_FEATURELESS_ARCTIC = new /obj/item/map/lv522_map(),
 		// SS220 EDIT - START
+		MAP_TYRARGO_RIFT = new /obj/item/map/tyrargo_rift(),
+		MAP_WHITE_ANTRE_RESEARCH_FACILITY = new /obj/item/map/white_antre_map(),
+		MAP_CONAM_81_ABYSSAL = new /obj/item/map/new_varadero(),
+		MAP_CAPE_RIVER = new /obj/item/map/cape_river(),
 		MAP_LV_671 = new /obj/item/map/lv_671(),
 		MAP_OIL_DEPOT = new /obj/item/map/oil_depot(),
 		MAP_DERELICT_ALMAYER_INFESTED = new /obj/item/map/almayer/infested(),

@@ -158,6 +158,9 @@
 	can_bloody = FALSE
 	supports_surgery = FALSE
 
+/turf/open/void/darkness
+	name = "darkness"
+
 /turf/open/void/vehicle
 	density = TRUE
 	opacity = TRUE
