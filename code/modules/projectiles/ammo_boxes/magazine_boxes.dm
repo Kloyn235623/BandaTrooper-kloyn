@@ -1474,7 +1474,7 @@
 	icon_state = "base_type71"
 	flags_equip_slot = SLOT_BACK
 	overlay_ammo_type = "_type71_reg"
-	overlay_gun_type = "_ak4047"
+	overlay_gun_type = "_type71"
 	overlay_content = "_type71_reg"
 	num_of_magazines = 14
 	magazine_type = /obj/item/ammo_magazine/rifle/ak4047

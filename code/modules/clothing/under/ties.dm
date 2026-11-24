@@ -620,7 +620,8 @@
 /obj/item/clothing/accessory/patch/conam_patch // SS220 EDIT: add the corporate patch type used by Con-Am 81 survivors.
 	name = "Con-Amalgamated patch"
 	desc = "A corporate shoulder patch bearing the Con-Amalgamated insignia."
-	icon_state = "conam_patch"
+	icon_state = "conampatch"
+	item_state = "conampatch"
 
 /obj/item/clothing/accessory/gaspacked/attack_self(mob/user)
 	if(user.get_active_hand() != src)

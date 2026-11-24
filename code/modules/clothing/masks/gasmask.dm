@@ -328,6 +328,6 @@
 /obj/item/clothing/mask/gas/sec_mask
 	name = "\improper Sec Mask"
 	desc = "Standard issue mask issued to Con-Am security forces. Typically locks in with the standard issue helmet Voice modulator appears to be disabled."
-	icon_state = "sec_mask"
-	item_state = "sec_mask"
+	icon_state = "pmc_mask"
+	item_state = "pmc_mask"
 	flags_inv_hide = HIDEFACE

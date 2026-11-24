@@ -49,7 +49,7 @@
 /area/template_noop)
 "cB" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "cM" = (
 /obj/item/shard,
@@ -172,7 +172,7 @@
 /area/template_noop)
 "ii" = (
 /obj/effect/decal/hybrisa/dirt,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "iv" = (
 /obj/structure/flora/jungle/planttop1,
@@ -301,7 +301,7 @@
 /area/template_noop)
 "qQ" = (
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "qY" = (
 /obj/item/stack/sheet/metal,
@@ -729,7 +729,7 @@
 /turf/open/floor/prison/platingdmg2,
 /area/template_noop)
 "HR" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "HT" = (
 /obj/item/stack/sheet/metal,
@@ -1230,7 +1230,7 @@
 /area/template_noop)
 "Zq" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "ZG" = (
 /obj/effect/decal/cleanable/blood/xeno,

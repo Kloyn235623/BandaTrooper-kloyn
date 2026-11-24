@@ -751,8 +751,8 @@
 /obj/item/clothing/head/cmcap/upp/beret/army
 	name = "\improper UL3 Army beret"
 	desc = "A well-made beret worn by reservists of the UPP armed forces. It signifies their continued commitment to the cause, even while not on active duty, and serves as a symbol of unity and service."
-	icon_state = "upp_army_beret"
-	item_state = "upp_army_beret"
+	icon_state = "upp_beret"
+	item_state = "upp_beret"
 /obj/item/clothing/head/cmcap/upp/beret/naval
 	name = "\improper UL4 Naval Infantry beret"
 	desc = "A black beret worn by the UPP's Naval Infantry. Wear it with pride."

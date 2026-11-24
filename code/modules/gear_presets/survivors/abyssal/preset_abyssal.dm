@@ -62,7 +62,7 @@
 	assignment = "Security"
 	skills = /datum/skills/civilian/survivor/marshal
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
-	job_title = JOB_CMB
+	rank = JOB_CMB
 	role_comm_title = "SEC"
 	access = list(
 		ACCESS_CIVILIAN_PUBLIC,
@@ -104,10 +104,10 @@
 	minimap_background = "background_cmb"
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 	idtype = /obj/item/card/id/deputy
-	job_title = JOB_CMB
+	rank = JOB_CMB
 	faction = FACTION_MARSHAL
 	faction_group = list(FACTION_MARSHAL, FACTION_MARINE, FACTION_SURVIVOR)
-	origin_override = ORIGIN_CMB
+	origin_override = ORIGIN_USCM
 	role_comm_title = "CMB DEP"
 	access = list(
 		ACCESS_CIVILIAN_PUBLIC,
@@ -122,7 +122,7 @@
 	survivor_variant = SECURITY_SURVIVOR
 
 /datum/equipment_preset/survivor/abyssal/colonial_marshal/load_gear(mob/living/carbon/human/new_human)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/CM_uniform(new_human), WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/cmb(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress/CMB/limited(new_human), WEAR_L_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/holobadge/cord(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/satchel/sec(new_human), WEAR_BACK)
@@ -200,7 +200,7 @@
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 	paygrades = list(PAY_SHORT_WYC2 = JOB_PLAYTIME_TIER_0, PAY_SHORT_WYC3 = JOB_PLAYTIME_TIER_2, PAY_SHORT_WYC4 = JOB_PLAYTIME_TIER_3, PAY_SHORT_WYC5 = JOB_PLAYTIME_TIER_4)
 	faction_group = FACTION_CONAM
-	job_title = JOB_HC_EXECUTIVE
+	rank = JOB_EXECUTIVE
 	faction = FACTION_CONAM
 	faction_group = list(FACTION_CONAM, FACTION_SURVIVOR)
 	idtype = /obj/item/card/id/silver/cl
@@ -242,7 +242,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/paper/abyssal/liaison(new_human.back), WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/leather/fancy(new_human), WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/black_leather(new_human), WEAR_HANDS)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/tie/gold(new_human), WEAR_ACCESSORY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/gold(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/conam_patch(new_human), WEAR_ACCESSORY)
 
 	add_survivor_weapon_civilian(new_human)

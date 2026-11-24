@@ -21,7 +21,7 @@
 /turf/template_noop,
 /area/template_noop)
 "dV" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "ef" = (
 /turf/open/gm/brown_dirt/random_rocks,
@@ -44,7 +44,7 @@
 /area/template_noop)
 "iO" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "kH" = (
 /obj/structure/flora/jungle/planttop1,
@@ -79,7 +79,7 @@
 /area/template_noop)
 "qt" = (
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "qL" = (
 /turf/open/gm/dirt/brown/variant_5,
@@ -106,7 +106,7 @@
 /area/template_noop)
 "wR" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "xo" = (
 /obj/structure/flora/jungle/vines/blue/light_3,

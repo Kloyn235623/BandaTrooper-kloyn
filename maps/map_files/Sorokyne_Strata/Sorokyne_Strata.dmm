@@ -54576,6 +54576,13 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/strata/interior/outpost/canteen)
 
+"zzZ" = (
+/obj/structure/pipes/standard/simple/hidden/cyan,
+/obj/effect/landmark/nightmare{
+	insert_tag = "flamer_bodypile"
+	},
+/turf/open/floor/strata,
+/area/strata/exterior/outpost_decks)
 (1,1,1) = {"
 aab
 aab
@@ -69867,7 +69874,7 @@ auw
 cuX
 cuX
 cuX
-cuX
+zzZ
 cfZ
 cuX
 aPx

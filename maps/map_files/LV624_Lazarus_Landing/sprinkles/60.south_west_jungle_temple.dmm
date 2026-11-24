@@ -23,7 +23,7 @@
 /area/lazarus/ground/jungle/south_west_jungle)
 "dQ" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "dW" = (
 /obj/structure/flora/bush/ausbushes/ausbush,
@@ -40,7 +40,7 @@
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_2,
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_3,
 /obj/effect/decal/lv_decals/red_mud_corner,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "fr" = (
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_4,
@@ -56,7 +56,7 @@
 	dir = 9
 	},
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "iB" = (
 /turf/open/gm/brown_dirt/random_rocks,
@@ -163,7 +163,7 @@
 /turf/closed/wall/strata_ice/jungle,
 /area/strata/interior/out_of_bounds)
 "vi" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "wp" = (
 /obj/effect/landmark/yautja_teleport,
@@ -311,7 +311,7 @@
 	name = "\improper alien blade";
 	throwforce = 26
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "Nz" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_4,
@@ -334,7 +334,7 @@
 /obj/structure/flora/jungle/vines/dead/light_3,
 /obj/structure/platform/stone/ancient_temple/alt/north,
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_2,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "Qe" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_2,

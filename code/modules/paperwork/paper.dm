@@ -931,5 +931,9 @@
 
 /obj/item/paper/colonial_grunts/Initialize(mapload, ...)
 	. = ..()
-	info = "<div> <img style='align:middle' src='[SSassets.transport.get_asset_url("colonialspacegruntsEZ.png")]'>"
+	// SS220 EDIT - START
+	// info = "<div> <img style='align:middle' src='[SSassets.transport.get_asset_url("colonialspacegruntsEZ.png")]'>"
+	var/datum/asset/asset = get_asset_datum(/datum/asset/simple/paper)
+	info = "<div> <img style='align:middle' src='[asset.get_url_mappings()["colonialspacegruntsEZ.png"]]'>"
+	// SS220 EDIT - END
 	update_icon()

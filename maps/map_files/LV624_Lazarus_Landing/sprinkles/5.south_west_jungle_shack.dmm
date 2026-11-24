@@ -51,7 +51,7 @@
 	pixel_y = -4;
 	layer = 3.6
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "dr" = (
 /obj/structure/flora/jungle/vines/blue/light_1,
@@ -164,7 +164,7 @@
 	pixel_y = 10
 	},
 /obj/structure/platform/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "kd" = (
 /obj/structure/flora/grass/tallgrass/jungle_alt_2/corner{
@@ -233,7 +233,7 @@
 /area/lazarus/ground/jungle/west_jungle)
 "mn" = (
 /obj/structure/platform/wood/north,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "nk" = (
 /obj/structure/platform/wood,
@@ -308,7 +308,7 @@
 	color = "#9f7b5c";
 	icon_state = "p_stair_ew_full_cap"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "pa" = (
 /obj/structure/bed/hybrisa/dingy,
@@ -342,7 +342,7 @@
 /area/lazarus/ground/jungle/west_jungle)
 "qJ" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "rj" = (
 /obj/item/reagent_container/glass/bucket/mopbucket{
@@ -381,7 +381,7 @@
 	pixel_x = -7
 	},
 /obj/structure/platform/wood/east,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "sL" = (
 /obj/structure/barricade/wooden{
@@ -493,7 +493,7 @@
 /area/lazarus/ground/jungle/west_jungle)
 "wz" = (
 /obj/structure/flora/jungle/planttop1,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "wR" = (
 /obj/structure/flora/grass/tallgrass/jungle_alt_2/corner{
@@ -740,7 +740,7 @@
 	pixel_y = -6
 	},
 /obj/effect/spawner/random/gun/pistol/lowchance,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "Gx" = (
 /turf/open/gm/coast/dirt/beachcorner/south_west,
@@ -760,7 +760,7 @@
 	color = "#9f7b5c";
 	icon_state = "p_stair_full"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "Jn" = (
 /obj/structure/platform/wood,
@@ -775,7 +775,7 @@
 	pixel_y = 9
 	},
 /obj/structure/platform/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "Ju" = (
 /obj/structure/flora/grass/tallgrass/jungle_alt_2/corner{
@@ -929,7 +929,7 @@
 	pixel_y = 1
 	},
 /obj/structure/platform/wood/east,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "QF" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
@@ -1052,7 +1052,7 @@
 /turf/open/floor/interior/wood/alt,
 /area/lazarus/ground/jungle/west_jungle)
 "Vz" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "Xb" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -1060,7 +1060,7 @@
 /area/lazarus/ground/jungle/west_jungle)
 "Xn" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "Xt" = (
 /obj/effect/decal/lv_decals/red_mud_corner{

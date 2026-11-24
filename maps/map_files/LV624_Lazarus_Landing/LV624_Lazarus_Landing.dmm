@@ -189,7 +189,7 @@
 /area/lazarus/comms)
 "acD" = (
 /obj/item/clothing/head/hardhat/white,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "acU" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
@@ -281,7 +281,7 @@
 	pixel_x = -13;
 	pixel_y = 14
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "afw" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_7{
@@ -296,7 +296,7 @@
 /area/lazarus/ground/ancient_temple/south/surface)
 "afO" = (
 /obj/structure/prop/ice_colony/soil_net,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "agd" = (
 /obj/structure/disposalpipe/junction,
@@ -336,7 +336,7 @@
 "agw" = (
 /obj/structure/fence/dark/overgrown,
 /obj/structure/flora/jungle/vines/blue/light_1,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "agJ" = (
 /turf/open/floor/interior/wood_sat,
@@ -383,14 +383,14 @@
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 8
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "ahT" = (
 /obj/structure/prop/ice_colony/ground_wire,
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 8
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "ahV" = (
 /obj/structure/machinery/landinglight/ds1{
@@ -575,7 +575,7 @@
 /area/lazarus/ground/ancient_temple/south/surface)
 "amS" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_jungle)
 "amT" = (
 /obj/effect/hunter/ancient_temple/deco_border/deco_border3{
@@ -892,7 +892,7 @@
 	pixel_x = 1;
 	pixel_y = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "ate" = (
 /obj/item/folded_tent/big{
@@ -940,7 +940,7 @@
 	dir = 6
 	},
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/west_caves)
 "ats" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -965,7 +965,7 @@
 /obj/effect/decal/cleanable/blood/drip{
 	pixel_x = -8
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "atF" = (
 /turf/open/gm/coast/dirt/beachcorner2/south_east,
@@ -985,7 +985,7 @@
 /obj/structure/machinery/colony_floodlight{
 	light_color = "#dae2ff"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_west_barrens)
 "auz" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble,
@@ -1005,7 +1005,7 @@
 /area/lazarus/ground/jungle/west_jungle)
 "auQ" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_jungle)
 "auZ" = (
 /obj/structure/flora/jungle/vines/blue/light_1,
@@ -1142,7 +1142,7 @@
 /area/lazarus/ground/colony/south_nexus_road)
 "ayh" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_medbay_road)
 "ayq" = (
 /turf/open/floor/ancient_temple/floor_13,
@@ -1186,7 +1186,7 @@
 /area/lazarus/shack)
 "ayP" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_central_jungle)
 "ayT" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -1250,7 +1250,7 @@
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "aAw" = (
 /obj/item/prop/torch_frame/ancient{
@@ -1309,7 +1309,7 @@
 /turf/open/auto_turf/lv_grass/layer1,
 /area/lazarus/yggdrasil)
 "aAV" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_east_jungle)
 "aBc" = (
 /obj/effect/decal/lv_decals/red_mud_corner{
@@ -1373,7 +1373,7 @@
 /area/lazarus/ground/ancient_temple/north_east)
 "aCD" = (
 /obj/structure/platform_decoration/metal/strata/alt/west,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "aCL" = (
 /obj/structure/platform/wood/north,
@@ -1428,7 +1428,7 @@
 	pixel_x = 6;
 	pixel_y = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "aEm" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_4,
@@ -1447,7 +1447,7 @@
 	pixel_x = -13;
 	pixel_y = 14
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz1)
 "aEG" = (
 /obj/structure/prop/ice_colony/ground_wire{
@@ -1709,7 +1709,7 @@
 	pixel_x = 6;
 	pixel_y = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "aMq" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -1731,7 +1731,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 10
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "aMI" = (
 /obj/effect/hunter/ancient_temple/tile_edge/tile_edge_11,
@@ -1745,12 +1745,12 @@
 	dir = 5
 	},
 /obj/structure/blocker/forcefield/vehicles,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "aMZ" = (
 /obj/effect/decal/ammo_casing,
 /obj/effect/decal/ammo_casing,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "aNc" = (
 /obj/effect/decal/lv_decals/red_mud_corner{
@@ -1797,7 +1797,7 @@
 /obj/structure/pipes/standard/manifold/hidden/cyan{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_nexus_road)
 "aNA" = (
 /obj/item/device/flashlight/lamp/tripod{
@@ -1993,7 +1993,7 @@
 /obj/structure/barricade/handrail/wire{
 	layer = 3.5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "aSq" = (
 /obj/structure/platform_decoration/wood/east,
@@ -2633,7 +2633,7 @@
 "bcQ" = (
 /obj/structure/platform_decoration/wood/east,
 /obj/item/stack/sheet/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "bcU" = (
 /obj/structure/platform_decoration/stone/ancient_temple/alt,
@@ -2786,7 +2786,7 @@
 /area/lazarus/ground/ancient_temple/east/surface)
 "bgi" = (
 /obj/effect/decal/lv_decals/cave_mud_corner,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove/south)
 "bgm" = (
 /obj/structure/machinery/space_heater/radiator/red{
@@ -2957,7 +2957,7 @@
 	icon_state = "p_stair_ew_full_cap"
 	},
 /obj/structure/platform/stone/stair_cut/ancient_temple_right,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "bjA" = (
 /obj/structure/machinery/space_heater/radiator/red{
@@ -3051,7 +3051,7 @@
 "blA" = (
 /obj/structure/prop/ice_colony/ground_wire,
 /obj/item/xenos_claw,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "blE" = (
 /turf/open/floor/prison/green/northeast,
@@ -3137,7 +3137,7 @@
 /obj/structure/surface/table,
 /obj/structure/platform/stone/ancient_temple,
 /obj/item/clothing/head/hardhat/white,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "bnX" = (
 /obj/structure/stairs/perspective{
@@ -3165,7 +3165,7 @@
 "bom" = (
 /obj/structure/platform_decoration/metal/strata/alt,
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "bop" = (
 /obj/structure/surface/rack,
@@ -3183,7 +3183,7 @@
 /area/lazarus/medbay)
 "boZ" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "bpa" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_7,
@@ -3191,7 +3191,7 @@
 /area/lazarus/ground/ancient_temple/north_east/surface)
 "bpe" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_medbay_road)
 "bpf" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
@@ -3431,7 +3431,7 @@
 	pixel_x = -23;
 	pixel_y = 8
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "bvn" = (
 /obj/item/weapon/gun/flare,
@@ -3547,7 +3547,7 @@
 "bxC" = (
 /obj/structure/platform/stone/ancient_temple/north,
 /obj/structure/platform/stone/ancient_temple/east,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "bxF" = (
 /obj/structure/platform/wood,
@@ -3571,7 +3571,7 @@
 	},
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
 /obj/structure/blocker/forcefield/vehicles,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/south_west_caves)
 "bxV" = (
 /obj/structure/platform/stone/ancient_temple/east,
@@ -3740,7 +3740,7 @@
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "bCA" = (
 /obj/effect/hunter/ancient_temple/deco_border/bronze/deco_border3,
@@ -3766,7 +3766,7 @@
 	pixel_x = -8;
 	pixel_y = 17
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_nexus_road)
 "bDG" = (
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_2,
@@ -3851,7 +3851,7 @@
 	icon_state = "p_stair_full"
 	},
 /obj/structure/platform/stone/ancient_temple,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "bGl" = (
 /obj/effect/decal/lv_decals/red_mud_corner,
@@ -4108,7 +4108,7 @@
 /turf/open/gm/coast/dirt/beachcorner/south_east,
 /area/lazarus/ground/river/east_river)
 "bMI" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_east_nexus_road)
 "bMO" = (
 /obj/effect/landmark/big_fog_marker,
@@ -4582,7 +4582,7 @@
 /obj/effect/landmark/nightmare{
 	insert_tag = "prison_cell_open"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_central_jungle)
 "bYq" = (
 /turf/open/floor/ancient_temple/damaged/damage_7,
@@ -4762,7 +4762,7 @@
 /area/lazarus/ground/caves/south_west_caves)
 "ccO" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_eastern_barrens)
 "ccV" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_3,
@@ -4783,7 +4783,7 @@
 /area/lazarus/ground/barrens/east_barrens)
 "cdA" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "cdI" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -4879,7 +4879,7 @@
 "cff" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "cfx" = (
 /obj/structure/platform/stone/ancient_temple/east,
@@ -5022,7 +5022,7 @@
 	pixel_x = -13;
 	pixel_y = 14
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz1)
 "chv" = (
 /obj/effect/hunter/ancient_temple/tile_edge,
@@ -5074,7 +5074,7 @@
 	pixel_x = -9;
 	pixel_y = 16
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "ciL" = (
 /obj/structure/machinery/light/small/blue{
@@ -5495,7 +5495,7 @@
 /area/lazarus/quartstorage)
 "csf" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_east_jungle)
 "css" = (
 /obj/structure/platform_decoration/wood/west,
@@ -5535,7 +5535,7 @@
 /area/lazarus/ground/ancient_temple/east/surface)
 "cty" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_jungle)
 "ctz" = (
 /obj/structure/platform_decoration/stone/ancient_temple/alt/west,
@@ -5595,7 +5595,7 @@
 "cuc" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/cyan,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_nexus_road)
 "cud" = (
 /turf/closed/wall/lv_outpost,
@@ -5758,7 +5758,7 @@
 /turf/open/floor/plating/ancient_temple,
 /area/lazarus/ground/ancient_temple/east/surface)
 "cxI" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south/surface)
 "cxL" = (
 /turf/closed/wall/lv_outpost,
@@ -6118,11 +6118,11 @@
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "cFK" = (
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "cFL" = (
 /obj/structure/platform/wood/west,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "cFM" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -6313,7 +6313,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 6
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south/surface)
 "cIp" = (
 /obj/structure/prop/ice_colony/ground_wire{
@@ -6510,7 +6510,7 @@
 	pixel_y = 19;
 	pixel_x = -15
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "cKU" = (
 /obj/structure/prop/brazier_ancient/alt/frame,
@@ -6568,7 +6568,7 @@
 /obj/structure/machinery/colony_floodlight{
 	light_color = "#dae2ff"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_central_jungle)
 "cLY" = (
 /obj/effect/decal/lv_decals/cave_mud_corner,
@@ -6635,7 +6635,7 @@
 	pixel_x = 6;
 	pixel_y = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_nexus_road)
 "cNb" = (
 /obj/structure/machinery/light/small/blue{
@@ -6673,7 +6673,7 @@
 /area/lazarus/engineering)
 "cOQ" = (
 /obj/structure/flora/jungle/vines/blue/light_1,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_east_jungle)
 "cOX" = (
 /turf/open/gm/dirt/brown/variant_5/east,
@@ -6684,7 +6684,7 @@
 /area/lazarus/ground/jungle/south_east_jungle)
 "cPG" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "cPK" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -6692,7 +6692,7 @@
 /area/lazarus/ground/caves/south_west_caves)
 "cQf" = (
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_jungle)
 "cQq" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -6807,7 +6807,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 10
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "cTO" = (
 /obj/structure/machinery/floodlight/landing{
@@ -6842,7 +6842,7 @@
 	pixel_x = 1;
 	pixel_y = 8
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "cUH" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -6920,7 +6920,7 @@
 /obj/effect/decal/cleanable/blood/drip{
 	pixel_y = 17
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "cWn" = (
 /obj/item/reagent_container/food/drinks/cans/ale{
@@ -6989,7 +6989,7 @@
 /area/lazarus/fitness)
 "cYH" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "cYN" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -7090,7 +7090,7 @@
 "dau" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/structure/platform_decoration/metal/strata/alt/north,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "daE" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -7203,7 +7203,7 @@
 /area/lazarus/ground/caves/west_caves)
 "dct" = (
 /obj/structure/prop/ice_colony/surveying_device/measuring_device,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "dcQ" = (
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_2,
@@ -7216,7 +7216,7 @@
 /obj/structure/flora/grass/tallgrass/jungle_alt_2/corner{
 	dir = 10
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "dde" = (
 /obj/effect/hunter/ancient_temple/tile_edge/tile_edge_8,
@@ -7246,7 +7246,7 @@
 /area/lazarus/ground/ancient_temple/east/surface)
 "ddQ" = (
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_medbay_road)
 "dec" = (
 /obj/structure/bed/chair/wood/normal,
@@ -7474,7 +7474,7 @@
 /area/lazarus/ground/ancient_temple/north_east)
 "djp" = (
 /obj/structure/platform/metal/strata/alt,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "djv" = (
 /turf/open/gm/coast/dirt/beachcorner/north_east,
@@ -7571,7 +7571,7 @@
 	pixel_x = -5
 	},
 /obj/structure/platform_decoration/stone/ancient_temple/alt,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "dkB" = (
 /turf/open/floor/ancient_temple/floor_20,
@@ -7725,7 +7725,7 @@
 /area/lazarus/ground/jungle/east_central_jungle)
 "dnV" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "dof" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -7810,7 +7810,7 @@
 /turf/open/auto_turf/lv_grass_weedable/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "dqf" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle)
 "dqm" = (
 /obj/effect/decal/lv_decals/red_mud_corner{
@@ -7922,7 +7922,7 @@
 /area/lazarus/research/storage)
 "dtA" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "dtM" = (
 /obj/structure/flora/jungle/alienplant1,
@@ -7972,7 +7972,7 @@
 /obj/item/tool/warning_cone{
 	pixel_y = 2
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "dvr" = (
 /obj/structure/curtain/medical,
@@ -8055,7 +8055,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south/surface)
 "dxP" = (
 /obj/structure/platform/stone/ancient_temple{
@@ -8151,7 +8151,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 9
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/south_west_caves)
 "dAa" = (
 /obj/structure/platform/stone/stair_cut/ancient_temple_alt_right,
@@ -8182,7 +8182,7 @@
 	pixel_x = -6;
 	pixel_y = -5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "dAs" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
@@ -8266,7 +8266,7 @@
 "dBP" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/cyan,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "dCd" = (
 /obj/structure/flora/jungle/vines/blue/light_1,
@@ -8396,7 +8396,7 @@
 	pixel_x = -6;
 	pixel_y = 7
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "dGg" = (
 /obj/effect/landmark/big_fog_marker,
@@ -8540,7 +8540,7 @@
 /area/lazarus/sleep_male)
 "dJo" = (
 /obj/item/tool/warning_cone,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_east_nexus_road)
 "dJr" = (
 /obj/structure/fence/dark,
@@ -8628,7 +8628,7 @@
 	pixel_y = 10
 	},
 /obj/structure/platform/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "dKS" = (
 /obj/structure/disposalpipe/segment{
@@ -8703,7 +8703,7 @@
 /obj/effect/decal/lv_decals/red_mud_corner{
 	dir = 6
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "dMG" = (
 /turf/closed/wall/lv_outpost,
@@ -8857,7 +8857,7 @@
 /obj/effect/landmark/nightmare{
 	insert_tag = "crashed_pmc_ship"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "dRg" = (
 /obj/item/stack/sheet/wood,
@@ -8867,7 +8867,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 6
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove/south)
 "dRl" = (
 /obj/structure/bed/chair{
@@ -9017,7 +9017,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 6
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "dUc" = (
 /obj/structure/platform/stone/ancient_temple/alt/west,
@@ -9130,7 +9130,7 @@
 /obj/structure/prop/ice_colony/surveying_device/measuring_device{
 	dir = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "dWb" = (
 /obj/structure/bed/chair/office/light{
@@ -9179,14 +9179,14 @@
 	pixel_x = -8
 	},
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "dXb" = (
 /obj/structure/largecrate/random/barrel/black{
 	pixel_x = 8;
 	pixel_y = 3
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "dXe" = (
 /obj/structure/surface/table/almayer{
@@ -9261,7 +9261,7 @@
 /area/lazarus/sleep_male)
 "dYf" = (
 /obj/structure/largecrate/random/barrel/black,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "dYk" = (
 /obj/effect/decal/lv_decals/red_mud_corner,
@@ -9493,7 +9493,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/south_west_caves)
 "edE" = (
 /obj/structure/platform/stone/ancient_temple/alt,
@@ -9504,7 +9504,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 9
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "edT" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -9646,7 +9646,7 @@
 "egI" = (
 /obj/structure/machinery/computer/shuttle/dropship/flight/lz2,
 /obj/structure/surface/table/reinforced/prison,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing/console2)
 "egT" = (
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_2,
@@ -9667,7 +9667,7 @@
 	dir = 8
 	},
 /obj/structure/platform/stone/stair_cut/ancient_temple_left,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "ehg" = (
 /obj/effect/hunter/ancient_temple/deco_border,
@@ -9849,7 +9849,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "ejS" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
@@ -9886,7 +9886,7 @@
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "eky" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "ekA" = (
 /obj/effect/hunter/ancient_temple/deco_border/deco_border3,
@@ -9903,7 +9903,7 @@
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 8
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "ekZ" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_7{
@@ -9940,7 +9940,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 10
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "elK" = (
 /obj/structure/surface/table/woodentable/poor,
@@ -10504,7 +10504,7 @@
 /area/lazarus/ground/jungle/north_west_jungle)
 "exS" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_eastern_barrens)
 "exX" = (
 /obj/structure/platform/stone/ancient_temple/alt/north,
@@ -10652,7 +10652,7 @@
 /obj/effect/landmark/nightmare{
 	insert_tag = "center_science_containers"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "eBJ" = (
 /obj/structure/flora/jungle/planttop1,
@@ -10913,7 +10913,7 @@
 	pixel_y = 10
 	},
 /obj/structure/platform/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "eHs" = (
 /obj/structure/platform/stone/ancient_temple/alt/north,
@@ -11118,7 +11118,7 @@
 	dir = 8
 	},
 /obj/structure/blocker/forcefield/vehicles,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "eMB" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -11510,7 +11510,7 @@
 /area/lazarus/ground/river/central_river/lake)
 "eVn" = (
 /obj/item/tool/warning_cone,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "eVt" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -11533,7 +11533,7 @@
 /area/lazarus/landing_zones/lz1)
 "eWo" = (
 /obj/structure/cargo_container/hybrisa/containersextended/redright,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "eWr" = (
 /obj/structure/flora/grass/tallgrass/jungle_alt_2/corner{
@@ -11543,11 +11543,11 @@
 /area/lazarus/ground/jungle/south_east_jungle)
 "eWu" = (
 /obj/structure/platform/stone/ancient_temple,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "eWz" = (
 /obj/structure/platform/metal/strata/alt/west,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "eWB" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_4{
@@ -11780,7 +11780,7 @@
 /area/lazarus/ground/jungle/south_east_jungle)
 "fbF" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_central_jungle)
 "fbG" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -11886,7 +11886,7 @@
 /area/lazarus/ground/barrens/west_barrens)
 "fea" = (
 /obj/item/tool/warning_cone,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "few" = (
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_4,
@@ -11941,7 +11941,7 @@
 	dir = 1
 	},
 /obj/item/tool/pickaxe,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "ffD" = (
 /obj/structure/platform_decoration/wood/east,
@@ -12416,7 +12416,7 @@
 /area/lazarus/kitchen)
 "fox" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "foy" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -12459,7 +12459,7 @@
 	pixel_y = -24
 	},
 /obj/item/clothing/accessory/limb/skeleton/r_leg,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "fph" = (
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med/limited{
@@ -12733,7 +12733,7 @@
 	light_color = "#dae2ff"
 	},
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "fvs" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -13113,7 +13113,7 @@
 /obj/structure/machinery/colony_floodlight{
 	light_color = "#dae2ff"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "fEr" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -13134,7 +13134,7 @@
 	pixel_x = 7;
 	pixel_y = 11
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "fFm" = (
 /obj/structure/pipes/standard/simple/hidden/cyan,
@@ -13166,7 +13166,7 @@
 	dir = 5
 	},
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/south_west_caves)
 "fFF" = (
 /turf/open/floor/ancient_temple/floor_13,
@@ -13310,7 +13310,7 @@
 /obj/item/device/flashlight/lamp/tripod{
 	on = 0
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_eastern_barrens)
 "fJG" = (
 /obj/structure/surface/table,
@@ -13367,7 +13367,7 @@
 /obj/structure/barricade/handrail/wire{
 	layer = 3.5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "fLl" = (
 /obj/structure/platform/metal/strata/alt,
@@ -13458,7 +13458,7 @@
 	dir = 9
 	},
 /obj/structure/blocker/forcefield/vehicles,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove/south)
 "fNa" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -13662,7 +13662,7 @@
 /area/lazarus/ground/caves/south_west_caves)
 "fSv" = (
 /obj/item/tool/warning_cone,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "fSw" = (
 /obj/effect/landmark/big_fog_marker,
@@ -13716,7 +13716,7 @@
 "fTx" = (
 /obj/structure/fence/dark/overgrown,
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "fTy" = (
 /obj/effect/hunter/ancient_temple/deco_border,
@@ -13756,7 +13756,7 @@
 /area/lazarus/ground/ancient_temple/east/surface)
 "fUX" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_east_nexus_road)
 "fVf" = (
 /obj/structure/closet/crate/trashcart/alt,
@@ -13911,7 +13911,7 @@
 /area/lazarus/ground/cove/south)
 "fXP" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "fXT" = (
 /turf/open/floor/interior/wood/alt,
@@ -14036,7 +14036,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "gbp" = (
 /turf/open/floor/kutjevo/tan/plate,
@@ -14370,7 +14370,7 @@
 "gjZ" = (
 /obj/structure/prop/ice_colony/ground_wire,
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "gkc" = (
 /obj/structure/surface/rack{
@@ -14640,7 +14640,7 @@
 /obj/effect/decal/ammo_casing,
 /obj/effect/decal/ammo_casing,
 /obj/item/ammo_magazine/rifle/extended,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "gpu" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -14669,7 +14669,7 @@
 /area/lazarus/research/storage)
 "gpC" = (
 /obj/effect/landmark/monkey_spawn,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "gpH" = (
 /obj/structure/disposalpipe/segment{
@@ -14728,12 +14728,12 @@
 /obj/structure/machinery/colony_floodlight{
 	light_color = "#dae2ff"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle)
 "gqN" = (
 /obj/structure/platform/stone/ancient_temple/north,
 /obj/structure/flora/jungle/vines/dead,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "gry" = (
 /turf/closed/wall/wood/teal,
@@ -14774,7 +14774,7 @@
 	light_color = "#dae2ff"
 	},
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "gsr" = (
 /obj/structure/platform/stone/ancient_temple/north,
@@ -14940,7 +14940,7 @@
 "gvR" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "gvU" = (
 /obj/effect/hunter/ancient_temple/tile_edge/tile_edge_11,
@@ -15410,7 +15410,7 @@
 /area/lazarus/ground/ancient_temple/north_east)
 "gFk" = (
 /obj/effect/landmark/lizard_spawn,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "gFm" = (
 /turf/open/gm/brown_dirt/random_rocks_alt/southeast,
@@ -16229,7 +16229,7 @@
 	pixel_x = 5;
 	pixel_y = 16
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_nexus_road)
 "gVk" = (
 /obj/item/clipboard,
@@ -16612,7 +16612,7 @@
 "heg" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_jungle)
 "hem" = (
 /turf/open/floor/ancient_temple/floor_13/east,
@@ -16671,7 +16671,7 @@
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "hfY" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_eastern_barrens)
 "hfZ" = (
 /turf/open/auto_turf/lv_grass/layer1,
@@ -16681,7 +16681,7 @@
 /turf/open/auto_turf/lv_grass/layer0,
 /area/lazarus/ground/jungle/south_central_jungle)
 "hgz" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "hgN" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -16788,11 +16788,11 @@
 /area/lazarus/kitchen)
 "hiE" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove/south)
 "hiM" = (
 /obj/structure/largecrate/random/secure,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "hiO" = (
 /obj/effect/decal/lv_decals/red_mud_corner{
@@ -16817,7 +16817,7 @@
 /obj/structure/machinery/floodlight{
 	name = "Floodlight"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "hjJ" = (
 /obj/structure/flora/jungle/planttop1,
@@ -16960,7 +16960,7 @@
 /turf/open/floor/ancient_temple/damaged/damage_7,
 /area/lazarus/ground/caves/west_caves)
 "hnE" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "hnV" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -17129,7 +17129,7 @@
 /area/lazarus/ground/river/central_river/lake)
 "hrC" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_jungle)
 "hrI" = (
 /obj/effect/hunter/ancient_temple/deco_border/deco_border2,
@@ -17159,7 +17159,7 @@
 /turf/open/floor/interior/wood_sat/damage_6,
 /area/lazarus/shack)
 "hse" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_medbay_road)
 "hsj" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -17258,7 +17258,7 @@
 	pixel_x = 6;
 	pixel_y = 7
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "hun" = (
 /obj/effect/hunter/ancient_temple/deco_border,
@@ -17293,7 +17293,7 @@
 "huO" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "huS" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -17614,7 +17614,7 @@
 /area/lazarus/ground/ancient_temple/south/surface)
 "hAJ" = (
 /obj/structure/flora/bush/ausbushes/var3/stalkybush,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "hAQ" = (
 /obj/structure/platform/stone/ancient_temple/alt/west,
@@ -17683,12 +17683,12 @@
 	icon_state = "p_stair_full";
 	pixel_y = -1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "hBz" = (
 /obj/effect/landmark/corpsespawner/scientist,
 /obj/effect/decal/cleanable/blood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "hBM" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble,
@@ -17747,7 +17747,7 @@
 /area/lazarus/fitness)
 "hCD" = (
 /obj/structure/platform/metal/strata/alt/east,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "hCR" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -17763,7 +17763,7 @@
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "hDc" = (
 /obj/structure/platform_decoration/stone/ancient_temple/alt/north,
@@ -17781,7 +17781,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "hDz" = (
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_3,
@@ -17912,7 +17912,7 @@
 /area/lazarus/ground/river/central_river/north)
 "hGA" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "hGF" = (
 /obj/structure/pipes/vents/scrubber_hybrisa,
@@ -17929,7 +17929,7 @@
 /area/lazarus/landing_zones/lz2)
 "hGK" = (
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "hGN" = (
 /obj/structure/surface/table{
@@ -18005,7 +18005,7 @@
 	layer = 3.1;
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_nexus_road)
 "hHO" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
@@ -18085,7 +18085,7 @@
 /turf/open/floor/ancient_temple/floor_13/north,
 /area/lazarus/ground/ancient_temple/south)
 "hJi" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_jungle)
 "hJw" = (
 /obj/structure/pipes/standard/simple/hidden/cyan,
@@ -18261,7 +18261,7 @@
 /area/lazarus/ground/cove)
 "hMt" = (
 /obj/structure/platform_decoration/wood/east,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "hME" = (
 /obj/structure/flora/jungle/vines/blue/light_1,
@@ -18350,7 +18350,7 @@
 "hOk" = (
 /obj/structure/platform_decoration/wood/north,
 /obj/item/stack/sheet/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "hOr" = (
 /obj/effect/landmark/monkey_spawn,
@@ -18361,7 +18361,7 @@
 /obj/structure/barricade/handrail/wire{
 	layer = 3.5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "hOP" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -18474,7 +18474,7 @@
 /area/lazarus/ground/caves/south_west_caves)
 "hQU" = (
 /obj/structure/pipes/standard/simple/hidden/cyan,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_nexus_road)
 "hQZ" = (
 /turf/open/gm/brown_dirt/random_rocks_alt/southeast,
@@ -18604,7 +18604,7 @@
 /area/lazarus/fitness)
 "hSR" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz1)
 "hSS" = (
 /obj/effect/hunter/ancient_temple/tile_edge/tile_edge_12,
@@ -18818,7 +18818,7 @@
 /obj/structure/prop/ice_colony/surveying_device/measuring_device{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "hXT" = (
 /obj/item/prop/torch_frame/ancient{
@@ -19001,7 +19001,7 @@
 /turf/open/floor/ancient_temple/base,
 /area/lazarus/ground/ancient_temple/north_east/surface)
 "icW" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "idn" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -19038,7 +19038,7 @@
 "ifg" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/cyan,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_medbay_road)
 "ifp" = (
 /obj/structure/sign/poster/ad{
@@ -19064,7 +19064,7 @@
 /obj/structure/cargo_container/horizontal/blue/top{
 	layer = 3.1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "igz" = (
 /turf/open/gm/river/soro,
@@ -19107,7 +19107,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 10
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south/surface)
 "iim" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
@@ -19226,7 +19226,7 @@
 /area/lazarus/ground/cove)
 "ilH" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "ilU" = (
 /obj/effect/hunter/ancient_temple/tile_edge/tile_edge_12,
@@ -19789,7 +19789,7 @@
 /area/lazarus/research/storage)
 "iyd" = (
 /obj/item/stack/sheet/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "iyi" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
@@ -19877,7 +19877,7 @@
 /obj/structure/platform/wood/east{
 	pixel_y = -14
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "iAt" = (
 /obj/structure/platform/stone/ancient_temple/alt/north,
@@ -20485,7 +20485,7 @@
 /obj/structure/barricade/handrail/wire{
 	layer = 3.5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_jungle)
 "iQL" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
@@ -20736,7 +20736,7 @@
 	dir = 5
 	},
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/south_west_caves)
 "iWh" = (
 /obj/structure/prop/hunter/ancient_temple/collapsed_wall{
@@ -20826,7 +20826,7 @@
 /turf/open/floor/prison/floor_plate,
 /area/lazarus/corporate_dome)
 "iYP" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "iZc" = (
 /obj/structure/flora/jungle/vines/dead/light_3,
@@ -21171,7 +21171,7 @@
 /obj/structure/surface/table,
 /obj/item/prop/geiger_counter,
 /obj/structure/platform/stone/ancient_temple,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "jfS" = (
 /obj/structure/inflatable,
@@ -21417,7 +21417,7 @@
 /area/lazarus/sleep_male)
 "jjx" = (
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "jjA" = (
 /mob/living/simple_animal/moth,
@@ -21440,7 +21440,7 @@
 "jkl" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/drip,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "jkp" = (
 /obj/structure/surface/table{
@@ -21474,7 +21474,7 @@
 /area/lazarus/corporate_dome)
 "jkG" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_west_barrens)
 "jkI" = (
 /obj/structure/prop/ice_colony/ground_wire{
@@ -21516,7 +21516,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 9
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/south_west_caves)
 "jma" = (
 /obj/structure/sign/safety/biohazard{
@@ -21582,7 +21582,7 @@
 /area/lazarus/ground/ancient_temple/north_east/surface)
 "jna" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "jni" = (
 /obj/structure/machinery/conveyor_switch{
@@ -21605,7 +21605,7 @@
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "joo" = (
 /obj/item/tool/pen/clicky,
@@ -22080,7 +22080,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 6
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "jyw" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -22282,7 +22282,7 @@
 /obj/structure/prop/ice_colony/flamingo{
 	pixel_y = 2
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "jEx" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_2,
@@ -22752,7 +22752,7 @@
 /area/lazarus/ground/ancient_temple/south)
 "jOe" = (
 /obj/structure/prop/dam/gravestone,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "jOo" = (
 /obj/structure/flora/grass/tallgrass/jungle_alt_2/corner{
@@ -22917,7 +22917,7 @@
 /area/lazarus/ground/ancient_temple/south)
 "jRy" = (
 /obj/structure/flora/jungle/vines/blue/light_1,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "jRz" = (
 /obj/effect/landmark/big_fog_marker,
@@ -23170,7 +23170,7 @@
 	pixel_x = 5;
 	pixel_y = 3
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "jXV" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_5{
@@ -23371,7 +23371,7 @@
 /area/lazarus/ground/barrens/central_barrens)
 "kdX" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "kea" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -23453,7 +23453,7 @@
 	pixel_x = 7;
 	pixel_y = -32
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_medbay_road)
 "kfs" = (
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_2,
@@ -23585,11 +23585,11 @@
 	dir = 8
 	},
 /obj/item/clothing/head/hardhat/white,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "kia" = (
 /obj/structure/cargo_container/horizontal/blue/bottom,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "kib" = (
 /obj/structure/machinery/power/apc/no_power/west,
@@ -23603,7 +23603,7 @@
 "kif" = (
 /obj/structure/platform/stone/ancient_temple/north,
 /obj/structure/flora/jungle/vines/dead/light_2,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "kil" = (
 /obj/structure/flora/jungle/vines/blue/light_1,
@@ -23695,7 +23695,7 @@
 /area/lazarus/ground/colony/north_tcomms_road)
 "kka" = (
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_east_nexus_road)
 "kkl" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
@@ -23756,7 +23756,7 @@
 /turf/open/floor/prison/darkbrown2/north,
 /area/lazarus/main_hall)
 "klq" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz1)
 "klx" = (
 /turf/open/auto_turf/lv_grass/layer0,
@@ -23814,7 +23814,7 @@
 /area/lazarus/ground/barrens/north_barrens)
 "kmM" = (
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_nexus_road)
 "kmT" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -23863,7 +23863,7 @@
 /area/lazarus/ground/ancient_temple/north_east)
 "kof" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_east_jungle)
 "koo" = (
 /obj/structure/flora/grass/tallgrass/jungle_alt_2/corner{
@@ -23913,7 +23913,7 @@
 /area/lazarus/ground/river/central_river/lake)
 "kpF" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "kpL" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -23938,7 +23938,7 @@
 /area/lazarus/ground/ancient_temple/north_east)
 "kpT" = (
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_central_jungle)
 "kqq" = (
 /obj/effect/landmark/nightmare{
@@ -23975,7 +23975,7 @@
 /area/lazarus/ground/ancient_temple/north_east/surface)
 "krw" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "krx" = (
 /obj/structure/platform_decoration/stone/ancient_temple/alt/east,
@@ -23997,7 +23997,7 @@
 "krF" = (
 /obj/structure/platform_decoration/wood/east,
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "krL" = (
 /obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
@@ -24113,7 +24113,7 @@
 	pixel_x = 7;
 	pixel_y = 32
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_nexus_road)
 "kuv" = (
 /obj/structure/extinguisher_cabinet{
@@ -24226,7 +24226,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_central_jungle)
 "kwL" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -24765,11 +24765,11 @@
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "kIg" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle)
 "kIl" = (
 /turf/open/floor/prison/green,
@@ -24885,7 +24885,7 @@
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "kKr" = (
 /obj/structure/prop/rock/brown{
@@ -24911,7 +24911,7 @@
 /area/lazarus/ground/ancient_temple/north_east)
 "kKK" = (
 /obj/item/stack/sheet/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "kKN" = (
 /obj/effect/decal/lv_decals/cave_mud_corner,
@@ -24928,7 +24928,7 @@
 /obj/structure/machinery/colony_floodlight{
 	light_color = "#dae2ff"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_east_jungle)
 "kLd" = (
 /obj/structure/platform_decoration/stone/ancient_temple/alt,
@@ -25093,7 +25093,7 @@
 /obj/structure/platform/wood/west{
 	pixel_y = -14
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "kRb" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -25108,7 +25108,7 @@
 /obj/structure/barricade/handrail/wire{
 	layer = 3.5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_medbay_road)
 "kRw" = (
 /obj/structure/platform/stone/ancient_temple/alt/north,
@@ -25131,7 +25131,7 @@
 	pixel_x = 3;
 	pixel_y = -5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "kRB" = (
 /obj/structure/flora/jungle/vines/blue/light_1,
@@ -25144,7 +25144,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "kRN" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -25233,7 +25233,7 @@
 /obj/item/clothing/accessory/limb/skeleton/l_leg{
 	pixel_y = 9
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "kUw" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -25688,7 +25688,7 @@
 /turf/open/auto_turf/lv_sand_alt/layer0,
 /area/lazarus/ground/ancient_temple/south)
 "ldM" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "ldO" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -25787,7 +25787,7 @@
 /area/lazarus/ground/ancient_temple/east)
 "lfL" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_eastern_barrens)
 "lfM" = (
 /obj/structure/inflatable/door,
@@ -25813,7 +25813,7 @@
 /area/lazarus/main_hall)
 "lgA" = (
 /obj/effect/landmark/survivor_spawner,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "lgE" = (
 /turf/open/floor/interior/plastic/alt,
@@ -26286,7 +26286,7 @@
 /turf/open/auto_turf/lv_sand_alt/layer0,
 /area/lazarus/ground/caves/south_west_caves)
 "loR" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_eastern_barrens)
 "loW" = (
 /obj/structure/flora/bush/ausbushes/grassybush,
@@ -26531,7 +26531,7 @@
 /area/lazarus/lodge)
 "lvj" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_nexus_road)
 "lvp" = (
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_4,
@@ -26719,7 +26719,7 @@
 /obj/item/device/flashlight/lamp/tripod{
 	on = 0
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "lyA" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -26816,7 +26816,7 @@
 /area/lazarus/ground/jungle/east_jungle)
 "lAb" = (
 /obj/structure/prop/ice_colony/ground_wire,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "lAi" = (
 /obj/structure/barricade/handrail/wire{
@@ -26863,7 +26863,7 @@
 /obj/structure/prop/hunter/ancient_temple/fountain_head{
 	pixel_y = 22
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "lAJ" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
@@ -26918,7 +26918,7 @@
 /area/lazarus/robotics)
 "lCx" = (
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_eastern_barrens)
 "lCL" = (
 /obj/structure/sign/safety/bridge{
@@ -26983,7 +26983,7 @@
 /obj/item/device/flashlight/lamp/tripod{
 	on = 0
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "lEx" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -27016,7 +27016,7 @@
 /area/lazarus/main_hall)
 "lEO" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_nexus_road)
 "lER" = (
 /obj/effect/decal/hybrisa/deco_edging{
@@ -27140,7 +27140,7 @@
 /obj/structure/barricade/handrail/wire{
 	layer = 3.5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_central_jungle)
 "lHb" = (
 /obj/structure/machinery/conveyor{
@@ -27346,7 +27346,7 @@
 	pixel_x = -8;
 	pixel_y = -2
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "lKL" = (
 /obj/structure/platform/stone/ancient_temple/alt/west,
@@ -27376,7 +27376,7 @@
 /area/lazarus/landing_zones/lz1)
 "lMk" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_east_jungle)
 "lMq" = (
 /turf/open/gm/dirt/brown/variant_5/west,
@@ -27949,7 +27949,7 @@
 "lYk" = (
 /obj/structure/platform_decoration/wood/east,
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "lYs" = (
 /obj/structure/machinery/camera/autoname/lz_camera,
@@ -28002,7 +28002,7 @@
 /area/lazarus/fitness)
 "lZy" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle)
 "lZN" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -28013,7 +28013,7 @@
 /turf/open/floor/prison/floor_plate,
 /area/lazarus/quartstorage)
 "maa" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_east_jungle)
 "may" = (
 /obj/item/ashtray/plastic,
@@ -28250,7 +28250,7 @@
 /obj/structure/platform_decoration/metal/strata/alt{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "mfL" = (
 /obj/structure/machinery/cm_vending/sorted/tech/tool_storage,
@@ -28318,7 +28318,7 @@
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "mgd" = (
 /obj/item/clothing/accessory/limb/skeleton/r_arm,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "mgj" = (
 /obj/structure/filingcabinet/chestdrawer{
@@ -28337,10 +28337,10 @@
 /turf/open/floor/prison/bright_clean2,
 /area/lazarus/security)
 "mgm" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_central_jungle)
 "mgn" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "mgy" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -28360,7 +28360,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_nexus_road)
 "mhc" = (
 /obj/structure/disposalpipe/segment,
@@ -28402,7 +28402,7 @@
 /area/lazarus/corporate_dome)
 "mim" = (
 /obj/structure/platform/metal/strata/alt/north,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "miy" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -28470,7 +28470,7 @@
 /turf/open/floor/prison/floor_plate,
 /area/lazarus/quart)
 "mjL" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "mjM" = (
 /obj/structure/barricade/handrail/wire{
@@ -28518,7 +28518,7 @@
 /area/lazarus/ground/barrens/central_barrens)
 "mlj" = (
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_nexus_road)
 "mll" = (
 /obj/structure/flora/grass/tallgrass/jungle_alt_2,
@@ -28535,7 +28535,7 @@
 /area/lazarus/ground/ancient_temple/east/surface)
 "mlW" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_nexus_road)
 "mlY" = (
 /obj/structure/flora/bush/ausbushes/lavendergrass,
@@ -28564,7 +28564,7 @@
 /turf/open/gm/brown_dirt/random_rocks,
 /area/lazarus/ground/jungle/north_east_jungle)
 "mmD" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "mmG" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -28627,7 +28627,7 @@
 /turf/open/floor/prison/west,
 /area/lazarus/ground/jungle/south_central_jungle)
 "mnW" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove/south)
 "moa" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -28688,7 +28688,7 @@
 /area/lazarus/ground/ancient_temple/north_east)
 "moX" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_7,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "moZ" = (
 /turf/open/auto_turf/lv_grass/layer1,
@@ -28753,7 +28753,7 @@
 /area/lazarus/ground/caves/west_caves)
 "mqw" = (
 /obj/item/trash/cigbutt,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "mqy" = (
 /obj/structure/flora/jungle/vines/dead/light_1,
@@ -28854,7 +28854,7 @@
 /area/lazarus/ground/colony/north_east_nexus_road)
 "msn" = (
 /obj/item/clothing/accessory/limb/skeleton/r_hand,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "mtr" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -28928,7 +28928,7 @@
 /obj/structure/machinery/colony_floodlight{
 	light_color = "#dae2ff"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "mut" = (
 /obj/structure/platform_decoration/stone/ancient_temple/alt/west,
@@ -28953,7 +28953,7 @@
 /obj/structure/prop/ice_colony/surveying_device{
 	dir = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "mvo" = (
 /obj/structure/pipes/standard/manifold/hidden/cyan,
@@ -28998,7 +28998,7 @@
 	dir = 8
 	},
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "mvG" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -29033,7 +29033,7 @@
 	pixel_y = -16;
 	pixel_x = -4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "mwC" = (
 /turf/open/floor/prison/darkred2/west,
@@ -29096,7 +29096,7 @@
 	pixel_x = 8;
 	pixel_y = -1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove/south)
 "mxu" = (
 /turf/open/gm/dirt/brown/variant_5/west,
@@ -29297,7 +29297,7 @@
 "mAZ" = (
 /obj/effect/landmark/corpsespawner/wygoon,
 /obj/effect/decal/cleanable/blood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "mBs" = (
 /obj/effect/hunter/ancient_temple/deco_border{
@@ -29511,7 +29511,7 @@
 /area/lazarus/corporate_dome)
 "mET" = (
 /obj/structure/cargo_container/hybrisa/containersextended/tanleft,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "mFa" = (
 /obj/structure/platform_decoration/stone/ancient_temple/west,
@@ -29626,7 +29626,7 @@
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "mGz" = (
 /obj/item/reagent_container/food/drinks/cans/ale{
@@ -29635,7 +29635,7 @@
 	pixel_y = 23;
 	icon_state = "ale_crushed"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "mGI" = (
 /obj/effect/hunter/ancient_temple/tile_edge,
@@ -29766,7 +29766,7 @@
 /area/lazarus/captain)
 "mIO" = (
 /obj/structure/platform_decoration/wood/west,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "mJb" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -29850,7 +29850,7 @@
 /area/lazarus/ground/ancient_temple/north_east/surface)
 "mKQ" = (
 /obj/structure/platform/stone/ancient_temple/north,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "mKU" = (
 /turf/open/floor/strata/light_purple_edge/east,
@@ -30140,7 +30140,7 @@
 	dir = 8;
 	icon_state = "p_stair_full"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "mQe" = (
 /obj/structure/flora/jungle/vines/dead/light_3,
@@ -30264,7 +30264,7 @@
 /area/lazarus/ground/ancient_temple/south)
 "mSU" = (
 /obj/structure/prop/ice_colony/surveying_device,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "mSV" = (
 /obj/structure/platform/stone/ancient_temple,
@@ -30433,7 +30433,7 @@
 /area/lazarus/ground/ancient_temple/east/surface)
 "mWk" = (
 /obj/structure/platform/metal/strata/alt/west,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/river/east_river)
 "mWv" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
@@ -30653,12 +30653,12 @@
 	},
 /obj/structure/prop/ice_colony/ground_wire,
 /obj/item/tool/shovel/spade,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "naJ" = (
 /obj/structure/platform_decoration/stone/ancient_temple/alt/north,
 /obj/effect/hunter/ancient_temple/rubble/rubble_4,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "naS" = (
 /obj/effect/landmark/monkey_spawn,
@@ -30957,7 +30957,7 @@
 /obj/item/stock_parts/matter_bin/adv,
 /obj/item/stock_parts/matter_bin/adv,
 /obj/item/stock_parts/matter_bin/adv,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_eastern_barrens)
 "ngi" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_3,
@@ -30969,7 +30969,7 @@
 /area/lazarus/ground/river/east_river)
 "ngE" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south/surface)
 "ngM" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_2,
@@ -31550,7 +31550,7 @@
 /area/lazarus/quartstorage)
 "ntv" = (
 /obj/structure/platform/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "ntC" = (
 /obj/structure/fence/dark/overgrown,
@@ -31936,7 +31936,7 @@
 /obj/item/reagent_container/food/drinks/cans/beer{
 	icon_state = "beer_crushed"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "nBA" = (
 /turf/open/gm/dirt/brown/variant_5/east,
@@ -31948,7 +31948,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 8
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/south_west_caves)
 "nBH" = (
 /obj/structure/phone_base/colony_net{
@@ -31963,7 +31963,7 @@
 /area/lazarus/research)
 "nBI" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_west_barrens)
 "nBZ" = (
 /obj/effect/hunter/ancient_temple/deco_border/deco_border3{
@@ -32105,7 +32105,7 @@
 /turf/open/floor/ancient_temple/floor_13,
 /area/lazarus/ground/ancient_temple/south)
 "nFr" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "nFJ" = (
 /obj/structure/platform/wood,
@@ -32129,7 +32129,7 @@
 	dir = 8
 	},
 /obj/item/tool/shovel/spade,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "nGd" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -32139,7 +32139,7 @@
 	dir = 9
 	},
 /obj/structure/blocker/forcefield/vehicles,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "nGf" = (
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_4,
@@ -32203,7 +32203,7 @@
 	icon = 'icons/obj/pipes/disposal.dmi';
 	dir = 8
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_jungle)
 "nIS" = (
 /obj/structure/barricade/handrail/wire{
@@ -32432,7 +32432,7 @@
 /area/lazarus/ground/jungle/north_east_jungle)
 "nNI" = (
 /obj/effect/decal/cleanable/blood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "nNO" = (
 /obj/structure/machinery/power/apc/no_power/north,
@@ -32651,7 +32651,7 @@
 	dir = 4
 	},
 /obj/structure/prop/ice_colony/ground_wire,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "nRd" = (
 /obj/item/stack/sheet/wood,
@@ -32743,7 +32743,7 @@
 /obj/structure/platform/stone/ancient_temple/alt/north,
 /obj/structure/platform/stone/ancient_temple/east,
 /obj/effect/hunter/ancient_temple/rubble/rubble,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "nTe" = (
 /turf/open/floor/interior/wood_sat/damage_5,
@@ -32820,7 +32820,7 @@
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "nUN" = (
 /turf/open/floor/ancient_temple/floor_13/north,
@@ -32958,7 +32958,7 @@
 /turf/open/gm/coast/dirt/beachcorner/south_west,
 /area/lazarus/ground/river/central_river/lake)
 "nWz" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_west_barrens)
 "nWH" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
@@ -32989,7 +32989,7 @@
 /area/lazarus/ground/river/central_river)
 "nXH" = (
 /obj/item/trash/cigbutt,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_medbay_road)
 "nXJ" = (
 /obj/structure/flora/jungle/vines/dead/light_3,
@@ -33033,7 +33033,7 @@
 /area/lazarus/ground/caves/west_caves)
 "nYT" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "nYV" = (
 /obj/effect/hunter/ancient_temple/tile_edge/tile_edge_12,
@@ -33471,7 +33471,7 @@
 "oiG" = (
 /obj/structure/prop/ice_colony/ground_wire,
 /obj/item/tool/pickaxe,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "oiH" = (
 /obj/structure/stairs/perspective{
@@ -33742,7 +33742,7 @@
 /area/lazarus/ground/barrens/north_barrens)
 "ooz" = (
 /obj/structure/cargo_container/hybrisa/containersextended/tanleft,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "ooL" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -33978,7 +33978,7 @@
 /area/lazarus/landing_zones/lz1)
 "oso" = (
 /obj/item/weapon/harpoon/yautja,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "osC" = (
 /obj/effect/decal/lv_decals/red_mud_corner{
@@ -34010,7 +34010,7 @@
 	dir = 8
 	},
 /obj/structure/prop/ice_colony/ground_wire,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "osZ" = (
 /turf/closed/shuttle{
@@ -34086,7 +34086,7 @@
 /area/lazarus/ground/caves/south_west_caves)
 "ouZ" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_nexus_road)
 "ovr" = (
 /obj/effect/hunter/ancient_temple/deco_border{
@@ -34513,7 +34513,7 @@
 "oDL" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/effect/landmark/lizard_spawn,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "oDU" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -34713,7 +34713,7 @@
 /obj/effect/hunter/ancient_temple/rubble/rubble_6{
 	pixel_x = -4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "oIO" = (
 /obj/item/trash/cigbutt,
@@ -34756,7 +34756,7 @@
 /turf/open/gm/river/soro,
 /area/strata/interior/out_of_bounds)
 "oJD" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_central_jungle)
 "oJI" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -34907,7 +34907,7 @@
 /obj/structure/platform/stone/ancient_temple/east{
 	icon_state = "ancient_platform_alt_broken"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "oMI" = (
 /obj/structure/flora/bush/ausbushes/ausbush,
@@ -34915,7 +34915,7 @@
 /area/lazarus/ground/jungle/south_central_jungle)
 "oMJ" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "oMY" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_wall,
@@ -35104,7 +35104,7 @@
 /turf/open/floor/strata/light_purple_edge/west,
 /area/lazarus/research)
 "oRO" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_nexus_road)
 "oRQ" = (
 /obj/structure/machinery/light/small/blue{
@@ -35249,7 +35249,7 @@
 /turf/open/auto_turf/lv_grass_weedable/layer0_mud_alt,
 /area/lazarus/ground/caves/west_caves)
 "oUT" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "oVs" = (
 /obj/structure/flora/grass/tallgrass/jungle_alt_2/corner{
@@ -35273,7 +35273,7 @@
 /area/lazarus/research/storage)
 "oVG" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "oVH" = (
 /turf/open/gm/brown_dirt/random_rocks_alt/southeast,
@@ -35349,7 +35349,7 @@
 /obj/structure/barricade/handrail/wire{
 	layer = 3.5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "oWy" = (
 /turf/open/gm/coast/dirt/beachcorner,
@@ -35518,7 +35518,7 @@
 	},
 /obj/structure/prop/ice_colony/ground_wire,
 /obj/item/tool/shovel/spade,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "oYZ" = (
 /obj/effect/landmark/big_fog_marker,
@@ -35568,7 +35568,7 @@
 /area/lazarus/medbay)
 "oZY" = (
 /obj/effect/decal/cleanable/blood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_nexus_road)
 "pab" = (
 /turf/open/floor/interior/wood_sat/damage_3,
@@ -35721,7 +35721,7 @@
 /area/lazarus/research)
 "peh" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "pei" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -35801,7 +35801,7 @@
 	pixel_x = 10;
 	pixel_y = 20
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south/surface)
 "peQ" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_3,
@@ -35885,7 +35885,7 @@
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "pfG" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -35954,7 +35954,7 @@
 "phb" = (
 /obj/structure/flora/jungle/vines/blue/light_1,
 /obj/item/stack/sheet/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "phh" = (
 /obj/structure/flora/grass/tallgrass/jungle_alt_2/corner{
@@ -36159,7 +36159,7 @@
 /obj/effect/decal/lv_decals/red_mud_corner{
 	dir = 6
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "plO" = (
 /obj/structure/machinery/camera/autoname{
@@ -36332,14 +36332,14 @@
 "ppR" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/cyan,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_nexus_road)
 "pqb" = (
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 4
 	},
 /obj/item/tool/shovel/spade,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "pqc" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_1,
@@ -36493,7 +36493,7 @@
 	pixel_x = -19;
 	pixel_y = 2
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "ptF" = (
 /obj/structure/curtain/colorable_transparent{
@@ -36600,7 +36600,7 @@
 /area/lazarus/ground/ancient_temple/south/surface)
 "pwK" = (
 /obj/structure/flora/jungle/vines/dead/light_1,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "pxd" = (
 /turf/open/floor/prison/darkbrown3,
@@ -36787,7 +36787,7 @@
 /obj/structure/platform_decoration/metal/strata/alt{
 	dir = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "pBt" = (
 /obj/structure/disposalpipe/segment{
@@ -36799,7 +36799,7 @@
 /turf/open/floor/prison/bright_clean2,
 /area/lazarus/engineering)
 "pBB" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_nexus_road)
 "pBJ" = (
 /obj/structure/machinery/camera/autoname{
@@ -36823,7 +36823,7 @@
 /area/lazarus/corporate_dome)
 "pBZ" = (
 /obj/structure/platform/metal/strata/alt/west,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_jungle)
 "pCg" = (
 /obj/effect/landmark/big_fog_marker,
@@ -36886,7 +36886,7 @@
 	pixel_x = -21;
 	pixel_y = 6
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_west_barrens)
 "pDL" = (
 /obj/structure/platform/stone/ancient_temple,
@@ -36918,7 +36918,7 @@
 /area/lazarus/landing_zones/lz1)
 "pET" = (
 /obj/structure/cargo_container/hybrisa/containersextended/tanright,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "pEW" = (
 /obj/effect/hunter/ancient_temple/deco_border/deco_border2{
@@ -37013,7 +37013,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "pHD" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -37022,7 +37022,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/south_west_caves)
 "pHK" = (
 /obj/structure/platform/metal/strata/alt/north,
@@ -37158,7 +37158,7 @@
 /obj/item/device/flashlight/lamp/tripod{
 	on = 0
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "pMB" = (
 /obj/structure/bed/chair{
@@ -37169,10 +37169,10 @@
 /area/lazarus/kitchen)
 "pNb" = (
 /obj/structure/platform/metal/strata/alt/north,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "pNn" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "pNu" = (
 /turf/open/gm/coast/dirt/west,
@@ -37247,7 +37247,7 @@
 	pixel_y = 6
 	},
 /obj/effect/landmark/xeno_spawn,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "pPj" = (
 /obj/structure/machinery/landinglight/ds2/delaytwo{
@@ -37308,7 +37308,7 @@
 /area/strata/interior/out_of_bounds)
 "pQn" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_east_jungle)
 "pQp" = (
 /obj/effect/hunter/ancient_temple/deco_border,
@@ -37631,7 +37631,7 @@
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "pWU" = (
 /obj/structure/prop/hunter/ancient_temple/collapsed_wall,
@@ -37642,7 +37642,7 @@
 	pixel_x = -10;
 	pixel_y = -7
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "pXt" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -37811,7 +37811,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "qay" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -37820,7 +37820,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "qaP" = (
 /obj/effect/landmark/xeno_spawn,
@@ -37975,7 +37975,7 @@
 /area/lazarus/ground/caves/west_caves)
 "qet" = (
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_nexus_road)
 "qez" = (
 /obj/structure/machinery/vending/cola,
@@ -37987,7 +37987,7 @@
 /area/lazarus/fitness)
 "qeH" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_eastern_barrens)
 "qeQ" = (
 /obj/structure/flora/grass/tallgrass/jungle_alt_2/corner{
@@ -38307,7 +38307,7 @@
 /obj/structure/cargo_container/wy2/right{
 	color = "#d0bda3"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "qkJ" = (
 /obj/structure/platform_decoration/stone/ancient_temple/alt/east,
@@ -38324,7 +38324,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/south_west_caves)
 "qkQ" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_4,
@@ -38343,7 +38343,7 @@
 "qlU" = (
 /obj/structure/platform_decoration/wood/east,
 /obj/item/stack/sheet/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "qlV" = (
 /obj/structure/flora/grass/tallgrass/jungle_alt_2/corner{
@@ -38375,7 +38375,7 @@
 /area/lazarus/quartstorage)
 "qmH" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "qmK" = (
 /obj/structure/reagent_dispensers/water_cooler/walk_past{
@@ -38413,7 +38413,7 @@
 /area/lazarus/ground/cove)
 "qnd" = (
 /obj/structure/largecrate/random/case/double,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "qnj" = (
 /obj/structure/flora/bush/ausbushes/palebush,
@@ -38514,7 +38514,7 @@
 /area/lazarus/ground/river/central_river/lake)
 "qps" = (
 /obj/structure/platform/wood/north,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "qpx" = (
 /obj/structure/machinery/landinglight/ds1/delaythree{
@@ -38647,7 +38647,7 @@
 /area/lazarus/armory)
 "qsh" = (
 /obj/structure/largecrate/random/barrel/brown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "qsl" = (
 /obj/structure/platform/stone/ancient_temple/alt/west,
@@ -38740,7 +38740,7 @@
 	pixel_y = 2
 	},
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "qtB" = (
 /obj/structure/sign/safety/security{
@@ -38933,7 +38933,7 @@
 	pixel_y = -2;
 	pixel_x = 2
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "qyv" = (
 /obj/structure/machinery/camera/autoname{
@@ -39032,7 +39032,7 @@
 /area/lazarus/ground/river/west_river)
 "qAx" = (
 /obj/effect/landmark/survivor_spawner,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "qAG" = (
 /obj/structure/machinery/door/poddoor/almayer/grey/closed{
@@ -39182,13 +39182,13 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "qDh" = (
 /obj/structure/machinery/colony_floodlight{
 	light_color = "#dae2ff"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_east_nexus_road)
 "qDt" = (
 /obj/structure/prop/rock/brown{
@@ -39405,7 +39405,7 @@
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 8
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "qIk" = (
 /obj/structure/disposalpipe/segment,
@@ -39533,7 +39533,7 @@
 /area/lazarus/research)
 "qLG" = (
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "qLI" = (
 /obj/effect/hunter/ancient_temple/deco_border,
@@ -39549,7 +39549,7 @@
 	pixel_y = 14
 	},
 /obj/item/tool/warning_cone,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "qMo" = (
 /turf/open/gm/coast/dirt/beachcorner/south_east,
@@ -39650,7 +39650,7 @@
 	pixel_x = 11;
 	pixel_y = 3
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "qOQ" = (
 /obj/structure/disposalpipe/segment,
@@ -39840,7 +39840,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 10
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "qSj" = (
 /obj/effect/hunter/ancient_temple/deco_border/deco_border3{
@@ -40007,7 +40007,7 @@
 /area/lazarus/ground/ancient_temple/south)
 "qWt" = (
 /obj/item/stack/sheet/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "qWv" = (
 /obj/item/weapon/straight_razor{
@@ -40053,7 +40053,7 @@
 	pixel_x = 5;
 	pixel_y = -8
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove/south)
 "qWZ" = (
 /obj/effect/landmark/big_fog_marker,
@@ -40629,7 +40629,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "rjN" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_6{
@@ -40674,7 +40674,7 @@
 	dir = 9
 	},
 /obj/structure/blocker/forcefield/vehicles,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "rmf" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
@@ -40701,7 +40701,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 10
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "rmT" = (
 /obj/structure/platform/metal/strata/alt/west,
@@ -40964,7 +40964,7 @@
 /obj/structure/flora/grass/tallgrass/jungle_alt_2/corner{
 	dir = 8
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "rtl" = (
 /obj/structure/machinery/door/airlock/light_grey_lv/glass{
@@ -41777,7 +41777,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/south_west_caves)
 "rLt" = (
 /obj/structure/window_frame/wood/plain,
@@ -42051,7 +42051,7 @@
 /area/lazarus/landing_zones/lz1)
 "rQv" = (
 /obj/structure/cargo_container/hybrisa/containersextended/whitewyright,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "rQw" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_2{
@@ -42280,7 +42280,7 @@
 /area/lazarus/ground/jungle/east_central_jungle)
 "rVW" = (
 /obj/structure/platform_decoration/stone/ancient_temple/north,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_eastern_barrens)
 "rWf" = (
 /turf/open/floor/prison/floor_plate_alt/south,
@@ -42320,7 +42320,7 @@
 /area/lazarus/ground/ancient_temple/north_east)
 "rXa" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "rXe" = (
 /obj/structure/platform/metal/strata/alt/east,
@@ -42433,7 +42433,7 @@
 /area/lazarus/ground/ancient_temple/south/surface)
 "rZo" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "rZp" = (
 /obj/effect/decal/hybrisa/dirt_2,
@@ -42987,7 +42987,7 @@
 /area/lazarus/ground/caves/south_west_caves)
 "slL" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_east_jungle)
 "slT" = (
 /obj/structure/largecrate/random/mini/ammo,
@@ -43067,7 +43067,7 @@
 /obj/structure/platform_decoration/stone/ancient_temple/alt/east{
 	pixel_y = -15
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_eastern_barrens)
 "sop" = (
 /obj/effect/decal/lv_decals/red_mud_corner{
@@ -43126,7 +43126,7 @@
 /area/lazarus/kitchen)
 "spe" = (
 /obj/effect/decal/ammo_casing,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "spE" = (
 /obj/effect/hunter/ancient_temple/deco_border/deco_border2,
@@ -43229,7 +43229,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 6
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south/surface)
 "srD" = (
 /obj/structure/machinery/cm_vending/sorted/medical/no_access{
@@ -43364,7 +43364,7 @@
 /turf/open/floor/prison,
 /area/lazarus/hydroponics)
 "stA" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_central_jungle)
 "stC" = (
 /turf/open/floor/ancient_temple/damaged/damage_1,
@@ -43381,7 +43381,7 @@
 /area/lazarus/ground/jungle/north_west_jungle)
 "stO" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "stV" = (
 /obj/structure/flora/jungle/vines/dead/light_2,
@@ -43527,7 +43527,7 @@
 /area/lazarus/ground/barrens/central_barrens)
 "sxC" = (
 /obj/structure/cargo_container/hybrisa/containersextended/whitewyleft,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "sxN" = (
 /turf/open/auto_turf/lv_grass/layer0,
@@ -43794,7 +43794,7 @@
 /area/lazarus/corporate_dome)
 "sDP" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "sDR" = (
 /obj/structure/flora/grass/tallgrass/jungle_alt_2/corner{
@@ -43843,7 +43843,7 @@
 "sEC" = (
 /obj/effect/landmark/corpsespawner/colonist/random,
 /obj/effect/decal/cleanable/blood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "sEM" = (
 /obj/structure/prop/ice_colony/ground_wire{
@@ -43966,7 +43966,7 @@
 	pixel_x = 5;
 	pixel_y = 2
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south/surface)
 "sGz" = (
 /obj/structure/platform/stone/ancient_temple/alt/north,
@@ -44106,7 +44106,7 @@
 /area/lazarus/ground/caves/south_west_caves)
 "sIK" = (
 /obj/effect/decal/lv_decals/cave_mud_corner,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "sIN" = (
 /obj/structure/machinery/constructable_frame{
@@ -44287,7 +44287,7 @@
 /obj/structure/barricade/handrail/wire{
 	layer = 3.5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "sNb" = (
 /obj/structure/bed/chair{
@@ -44454,7 +44454,7 @@
 /area/lazarus/engineering)
 "sQH" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "sQI" = (
 /obj/effect/hunter/ancient_temple/deco_border,
@@ -44761,7 +44761,7 @@
 /area/lazarus/ground/ancient_temple/east/surface)
 "sWg" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "sWn" = (
 /obj/structure/pipes/standard/simple/hidden/cyan,
@@ -44775,7 +44775,7 @@
 	dir = 1
 	},
 /obj/structure/prop/ice_colony/surveying_device/measuring_device,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "sWz" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
@@ -44891,7 +44891,7 @@
 /obj/effect/decal/cleanable/blood/drip{
 	pixel_x = -8
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "sYx" = (
 /obj/item/prop/alien/hugger,
@@ -45017,7 +45017,7 @@
 /area/lazarus/quartstorage)
 "taA" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "taI" = (
 /obj/structure/platform_decoration/wood/north,
@@ -45107,7 +45107,7 @@
 	icon_state = "p_stair_full"
 	},
 /obj/structure/platform/stone/ancient_temple,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "tcq" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
@@ -45195,7 +45195,7 @@
 /area/lazarus/ground/ancient_temple/north_east)
 "tfk" = (
 /obj/effect/landmark/survivor_spawner,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_nexus_road)
 "tfD" = (
 /turf/open/auto_turf/lv_grass_weedable/layer1,
@@ -45521,7 +45521,7 @@
 	pixel_x = -13;
 	pixel_y = -7
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "tog" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -45586,7 +45586,7 @@
 /area/lazarus/ground/ancient_temple/east)
 "tqd" = (
 /obj/item/stack/sheet/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "tqi" = (
 /obj/structure/blocker/forcefield/all,
@@ -45658,7 +45658,7 @@
 	pixel_x = -5;
 	pixel_y = 10
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south/surface)
 "trh" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -45963,7 +45963,7 @@
 	light_color = "#dae2ff"
 	},
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "tvY" = (
 /obj/effect/hunter/ancient_temple/deco_border/deco_border2{
@@ -46005,11 +46005,11 @@
 /area/lazarus/ground/cove)
 "twD" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle)
 "twG" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_central_jungle)
 "twU" = (
 /obj/structure/disposalpipe/segment,
@@ -46029,7 +46029,7 @@
 	pixel_y = -1
 	},
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "txs" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_4{
@@ -46162,7 +46162,7 @@
 	pixel_x = -24;
 	pixel_y = 21
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "tBj" = (
 /obj/structure/machinery/door/airlock/sandstone/runed/destroyable{
@@ -46519,7 +46519,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "tHy" = (
 /obj/item/paper/crumpled,
@@ -46528,7 +46528,7 @@
 /area/lazarus/sleep_male)
 "tHE" = (
 /obj/structure/prop/ice_colony/ground_wire,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "tHJ" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -46595,7 +46595,7 @@
 /area/lazarus/ground/jungle/north_east_jungle)
 "tIE" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_nexus_road)
 "tIQ" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -46809,7 +46809,7 @@
 /obj/structure/platform/stone/ancient_temple/west{
 	icon_state = "ancient_platform_alt_broken"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "tPb" = (
 /obj/structure/prop/rock/brown{
@@ -46961,7 +46961,7 @@
 /area/lazarus/ground/caves/north_west_caves)
 "tQK" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "tQY" = (
 /obj/effect/hunter/bridge_border/brown/corner{
@@ -46971,7 +46971,7 @@
 /area/lazarus/ground/ancient_temple/north_east)
 "tRF" = (
 /obj/effect/decal/cleanable/blood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "tRP" = (
 /obj/structure/flora/jungle/vines/blue/light_2,
@@ -46979,7 +46979,7 @@
 /area/lazarus/ground/jungle/north_jungle)
 "tRQ" = (
 /obj/item/prop/alien/hugger,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "tRS" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -47006,7 +47006,7 @@
 /area/lazarus/ground/caves/south_west_caves)
 "tRZ" = (
 /obj/effect/decal/cleanable/blood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "tSk" = (
 /obj/structure/mineral_door/wood{
@@ -47652,7 +47652,7 @@
 /area/lazarus/ground/ancient_temple/east/surface)
 "uhT" = (
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_central_jungle)
 "uid" = (
 /obj/structure/platform/stone/ancient_temple/north,
@@ -47716,7 +47716,7 @@
 /area/lazarus/ground/ancient_temple/east/surface)
 "ujo" = (
 /obj/structure/platform/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "ukf" = (
 /obj/structure/platform/stone/ancient_temple/alt/west,
@@ -47795,7 +47795,7 @@
 /area/lazarus/ground/jungle/north_east_jungle)
 "ulh" = (
 /obj/item/tool/warning_cone,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "ull" = (
 /obj/structure/surface/table,
@@ -47844,7 +47844,7 @@
 /area/lazarus/ground/barrens/north_barrens)
 "umq" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "umr" = (
 /obj/effect/hunter/ancient_temple/deco_border{
@@ -47855,7 +47855,7 @@
 /area/lazarus/ground/ancient_temple/south/surface)
 "umv" = (
 /obj/structure/flora/bush/ausbushes/genericbush,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "umx" = (
 /obj/structure/platform/wood/north,
@@ -47906,7 +47906,7 @@
 /area/lazarus/ground/caves/south_west_caves)
 "unf" = (
 /obj/structure/flora/bush/ausbushes/var3/stalkybush,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_east_jungle)
 "unl" = (
 /obj/effect/decal/lv_decals/red_mud_corner{
@@ -47984,7 +47984,7 @@
 	dir = 6
 	},
 /obj/structure/blocker/forcefield/vehicles,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove/south)
 "uoH" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -48100,7 +48100,7 @@
 	dir = 5
 	},
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/west_caves)
 "uqJ" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -48160,7 +48160,7 @@
 /area/lazarus/research)
 "urC" = (
 /obj/structure/largecrate/random/barrel/blue,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "urO" = (
 /obj/structure/disposalpipe/segment{
@@ -48344,7 +48344,7 @@
 /area/lazarus/ground/river/east_river)
 "uuS" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "uuY" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
@@ -48461,7 +48461,7 @@
 	layer = 3.1;
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_central_jungle)
 "uwy" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -48475,7 +48475,7 @@
 /area/lazarus/ground/caves/north_west_caves)
 "uwI" = (
 /obj/structure/flora/jungle/vines/dead/light_3,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "uwJ" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -48775,7 +48775,7 @@
 /turf/open/auto_turf/lv_grass_weedable/layer0_mud_alt,
 /area/lazarus/ground/caves/south_west_caves)
 "uBq" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "uBr" = (
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_4,
@@ -48967,7 +48967,7 @@
 "uEV" = (
 /obj/structure/barricade/handrail/wire,
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_nexus_road)
 "uFh" = (
 /turf/open/floor/ancient_temple/deco/dark,
@@ -48992,7 +48992,7 @@
 	dir = 9
 	},
 /obj/effect/decal/lv_decals/cave_mud_corner,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/south_west_caves)
 "uFK" = (
 /obj/effect/landmark/big_fog_marker,
@@ -49039,7 +49039,7 @@
 /area/strata/interior/out_of_bounds)
 "uHe" = (
 /obj/structure/largecrate/random/case/double,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "uHu" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
@@ -49104,11 +49104,11 @@
 /area/lazarus/ground/ancient_temple/north_east)
 "uIG" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "uII" = (
 /obj/structure/platform_decoration/stone/ancient_temple,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "uIR" = (
 /obj/structure/fence/dark/overgrown,
@@ -49196,7 +49196,7 @@
 /area/lazarus/ground/caves/north_west_caves)
 "uKY" = (
 /obj/structure/platform/metal/strata/alt/east,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_east_jungle)
 "uLo" = (
 /turf/open/floor/ancient_temple/damaged/damage_1,
@@ -49227,7 +49227,7 @@
 /obj/structure/machinery/colony_floodlight{
 	light_color = "#dae2ff"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "uLV" = (
 /obj/structure/machinery/power/monitor{
@@ -49336,7 +49336,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 6
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "uMZ" = (
 /obj/structure/machinery/light/blue{
@@ -49856,7 +49856,7 @@
 /area/lazarus/ground/cove/south)
 "uYR" = (
 /obj/structure/platform/stone/ancient_temple/west,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_eastern_barrens)
 "uZf" = (
 /obj/structure/pipes/standard/manifold/hidden/cyan{
@@ -50198,7 +50198,7 @@
 /turf/open/floor/ancient_temple/damaged/damage_7,
 /area/lazarus/ground/ancient_temple/south/surface)
 "vgY" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_nexus_road)
 "vhe" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -50268,7 +50268,7 @@
 /area/lazarus/corporate_dome)
 "viS" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_nexus_road)
 "viU" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -50342,7 +50342,7 @@
 /area/lazarus/comms)
 "vku" = (
 /obj/structure/platform/metal/strata/alt,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "vkx" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -50433,7 +50433,7 @@
 /area/lazarus/ground/ancient_temple/east/surface)
 "voq" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "voB" = (
 /obj/structure/disposalpipe/junction{
@@ -50578,7 +50578,7 @@
 /area/lazarus/ground/jungle/south_east_jungle)
 "vsi" = (
 /obj/structure/girder,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "vsH" = (
 /obj/structure/disposalpipe/segment{
@@ -50636,7 +50636,7 @@
 "vuf" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/item/stack/sheet/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "vuN" = (
 /turf/open/gm/coast/dirt/north,
@@ -50798,7 +50798,7 @@
 "vyy" = (
 /obj/effect/decal/cleanable/blood,
 /obj/item/weapon/gun/rifle/m41a/corporate/no_lock,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "vzb" = (
 /obj/effect/hunter/ancient_temple/deco_border/deco_border2{
@@ -50972,7 +50972,7 @@
 "vCN" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_west_barrens)
 "vCR" = (
 /obj/structure/disposalpipe/segment{
@@ -50984,7 +50984,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 5
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "vDa" = (
 /obj/structure/pipes/standard/simple/hidden/cyan,
@@ -51087,7 +51087,7 @@
 /area/lazarus/ground/ancient_temple/east/surface)
 "vDL" = (
 /obj/item/tool/shovel,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_eastern_barrens)
 "vDT" = (
 /obj/structure/platform_decoration/wood/west,
@@ -51146,7 +51146,7 @@
 "vFy" = (
 /obj/structure/fence/dark,
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_medbay_road)
 "vFF" = (
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
@@ -51437,7 +51437,7 @@
 /area/lazarus/corporate_dome)
 "vLS" = (
 /obj/item/tool/shovel,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "vLV" = (
 /obj/structure/platform_decoration/stone/ancient_temple/north,
@@ -51483,7 +51483,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_medbay_road)
 "vNh" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
@@ -51651,7 +51651,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_nexus_road)
 "vRj" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_5{
@@ -51708,7 +51708,7 @@
 /area/lazarus/captain)
 "vSq" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_east_jungle)
 "vSz" = (
 /obj/item/weapon/shield/riot/yautja/ancient/temple{
@@ -51899,7 +51899,7 @@
 	dir = 4;
 	icon_state = "p_stair_full"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/east_barrens)
 "vYo" = (
 /obj/effect/hunter/ancient_temple/deco_border,
@@ -51943,7 +51943,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 10
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_nexus_road)
 "vZG" = (
 /obj/effect/hunter/ancient_temple/tile_edge_corner/tile_edge_corner_2,
@@ -52122,7 +52122,7 @@
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/item/shard,
 /obj/structure/foamed_metal,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_central_jungle)
 "wdp" = (
 /obj/structure/machinery/shower{
@@ -52249,7 +52249,7 @@
 /area/lazarus/ground/barrens/central_barrens)
 "wfD" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "wfJ" = (
 /obj/structure/flora/bush/ausbushes/var3/sunnybush,
@@ -52380,7 +52380,7 @@
 /area/lazarus/captain)
 "wib" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "wil" = (
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
@@ -52803,7 +52803,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "wqH" = (
 /obj/structure/inflatable/door,
@@ -53192,7 +53192,7 @@
 /area/lazarus/ground/caves/west_caves)
 "wzR" = (
 /obj/structure/prop/ice_colony/surveying_device/measuring_device,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "wzV" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_4{
@@ -53256,7 +53256,7 @@
 /obj/effect/landmark/nightmare{
 	insert_tag = "hydro_pmc"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_nexus_road)
 "wCn" = (
 /obj/structure/machinery/light/blue{
@@ -53417,7 +53417,7 @@
 "wEZ" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/cyan,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "wFc" = (
 /obj/structure/machinery/autolathe,
@@ -53679,7 +53679,7 @@
 /area/lazarus/main_hall)
 "wJb" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove/south)
 "wJn" = (
 /obj/effect/decal/warning_stripes{
@@ -53732,7 +53732,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 6
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/south_west_caves)
 "wKS" = (
 /obj/effect/landmark/monkey_spawn,
@@ -53801,7 +53801,7 @@
 	pixel_x = 7;
 	pixel_y = 16
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "wNb" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_4{
@@ -53844,7 +53844,7 @@
 /area/lazarus/ground/caves/west_caves)
 "wNE" = (
 /obj/structure/platform_decoration/wood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "wNG" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -53956,7 +53956,7 @@
 "wPH" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "wPT" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -54055,7 +54055,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_east_nexus_road)
 "wTi" = (
 /obj/effect/decal/lv_decals/cave_mud_corner{
@@ -54095,7 +54095,7 @@
 /obj/item/device/flashlight/lamp/tripod{
 	on = 0
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "wUo" = (
 /turf/open/gm/coast/dirt/beachcorner2/north_east,
@@ -54105,7 +54105,7 @@
 /turf/open/auto_turf/strata_grass/layer1,
 /area/lazarus/ground/ancient_temple/north_east/surface)
 "wUz" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove)
 "wUB" = (
 /obj/structure/extinguisher_cabinet{
@@ -54139,7 +54139,7 @@
 /obj/structure/machinery/colony_floodlight{
 	light_color = "#dae2ff"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_jungle)
 "wUO" = (
 /turf/open/auto_turf/lv_grass/layer0,
@@ -54155,7 +54155,7 @@
 	pixel_x = -7;
 	pixel_y = 11
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "wVp" = (
 /obj/structure/platform/stone/ancient_temple/alt/north,
@@ -54247,7 +54247,7 @@
 /area/lazarus/ground/jungle/south_central_jungle)
 "wXh" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_east_nexus_road)
 "wXj" = (
 /obj/item/prop/alien/hugger,
@@ -54361,7 +54361,7 @@
 	pixel_y = -2;
 	pixel_x = 2
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_eastern_barrens)
 "wZA" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -54483,7 +54483,7 @@
 	pixel_x = -1;
 	pixel_y = 17
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "xcD" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -54646,7 +54646,7 @@
 /area/lazarus/shack)
 "xeX" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "xfk" = (
 /obj/effect/hunter/ancient_temple/tile_edge/tile_edge_11,
@@ -54734,7 +54734,7 @@
 /obj/effect/decal/lv_decals/cave_mud_corner{
 	dir = 10
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/south_west_caves)
 "xhy" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
@@ -54787,7 +54787,7 @@
 /area/lazarus/ground/caves/south_west_caves)
 "xin" = (
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "xiW" = (
 /obj/effect/hunter/ancient_temple/deco_border,
@@ -55214,7 +55214,7 @@
 /obj/structure/platform/stone/ancient_temple/east{
 	icon_state = "ancient_platform_alt_broken"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/caves/north_west_caves)
 "xsy" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
@@ -55242,7 +55242,7 @@
 /area/lazarus/quartstorage)
 "xtB" = (
 /obj/effect/landmark/monkey_spawn,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/north_west_jungle/dense)
 "xtI" = (
 /obj/effect/hunter/ancient_temple/rubble/rubble_4{
@@ -55278,7 +55278,7 @@
 	pixel_x = 3;
 	pixel_y = 14
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/east/surface)
 "xub" = (
 /obj/structure/bed/chair/comfy/beige{
@@ -55322,7 +55322,7 @@
 /area/lazarus/ground/cove)
 "xuA" = (
 /obj/structure/flora/jungle/planttop1,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "xuD" = (
 /obj/item/trash/cigbutt,
@@ -55877,7 +55877,7 @@
 /obj/structure/pipes/standard/manifold/hidden/cyan{
 	dir = 1
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/south_medbay_road)
 "xGH" = (
 /obj/structure/barricade/handrail/wire,
@@ -56091,7 +56091,7 @@
 /area/lazarus/ground/river/north_east_temple_river)
 "xMh" = (
 /obj/item/tool/pickaxe,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/ancient_temple/south_east/surface)
 "xMk" = (
 /obj/effect/decal/ammo_casing,
@@ -56306,7 +56306,7 @@
 /area/lazarus/ground/jungle/east_jungle)
 "xPi" = (
 /obj/structure/pipes/standard/simple/hidden/cyan,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/north_tcomms_road)
 "xPj" = (
 /obj/effect/hunter/ancient_temple/tile_edge/tile_edge_9,
@@ -56375,7 +56375,7 @@
 	pixel_x = -8;
 	pixel_y = 17
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_west_jungle)
 "xRa" = (
 /obj/structure/prop/colorable_rock/colorable{
@@ -56408,7 +56408,7 @@
 	dir = 5
 	},
 /obj/structure/blocker/forcefield/vehicles,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/cove/south)
 "xRX" = (
 /obj/structure/bed/chair/wood/wings,
@@ -56600,7 +56600,7 @@
 "xYa" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/north_barrens)
 "xYu" = (
 /obj/structure/flora/bush/ausbushes/reedbush,
@@ -56657,7 +56657,7 @@
 /area/lazarus/ground/jungle/north_west_jungle)
 "xYY" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_west_barrens)
 "xZr" = (
 /obj/structure/platform_decoration/stone/ancient_temple/alt,
@@ -56721,7 +56721,7 @@
 /turf/open/auto_turf/lv_grass/layer1,
 /area/lazarus/ground/barrens/west_barrens)
 "yar" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/central_barrens)
 "yay" = (
 /obj/structure/disposalpipe/segment{
@@ -56812,7 +56812,7 @@
 "ycB" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/barrens/south_west_barrens)
 "ycL" = (
 /turf/open/gm/brown_dirt/random_rocks_alt,
@@ -57208,7 +57208,7 @@
 /area/lazarus/ground/caves/south_west_caves)
 "ylG" = (
 /obj/structure/flora/jungle/vines/blue/light_1,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/east_jungle)
 "ylT" = (
 /obj/structure/barricade/handrail/wire{

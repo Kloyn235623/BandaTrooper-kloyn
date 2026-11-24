@@ -1,4 +1,7 @@
 
+/datum/origin/lb_merc
+	name = ORIGIN_LB_MERC
+
 /datum/equipment_preset/survivor/lasalle_merc
 	name = "Survivor - Lasalle-Bionational - HIG"
 	flags = EQUIPMENT_PRESET_START_OF_ROUND

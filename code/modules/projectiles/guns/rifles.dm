@@ -2694,7 +2694,7 @@
 	name = "\\improper AK-4047 pulse assault rifle"
 	desc = "A rugged UPP assault rifle chambered in 10x27mm."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/upp.dmi'
-	icon_state = "ak4047"
+	icon_state = "type71"
 	item_state = "ak4047"
 	fire_sound = 'sound/weapons/gun_type71.ogg'
 	reload_sound = 'sound/weapons/handling/m41_reload.ogg'

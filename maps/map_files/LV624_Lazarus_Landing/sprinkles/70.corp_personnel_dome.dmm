@@ -137,7 +137,7 @@
 "ch" = (
 /obj/structure/fence/dark/overgrown,
 /obj/structure/flora/jungle/vines/blue/light_1,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "cj" = (
 /obj/effect/decal/warning_stripes{
@@ -296,7 +296,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "fn" = (
 /obj/structure/disposalpipe/segment{
@@ -609,7 +609,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "nD" = (
 /obj/structure/bed/chair{
@@ -659,7 +659,7 @@
 /area/lazarus/secure_storage)
 "oq" = (
 /obj/structure/machinery/light/small/blue,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/secure_storage)
 "ot" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -850,7 +850,7 @@
 /area/lazarus/ground/jungle/south_west_jungle)
 "qG" = (
 /obj/effect/decal/cleanable/blood/drip,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "qH" = (
 /obj/structure/machinery/light/blue{
@@ -887,7 +887,7 @@
 /turf/open/auto_turf/lv_grass/layer0,
 /area/lazarus/ground/jungle/south_central_jungle)
 "rb" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "rq" = (
 /obj/structure/flora/jungle/vines/blue/light_2,
@@ -1052,7 +1052,7 @@
 /turf/open/gm/brown_dirt/random_rocks_alt/southeast,
 /area/lazarus/ground/colony/west_tcomms_road)
 "uu" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "ux" = (
 /obj/structure/platform/metal/strata/alt/north,
@@ -1085,7 +1085,7 @@
 /area/lazarus/secure_storage)
 "uz" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_central_jungle)
 "uL" = (
 /obj/structure/platform_decoration/metal/strata/alt{
@@ -1108,7 +1108,7 @@
 /area/lazarus/secure_storage)
 "uS" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "uU" = (
 /obj/effect/hybrisa/misc/fake/wire/yellow{
@@ -1190,7 +1190,7 @@
 /area/lazarus/landing_zones/lz2)
 "vU" = (
 /obj/item/prop/alien/hugger,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "vX" = (
 /obj/structure/platform_decoration/metal/strata/alt{
@@ -1295,7 +1295,7 @@
 /area/lazarus/secure_storage)
 "ys" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "yx" = (
 /obj/structure/bed/hybrisa/bunkbed4{
@@ -1325,7 +1325,7 @@
 /turf/open/auto_turf/lv_grass/layer1,
 /area/lazarus/ground/jungle/south_central_jungle)
 "zj" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_central_jungle)
 "zC" = (
 /obj/structure/disposalpipe/segment{
@@ -1336,7 +1336,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 6
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "zE" = (
 /obj/structure/machinery/space_heater/radiator/red{
@@ -1440,7 +1440,7 @@
 	pixel_x = -21;
 	pixel_y = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "CB" = (
 /obj/effect/decal/warning_stripes{
@@ -1484,7 +1484,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "DG" = (
 /obj/structure/sign/safety/ammunition{
@@ -1630,7 +1630,7 @@
 /area/lazarus/ground/jungle/west_central_jungle)
 "Hc" = (
 /obj/item/trash/cigbutt,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "He" = (
 /obj/structure/bed/hybrisa/bunkbed4{
@@ -1661,7 +1661,7 @@
 "HE" = (
 /obj/item/weapon/gun/smg/mp5,
 /obj/effect/decal/ammo_casing,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "HO" = (
 /obj/effect/hybrisa/misc/fake/wire/blue{
@@ -1851,7 +1851,7 @@
 /area/lazarus/secure_storage)
 "KL" = (
 /obj/item/ammo_magazine/smg/mp5,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "KR" = (
 /obj/structure/flora/jungle/vines/blue/light_1,
@@ -1927,11 +1927,11 @@
 "Mg" = (
 /obj/effect/landmark/corpsespawner/wygoon,
 /obj/effect/decal/cleanable/blood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "Mi" = (
 /obj/structure/fence/dark,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "Mm" = (
 /obj/structure/flora/jungle/vines/blue/light_1,
@@ -1996,7 +1996,7 @@
 	dir = 1
 	},
 /obj/structure/pipes/standard/simple/hidden/cyan,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "Ny" = (
 /obj/effect/decal/lv_decals/red_mud_corner{
@@ -2033,7 +2033,7 @@
 /area/lazarus/secure_storage)
 "NN" = (
 /obj/structure/largecrate/random/barrel/black,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "NO" = (
 /obj/effect/decal/cleanable/blood,
@@ -2185,7 +2185,7 @@
 /area/lazarus/ground/jungle/south_west_jungle)
 "Rf" = (
 /obj/effect/decal/ammo_casing,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "Rg" = (
 /obj/structure/flora/jungle/plantbot1,
@@ -2209,7 +2209,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "Rw" = (
 /obj/structure/prop/hybrisa/vehicles/Armored_Truck/WY_White{
@@ -2268,7 +2268,7 @@
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "Sp" = (
 /obj/effect/decal/cleanable/blood/drip{
@@ -2374,7 +2374,7 @@
 	pixel_x = -5;
 	pixel_y = 12
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "TQ" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -2386,7 +2386,7 @@
 "Uz" = (
 /obj/effect/decal/cleanable/blood/xeno,
 /obj/item/prop/alien/hugger,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "UG" = (
 /turf/closed/wall/lv_outpost/reinforced,
@@ -2396,7 +2396,7 @@
 	pixel_x = -8;
 	pixel_y = 17
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "US" = (
 /obj/structure/flora/jungle/vines/dead/heavy{
@@ -2412,7 +2412,7 @@
 "Vl" = (
 /obj/effect/decal/ammo_casing,
 /obj/effect/decal/ammo_casing,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "Vp" = (
 /obj/structure/machinery/space_heater/radiator/red{
@@ -2455,7 +2455,7 @@
 /area/lazarus/ground/jungle/south_central_jungle)
 "VS" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_central_jungle)
 "Wr" = (
 /obj/structure/closet/secure_closet/wy/goon{
@@ -2469,7 +2469,7 @@
 "WI" = (
 /obj/structure/fence/dark/overgrown,
 /obj/structure/flora/jungle/vines/dead/light_3,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "WT" = (
 /obj/effect/decal/warning_stripes{
@@ -2489,7 +2489,7 @@
 "WW" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/cyan,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/colony/west_tcomms_road)
 "Xb" = (
 /obj/item/tool/warning_cone{

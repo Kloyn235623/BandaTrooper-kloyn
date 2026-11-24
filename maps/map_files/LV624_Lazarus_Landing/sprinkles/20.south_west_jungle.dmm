@@ -7,7 +7,7 @@
 /turf/closed/wall/strata_ice/jungle,
 /area/strata/interior/out_of_bounds)
 "bu" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "cf" = (
 /obj/structure/flora/jungle/plantbot1,
@@ -32,7 +32,7 @@
 /area/lazarus/ground/jungle/west_jungle)
 "ew" = (
 /obj/structure/flora/jungle/planttop1,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "gJ" = (
 /obj/structure/flora/grass/tallgrass/jungle_alt_2/corner{
@@ -133,7 +133,7 @@
 /area/lazarus/ground/jungle/west_jungle)
 "sV" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "sW" = (
 /obj/structure/flora/bush/ausbushes/ausbush,
@@ -217,7 +217,7 @@
 /area/lazarus/ground/jungle/west_jungle)
 "By" = (
 /obj/effect/landmark/big_fog_marker,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "BS" = (
 /obj/structure/flora/jungle/vines/blue/heavy,

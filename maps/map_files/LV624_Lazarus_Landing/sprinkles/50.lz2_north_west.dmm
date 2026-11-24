@@ -1,13 +1,13 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "c" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "j" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "k" = (
 /obj/effect/decal/lv_decals/red_mud_corner{
@@ -109,14 +109,14 @@
 /area/lazarus/landing_zones/lz2)
 "M" = (
 /obj/effect/sentry_landmark/lz_2/top_left,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "O" = (
 /turf/closed/wall/lv_outpost/reinforced,
 /area/lazarus/comms/lz2_north)
 "Q" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "V" = (
 /turf/open/gm/dirt/brown/variant_5/south,

@@ -1979,6 +1979,8 @@
 #include "code\modules\gear_presets\survivors\misc.dm"
 #include "code\modules\gear_presets\survivors\survivors.dm"
 #include "code\modules\gear_presets\survivors\cape_river\preset_cape_river.dm"
+#include "code\modules\gear_presets\survivors\abyssal\preset_abyssal.dm"
+#include "code\modules\gear_presets\survivors\sorokyne_strata\present_sorokyne_strata.dm"
 #include "code\modules\gear_presets\survivors\lv_522\forcon_survivors.dm"
 #include "code\modules\gear_presets\survivors\lv_759\preset_hybrisa.dm"
 #include "code\modules\holidays\halloween\decorators.dm"

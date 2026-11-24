@@ -2453,8 +2453,8 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 /obj/item/clothing/head/helmet/marine/veteran/abyssal_security
 	name = "security helmet"
 	desc = "Standard issue helmet issued to Con-Am security forces."
-	icon_state = "sec_helmet"
-	item_state = "sec_helmet"
+	icon_state = "pmc_helmet"
+	item_state = "pmc_helmet"
 	flags_inv_hide = HIDETOPHAIR
 /obj/item/clothing/head/helmet/marine/veteran/upp/sof // SS220 EDIT: add the UPP SOF helmet referenced by the Sorokyne survivor kit.
 	name = "\\improper CCC5-L composite helmet"

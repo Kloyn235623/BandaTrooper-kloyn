@@ -810,13 +810,13 @@
 	desc = "A rugged 45-round magazine for the AK-4047 rifle."
 	caliber = "10x27mm"
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/upp.dmi'
-	icon_state = "ak4047"
+	icon_state = "type71"
 	w_class = SIZE_MEDIUM
 	default_ammo = /datum/ammo/bullet/rifle/upp
 	max_rounds = 45
 	gun_type = /obj/item/weapon/gun/rifle/ak4047
-	ammo_band_icon = "+ak4047_band"
-	ammo_band_icon_empty = "+ak4047_band_e"
+	ammo_band_icon = "+type71_band"
+	ammo_band_icon_empty = "+type71_band_e"
 
 /obj/item/ammo_magazine/rifle/ak4047/ap
 	name = "\\improper AK-4047 AP magazine (10x27mm)"

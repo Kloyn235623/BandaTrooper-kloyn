@@ -1,10 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "b" = (
 /obj/structure/flora/bush/ausbushes/ausbush,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "c" = (
 /turf/open/auto_turf/lv_grass/layer1,
@@ -33,7 +33,7 @@
 /area/lazarus/ground/jungle/west_jungle)
 "j" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "k" = (
 /obj/effect/decal/lv_decals/red_mud_corner{
@@ -97,17 +97,17 @@
 "F" = (
 /obj/structure/flora/jungle/vines/blue/light_3,
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "G" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/landing_zones/lz2)
 "J" = (
 /obj/item/reagent_container/food/drinks/cans/beer{
 	icon_state = "beer_crushed"
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/west_jungle)
 "K" = (
 /obj/structure/flora/jungle/vines/blue/heavy,

@@ -30,51 +30,6 @@
 	down = locate(/obj/structure/ladder) in SSmapping.get_turf_below(get_turf(src))
 	update_icon()
 
-/obj/structure/stairs/multiz
-	var/direction
-
-/obj/structure/stairs/multiz/Initialize(mapload, ...)
-	. = ..()
-	RegisterSignal(loc, COMSIG_TURF_ENTERED, PROC_REF(on_turf_entered))
-
-/obj/structure/stairs/multiz/Destroy()
-	UnregisterSignal(loc, COMSIG_TURF_ENTERED)
-	return ..()
-
-/obj/structure/stairs/multiz/proc/on_turf_entered(turf/source, atom/movable/enterer)
-	SIGNAL_HANDLER
-	if(!ismob(enterer))
-		return
-	RegisterSignal(enterer, COMSIG_MOVABLE_PRE_MOVE, PROC_REF(on_premove))
-	RegisterSignal(enterer, COMSIG_MOVABLE_MOVED, PROC_REF(on_leave))
-
-/obj/structure/stairs/multiz/proc/on_leave(atom/movable/mover)
-	SIGNAL_HANDLER
-	if(mover.loc == loc)
-		return
-	UnregisterSignal(mover, list(COMSIG_MOVABLE_PRE_MOVE, COMSIG_MOVABLE_MOVED))
-
-/obj/structure/stairs/multiz/proc/on_premove(atom/movable/mover, atom/new_loc)
-	SIGNAL_HANDLER
-	if(direction == UP && get_dir(src, new_loc) != dir || direction == DOWN && get_dir(src, new_loc) != REVERSE_DIR(dir))
-		return
-	var/turf/next_step = get_step(src, direction == UP ? dir : REVERSE_DIR(dir))
-	var/turf/destination = direction == UP ? SSmapping.get_turf_above(next_step) : SSmapping.get_turf_below(next_step)
-	if(!destination || destination.density)
-		return
-	if(ismob(mover))
-		var/mob/traveler = mover
-		traveler.trainteleport(destination)
-	else
-		mover.forceMove(destination)
-	return COMPONENT_CANCEL_MOVE
-
-/obj/structure/stairs/multiz/up
-	direction = UP
-
-/obj/structure/stairs/multiz/down
-	direction = DOWN
-
 /turf/open_space
 	name = "open space"
 	icon = 'icons/turf/floors/floors.dmi'
@@ -133,3 +88,26 @@
 
 /turf/open/floor/strata/liberty
 	icon_state = "floor"
+
+// SS220 EDIT - START: restore Sorokyne Strata CLF insert map types and UPP fence sprites.
+/obj/structure/fence/slim/upp
+	name = "fence"
+	desc = "A large metal mesh strewn between two poles. Intended as a cheap way to separate areas, while allowing one to see through it."
+	icon = 'icons/obj/structures/props/fences/upp_fence.dmi'
+
+/obj/structure/fence/slim/upp/door
+	name = "fence door"
+	desc = "A sturdy chainlink door set between two metal poles. A cheap way to section off areas while still allowing visibility through it."
+	icon_state = "door_closed"
+	door = TRUE
+	forms_junctions = FALSE
+	icon = 'icons/obj/structures/props/fences/upp_fence_door.dmi'
+
+/obj/effect/landmark/corpsespawner/clf/burst
+	name = "Burst Colonial Liberation Front Soldier"
+	equip_path = /datum/equipment_preset/corpse/clf/burst
+
+/obj/item/paper/soro/clf
+	name = "TOP SECRET: FOR CELL LEAD ONLY"
+	info = "Your request for extraction has been received. We have no assets in the region available. Await further instruction."
+// SS220 EDIT - END

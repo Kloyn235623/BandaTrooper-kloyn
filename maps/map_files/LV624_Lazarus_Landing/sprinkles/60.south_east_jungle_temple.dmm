@@ -92,7 +92,7 @@
 /turf/open/floor/ancient_temple/damaged/damage_7,
 /area/lazarus/ground/jungle/south_east_jungle)
 "pE" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_east_jungle)
 "pP" = (
 /obj/effect/hunter/ancient_temple/tile_edge/tile_edge_8,
@@ -309,7 +309,7 @@
 "Qf" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
 /obj/structure/flora/jungle/vines/dead/light_1,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_east_jungle)
 "QN" = (
 /turf/closed/wall/ancient_temple/sandstone/runed/decor,
@@ -340,7 +340,7 @@
 /area/lazarus/ground/jungle/south_east_jungle)
 "Uy" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/lazarus/ground/jungle/south_east_jungle)
 "Vx" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,

@@ -1549,8 +1549,8 @@
 	name = "\\improper 6B80 personal body armor"
 	desc = "An older UPP personal armor system still used by units outside major combat zones."
 	storage_slots = 3
-	icon_state = "upp_armor_army_brown"
-	item_state = "upp_armor_army_brown"
+	icon_state = "upp_armor"
+	item_state = "upp_armor"
 	armor_melee = CLOTHING_ARMOR_MEDIUMLOW
 	armor_bullet = CLOTHING_ARMOR_MEDIUM
 	armor_energy = CLOTHING_ARMOR_MEDIUMLOW
@@ -1564,13 +1564,13 @@
 
 /obj/item/clothing/suit/storage/marine/faction/upp/army/simple
 	name = "6B70 personal body armour"
-	icon_state = "upp_generic_ballistic_armor"
-	item_state = "upp_generic_ballistic_armor"
+	icon_state = "upp_armor_light"
+	item_state = "upp_armor_light"
 
 /obj/item/clothing/suit/storage/marine/faction/upp/army/alt
 	name = "6B75 personal body armour"
-	icon_state = "upp_ballistic_armor"
-	item_state = "upp_ballistic_armor"
+	icon_state = "upp_armor_heavy"
+	item_state = "upp_armor"
 
 /obj/item/clothing/suit/marine/faction/upp/sof
 	name = "\\improper CCC5-L tactical vest"

@@ -10,6 +10,8 @@
 #define WALL_FOREST_ROCK_DIRTY "rock_forest_dirty"
 #include "code\areas.dm"
 #include "code\rendering.dm"
+#include "code\stairs.dm"
+#include "code\platform_icon_compat.dm"
 #include "code\look_up.dm"
 #include "code\observer_navigation.dm"
 #include "code\resource_fallbacks.dm"

@@ -245,6 +245,8 @@
 
 /// To keep from conflicts with SEE_BLACKNESS internals
 #define BLACKNESS_PLANE 0
+#define ABOVE_BLACKNESS_PLANE 1
+#define ABOVE_BLACKNESS_BACKDROP_PLANE 2
 
 #define GHOST_PLANE 80
 

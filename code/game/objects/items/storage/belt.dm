@@ -2722,5 +2722,5 @@
 
 /obj/item/storage/belt/gun/type47/sof // SS220 EDIT: add the UPP SOF pistol rig placed on the Sorokyne supply ship.
 	name = "\\improper Type 47-S pistol holster rig"
-	icon_state = "korovin_black_holster"
+	icon_state = "korovin_holster_g"
 	item_state = "upp_belt"

@@ -19,7 +19,7 @@
 	pixel_x = 10;
 	pixel_y = -3
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "c" = (
 /obj/structure/pipes/standard/simple/hidden/cyan,
@@ -38,13 +38,13 @@
 	pixel_y = 32
 	},
 /obj/structure/largecrate/random/case/double,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "j" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 4
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "m" = (
 /obj/structure/largecrate/random/case/small{
@@ -68,7 +68,7 @@
 /area/template_noop)
 "o" = (
 /obj/structure/flora/bush/ausbushes/var3/sparsegrass,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "q" = (
 /obj/effect/decal/lv_decals/red_mud_corner{
@@ -79,7 +79,7 @@
 /area/template_noop)
 "s" = (
 /obj/structure/cargo_container/hybrisa/containersextended/lightgreywyleft,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "t" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -101,7 +101,7 @@
 /area/template_noop)
 "v" = (
 /obj/structure/largecrate/random/barrel/black,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "w" = (
 /obj/structure/closet/crate/science,
@@ -118,7 +118,7 @@
 /area/template_noop)
 "z" = (
 /obj/structure/cargo_container/hybrisa/containersextended/whitewyright,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "A" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -127,18 +127,18 @@
 /obj/structure/prop/ice_colony/surveying_device/measuring_device{
 	pixel_x = -8
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "B" = (
 /obj/structure/largecrate/random/case/double,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "C" = (
 /turf/open/auto_turf/lv_grass/layer1,
 /area/template_noop)
 "E" = (
 /obj/item/prop/alien/hugger,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "F" = (
 /obj/effect/decal/cleanable/blood,
@@ -146,7 +146,7 @@
 	pixel_x = 5;
 	pixel_y = 16
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "G" = (
 /obj/structure/pipes/standard/simple/hidden/cyan{
@@ -177,21 +177,21 @@
 /area/template_noop)
 "J" = (
 /obj/structure/cargo_container/hybrisa/containersextended/lightgreywyright,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "K" = (
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "M" = (
 /obj/structure/fence/dark/overgrown,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "N" = (
 /obj/structure/largecrate/random/mini/small_case{
 	pixel_x = 8;
 	pixel_y = -2
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "O" = (
 /turf/open/gm/dirt/brown/variant_5/east,
@@ -205,7 +205,7 @@
 	on = 0;
 	pixel_x = -3
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "R" = (
 /obj/effect/decal/cleanable/blood/drip{
@@ -222,21 +222,21 @@
 	dir = 1;
 	pixel_x = 8
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "T" = (
 /obj/effect/decal/cleanable/blood/drip{
 	pixel_x = 5;
 	pixel_y = 16
 	},
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "U" = (
 /turf/open/gm/dirt/brown/variant_5/south,
 /area/template_noop)
 "V" = (
 /obj/structure/cargo_container/hybrisa/containersextended/whitewyleft,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "W" = (
 /obj/structure/flora/bush/ausbushes/var3/fullgrass,
@@ -244,7 +244,7 @@
 /area/template_noop)
 "X" = (
 /obj/effect/decal/cleanable/blood,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "Y" = (
 /turf/open/gm/brown_dirt/random_rocks_alt/southeast,

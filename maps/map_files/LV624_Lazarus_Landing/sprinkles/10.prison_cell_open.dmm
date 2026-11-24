@@ -45,7 +45,7 @@
 "q" = (
 /obj/effect/decal/hybrisa/dirt,
 /obj/effect/decal/hybrisa/dirt,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "w" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -57,7 +57,7 @@
 	},
 /obj/effect/decal/hybrisa/dirt,
 /obj/effect/decal/hybrisa/dirt,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "z" = (
 /obj/structure/machinery/light/small,
@@ -68,7 +68,7 @@
 /area/template_noop)
 "J" = (
 /obj/item/stack/sheet/metal,
-/turf/open/auto_turf/lv_sand/layer0,
+/turf/open/auto_turf/lv_sand/layer1,
 /area/template_noop)
 "O" = (
 /turf/closed/wall/lv_outpost/reinforced,
