@@ -592,6 +592,15 @@
 	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
 	valid_accessory_slots = list(ACCESSORY_SLOT_UTILITY, ACCESSORY_SLOT_ARMBAND, ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_UTILITY, ACCESSORY_SLOT_HOLSTER)
 
+/obj/item/clothing/under/marine/veteran/upp/civi
+	name = "\improper Jùtóu Combine mining overalls"
+	desc = "A durable, olive-green jumpsuit worn beneath a sleeveless, puffy orange work vest—standard issue for Jùtóu Combine laborers. The vest's faded fabric is lined with reinforced padding, offering minimal protection against workplace hazards. A red star insignia is stamped on the back, marking its wearer as part of the Combine’s industrial workforce. Stiff, uncomfortable, and mass-produced, but better than nothing in the unforgiving conditions of deep-space labor."
+	icon_state = "miner_uniform"
+	worn_state = "miner_uniform"
+	icon = 'icons/obj/items/clothing/uniforms/uniforms_by_faction/UPP.dmi'
+	item_icons = list(
+		WEAR_BODY = 'icons/mob/humans/onmob/clothing/uniforms/uniforms_by_faction/UPP.dmi',
+	)
 
 /obj/item/clothing/under/marine/veteran/canc
 	name = "\improper CANC fatigues"
@@ -1100,6 +1109,31 @@
 		WEAR_BODY = 'icons/mob/humans/onmob/uniform_1.dmi',
 	)
 
+/obj/item/clothing/under/rank/utility/brown
+	name = "\improper utility uniform"
+	desc = "A stylish brown jumpsuit, popularly issued to UA contract workers on the frontier."
+	icon_state = "brown_utility"
+	worn_state = "brown_utility"
+	has_sensor = UNIFORM_HAS_SENSORS
+
+/obj/item/clothing/under/rank/utility/brown/upp
+	name = "\improper utility uniform"
+	desc = "A rugged utility jumpsuit worn by UPP workers and emergency crews. Constructed from heat-treated synthetic fibers and reinforced at key points, it provides basic protection against heat and physical hazards. Though practical, its heavy fabric and outdated design reflect the Union’s focus on durability over comfort."
+	icon_state = "brown_utility"
+	worn_state = "brown_utility"
+	has_sensor = UNIFORM_HAS_SENSORS
+	suit_restricted = FALSE
+	armor_energy = CLOTHING_ARMOR_LOW
+
+/obj/item/clothing/under/rank/utility/gray/upp
+	name = "\improper utility uniform"
+	desc = "A rugged utility jumpsuit worn by UPP workers and emergency crews. Constructed from heat-treated synthetic fibers and reinforced at key points, it provides basic protection against heat and physical hazards. Though practical, its heavy fabric and outdated design reflect the Union’s focus on durability over comfort."
+	icon_state = "grey_utility"
+	worn_state = "grey_utility"
+	has_sensor = UNIFORM_HAS_SENSORS
+	suit_restricted = FALSE
+	armor_energy = CLOTHING_ARMOR_LOW
+
 /obj/item/clothing/under/rank/synthetic/councillor
 	name = "\improper USCM Pristine Support Uniform"
 	desc = "A nicely handcrafted uniform made for Synthetic crewmembers."
@@ -1557,3 +1591,11 @@
 	icon_state = "iasf_uniform_service"
 	worn_state = "iasf_uniform_service"
 	flags_atom = FPRINT|NO_NAME_OVERRIDE
+/obj/item/clothing/under/marine/veteran/upp/pap // SS220 EDIT: add the PaP uniform variant placed on Sorokyne.
+	name = "\\improper PaP service uniform"
+	desc = "Blue-grey slacks and a blue shirt with protective inserts."
+	icon_state = "upp_uniform_pap"
+	worn_state = "upp_uniform_pap"
+	has_sensor = UNIFORM_HAS_SENSORS
+	sensor_faction = FACTION_LIST_UPP_COLONY
+	flags_jumpsuit = UNIFORM_SLEEVE_ROLLABLE|UNIFORM_JACKET_REMOVABLE

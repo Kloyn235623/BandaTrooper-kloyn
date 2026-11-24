@@ -231,6 +231,11 @@
 	for(var/A in ping_candidates)
 		var/mob/living/M = A //do this to skip the unnecessary istype() check; everything in ping_candidate is a mob already
 		if(M == loc) continue //device user isn't detected
+		if(M.status_flags & INCORPOREAL)
+			ping_count++
+			if(human_user)
+				show_blip(human_user, M, "queen_eye")
+			continue // SS220 EDIT: show incorporeal pathogen on detector
 		if(world.time > M.l_move_time + 20) continue //hasn't moved recently
 		if(M.get_target_lock(iff_signal))
 			continue
@@ -329,6 +334,11 @@
 	name = "hacked M314 motion detector"
 	desc = "A device that usually picks up non-USCM signals, but this one's been hacked to detect all non-UPP movement instead. Fight fire with fire!"
 	iff_signal = FACTION_UPP
+
+/obj/item/device/motiondetector/hacked/clf
+	name = "hacked motion detector"
+	desc = "A device that usually picks up non-USCM signals, but this one's been reprogrammed to detect all non-CLF movement instead."
+	iff_signal = FACTION_CLF
 
 /obj/item/device/motiondetector/hacked/elite_merc
 	name = "hacked M314 motion detector"

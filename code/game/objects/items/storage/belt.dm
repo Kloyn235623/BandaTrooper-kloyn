@@ -607,6 +607,44 @@
 	new /obj/item/ammo_magazine/rifle/m41aMK1(src)
 	new /obj/item/ammo_magazine/rifle/m41aMK1(src)
 
+/obj/item/storage/belt/security/brown
+	name = "\improper 6B80 pattern ammo rig"
+	desc = "The 6B80 is an outdated but reliable ammo rig, formerly standard for the UPP Army. Its modular belt holds various munitions, still used by UPP security forces and reserves for its rugged design."
+	icon_state = "securitybelt_brown"
+	item_state = "security_brown"//Could likely use a better one.
+	w_class = SIZE_LARGE
+	storage_slots = 5
+	max_w_class = SIZE_MEDIUM
+	max_storage_space = 20
+	can_hold = list(
+		/obj/item/attachable/bayonet,
+		/obj/item/device/flashlight/flare,
+		/obj/item/ammo_magazine/rifle,
+		/obj/item/ammo_magazine/smg,
+		/obj/item/ammo_magazine/pistol,
+		/obj/item/ammo_magazine/revolver,
+		/obj/item/ammo_magazine/sniper,
+		/obj/item/ammo_magazine/handful,
+		/obj/item/explosive/grenade,
+		/obj/item/explosive/mine,
+		/obj/item/reagent_container/food/snacks,
+	)
+	bypass_w_limit = list(
+		/obj/item/ammo_magazine/rifle,
+		/obj/item/ammo_magazine/smg,
+	)
+
+/obj/item/storage/belt/security/brown/full/fill_preset_inventory()
+	new /obj/item/ammo_magazine/rifle/ak4047(src)
+	new /obj/item/ammo_magazine/rifle/ak4047(src)
+	new /obj/item/ammo_magazine/rifle/ak4047(src)
+	new /obj/item/ammo_magazine/rifle/ak4047(src)
+	new /obj/item/ammo_magazine/rifle/ak4047(src)
+
+/obj/item/storage/belt/security/brown/half_full/fill_preset_inventory()
+	new /obj/item/ammo_magazine/rifle/ak4047(src)
+	new /obj/item/ammo_magazine/rifle/ak4047(src)
+
 /obj/item/storage/belt/security/MP
 	name = "\improper M276 pattern military police rig"
 	desc = "The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This version is filled with an array of small pouches, meant to carry non-lethal equipment and restraints."
@@ -1030,6 +1068,15 @@
 	else
 		return ..()
 
+/obj/item/storage/belt/shotgun/black/full/fill_preset_inventory()
+	for(var/i = 1 to storage_slots)
+		new /obj/item/ammo_magazine/handful/shotgun/slug(src)
+
+/obj/item/storage/belt/shotgun/black/full/random/fill_preset_inventory()
+	for(var/i = 1 to storage_slots)
+		var/random_shell_type = pick(GLOB.shotgun_handfuls_12g)
+		new random_shell_type(src)
+
 /obj/item/storage/belt/shotgun/wy
 	name = "\improper WY-TM406 pattern shotgun shell loading rig"
 	desc = "The WY-TM406 is the standard load-bearing equipment of the W-Y security forces. An ammunition belt designed to hold shotgun shells or individual bullets."
@@ -1358,15 +1405,16 @@
 		sure that we don't have to do any extra calculations.
 		*/
 		playsound(src, drawSound, 7, TRUE)
-		var/image/gun_underlay = image(icon, current_gun.base_gun_icon)
+		var/underlay_icon_state = istype(current_gun, /obj/item/weapon/gun/pistol/pvp_l54_gold) ? "l54" : current_gun.base_gun_icon
+		var/image/gun_underlay = image(icon, underlay_icon_state)
 		if(gun_has_gamemode_skin)
 			switch(SSmapping.configs[GROUND_MAP].camouflage_type)
 				if("snow")
-					gun_underlay = image(icon, "s_" + current_gun.base_gun_icon)
+					gun_underlay = image(icon, "s_" + underlay_icon_state)
 				if("desert")
-					gun_underlay = image(icon, "d_" + current_gun.base_gun_icon)
+					gun_underlay = image(icon, "d_" + underlay_icon_state)
 				if("classic")
-					gun_underlay = image(icon, "c_" + current_gun.base_gun_icon)
+					gun_underlay = image(icon, "c_" + underlay_icon_state)
 		gun_underlay.pixel_x = holster_slots[slot]["icon_x"]
 		gun_underlay.pixel_y = holster_slots[slot]["icon_y"]
 		gun_underlay.color = current_gun.color
@@ -2607,6 +2655,7 @@
 		/obj/item/weapon/gun/flare,
 		/obj/item/mortar_shell,
 		/obj/item/storage/box/packet/rmc/mini,
+		/obj/item/storage/box/packet/rmc,
 		/obj/item/ammo_magazine/pistol,
 		/obj/item/ammo_magazine/revolver,
 		/obj/item/ammo_magazine/handful,
@@ -2614,6 +2663,7 @@
 	bypass_w_limit = list(
 		/obj/item/mortar_shell,
 		/obj/item/storage/box/packet/rmc/mini,
+		/obj/item/storage/box/packet/rmc,
 	)
 
 	//Keep a track of how many mortar shells are inside the belt.
@@ -2625,7 +2675,7 @@
 		if(!stop_messages)
 			to_chat(usr, SPAN_WARNING("[src] can't hold any more mortar shells."))
 		return FALSE
-	else if(shells >= MAXIMUM_MORTARSHELL_COUNT && istype(item, /obj/item/storage/box/packet/rmc/mini))
+	else if(shells >= MAXIMUM_MORTARSHELL_COUNT && istype(item, /obj/item/storage/box/packet/rmc))
 		if(!stop_messages)
 			to_chat(usr, SPAN_WARNING("[src] can't hold any more grenade packets."))
 		return FALSE
@@ -2634,21 +2684,21 @@
 	. = ..()
 	if(istype(item, /obj/item/mortar_shell))
 		shells++
-	else if(istype(item, /obj/item/storage/box/packet/rmc/mini))
+	else if(istype(item, /obj/item/storage/box/packet/rmc))
 		shells++
 
 /obj/item/storage/belt/gun/mortarbelt/rmc/remove_from_storage(obj/item/item as obj, atom/new_location)
 	. = ..()
 	if(istype(item, /obj/item/mortar_shell))
 		shells--
-	else if(istype(item, /obj/item/storage/box/packet/rmc/mini))
+	else if(istype(item, /obj/item/storage/box/packet/rmc))
 		shells--
 
 //If a magazine disintegrates due to acid or something else while in the belt, remove it from the count.
 /obj/item/storage/belt/gun/mortarbelt/rmc/on_stored_atom_del(atom/movable/item)
 	if(istype(item, /obj/item/mortar_shell))
 		shells--
-	else if(istype(item, /obj/item/storage/box/packet/rmc/mini))
+	else if(istype(item, /obj/item/storage/box/packet/rmc))
 		shells--
 
 /obj/item/storage/belt/gun/mortarbelt/rmc/full/fill_preset_inventory()
@@ -2666,3 +2716,11 @@
 	new /obj/item/storage/box/packet/rmc/mini/holo(src)
 
 #undef MAXIMUM_MORTARSHELL_COUNT
+/obj/item/storage/belt/security/MP/upp // SS220 EDIT: support the lowercase map path for the UPP MP rig.
+	name = "\\improper Type 43 military police rig"
+	desc = "A UPP military police belt with modular pouches for non-lethal equipment and restraints."
+
+/obj/item/storage/belt/gun/type47/sof // SS220 EDIT: add the UPP SOF pistol rig placed on the Sorokyne supply ship.
+	name = "\\improper Type 47-S pistol holster rig"
+	icon_state = "korovin_holster_g"
+	item_state = "upp_belt"

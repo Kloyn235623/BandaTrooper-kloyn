@@ -158,6 +158,9 @@ GLOBAL_LIST_INIT_TYPED(space_weapons_ammo, /datum/space_weapon_ammo, setup_ship_
 GLOBAL_LIST_INIT_TYPED(ammo_list, /datum/ammo, setup_ammo()) //List of all ammo types. Used by guns to tell the projectile how to act.
 GLOBAL_REFERENCE_LIST_INDEXED(joblist, /datum/job, title) //List of all jobstypes, minus borg and AI
 
+GLOBAL_LIST_INIT(body_type_spectrum, list(BODY_TYPE_NOMUSCLE, BODY_TYPE_LEAN, BODY_TYPE_RIPPED))
+GLOBAL_LIST_INIT(body_size_spectrum, list(BODY_SIZE_THIN, BODY_SIZE_AVERAGE, BODY_SIZE_LARGE))
+
 /*Surgical lists.
 surgery_invasiveness_levels lists possible incision depths.
 surgeries_list lists individual operations as initialised datums. These are used for reference when beginning surgeries.
@@ -211,6 +214,7 @@ GLOBAL_LIST_INIT_TYPED(hive_datum, /datum/hive_status, list(
 	XENO_HIVE_BRAVO = new /datum/hive_status/bravo(),
 	XENO_HIVE_CHARLIE = new /datum/hive_status/charlie(),
 	XENO_HIVE_DELTA = new /datum/hive_status/delta(),
+	XENO_HIVE_K_SERIES = new /datum/hive_status/kseries(), // SS220 EDIT: White Antre hive
 	XENO_HIVE_FERAL = new /datum/hive_status/feral(),
 	XENO_HIVE_TAMED = new /datum/hive_status/corrupted/tamed(),
 	XENO_HIVE_MUTATED = new /datum/hive_status/mutated(),

@@ -20031,7 +20031,7 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/obj/structure/machinery/computer/supply,
+/obj/structure/machinery/computer/supplycomp,
 /turf/open/floor/almayer,
 /area/golden_arrow/supply)
 "mfH" = (
@@ -22100,7 +22100,7 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/obj/structure/machinery/computer/supply/asrs,
+/obj/structure/machinery/computer/supplycomp,
 /obj/structure/disposalpipe/segment{
 	dir = 8;
 	icon_state = "pipe-c"

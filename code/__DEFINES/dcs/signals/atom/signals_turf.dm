@@ -6,6 +6,9 @@
 	#define COMPONENT_TURF_DENY_MOVEMENT  (1<<1)
 #define COMSIG_TURF_ENTERED "turf_entered"
 
+/// Called before a turf changes type; callbacks can re-register signals on the replacement turf.
+#define COMSIG_PRE_TURF_CHANGE "pre_turf_change"
+
 /// Called when a bullet hits a turf
 #define COMSIG_TURF_BULLET_ACT "turf_bullet_act"
 	#define COMPONENT_BULLET_ACT_OVERRIDE (1<<0)

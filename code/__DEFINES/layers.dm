@@ -135,6 +135,8 @@
 #define BILLBOARD_LAYER 4.13
 /// For WEATHER
 #define WEATHER_LAYER 4.14
+//I hate ledges
+#define ABOVE_LEDGE_LAYER 4.21
 
 //#define FLY_LAYER 5
 
@@ -225,6 +227,13 @@
 /// NEVER HAVE ANYTHING BELOW THIS PLANE ADJUST IF YOU NEED MORE SPACE
 #define LOWEST_EVER_PLANE -200
 
+// SS220 EDIT - START
+// Planes for looking through a multiz opening; lower levels render beneath FLOOR_PLANE.
+#define OPEN_SPACE_PLANE_END -20
+#define OPEN_SPACE_PLANE_START -9
+#define OPENSPACE_BACKDROP_PLANE -8
+// SS220 EDIT - END
+
 /// Floor plane, self explanatory. Used for Ambient Occlusion filter
 #define FLOOR_PLANE -7
 /// Game Plane, where most of the game objects reside
@@ -236,6 +245,8 @@
 
 /// To keep from conflicts with SEE_BLACKNESS internals
 #define BLACKNESS_PLANE 0
+#define ABOVE_BLACKNESS_PLANE 1
+#define ABOVE_BLACKNESS_BACKDROP_PLANE 2
 
 #define GHOST_PLANE 80
 

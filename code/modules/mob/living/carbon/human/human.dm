@@ -414,7 +414,7 @@
 						if(stat == DEAD)
 							to_chat(usr, SPAN_NOTICE("You take [src]'s information tag, leaving the ID tag"))
 							DT.dogtag_taken = TRUE
-							DT.icon_state = "dogtag_taken"
+							DT.icon_state = DT.tags_taken_icon
 							var/obj/item/dogtag/D = new(loc)
 							D.fallen_names = list(DT.registered_name)
 							D.fallen_assgns = list(DT.assignment)
@@ -1317,6 +1317,8 @@
 	if(wear_mask && wear_mask.vision_impair)
 		tint_level += wear_mask.vision_impair
 
+	if(in_spore_cloud())
+		tint_level += VISION_IMPAIR_STRONG
 	if(tint_level > VISION_IMPAIR_STRONG)
 		tint_level = VISION_IMPAIR_STRONG
 

@@ -71,6 +71,9 @@
 
 	var/datum/entity/player_entity/player_entity = null
 
+	/// Fast membership cache for render relay objects currently added to this client's screen.
+	var/alist/render_plates_shown = alist() // SS220 EDIT: avoid repeated linear screen-list searches for multiz planes.
+
 	//Asset cache
 	// List of all asset filenames sent to this client by the asset cache, along with their assoicated md5s
 	var/list/sent_assets = list()
@@ -153,5 +156,8 @@
 
 	/// Holds the human squad spawner panel for this client
 	var/datum/human_ai_spawner_menu/human_spawn_menu
+
+	/// Holds the xeno spawner panel for this client
+	var/datum/xeno_ai_spawner_menu/xeno_spawn_menu
 	/// Sets LOOC messaging cooldown
 	COOLDOWN_DECLARE(looc_cooldown)

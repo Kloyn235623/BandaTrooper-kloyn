@@ -21,7 +21,7 @@
 	armor_internaldamage = CLOTHING_ARMOR_NONE
 	siemens_coefficient = 0.9
 	// SS220 EDIT - START: CM-PVE #1287 Gas Mask Vision — gas masks impair vision, store/restore on helmet
-	vision_impair = VISION_IMPAIR_HIGH
+	vision_impair = VISION_IMPAIR_NONE
 	var/vision_impair_on_store = VISION_IMPAIR_NONE
 	var/ignore_zoom_tint_on_store = FALSE
 	// SS220 EDIT - END
@@ -150,7 +150,7 @@
 	icon_state = "pmc_mask"
 	anti_hug = 3
 	// SS220 EDIT: CM-PVE #1287 Gas Mask Vision — PMC mask has weak impair, allows scopes
-	vision_impair = VISION_IMPAIR_WEAK
+	vision_impair = VISION_IMPAIR_NONE
 	ignore_zoom_tint = TRUE
 	armor_melee = CLOTHING_ARMOR_NONE
 	armor_bullet = CLOTHING_ARMOR_NONE
@@ -293,23 +293,41 @@
 	icon_state = "rmc_mask"
 	flags_atom = NO_NAME_OVERRIDE|NO_SNOW_TYPE
 	flags_inventory = COVERMOUTH|COVEREYES|ALLOWINTERNALS|BLOCKGASEFFECT|ALLOWREBREATH|ALLOWCPR
-
 /obj/item/clothing/mask/gas/pmc/royal_marine/attack_self(mob/user)
 	if(user.get_active_hand() != src)
 		return ..()
-
 	var/obj/item/clothing/accessory/rmcpacked/P = new(get_turf(user))
 	user.temp_drop_inv_item(src)
 	qdel(src)
 	user.put_in_active_hand(P)
-
 	playsound(user, 'sound/handling/armorequip_2.ogg', 25, TRUE)
 	to_chat(user, SPAN_NOTICE("You fold and pack the L7 gasmask."))
-
 //--FIL--\\
-
 /obj/item/clothing/mask/gas/pmc/fil
 	name = "\improper ARP F3 gasmask"
 	desc = "The ARP F3 gas mask, often used by the French Armed Forces and French aligned mercenaries."
 	icon_state = "fil_mask"
 	flags_atom = NO_NAME_OVERRIDE|NO_SNOW_TYPE
+//= UPP =\\
+/obj/item/clothing/mask/gas/upp_pfb
+	name = "\improper ShMB/4 gasmask"
+	desc = "The standard issue gasmask utilized by the UPP Armed Collective and many UPP civilian organizations."
+	icon_state = "pfb"
+	item_state = "pfb"
+	flags_inv_hide = HIDEEARS|HIDEFACE|HIDEALLHAIR
+//= CLF =\\
+/obj/item/clothing/mask/gas/riot
+	name = "riot mask"
+	desc = "A mask of colonial riot control department, with red laser shield lenses for eye protection due a somewhat often use of RXF-M5 EVA by colonial rioters. Riot gear is also often seen in hands of CLF terrorists, due to large surplus of it being captured in colonial rebellions."
+	icon_state = "carbon_mask"
+	item_state = "balaclava"
+	vision_impair = VISION_IMPAIR_NONE
+	eye_protection = EYE_PROTECTION_FLAVOR
+	flags_inv_hide = HIDEEARS|HIDEFACE
+//= Security =\\
+/obj/item/clothing/mask/gas/sec_mask
+	name = "\improper Sec Mask"
+	desc = "Standard issue mask issued to Con-Am security forces. Typically locks in with the standard issue helmet Voice modulator appears to be disabled."
+	icon_state = "pmc_mask"
+	item_state = "pmc_mask"
+	flags_inv_hide = HIDEFACE

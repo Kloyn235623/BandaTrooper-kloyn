@@ -32,6 +32,10 @@
 	name = "Corpse - Prisoner"
 	equip_path = /datum/equipment_preset/corpse/prisoner
 
+/obj/effect/landmark/corpsespawner/chef
+	name = "Chef"
+	equip_path = /datum/equipment_preset/corpse/chef
+
 /obj/effect/landmark/corpsespawner/riot
 	name = "Corpse - Security Guard, UA Colonial Guard"
 	equip_path = /datum/equipment_preset/corpse/riot
@@ -44,9 +48,31 @@
 	name = "Corpse - Doctor, Scrubs"
 	equip_path = /datum/equipment_preset/corpse/doctor/scrubs
 
+/obj/effect/landmark/corpsespawner/scientist
+	name = "Scientist"
+	equip_path = /datum/equipment_preset/corpse/scientist
+/obj/effect/landmark/corpsespawner/engineer
+	name = "Engineer"
+	equip_path = /datum/equipment_preset/corpse/engineer
 /obj/effect/landmark/corpsespawner/security
 	name = "Corpse - Security Guard, Wey-Yu"
 	equip_path = /datum/equipment_preset/colonist/corpse/security
+
+/obj/effect/landmark/corpsespawner/security/liaison
+	name = "Corporate Liaison"
+	equip_path = /datum/equipment_preset/corpse/liaison
+
+/obj/effect/landmark/corpsespawner/administrator
+	name = "Colony Administrator"
+	equip_path = /datum/equipment_preset/corpse/administrator
+
+/obj/effect/landmark/corpsespawner/clf
+	name = "Colonial Liberation Front Soldier"
+	equip_path = /datum/equipment_preset/corpse/clf
+
+/obj/effect/landmark/corpsespawner/miner
+	name = "Shaft Miner"
+	equip_path = /datum/equipment_preset/corpse/miner
 
 //FORECON
 /obj/effect/landmark/corpsespawner/forecon_spotter
@@ -77,6 +103,18 @@
 /obj/effect/landmark/corpsespawner/hybrisa/civilian_office/burst
 	name = "Corpse - Burst - Civilian - Office Worker"
 	equip_path = /datum/equipment_preset/corpse/hybrisa/civilian_office/burst
+
+/obj/effect/landmark/corpsespawner/wygoon
+	name = "Weyland-Yutani Corporate Security Officer"
+	equip_path = /datum/equipment_preset/corpse/pmc/goon
+
+/obj/effect/landmark/corpsespawner/wy/manager
+	name = "Weyland-Yutani Corporate Manager"
+	equip_path = /datum/equipment_preset/corpse/wy/manager
+
+/obj/effect/landmark/corpsespawner/wy/manager/burst
+	name = "Burst Corporate Manager"
+	equip_path = /datum/equipment_preset/corpse/wy/manager/burst
 
 // Weymart
 

@@ -123,7 +123,10 @@
 		"cmblogo.png" = 'html/images/cmblogo.png',
 		"faxwylogo.png" = 'html/images/faxwylogo.png',
 		"faxbackground.jpg" = 'html/images/faxbackground.jpg',
-		"colonialspacegruntsEZ.png" = 'html/images/colonialspacegruntsEZ.png',
+		// SS220 EDIT - START
+		// "colonialspacegruntsEZ.png" = 'html/images/colonialspacegruntsEZ.png',
+		"colonialspacegruntsEZ.png" = 'html/images/ColonialSpaceGruntsEZ.png',
+		// SS220 EDIT - END
 	)
 
 /datum/asset/spritesheet/chat

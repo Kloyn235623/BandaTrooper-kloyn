@@ -64,12 +64,16 @@
 #define RADIO_CHANNEL_UPP_RCN "UPP Recon"
 //WY Comms
 #define RADIO_CHANNEL_WY "WY"
+#define RADIO_CHANNEL_LASALLE_BIONATIONAL "Lasalle Bionational" // SS220 EDIT: Fire Colony survivor radio
 #define RADIO_CHANNEL_PMC_GEN "WY PMC"
 #define RADIO_CHANNEL_PMC_CMD "PMC Command"
 #define RADIO_CHANNEL_PMC_MED "PMC Med"
 #define RADIO_CHANNEL_PMC_ENGI "PMC Engi"
 #define RADIO_CHANNEL_PMC_CCT "PMC CCT"
 #define RADIO_CHANNEL_WY_WO "SpecOps"
+
+//Hyperdyne Comms
+#define RADIO_CHANNEL_HYPERDYNE "Hyperdyne"
 
 //Listening Devices
 #define RADIO_CHANNEL_BUG_A "Listening Device A"

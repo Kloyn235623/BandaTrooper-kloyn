@@ -118,6 +118,7 @@
 #define LEAPING (1<<4)
 #define PASSEMOTES (1<<5) //holders inside of mob that need to see emotes.
 #define CANROOT (1<<6)
+#define INCORPOREAL (1<<7)
 #define GODMODE (1<<12)
 #define FAKEDEATH (1<<13) //Replaces stuff like changeling.changeling_fakedeath
 //#define DISFIGURED (1<<14) //unused
@@ -303,6 +304,10 @@
 #define EMOTING_HEADBUTT   (1<<2)
 #define EMOTING_TAIL_SWIPE (1<<3)
 #define EMOTING_ROCK_PAPER_SCISSORS (1<<4)
+#define EMOTING_WALL_BOOSTING (1<<5) // SS220 EDIT: mark a helper holding position during a wall boost.
+
+#define BUSY_ICON_CLIMBING 18 // SS220 EDIT: climbing progress icon used by multiz traversal.
+#define EMOTE_ICON_WALLBOOSTING 19 // SS220 EDIT: helper progress icon for assisted climbing.
 
 //forcesay types
 #define SUDDEN 0
@@ -357,6 +362,8 @@ GLOBAL_LIST_INIT(default_xeno_onmob_icons, list(
 #define SPECIES_SYNTHETIC "Synthetic"
 #define SPECIES_MONKEY "Monkey"
 #define SPECIES_ZOMBIE "Zombie"
+#define SPECIES_PATHO_WALKER "Pathogen Walker"
+#define SPECIES_YAUTJA_MUTANT "Yautja Mutant"
 #define SPECIES_SANGHEILI "Sangheili" // SS220 EDIT: HALO species id
 #define SPECIES_UNGGOY "Unggoy" // SS220 EDIT: HALO species id
 

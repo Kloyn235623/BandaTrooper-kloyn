@@ -22,7 +22,7 @@
 			I.access = J.get_access()
 			I.rank = J.title
 			I.assignment = J.disp_title
-			I.name = "[I.registered_name]'s [I.card_name] ([I.assignment])"
+			I.name = "[I.registered_name]'s [I.id_type] ([I.assignment])"
 			I.paygrade = J.get_paygrade()
 			if(H.w_uniform)
 				var/obj/item/clothing/C = H.w_uniform
@@ -81,7 +81,7 @@
 
 					I.rank = IDtitle
 					I.assignment = IDtitle
-					I.name = "[I.registered_name]'s [I.card_name] ([I.assignment])"
+					I.name = "[I.registered_name]'s [I.id_type] ([I.assignment])"
 
 				var/new_faction = tgui_input_list(usr, "Select faction.", "Faction Choice", FACTION_LIST_HUMANOID)
 				if(!new_faction)
@@ -152,18 +152,22 @@
 //note: when adding new dresscodes, on top of adding a proper skills_list, make sure the ID given has
 //a rank that matches a job title unless you want the human to bypass the skill system.
 /proc/arm_equipment(mob/living/carbon/human/M, dresscode, randomise = FALSE, count_participant = FALSE, client/mob_client, show_job_gear = TRUE, late_join)
+	var/datum/equipment_preset/preset
 	if(ispath(dresscode))
 		if(!GLOB.gear_path_presets_list)
 			CRASH("arm_equipment !gear_path_presets_list")
-		if(!GLOB.gear_path_presets_list[dresscode])
-			CRASH("arm_equipment !gear_path_presets_list[dresscode]")
-		GLOB.gear_path_presets_list[dresscode].load_preset(M, randomise, count_participant, mob_client, show_job_gear, late_join)
+		preset = GLOB.gear_path_presets_list[dresscode]
+	else if(istype(dresscode, /datum/equipment_preset))
+		// Admin VV and Select Equipment can pass the preset datum itself.
+		preset = dresscode
 	else
 		if(!GLOB.gear_name_presets_list)
 			CRASH("arm_equipment !gear_path_presets_list")
-		if(!GLOB.gear_name_presets_list[dresscode])
-			CRASH("arm_equipment !gear_path_presets_list[dresscode]")
-		GLOB.gear_name_presets_list[dresscode].load_preset(M, randomise, count_participant, mob_client, show_job_gear, late_join)
+		preset = GLOB.gear_name_presets_list[dresscode]
+
+	if(!preset)
+		CRASH("arm_equipment could not resolve preset [dresscode]")
+	preset.load_preset(M, randomise, count_participant, mob_client, show_job_gear, late_join)
 
 	if(M.faction)
 		M.check_event_info(M.faction)

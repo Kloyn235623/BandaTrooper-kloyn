@@ -55,6 +55,9 @@
 /datum/controller/subsystem/mapping/proc/get_turf_below(turf/T)
 	if (!T)
 		return
+	var/datum/turf_reservation/reservation = SSmapping.used_turfs[T]
+	if(reservation)
+		return reservation.get_turf_below(T)
 	var/offset = level_trait(T.z, ZTRAIT_DOWN)
 	if (!offset)
 		return
@@ -64,10 +67,25 @@
 /datum/controller/subsystem/mapping/proc/get_turf_above(turf/T)
 	if (!T)
 		return
+	var/datum/turf_reservation/reservation = SSmapping.used_turfs[T]
+	if(reservation)
+		return reservation.get_turf_above(T)
 	var/offset = level_trait(T.z, ZTRAIT_UP)
 	if (!offset)
 		return
 	return locate(T.x, T.y, T.z + offset)
+
+/// Whether two z levels belong to the same connected map.
+/datum/controller/subsystem/mapping/proc/same_z_map(z1, z2)
+	if(z1 == z2)
+		return TRUE
+	var/diff = z2 - z1
+	var/direction = diff > 0 ? ZTRAIT_UP : ZTRAIT_DOWN
+	for(var/step in 1 to abs(diff))
+		if(!level_trait(z1, direction))
+			return FALSE
+		z1 += diff > 0 ? 1 : -1
+	return TRUE
 
 // Prefer not to use this one too often
 /datum/controller/subsystem/mapping/proc/get_station_center()

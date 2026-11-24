@@ -48,6 +48,8 @@
 #define USES_SEEING (1<<19)
 // Can be quick drawn
 #define QUICK_DRAWABLE (1<<20)
+/// The movable should not fall when entering open space.
+#define NO_ZFALL (1<<21) // SS220 EDIT: let map platforms remain anchored to their authored Z level.
 
 //==========================================================================================
 
@@ -145,6 +147,8 @@
 #define ALLOWCPR (1<<7)
 /// Helmet does not fall off when blocking a decapitation
 #define FULL_DECAP_PROTECTION (1<<8)
+/// Protection from pathogen spores without changing existing equipment flags.
+#define SPOREPROOF (1<<14)
 
 //HELMET AND MASK======================================================================================
 

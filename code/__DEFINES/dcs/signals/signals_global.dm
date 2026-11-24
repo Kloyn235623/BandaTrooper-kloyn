@@ -86,3 +86,7 @@
 #define COMSIG_GLOB_PLATOON_NAME_CHANGE "platoon_name_change"
 /// From /datum/squad_name_manager/proc/rename_squad() // SS220 EDIT
 #define COMSIG_GLOB_SQUAD_NAME_CHANGE "squad_name_change"
+/// From /datum/controller/subsystem/hijack/proc/call_shuttle()
+#define COMSIG_GLOB_HIJACK_INBOUND "!hijack_inbound"
+/// From /obj/structure/machinery/door_control/abyssal_lockdown/use_button(mob/living/user,force)
+#define COMSIG_GLOB_ABYSSAL_LOCKDOWN "!abyssal_lockdown"

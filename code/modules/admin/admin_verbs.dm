@@ -138,6 +138,7 @@ GLOBAL_LIST_INIT(admin_verbs_minor_event, list(
 	/client/proc/enable_event_mob_verbs,
 	/client/proc/force_hijack,
 	/datum/admins/proc/force_predator_round, //Force spawns a predator round.
+	/datum/admins/proc/force_pathogen_round, // SS220 EDIT: expose pathogen round admin action
 	/client/proc/adjust_predator_round,
 	/client/proc/cmd_admin_world_narrate, /*sends text to all players with no padding*/
 	/client/proc/cmd_admin_ground_narrate,
@@ -363,6 +364,7 @@ GLOBAL_LIST_INIT(roundstart_mod_verbs, list(
 		add_verb(src, /client/proc/togglebuildmodeself)
 		add_verb(src, /client/proc/toggle_game_master)
 		add_verb(src, /client/proc/open_resin_panel)
+		add_verb(src, /client/proc/open_xeno_ai_spawner_panel) // SS220 EDIT: expose pathogen AI spawner
 		add_verb(src, /client/proc/open_sound_panel)
 		add_verb(src, /client/proc/toggle_join_xeno)
 		add_verb(src, /client/proc/admin_marine_announcement)
@@ -389,6 +391,7 @@ GLOBAL_LIST_INIT(roundstart_mod_verbs, list(
 		add_verb(src, /client/proc/toggle_rappel_menu)
 		add_verb(src, /client/proc/toggle_fire_support_menu)
 		add_verb(src, /client/proc/gm_lighting)
+		add_verb(src, /client/proc/gm_base_lighting) // SS220 EDIT: expose optimized base-lighting control
 // SS220 EDIT - START - HALO upstream PR #171 Shipmap Lighting Verb
 		add_verb(src, /client/proc/gm_shipmap_lighting)
 // SS220 EDIT - END
@@ -423,6 +426,7 @@ GLOBAL_LIST_INIT(roundstart_mod_verbs, list(
 		/client/proc/togglebuildmodeself,
 		/client/proc/toggle_game_master,
 		/client/proc/open_resin_panel,
+		/client/proc/open_xeno_ai_spawner_panel, // SS220 EDIT: expose pathogen AI spawner
 		/client/proc/open_sound_panel,
 		/client/proc/toggle_join_xeno,
 		/client/proc/game_master_rename_platoon,
@@ -449,6 +453,7 @@ GLOBAL_LIST_INIT(roundstart_mod_verbs, list(
 		/client/proc/toggle_intro,
 		/client/proc/toggle_slot_preferences, // SS220 EDIT: Dog War slot preferences toggle
 		/client/proc/gm_lighting,
+		/client/proc/gm_base_lighting, // SS220 EDIT: remove base-lighting control with GM verbs
 		/client/proc/toggle_droppod_menu, // SS220 EDIT: keep modular HALO droppod verb removable with the shared admin hide list
 		/client/proc/open_world_edit_panel, // SS220 EDIT: keep World Edit removable with the shared admin verb reset path
 		GLOB.admin_verbs_admin,

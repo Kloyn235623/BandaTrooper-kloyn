@@ -1545,3 +1545,45 @@
 	armor_bio = CLOTHING_ARMOR_MEDIUM
 	armor_rad = CLOTHING_ARMOR_MEDIUMLOW
 	armor_internaldamage = CLOTHING_ARMOR_HIGHPLUS
+/obj/item/clothing/suit/storage/marine/faction/upp/army // SS220 EDIT: restore UPP armor variants used by imported Sorokyne maps.
+	name = "\\improper 6B80 personal body armor"
+	desc = "An older UPP personal armor system still used by units outside major combat zones."
+	storage_slots = 3
+	icon_state = "upp_armor"
+	item_state = "upp_armor"
+	armor_melee = CLOTHING_ARMOR_MEDIUMLOW
+	armor_bullet = CLOTHING_ARMOR_MEDIUM
+	armor_energy = CLOTHING_ARMOR_MEDIUMLOW
+	armor_bomb = CLOTHING_ARMOR_MEDIUMLOW
+	armor_rad = CLOTHING_ARMOR_MEDIUM
+	armor_internaldamage = CLOTHING_ARMOR_MEDIUM
+	flags_armor_protection = BODY_FLAG_CHEST
+	flags_cold_protection = BODY_FLAG_CHEST
+	flags_heat_protection = BODY_FLAG_CHEST
+	slowdown = SLOWDOWN_ARMOR_LIGHT
+
+/obj/item/clothing/suit/storage/marine/faction/upp/army/simple
+	name = "6B70 personal body armour"
+	icon_state = "upp_armor_light"
+	item_state = "upp_armor_light"
+
+/obj/item/clothing/suit/storage/marine/faction/upp/army/alt
+	name = "6B75 personal body armour"
+	icon_state = "upp_armor_heavy"
+	item_state = "upp_armor"
+
+/obj/item/clothing/suit/marine/faction/upp/sof
+	name = "\\improper CCC5-L tactical vest"
+	desc = "A lightweight UPP tactical vest with modular equipment attachments."
+	icon_state = "sof_vest"
+	item_state = "sof_vest"
+	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_ARMS|BODY_FLAG_GROIN|BODY_FLAG_LEGS
+	armor_bio = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_energy = CLOTHING_ARMOR_MEDIUMHIGH
+	slowdown = SLOWDOWN_ARMOR_LIGHT
+	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PAINT, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_PLATE3, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_DECORKNEE)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_PAINT, ACCESSORY_SLOT_PLATE3, ACCESSORY_SLOT_DECORBRACER, ACCESSORY_SLOT_DECORKNEE)
+
+/obj/item/clothing/suit/marine/faction/upp/jacket/pap
+	name = "\\improper PaP uniform jacket"
+	icon_state = "upp_coat_pap"
