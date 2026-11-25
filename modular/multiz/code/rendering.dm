@@ -22,12 +22,29 @@ GLOBAL_DATUM_INIT(openspace_backdrop_one_for_all, /atom/movable/openspace_backdr
 	vis_contents += below
 	name = null
 
+/turf/open_space/LateInitialize()
+	. = ..()
+	update_vis_contents()
+
 /// Cleanables are held as turf overlays for performance; open-space VIS contents relay those overlays even when the decal atom is hidden.
 /obj/effect/decal/cleanable/proc/multiz_cleanable_should_draw_as_atom()
 	if(!cleanable_turf)
 		return FALSE
 	var/turf/above = SSmapping.get_turf_above(cleanable_turf)
 	return istype(above, /turf/open_space)
+
+/// Map cleanables may have become turf overlays before the Z links were ready; restore them to their source turf before relaying it.
+/turf/proc/multiz_keep_cleanables_on_authored_level()
+	if(!cleanables)
+		return
+	for(var/cleanable_type in cleanables)
+		var/obj/effect/decal/cleanable/C = cleanables[cleanable_type]
+		if(!C || QDELETED(C))
+			continue
+		C.clear_overlay()
+		C.vis_flags |= VIS_HIDE
+		if(C.loc != src)
+			C.forceMove(src)
 
 /atom/movable/screen/plane_master/open_space
 	name = "open space plane"

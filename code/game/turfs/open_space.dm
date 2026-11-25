@@ -53,6 +53,7 @@ GLOBAL_DATUM_INIT(openspace_backdrop_one_for_all, /atom/movable/openspace_backdr
 	var/turf/below = get_turf_below()
 	var/depth = 0
 	while(below)
+		below.multiz_keep_cleanables_on_authored_level() // SS220 EDIT: detach mapped cleanables before the lower turf is relayed.
 		new /obj/vis_contents_holder(src, below, depth)
 		if(!istransparentturf(below))
 			break
