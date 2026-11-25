@@ -1038,7 +1038,6 @@
 /turf/open/floor/strata/deco,
 /area/fire_colony/interior/omicron_facility/passthrough)
 "ur" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
 /turf/open/fire_colony/asteroid/directions/west,
 /area/fire_colony/exterior/valley/southwest)
@@ -1229,7 +1228,6 @@
 	id = "pass_3";
 	pixel_y = -19
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/effect/decal/hybrisa/dirt/above_turf_decal,
 /turf/open/fire_colony/asteroid/directions/east,
 /area/fire_colony/exterior/valley/southwest)

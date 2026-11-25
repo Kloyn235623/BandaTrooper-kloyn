@@ -1,6 +1,5 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aaa" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.5;
@@ -9,7 +8,6 @@
 /obj/structure/roof/hybrisa/lattice_prop/lattice_2{
 	pixel_y = 7
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/item/lightstick/planted{
 	pixel_y = 15;
 	layer = 4.11
@@ -20,8 +18,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aab" = (
-/obj/structure/platform/metal/strata,
-/obj/structure/platform/metal/strata/west,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "aac" = (
@@ -39,8 +35,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "aae" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -143,8 +137,6 @@
 /turf/open/floor/corsat/squares,
 /area/navalis/indoors/industrial/power)
 "aas" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/pipes/standard/simple/visible/purple,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
@@ -524,13 +516,9 @@
 /turf/open/floor/prison/darkyellowfull2,
 /area/navalis/indoors/industrial/refinery)
 "aby" = (
-/obj/structure/platform/metal/almayer/east{
-	pixel_x = 4
-	},
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only)
 "abz" = (
-/obj/structure/platform/metal/strata/north,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "abA" = (
@@ -567,7 +555,6 @@
 /turf/open/floor/hybrisa/carpet/carpetreddeco,
 /area/navalis/indoors/command/director_office)
 "abG" = (
-/obj/structure/platform/metal/strata/west,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "abH" = (
@@ -583,7 +570,6 @@
 /turf/open/floor/darkgreen2/east,
 /area/navalis/indoors/residential/accessway)
 "abK" = (
-/obj/structure/platform/metal/stair_cut/strata_left,
 /obj/structure/stairs{
 	dir = 8
 	},
@@ -607,7 +593,6 @@
 /turf/open/floor/hybrisa/metal/orangelinecorner/east,
 /area/navalis/indoors/industrial/refinery)
 "abO" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -643,7 +628,6 @@
 /area/navalis/indoors/command/aft_hallway)
 "abT" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6/west,
 /turf/open/floor/corsat,
 /area/navalis/indoors/med_sci/maintenance_port)
@@ -763,7 +747,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/com_ext)
 "aci" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "acj" = (
@@ -791,12 +774,9 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "acm" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
 "acn" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/roof_weedable/outerhull_dir/northwest,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "aco" = (
@@ -896,8 +876,6 @@
 /turf/open/floor/plating,
 /area/navalis/outdoors/charon/surface_deck/main_deck)
 "acE" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/prop/hybrisa/misc/floorprops/grate4{
 	dir = 8
 	},
@@ -907,7 +885,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/log_ext)
 "acG" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/stairs{
 	dir = 1
 	},
@@ -953,7 +930,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "acO" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only)
 "acP" = (
@@ -986,7 +962,6 @@
 	unacidable = 1;
 	layer = 1.9
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only)
 "acS" = (
@@ -998,9 +973,6 @@
 /area/navalis/indoors/residential/starboard)
 "acT" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4
@@ -1044,7 +1016,6 @@
 /turf/open/floor/corsat/box,
 /area/navalis/indoors/industrial/mining)
 "ada" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.5;
@@ -1060,7 +1031,6 @@
 	pixel_x = 16;
 	layer = 4.11
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/monorail{
 	dir = 5;
 	name = "support beam";
@@ -1079,8 +1049,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/mining)
 "adb" = (
-/obj/structure/platform/metal/almayer,
-/obj/structure/platform/metal/hybrisa/metalplatform2/east,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "adc" = (
@@ -1090,8 +1058,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/log_ext)
 "add" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/oob/empty_space)
 "ade" = (
@@ -1140,8 +1106,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/com_ext)
 "adl" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/roof_weedable/outerhull_dir/east,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "adm" = (
@@ -1310,12 +1274,9 @@
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
 /area/navalis/indoors/industrial/mining)
 "adK" = (
-/obj/structure/platform/metal/strata/west,
-/obj/structure/platform/metal/strata/east,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "adL" = (
-/obj/structure/platform/metal/almayer/east,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "adM" = (
@@ -1504,14 +1465,11 @@
 /area/navalis/indoors/logistic/mech_bay)
 "aeo" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1,
 /turf/open/floor/corsat,
 /area/navalis/indoors/logistic/maintenance_port)
 "aep" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -1591,7 +1549,6 @@
 /area/navalis/indoors/logistic/maintenance_port)
 "aeA" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
 	dir = 1
 	},
@@ -1602,7 +1559,6 @@
 /area/navalis/indoors/logistic/maintenance_port)
 "aeB" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/pipes,
 /turf/open/floor/corsat,
 /area/navalis/indoors/logistic/maintenance_port)
@@ -1622,8 +1578,6 @@
 /area/navalis/indoors/logistic/maintenance_port)
 "aeE" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1,
 /turf/open/floor/corsat,
@@ -1677,14 +1631,11 @@
 /area/navalis/indoors/industrial/mining)
 "aeK" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /turf/open/floor/corsat,
 /area/navalis/indoors/logistic/maintenance_port)
 "aeL" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
 	dir = 8
 	},
@@ -1726,9 +1677,6 @@
 /turf/open/floor/strata/multi_tiles,
 /area/navalis/indoors/logistic/mech_bay)
 "aeQ" = (
-/obj/structure/platform/metal/almayer/west{
-	pixel_x = -3
-	},
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -1771,12 +1719,10 @@
 /turf/open/floor/strata/multi_tiles,
 /area/navalis/indoors/logistic/mech_bay)
 "aeX" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
 "aeY" = (
-/obj/structure/platform/metal/strata/west,
 /obj/structure/prop/oilrig/support_beam/brown,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/catwalk/rusted,
@@ -1788,7 +1734,6 @@
 /area/navalis/outdoors/exterior/ind_ext)
 "afa" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
 	dir = 4
 	},
@@ -1954,7 +1899,6 @@
 /area/navalis/indoors/logistic/maintenance_port)
 "afw" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_x = -4
 	},
@@ -2036,15 +1980,11 @@
 /area/navalis/outdoors/exterior/com_ext)
 "afH" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /turf/open/floor/corsat,
 /area/navalis/indoors/logistic/maintenance_port)
 "afI" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/pipes,
 /turf/open/floor/corsat,
@@ -2074,7 +2014,6 @@
 /obj/effect/hybrisa/misc/fake/wire/red{
 	pixel_x = 4
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
 /turf/open/floor/corsat,
 /area/navalis/indoors/logistic/maintenance_port)
@@ -2184,7 +2123,6 @@
 /turf/open/floor/corsat/squares,
 /area/navalis/indoors/industrial/power)
 "agc" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
 /obj/effect/hybrisa/misc/fake/wire/red{
@@ -2223,8 +2161,6 @@
 /turf/open/floor/corsat/plate,
 /area/navalis/indoors/industrial/power)
 "agf" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/prop/hybrisa/misc/floorprops/grate3,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
@@ -2240,8 +2176,6 @@
 /area/navalis/indoors/logistic/maintenance_port)
 "agh" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_x = -4
 	},
@@ -2371,7 +2305,6 @@
 /area/navalis/indoors/industrial/power)
 "agy" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4;
@@ -2384,8 +2317,6 @@
 /area/navalis/indoors/command/starboard_hallway)
 "agA" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/effect/hybrisa/misc/fake/wire/yellow{
 	pixel_x = -4
 	},
@@ -2597,7 +2528,6 @@
 /area/navalis/indoors/med_sci/main_floor)
 "ahd" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/wire/yellow{
 	pixel_x = -4
 	},
@@ -2616,8 +2546,6 @@
 /turf/open/floor/prison/darkbrown2/west,
 /area/navalis/indoors/logistic/Port_hallway)
 "ahg" = (
-/obj/structure/platform/metal/hybrisa/metalplatform3/west,
-/obj/structure/platform/metal/strata/east,
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
 	pixel_y = 28
 	},
@@ -2784,7 +2712,6 @@
 /area/navalis/indoors/logistic/maintenance_port)
 "ahA" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -2792,7 +2719,6 @@
 /area/navalis/indoors/logistic/maintenance_port)
 "ahB" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -2850,8 +2776,6 @@
 /area/navalis/indoors/residential/starboard)
 "ahI" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 4;
 	pixel_y = -8
@@ -2868,8 +2792,6 @@
 /area/navalis/indoors/logistic/maintenance_port)
 "ahJ" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 4;
 	pixel_y = -8
@@ -2887,7 +2809,6 @@
 /area/navalis/indoors/logistic/maintenance_port)
 "ahK" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4;
 	layer = 2.1
@@ -2896,8 +2817,6 @@
 /area/navalis/indoors/logistic/maintenance_port)
 "ahL" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 4;
 	pixel_y = -4
@@ -2910,8 +2829,6 @@
 /area/navalis/indoors/logistic/maintenance_port)
 "ahM" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 4;
 	pixel_y = -4
@@ -3023,8 +2940,6 @@
 /area/navalis/indoors/logistic/maintenance_port)
 "aid" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/wire/red{
 	dir = 4;
 	pixel_y = 12
@@ -3033,7 +2948,6 @@
 /area/navalis/indoors/logistic/maintenance_port)
 "aie" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/effect/hybrisa/misc/fake/wire/red{
 	dir = 4;
 	pixel_y = 12
@@ -3456,8 +3370,6 @@
 /turf/open/floor/darkblue2/southeast,
 /area/navalis/indoors/residential/accessway)
 "ajk" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/prop/hybrisa/misc/floorprops/grate3{
 	dir = 1
 	},
@@ -3579,7 +3491,6 @@
 /area/navalis/indoors/residential/kitchen)
 "ajx" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/wire/yellow{
 	pixel_y = 1;
 	layer = 2.5
@@ -4229,18 +4140,15 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/command/maintenance_port)
 "alf" = (
-/obj/structure/platform/metal/stair_cut/strata_right,
 /obj/structure/stairs{
 	dir = 8
 	},
 /turf/open/floor/almayer_hull,
 /area/navalis/indoors/logistic/mech_bay)
 "alg" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /obj/structure/prop/oilrig/support_beam/brown{
 	layer = 1.1
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "alh" = (
@@ -4253,14 +4161,9 @@
 /turf/open/floor/roof_weedable,
 /area/navalis/oob/water)
 "ali" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "alj" = (
-/obj/structure/platform/metal/almayer/west{
-	pixel_x = -3
-	},
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only)
 "alk" = (
@@ -4300,7 +4203,6 @@
 	pixel_x = -9;
 	pixel_y = -6
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/prison/floor_plate,
 /area/navalis/outdoors/landing_zone_1)
 "alo" = (
@@ -4372,12 +4274,6 @@
 /area/navalis/outdoors/exterior/log_ext)
 "alA" = (
 /obj/structure/prop/oilrig/support_beam/brown,
-/obj/structure/platform/metal/strata/north{
-	layer = 2.5
-	},
-/obj/structure/platform/metal/strata/east{
-	layer = 2.5
-	},
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "alB" = (
@@ -4511,8 +4407,6 @@
 	pixel_y = 15;
 	layer = 1.3
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/item/lightstick/planted{
 	pixel_y = 15;
 	layer = 4.11
@@ -4547,7 +4441,6 @@
 /turf/closed/wall/hybrisa/colony/reinforced,
 /area/navalis/oob/water)
 "alV" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -4628,8 +4521,6 @@
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "amj" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/north,
-/obj/structure/platform/metal/hybrisa/metalplatform4/west,
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/med_ext)
 "amk" = (
@@ -5034,7 +4925,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/industrial/refinery)
 "anr" = (
-/obj/structure/platform/metal/almayer/north,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "ans" = (
@@ -5225,7 +5115,6 @@
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "anW" = (
-/obj/structure/platform/metal/almayer/west,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "anX" = (
@@ -5516,7 +5405,6 @@
 /turf/open/auto_turf/snow/brown_base/layer0/seabed,
 /area/navalis/indoors/residential/starboard)
 "api" = (
-/obj/structure/platform/metal/strata/east,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "apj" = (
@@ -5952,7 +5840,6 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/logistic/maintenance_port)
 "aqU" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/prop/hybrisa/misc/floorprops/grate4,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
@@ -6048,8 +5935,6 @@
 /turf/closed/wall/hybrisa/colony/hospital/reinforced,
 /area/navalis/indoors/med_sci/chemical_store)
 "arp" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -6126,8 +6011,6 @@
 /turf/open/floor/plating/plating_catwalk/aicore/white,
 /area/navalis/indoors/med_sci/chemical_store)
 "arF" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
@@ -6202,13 +6085,10 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/com_ext)
 "arX" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
 "arY" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
@@ -6233,7 +6113,6 @@
 /turf/open/floor/prison/whitegreencorner/north,
 /area/navalis/indoors/med_sci/chemical_store)
 "asd" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
@@ -6273,8 +6152,6 @@
 /turf/open/floor/prison/whitegreen/east,
 /area/navalis/indoors/med_sci/chemical_store)
 "asj" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.4;
@@ -6376,8 +6253,6 @@
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "asx" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
@@ -6454,7 +6329,6 @@
 /obj/structure/stairs{
 	dir = 1
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /turf/open/floor/almayer_hull,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "asO" = (
@@ -6489,8 +6363,6 @@
 /turf/open/floor/corsat/marked,
 /area/navalis/indoors/med_sci/chemical_store)
 "asV" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
@@ -6545,8 +6417,6 @@
 /area/navalis/indoors/med_sci/chemical_store)
 "atg" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /turf/open/floor/corsat,
 /area/navalis/indoors/command/maintenance_starboard)
@@ -6605,8 +6475,6 @@
 /obj/structure/roof/hybrisa/lattice_prop/lattice_2{
 	pixel_y = 7
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -6614,7 +6482,6 @@
 /area/navalis/oob/empty_space)
 "ats" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /turf/open/floor/corsat,
 /area/navalis/indoors/command/maintenance_starboard)
@@ -6675,7 +6542,6 @@
 /turf/open/floor/hybrisa/wood,
 /area/navalis/indoors/residential/accessway)
 "atD" = (
-/obj/structure/platform/metal/strata/north,
 /obj/structure/barricade/wooden{
 	dir = 1;
 	pixel_y = 8;
@@ -6783,7 +6649,6 @@
 /turf/open/floor/hybrisa/carpet/carpetgreen,
 /area/navalis/indoors/residential/accessway)
 "atW" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/east,
 /turf/open/floor/hybrisa/tile/darkgrey_bigtile,
 /area/navalis/indoors/residential/port)
 "atX" = (
@@ -7090,7 +6955,6 @@
 /turf/closed/wall/hybrisa/colony/hospital,
 /area/navalis/indoors/med_sci/maintenance_port)
 "auV" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
@@ -7457,9 +7321,6 @@
 /turf/closed/wall/hybrisa/colony/office/reinforced,
 /area/navalis/indoors/command/oft_duty_room)
 "awq" = (
-/obj/structure/platform/metal/almayer/east{
-	pixel_x = 4
-	},
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -7715,7 +7576,6 @@
 /turf/open/floor/hybrisa/wood,
 /area/navalis/indoors/residential/port)
 "axi" = (
-/obj/structure/platform/stone/strata/north,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water/far)
 "axj" = (
@@ -7839,14 +7699,6 @@
 /turf/open/floor/prison,
 /area/navalis/indoors/command/cent_com)
 "axG" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/west{
-	icon_state = "hybrisaplatform_broken";
-	density = 0
-	},
-/obj/structure/platform/metal/hybrisa/metalplatform4{
-	icon_state = "hybrisaplatform_broken";
-	density = 0
-	},
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/med_ext)
 "axH" = (
@@ -7881,7 +7733,6 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "axM" = (
@@ -8050,7 +7901,6 @@
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/navalis/indoors/command/bathroom)
 "ayo" = (
-/obj/structure/platform/metal/strata/west,
 /obj/structure/stairs{
 	dir = 1
 	},
@@ -8093,8 +7943,6 @@
 /turf/open/floor/corsat/marked,
 /area/navalis/indoors/command/port_hallway)
 "ayx" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -8137,12 +7985,9 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "ayD" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "ayE" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/monorail{
 	dir = 1;
 	name = "support beam";
@@ -8168,9 +8013,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "ayH" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/pipes/standard/simple/visible/purple,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
@@ -8192,9 +8034,6 @@
 /turf/open/floor/prison/floor_plate,
 /area/navalis/indoors/logistic/primary_storage)
 "ayK" = (
-/obj/structure/platform/metal/almayer/east{
-	pixel_x = 4
-	},
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -8202,8 +8041,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "ayL" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -8220,7 +8057,6 @@
 /obj/structure/prop/hybrisa/misc/floorprops/grate3{
 	dir = 8
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -8240,7 +8076,6 @@
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "ayQ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.4;
@@ -8267,12 +8102,9 @@
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/empty_space)
 "ayS" = (
-/obj/structure/platform/metal/strata/north,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "ayT" = (
-/obj/structure/platform/metal/almayer/north,
-/obj/structure/platform/metal/almayer/west,
 /obj/structure/platform_decoration/metal/almayer/northeast,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
@@ -8303,8 +8135,6 @@
 /obj/structure/roof/hybrisa/lattice_prop/lattice_3{
 	pixel_y = 19
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/monorail{
 	dir = 1;
 	name = "support beam";
@@ -8338,7 +8168,6 @@
 /turf/open/floor/prison/cell_stripe/east,
 /area/navalis/indoors/industrial/refinery)
 "ayY" = (
-/obj/structure/platform/metal/strata,
 /obj/structure/stairs{
 	dir = 8
 	},
@@ -8378,7 +8207,6 @@
 /turf/open/auto_turf/ice/layer2,
 /area/navalis/oob/empty_space)
 "azf" = (
-/obj/structure/platform/metal/strata,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "azg" = (
@@ -8435,7 +8263,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/industrial/refinery)
 "azn" = (
-/obj/structure/platform/metal/strata,
 /obj/structure/stairs{
 	dir = 8
 	},
@@ -8526,9 +8353,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "azA" = (
-/obj/structure/platform/metal/strata/north{
-	layer = 2.5
-	},
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "azB" = (
@@ -8553,7 +8377,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/industrial/refinery)
 "azE" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -8581,7 +8404,6 @@
 /turf/open/auto_turf/snow/brown_base/layer0/seabed,
 /area/navalis/indoors/ice_cavern)
 "azM" = (
-/obj/structure/platform/stone/strata/west,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water/far)
 "azN" = (
@@ -8600,8 +8422,6 @@
 /turf/open/floor/prison/whitegreen/southeast,
 /area/navalis/indoors/med_sci/foyer)
 "azP" = (
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water/far)
 "azQ" = (
@@ -8638,8 +8458,6 @@
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_1)
 "azW" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water/far)
 "azX" = (
@@ -8739,11 +8557,9 @@
 	explo_proof = 1;
 	unacidable = 1
 	},
-/obj/structure/platform/stone/strata/east,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aAg" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/blocker/forcefield/human{
 	invisibility = 101;
 	dir = 4
@@ -8751,7 +8567,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/oob/empty_space)
 "aAh" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.4;
@@ -8767,7 +8582,6 @@
 	layer = 1.3;
 	pixel_x = 16
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/item/lightstick/planted{
 	pixel_y = 15;
 	layer = 4.11;
@@ -8801,7 +8615,6 @@
 /turf/open/floor/corsat/squares,
 /area/navalis/indoors/industrial/refinery)
 "aAm" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/north,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.5;
@@ -8835,8 +8648,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aAq" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -8932,7 +8743,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/industrial/refinery)
 "aAB" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/monorail{
 	dir = 8;
 	name = "support beam";
@@ -8954,9 +8764,6 @@
 /turf/open/floor/corsat/plate,
 /area/navalis/indoors/industrial/refinery)
 "aAE" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/monorail{
 	dir = 1;
 	name = "support beam";
@@ -8976,7 +8783,6 @@
 /turf/open/floor/corsat/plate,
 /area/navalis/indoors/industrial/refinery)
 "aAG" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/roof_weedable/outerhull_dir/northeast,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "aAH" = (
@@ -9003,8 +8809,6 @@
 	},
 /area/navalis/oob/water)
 "aAJ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/roof_weedable/outerhull_dir/northwest,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "aAK" = (
@@ -9039,10 +8843,6 @@
 	pixel_x = -5;
 	pixel_y = 13
 	},
-/obj/structure/platform/metal/strata/west{
-	icon_state = "strata_metalplatform_broken";
-	density = 0
-	},
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "aAN" = (
@@ -9052,7 +8852,6 @@
 /turf/closed/wall/r_wall/prison_unmeltable,
 /area/navalis/oob)
 "aAO" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/oob/empty_space)
 "aAR" = (
@@ -9082,7 +8881,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/industrial/refinery)
 "aAU" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/stairs{
 	dir = 1
 	},
@@ -9099,8 +8897,6 @@
 /turf/open/floor/plating/kutjevo/platingdmg1,
 /area/navalis/outdoors/landing_zone_1)
 "aAW" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/monorail{
 	dir = 9;
 	name = "support beam";
@@ -9111,7 +8907,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "aAX" = (
-/obj/structure/platform/metal/strata/east,
 /obj/structure/monorail{
 	dir = 8;
 	name = "support beam";
@@ -9163,7 +8958,6 @@
 	},
 /area/navalis/oob/water)
 "aBc" = (
-/obj/structure/platform/stone/strata/north,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "aBd" = (
@@ -9173,14 +8967,9 @@
 /turf/open/floor/prison/floor_plate,
 /area/navalis/indoors/logistic/primary_storage)
 "aBe" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform2/east,
-/obj/structure/platform/metal/hybrisa/metalplatform2/north,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "aBf" = (
-/obj/structure/platform/metal/strata,
-/obj/structure/platform/metal/strata/east,
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
@@ -9200,7 +8989,6 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aBj" = (
@@ -9218,8 +9006,6 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/navalis/indoors/logistic/primary_storage)
 "aBl" = (
-/obj/structure/platform/metal/almayer/north,
-/obj/structure/platform/metal/almayer/east,
 /obj/structure/platform_decoration/metal/almayer/northwest,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
@@ -9249,7 +9035,6 @@
 /turf/open/floor/corsat/squares,
 /area/navalis/indoors/industrial/mining)
 "aBr" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -9265,8 +9050,6 @@
 /turf/open/floor/prison/floor_plate,
 /area/navalis/indoors/logistic/primary_storage)
 "aBu" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/effect/decal/hybrisa/warningstripes_angled{
 	dir = 4;
 	pixel_y = 1
@@ -9285,18 +9068,13 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "aBv" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/west,
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "aBw" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aBx" = (
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata/north,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water/far)
 "aBy" = (
@@ -9321,31 +9099,19 @@
 	pixel_x = 32;
 	density = 0
 	},
-/obj/structure/platform/metal/stair_cut/strata_left,
 /turf/open/floor/almayer_hull,
 /area/navalis/indoors/med_sci/science_lower_entrance)
 "aBA" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
 "aBB" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "aBC" = (
-/obj/structure/platform/metal/strata/north{
-	layer = 2.5
-	},
-/obj/structure/platform/metal/strata/west{
-	layer = 2.5
-	},
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "aBD" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
 "aBE" = (
@@ -9367,7 +9133,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/log_ext)
 "aBH" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
 "aBI" = (
@@ -9421,7 +9186,6 @@
 /turf/open_space,
 /area/navalis/indoors/industrial/refinery)
 "aBQ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.4;
@@ -9480,7 +9244,6 @@
 /turf/open/floor/prison,
 /area/navalis/indoors/logistic/primary_storage)
 "aBW" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/monorail{
 	dir = 10;
 	name = "support beam";
@@ -9498,10 +9261,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "aBX" = (
-/obj/structure/platform/metal/almayer/east{
-	pixel_x = 4
-	},
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only)
 "aBZ" = (
@@ -9580,7 +9339,6 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/navalis/indoors/command/starboard_hallway)
 "aCj" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/west,
 /obj/effect/decal/cleanable/blood/xeno,
 /turf/open/floor/almayer/greenfull2,
 /area/navalis/indoors/residential/landing_pad)
@@ -9613,17 +9371,12 @@
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "aCq" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
 "aCr" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "aCs" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "aCt" = (
@@ -9826,9 +9579,6 @@
 /area/navalis/indoors/logistic/primary_storage)
 "aCT" = (
 /obj/structure/platform_decoration/metal/strata/east,
-/obj/structure/platform/metal/almayer/east{
-	pixel_x = 4
-	},
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -9836,7 +9586,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only)
 "aCU" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -10061,9 +9810,6 @@
 /turf/open/floor/corsat/plate,
 /area/navalis/indoors/industrial/mining)
 "aDx" = (
-/obj/structure/platform/metal/almayer/west{
-	pixel_x = -3
-	},
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -10084,7 +9830,6 @@
 /turf/open/floor/roof_weedable,
 /area/navalis/indoors/industrial/refinery)
 "aDA" = (
-/obj/structure/platform/metal/strata/east,
 /obj/structure/prop/hybrisa/misc/fake/lattice/full{
 	layer = 2.15;
 	desc = "Too dangerous for a human to walk on, but a xenomorph would have no issue.";
@@ -10119,23 +9864,16 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/navalis/indoors/logistic/primary_storage)
 "aDE" = (
-/obj/structure/platform/metal/almayer/north,
-/obj/structure/platform/metal/almayer/west,
-/obj/structure/platform/metal/almayer/east,
 /obj/structure/platform_decoration/metal/almayer/northwest,
 /obj/structure/platform_decoration/metal/almayer/northeast,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "aDF" = (
-/obj/structure/platform/metal/almayer,
-/obj/structure/platform/metal/almayer/west,
-/obj/structure/platform/metal/almayer/east,
 /obj/structure/platform_decoration/metal/almayer/southeast,
 /obj/structure/platform_decoration/metal/almayer/southwest,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "aDG" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aDH" = (
@@ -10164,13 +9902,9 @@
 /obj/structure/prop/hybrisa/misc/redmeter{
 	pixel_y = 32
 	},
-/obj/structure/platform/metal/strata,
-/obj/structure/platform/metal/strata/east,
 /turf/open/floor/plating/kutjevo/panelscorched,
 /area/navalis/indoors/command/tertiary_comms)
 "aDL" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/monorail{
 	dir = 6;
 	name = "support beam";
@@ -10184,13 +9918,9 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior/com_ext)
 "aDM" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4{
-	layer = 2.97
-	},
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_1)
 "aDN" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
 "aDO" = (
@@ -10232,7 +9962,6 @@
 /area/navalis/indoors/command/aft_hallway)
 "aDT" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/pipes/pipe2,
 /turf/open/floor/corsat,
 /area/navalis/indoors/med_sci/maintenance_port)
@@ -10264,8 +9993,6 @@
 /turf/open/floor/prison/darkbrown2/northeast,
 /area/navalis/indoors/logistic/primary_storage)
 "aDZ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -10300,7 +10027,6 @@
 /turf/open/floor/hybrisa/carpet/carpetreddeco,
 /area/navalis/indoors/command/director_office)
 "aEe" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.4;
@@ -10316,7 +10042,6 @@
 	layer = 1.3;
 	pixel_x = 16
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/item/lightstick/planted{
 	pixel_y = 15;
 	layer = 4.11;
@@ -10339,7 +10064,6 @@
 /turf/open/floor/prison/darkbrown2/northwest,
 /area/navalis/indoors/logistic/primary_storage)
 "aEh" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -10620,7 +10344,6 @@
 /turf/open/floor/prison/sterile_white,
 /area/navalis/indoors/med_sci/main_floor)
 "aFd" = (
-/obj/structure/platform/metal/almayer/north,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -10632,21 +10355,15 @@
 	pixel_x = 16;
 	layer = 4.11
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aFf" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/med_ext)
 "aFg" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/pipes/standard/simple/visible/purple{
 	dir = 1
 	},
@@ -10672,8 +10389,6 @@
 	pixel_y = 15;
 	layer = 1.3
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/item/lightstick/red/planted{
 	pixel_y = 13
 	},
@@ -10689,9 +10404,6 @@
 /turf/open/floor/prison/whitered/east,
 /area/navalis/indoors/med_sci/main_floor)
 "aFk" = (
-/obj/structure/platform/metal/almayer/east{
-	pixel_x = 4
-	},
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/med_ext)
 "aFl" = (
@@ -10807,7 +10519,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aFA" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/blocker/invisible_wall,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
@@ -10910,8 +10621,6 @@
 /turf/open/auto_turf/snow/brown_base/layer0/seabed,
 /area/navalis/indoors/residential/starboard)
 "aFN" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/monorail{
 	dir = 6;
 	name = "support beam";
@@ -10956,8 +10665,6 @@
 /obj/item/lightstick/red/planted{
 	pixel_y = 13
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -11145,7 +10852,6 @@
 /turf/open/floor/prison/sterile_white,
 /area/navalis/indoors/med_sci/foyer)
 "aGu" = (
-/obj/structure/platform/metal/strata/east,
 /obj/structure/stairs{
 	dir = 1
 	},
@@ -11306,24 +11012,18 @@
 /turf/open/floor/prison/sterile_white,
 /area/navalis/indoors/med_sci/foyer)
 "aGQ" = (
-/obj/structure/platform/metal/almayer/west{
-	pixel_x = -3
-	},
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only)
 "aGR" = (
 /turf/open_space,
 /area/navalis/oob/powered)
 "aGS" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aGT" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate3{
 	dir = 8
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -11384,8 +11084,6 @@
 	pixel_y = 15;
 	layer = 1.3
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/item/lightstick/planted{
 	pixel_y = 15;
 	layer = 4.11
@@ -11415,8 +11113,6 @@
 /obj/structure/prop/hybrisa/misc/floorprops/grate3{
 	dir = 8
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -11514,8 +11210,6 @@
 /turf/open/floor/prison/sterile_white,
 /area/navalis/indoors/med_sci/main_floor)
 "aHr" = (
-/obj/structure/platform/metal/almayer/east,
-/obj/structure/platform/metal/almayer,
 /obj/structure/platform_decoration/metal/almayer/southeast,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
@@ -11711,7 +11405,6 @@
 /turf/open/floor/hybrisa/carpet/carpetblue,
 /area/navalis/indoors/command/meeting_hall)
 "aHV" = (
-/obj/structure/platform/metal/hybrisa/metalplatform3/east,
 /obj/structure/pipes/standard/manifold/hidden/cyan{
 	dir = 4
 	},
@@ -11748,7 +11441,6 @@
 /turf/open/floor/corsat/marked,
 /area/navalis/indoors/med_sci/main_floor)
 "aIc" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "aId" = (
@@ -12297,7 +11989,6 @@
 /turf/open/floor/kutjevo/grey,
 /area/navalis/outdoors/landing_zone_2)
 "aKl" = (
-/obj/structure/platform/metal/almayer/west,
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -12327,9 +12018,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/com_ext)
 "aKr" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata/west,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "aKs" = (
@@ -12345,7 +12033,6 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer0,
 /area/navalis/indoors/ice_cavern)
 "aKv" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/indoors/ice_cavern)
 "aKw" = (
@@ -12374,8 +12061,6 @@
 /turf/open/floor/hybrisa/tile/darkgrey_bigtile,
 /area/navalis/indoors/residential/port)
 "aKB" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/indoors/ice_cavern)
 "aKC" = (
@@ -12387,12 +12072,9 @@
 /turf/open/floor/darkred2,
 /area/navalis/indoors/residential/port)
 "aKE" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aKF" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/roof_weedable/outerhull_dir/northwest,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "aKG" = (
@@ -12421,8 +12103,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/com_ext)
 "aKJ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/indoors/ice_cavern)
 "aKK" = (
@@ -12537,8 +12217,6 @@
 	pixel_y = 15;
 	layer = 1.3
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/item/lightstick/planted{
 	pixel_y = 15;
 	layer = 4.11
@@ -12580,8 +12258,6 @@
 /turf/open/floor/almayer_hull,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "aLf" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "aLg" = (
@@ -12604,13 +12280,9 @@
 /turf/closed/wall/hybrisa/colony/reinforced/hull,
 /area/navalis/oob/powered)
 "aLj" = (
-/obj/structure/platform/metal/strata/north{
-	layer = 2.5
-	},
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water/mid)
 "aLk" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/outdoors/charon/surface_deck/main_deck)
 "aLl" = (
@@ -12831,7 +12503,6 @@
 /turf/open/floor/prison,
 /area/navalis/oob/powered)
 "aLX" = (
-/obj/structure/platform/metal/almayer/east,
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
 	pixel_x = -1;
@@ -13412,7 +13083,6 @@
 /turf/open/gm/river/no_overlay/ocean_no_slowdown,
 /area/navalis/oob/powered)
 "aNE" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "aNF" = (
@@ -13495,7 +13165,6 @@
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/navalis/indoors/residential/port)
 "aNQ" = (
-/obj/structure/platform/metal/strata/north,
 /obj/structure/prop/hybrisa/misc/machinery/screens/redalert{
 	light_color = "#FF0000";
 	light_on = 1;
@@ -13509,7 +13178,6 @@
 /obj/structure/stairs{
 	dir = 4
 	},
-/obj/structure/platform/metal/strata,
 /obj/structure/machinery/door/poddoor{
 	explo_proof = 1;
 	needs_power = 0;
@@ -13641,14 +13309,6 @@
 /turf/open/floor/prison/darkbrownfull2,
 /area/navalis/indoors/logistic/primary_storage)
 "aOi" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4{
-	icon_state = "hybrisaplatform_broken";
-	density = 0
-	},
-/obj/structure/platform/metal/hybrisa/metalplatform4/west{
-	icon_state = "hybrisaplatform_broken";
-	density = 0
-	},
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_1)
 "aOj" = (
@@ -13679,7 +13339,6 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/logistic/maintenance_port)
 "aOm" = (
-/obj/structure/platform/stone/strata/east,
 /obj/structure/machinery/light{
 	dir = 4;
 	invisibility = 101;
@@ -13696,9 +13355,6 @@
 /turf/open/auto_turf/snow/brown_base/layer0/seabed,
 /area/navalis/indoors/xeno_growth/residential)
 "aOo" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "aOp" = (
@@ -14005,8 +13661,6 @@
 /turf/open/floor/corsat/squares,
 /area/navalis/indoors/industrial/mining)
 "aPi" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "aPj" = (
@@ -14038,7 +13692,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "aPp" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.5;
@@ -14060,7 +13713,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aPq" = (
-/obj/structure/platform/stone/strata/west,
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/empty/navalis,
 /area/navalis/oob/water/far)
@@ -14092,15 +13744,12 @@
 /obj/effect/decal/remains/robot{
 	pixel_y = -7
 	},
-/obj/structure/platform/metal/strata/west,
 /obj/structure/stairs{
 	dir = 1
 	},
 /turf/open/floor/almayer_hull,
 /area/navalis/indoors/logistic/primary_storage)
 "aPu" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/monorail{
 	dir = 6;
 	name = "support beam";
@@ -14202,8 +13851,6 @@
 /turf/open/floor/corsat/squares,
 /area/navalis/indoors/industrial/mining)
 "aPG" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/north,
-/obj/structure/platform/metal/hybrisa/metalplatform4/west,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_1)
 "aPH" = (
@@ -14215,7 +13862,6 @@
 /turf/open/floor/corsat/squares,
 /area/navalis/indoors/industrial/mining)
 "aPI" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/item/lightstick/red/planted{
 	pixel_y = 15;
 	pixel_x = 16;
@@ -14268,15 +13914,12 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/industrial/mining)
 "aPP" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/oob/empty_space)
 "aPQ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "aPR" = (
@@ -14305,8 +13948,6 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer1,
 /area/navalis/indoors/ice_cavern)
 "aPV" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/north,
-/obj/structure/platform/metal/hybrisa/metalplatform4/east,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_1)
 "aPW" = (
@@ -14314,13 +13955,9 @@
 /turf/open/floor/prison/ramptop,
 /area/navalis/oob/water)
 "aPX" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/west,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_1)
 "aPY" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/pipes/standard/simple/visible/purple{
 	dir = 1
 	},
@@ -14349,19 +13986,15 @@
 /turf/open/floor/prison/whitegreen/east,
 /area/navalis/indoors/med_sci/chemical_store)
 "aQc" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/indoors/ice_cavern)
 "aQd" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aQe" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "aQf" = (
@@ -14377,19 +14010,15 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/com_ext)
 "aQh" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/indoors/ice_cavern)
 "aQi" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aQj" = (
-/obj/structure/platform/stone/strata/north,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob)
 "aQk" = (
@@ -14409,8 +14038,6 @@
 /turf/open/floor/corsat/marked,
 /area/navalis/indoors/command/starboard_hallway)
 "aQm" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob)
 "aQn" = (
@@ -14451,7 +14078,6 @@
 /turf/open/floor/hybrisa/tile/darkgrey_bigtile,
 /area/navalis/indoors/residential/accessway)
 "aQs" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/monorail{
 	dir = 10;
 	name = "support beam";
@@ -14482,7 +14108,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/mining)
 "aQu" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "aQv" = (
@@ -14500,9 +14125,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "aQw" = (
-/obj/structure/platform/metal/almayer/west{
-	pixel_x = -3
-	},
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "aQx" = (
@@ -14560,7 +14182,6 @@
 /turf/open/floor/corsat/squares,
 /area/navalis/indoors/industrial/power)
 "aQE" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/monorail{
 	dir = 9;
 	name = "support beam";
@@ -14708,12 +14329,6 @@
 /area/navalis/indoors/industrial/refinery)
 "aQV" = (
 /obj/structure/prop/oilrig/support_beam/brown,
-/obj/structure/platform/metal/strata/north{
-	layer = 2.5
-	},
-/obj/structure/platform/metal/strata/east{
-	layer = 2.5
-	},
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
@@ -14899,7 +14514,6 @@
 /obj/structure/roof/hybrisa/lattice_prop/lattice_2{
 	pixel_y = 7
 	},
-/obj/structure/platform/metal/strata/north,
 /obj/item/lightstick/planted{
 	pixel_y = 15;
 	layer = 4.11
@@ -14988,11 +14602,6 @@
 /turf/open/floor/kutjevo/grey/plate,
 /area/navalis/outdoors/landing_zone_2)
 "aRH" = (
-/obj/structure/platform/metal/kutjevo/north{
-	pixel_y = 9;
-	name = "crate of dirt";
-	desc = "A crate of dirt"
-	},
 /obj/effect/decal/hybrisa/warningstripes_angled{
 	dir = 8;
 	pixel_y = 7;
@@ -15031,22 +14640,12 @@
 /turf/open/floor/kutjevo/grey,
 /area/navalis/outdoors/landing_zone_2)
 "aRJ" = (
-/obj/structure/platform/metal/kutjevo/east{
-	pixel_x = 5;
-	name = "crate of dirt";
-	desc = "A crate of dirt"
-	},
 /turf/open/floor/kutjevo/grey/plate,
 /area/navalis/outdoors/landing_zone_2)
 "aRK" = (
 /turf/open/auto_turf/sand/layer0,
 /area/navalis/outdoors/landing_zone_2)
 "aRL" = (
-/obj/structure/platform/metal/kutjevo/west{
-	pixel_x = -5;
-	name = "crate of dirt";
-	desc = "A crate of dirt"
-	},
 /turf/open/floor/kutjevo/grey,
 /area/navalis/outdoors/landing_zone_2)
 "aRM" = (
@@ -15068,11 +14667,6 @@
 /turf/open/floor/kutjevo/grey,
 /area/navalis/outdoors/landing_zone_2)
 "aRO" = (
-/obj/structure/platform/metal/kutjevo{
-	pixel_y = -5;
-	name = "crate of dirt";
-	desc = "A crate of dirt"
-	},
 /turf/open/floor/kutjevo/grey,
 /area/navalis/outdoors/landing_zone_2)
 "aRP" = (
@@ -15150,7 +14744,6 @@
 /turf/open/floor/prison/blue,
 /area/navalis/outdoors/landing_zone_1)
 "aSa" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /turf/open/floor/prison/blue,
 /area/navalis/outdoors/landing_zone_1)
 "aSb" = (
@@ -15158,7 +14751,6 @@
 /turf/open/floor/prison/blue,
 /area/navalis/outdoors/landing_zone_1)
 "aSc" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/prison/floor_plate,
 /area/navalis/outdoors/landing_zone_1)
 "aSd" = (
@@ -15170,7 +14762,6 @@
 /turf/open/floor/prison/blue/north,
 /area/navalis/outdoors/landing_zone_1)
 "aSe" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/prison/blue/north,
 /area/navalis/outdoors/landing_zone_1)
 "aSf" = (
@@ -15208,8 +14799,6 @@
 /turf/closed/wall/hybrisa/colony/reinforced,
 /area/navalis/indoors/residential/port)
 "aSk" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aSl" = (
@@ -15327,7 +14916,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/com_ext)
 "aSG" = (
-/obj/structure/platform/stone/strata/east,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "aSH" = (
@@ -15416,7 +15004,6 @@
 /turf/open/floor/plating/plating_catwalk/prison/dark,
 /area/navalis/outdoors/landing_zone_1)
 "aSP" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -15424,7 +15011,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/oob/empty_space)
 "aSQ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/oob/empty_space)
 "aSR" = (
@@ -15454,7 +15040,6 @@
 	unacidable = 1;
 	layer = 1.9
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "aSU" = (
@@ -15469,8 +15054,6 @@
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/indoors/command/aft_hallway)
 "aSV" = (
-/obj/structure/platform/metal/almayer/north,
-/obj/structure/platform/metal/almayer/east,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -15489,8 +15072,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aSY" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "aSZ" = (
@@ -15565,8 +15146,6 @@
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/outdoors/landing_zone_2)
 "aTm" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/east,
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
@@ -15712,26 +15291,21 @@
 /turf/open/floor/prison/whitegreenfull,
 /area/navalis/outdoors/landing_zone_1)
 "aTD" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aTE" = (
-/obj/structure/platform/metal/almayer/east,
 /obj/structure/prop/hybrisa/misc/floorprops/grate4{
 	dir = 4
 	},
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "aTF" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "aTG" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/med_ext)
 "aTH" = (
@@ -15824,21 +15398,16 @@
 /turf/open/floor/kutjevo/grey,
 /area/navalis/outdoors/landing_zone_2)
 "aTQ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform2/north,
-/obj/structure/platform/metal/hybrisa/metalplatform2/west,
 /obj/structure/machinery/colony_floodlight/navalis_wall_light{
 	dir = 1
 	},
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "aTR" = (
-/obj/structure/platform/metal/hybrisa/metalplatform2/west,
-/obj/structure/platform/metal/hybrisa/metalplatform2,
 /obj/structure/machinery/colony_floodlight/navalis_wall_light,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "aTS" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "aTT" = (
@@ -15849,7 +15418,6 @@
 /turf/open/floor/plating/plating_catwalk/aicore/white,
 /area/navalis/outdoors/charon/surface_deck/main_deck)
 "aTV" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/monorail{
 	dir = 8;
 	name = "support beam";
@@ -16002,8 +15570,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/com_ext)
 "aUk" = (
-/obj/structure/platform/metal/strata,
-/obj/structure/platform/metal/strata/east,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "aUl" = (
@@ -16011,12 +15577,10 @@
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/outdoors/exterior/com_ext)
 "aUm" = (
-/obj/structure/platform/metal/almayer/west,
 /obj/structure/platform_decoration/metal/almayer/west,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "aUn" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/prop/hybrisa/misc/floorprops/grate4{
 	dir = 8
 	},
@@ -16044,9 +15608,6 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer1,
 /area/navalis/indoors/ice_cavern)
 "aUq" = (
-/obj/structure/platform/metal/strata/west{
-	layer = 2.5
-	},
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "aUr" = (
@@ -16095,12 +15656,9 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer0,
 /area/navalis/indoors/ice_cavern)
 "aUv" = (
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water/far)
 "aUw" = (
-/obj/structure/platform/stone/strata/east,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water/mid)
 "aUx" = (
@@ -16137,13 +15695,9 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer0,
 /area/navalis/indoors/ice_cavern)
 "aUB" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/indoors/ice_cavern)
 "aUC" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/indoors/ice_cavern)
 "aUD" = (
@@ -16171,7 +15725,6 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer1,
 /area/navalis/indoors/ice_cavern)
 "aUG" = (
-/obj/structure/platform/stone/strata/east,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water/far)
 "aUH" = (
@@ -16210,7 +15763,6 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer0,
 /area/navalis/indoors/ice_cavern)
 "aUM" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/indoors/ice_cavern)
 "aUN" = (
@@ -16264,8 +15816,6 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer1,
 /area/navalis/indoors/ice_cavern)
 "aUU" = (
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob)
 "aUV" = (
@@ -16359,8 +15909,6 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer1,
 /area/navalis/indoors/ice_cavern)
 "aVg" = (
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/east,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water/far)
 "aVh" = (
@@ -16390,7 +15938,6 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer1,
 /area/navalis/indoors/ice_cavern)
 "aVk" = (
-/obj/structure/platform/stone/strata,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water/far)
 "aVl" = (
@@ -16407,7 +15954,6 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer1,
 /area/navalis/indoors/ice_cavern)
 "aVm" = (
-/obj/structure/platform/stone/strata/west,
 /turf/closed/wall/shiva/ice,
 /area/navalis/oob)
 "aVn" = (
@@ -16441,8 +15987,6 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer1,
 /area/navalis/indoors/ice_cavern)
 "aVq" = (
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
 /turf/closed/wall/shiva/ice,
 /area/navalis/oob)
 "aVr" = (
@@ -16465,15 +16009,12 @@
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aVv" = (
-/obj/structure/platform/stone/strata/west,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aVw" = (
-/obj/structure/platform/stone/strata/north,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aVx" = (
-/obj/structure/platform/stone/strata/east,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aVy" = (
@@ -16483,31 +16024,21 @@
 /turf/closed/wall/mineral/bone_resin,
 /area/navalis/oob)
 "aVz" = (
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata/north,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aVA" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aVB" = (
-/obj/structure/platform/stone/strata/north,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aVC" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aVD" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aVE" = (
-/obj/structure/platform/stone/strata/west,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aVF" = (
@@ -16520,43 +16051,30 @@
 /turf/open/auto_turf/ice/layer0,
 /area/navalis/oob/empty_space)
 "aVH" = (
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aVI" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aVJ" = (
-/obj/structure/platform/stone/strata/north,
 /turf/open/auto_turf/ice/layer0,
 /area/navalis/oob/empty_space)
 "aVK" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aVL" = (
-/obj/structure/platform/stone/strata/east,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aVM" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aVN" = (
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/east,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aVO" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/auto_turf/ice/layer2,
 /area/navalis/oob/empty_space)
 "aVP" = (
@@ -16564,11 +16082,9 @@
 /turf/open/auto_turf/ice/layer0,
 /area/navalis/oob/empty_space)
 "aVQ" = (
-/obj/structure/platform/stone/strata,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aVR" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -16578,8 +16094,6 @@
 /turf/open/auto_turf/ice/layer2,
 /area/navalis/oob/empty_space)
 "aVT" = (
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aVU" = (
@@ -16587,7 +16101,6 @@
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aVV" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aVW" = (
@@ -16608,7 +16121,6 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/obj/structure/platform/stone/strata/north,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aWa" = (
@@ -16619,26 +16131,18 @@
 /turf/open/auto_turf/ice/layer2,
 /area/navalis/oob/empty_space)
 "aWb" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aWc" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aWd" = (
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/obj/structure/platform/stone/strata/north,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aWe" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata/west,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aWf" = (
@@ -16671,7 +16175,6 @@
 /turf/open/auto_turf/ice/layer2,
 /area/navalis/oob/empty_space)
 "aWk" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aWl" = (
@@ -16689,13 +16192,9 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/obj/structure/platform/stone/strata/east,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aWo" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata/west,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aWp" = (
@@ -16708,8 +16207,6 @@
 /turf/open/auto_turf/ice/layer0,
 /area/navalis/oob/empty_space)
 "aWq" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /turf/closed/wall/shiva/ice,
 /area/navalis/oob)
 "aWr" = (
@@ -16720,8 +16217,6 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aWt" = (
@@ -16732,19 +16227,15 @@
 /turf/open/floor/prison/sterile_white,
 /area/navalis/indoors/med_sci/foyer)
 "aWu" = (
-/obj/structure/platform/metal/almayer,
 /turf/open/floor/almayer/blackfull/west,
 /area/navalis/outdoors/landing_zone_2)
 "aWv" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
 /turf/open/auto_turf/ice/layer2,
 /area/navalis/oob/empty_space)
 "aWw" = (
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/obj/structure/platform/stone/strata/north,
 /turf/open/auto_turf/ice/layer2,
 /area/navalis/oob/empty_space)
 "aWx" = (
@@ -16761,7 +16252,6 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/obj/structure/platform/stone/strata/north,
 /turf/open/auto_turf/ice/layer2,
 /area/navalis/oob/empty_space)
 "aWz" = (
@@ -16775,7 +16265,6 @@
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aWA" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/monorail{
 	dir = 8;
 	name = "support beam";
@@ -16793,7 +16282,6 @@
 /turf/open/floor/corsat/marked,
 /area/navalis/indoors/logistic/maintenance_starboard)
 "aWC" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/monorail{
 	dir = 8;
 	name = "support beam";
@@ -16828,13 +16316,9 @@
 /turf/closed/wall/shiva/ice,
 /area/navalis/oob)
 "aWG" = (
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aWH" = (
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/east,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aWI" = (
@@ -16848,7 +16332,6 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/obj/structure/platform/stone/strata/west,
 /turf/open/auto_turf/ice/layer2,
 /area/navalis/oob/empty_space)
 "aWK" = (
@@ -16862,7 +16345,6 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/obj/structure/platform/stone/strata/north,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aWM" = (
@@ -16877,30 +16359,24 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/obj/structure/platform/stone/strata/west,
 /turf/open/auto_turf/ice/layer2,
 /area/navalis/oob/empty_space)
 "aWP" = (
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
 /turf/open/auto_turf/ice/layer2,
 /area/navalis/oob/empty_space)
 "aWQ" = (
-/obj/structure/platform/stone/strata/east,
 /turf/open/auto_turf/ice/layer0,
 /area/navalis/oob/empty_space)
 "aWR" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/auto_turf/ice/layer0,
 /area/navalis/oob/empty_space)
 "aWS" = (
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/obj/structure/platform/stone/strata,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aWT" = (
@@ -16908,12 +16384,9 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aWU" = (
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aWV" = (
-/obj/structure/platform/stone/strata,
 /turf/open/auto_turf/ice/layer0,
 /area/navalis/oob/empty_space)
 "aWW" = (
@@ -16932,11 +16405,9 @@
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
-/obj/structure/platform/stone/strata/north,
 /turf/open/auto_turf/ice/layer2,
 /area/navalis/oob/empty_space)
 "aWZ" = (
-/obj/structure/platform/stone/strata/west,
 /turf/open/auto_turf/ice/layer0,
 /area/navalis/oob/empty_space)
 "aXa" = (
@@ -16944,13 +16415,9 @@
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aXb" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aXc" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aXd" = (
@@ -16962,14 +16429,10 @@
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aXe" = (
-/obj/structure/platform/stone/strata/north,
 /obj/structure/platform_decoration/stone/strata,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aXf" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aXg" = (
@@ -16982,9 +16445,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/industrial/power)
 "aXh" = (
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aXi" = (
@@ -16996,8 +16456,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aXk" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
 /turf/open/auto_turf/ice/layer0,
 /area/navalis/oob/empty_space)
 "aXl" = (
@@ -17006,7 +16464,6 @@
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aXm" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aXn" = (
@@ -17017,8 +16474,6 @@
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aXo" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
 /obj/structure/prop/invuln/rope{
 	pixel_y = -1
 	},
@@ -17043,7 +16498,6 @@
 /turf/open/auto_turf/ice/layer1,
 /area/navalis/oob/empty_space)
 "aXs" = (
-/obj/structure/platform/stone/strata,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "aXt" = (
@@ -17077,7 +16531,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/industrial/power)
 "aZf" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "aZm" = (
@@ -17110,12 +16563,9 @@
 /turf/open/auto_turf/snow/brown_base/layer0/seabed,
 /area/navalis/oob/powered)
 "beq" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "beu" = (
-/obj/structure/platform/metal/strata/west,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "bey" = (
@@ -17228,7 +16678,6 @@
 /turf/open/floor/corsat/squares,
 /area/navalis/indoors/industrial/power)
 "bls" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.5;
@@ -17239,7 +16688,6 @@
 	pixel_y = 7;
 	pixel_x = 16
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/item/lightstick/red/planted{
 	pixel_y = 15;
 	pixel_x = 16;
@@ -17287,7 +16735,6 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/med_sci/maintenance_port)
 "bmF" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/north,
 /turf/open/floor/almayer/greenfull2,
 /area/navalis/indoors/residential/landing_pad)
 "bmW" = (
@@ -17304,8 +16751,6 @@
 /turf/open/floor/hybrisa/tile/darkbrown_bigtile/northwest,
 /area/navalis/indoors/command/tertiary_comms)
 "box" = (
-/obj/structure/platform/metal/almayer/west,
-/obj/structure/platform/metal/almayer,
 /obj/structure/platform_decoration/metal/almayer/southwest,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
@@ -17352,8 +16797,6 @@
 /turf/open/floor/hybrisa/carpet/carpetgreen,
 /area/navalis/indoors/residential/starboard)
 "bra" = (
-/obj/structure/platform/metal/almayer/east,
-/obj/structure/platform/metal/almayer,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "bri" = (
@@ -17372,8 +16815,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/industrial/power)
 "brp" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
 "brQ" = (
@@ -17464,7 +16905,6 @@
 /turf/open/floor/corsat/arrow_south,
 /area/navalis/indoors/industrial/mining)
 "bvM" = (
-/obj/structure/platform/metal/strata/north,
 /obj/structure/prop/hybrisa/misc/machinery/screens/redalert{
 	light_color = "#FF0000";
 	light_on = 1;
@@ -17491,8 +16931,6 @@
 /area/navalis/indoors/command/aft_hallway)
 "bwB" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -17547,7 +16985,6 @@
 /obj/structure/roof/hybrisa/lattice_prop/lattice_3{
 	pixel_y = 19
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform4/east,
 /obj/structure/prop/hybrisa/misc/floorprops/grate2{
 	layer = 1
 	},
@@ -17562,8 +16999,6 @@
 /area/navalis/indoors/command/office)
 "bzb" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1,
 /turf/open/floor/corsat,
 /area/navalis/indoors/command/maintenance_port)
@@ -17709,8 +17144,6 @@
 /area/navalis/indoors/residential/port)
 "bEW" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/wire/blue{
@@ -17776,7 +17209,6 @@
 /turf/open/auto_turf/snow/brown_base/layer0/seabed,
 /area/navalis/oob/powered)
 "bIp" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -17804,9 +17236,6 @@
 /area/navalis/indoors/med_sci/main_floor)
 "bJO" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 4;
 	pixel_y = -4
@@ -17874,7 +17303,6 @@
 /area/navalis/oob/empty_space)
 "bMU" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/wire/red{
 	dir = 4
@@ -18002,7 +17430,6 @@
 /turf/open/floor/hybrisa/carpet/carpetreddeco,
 /area/navalis/indoors/command/director_office)
 "bRY" = (
-/obj/structure/platform/metal/strata/north,
 /obj/structure/machinery/power/apc{
 	dir = 4
 	},
@@ -18023,8 +17450,6 @@
 /obj/structure/prop/hybrisa/misc/floorprops/grate3{
 	dir = 4
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/monorail{
 	dir = 10;
 	name = "support beam";
@@ -18047,7 +17472,6 @@
 /turf/open/floor/almayer/plate,
 /area/navalis/indoors/residential/port)
 "bUd" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/north,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.5;
@@ -18056,7 +17480,6 @@
 /obj/structure/roof/hybrisa/lattice_prop/lattice_2{
 	pixel_y = 7
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform4/east,
 /obj/structure/prop/hybrisa/misc/floorprops/grate2{
 	layer = 1
 	},
@@ -18071,8 +17494,6 @@
 /turf/open/floor/corsat/marked,
 /area/navalis/indoors/residential/starboard)
 "bUK" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -18221,7 +17642,6 @@
 /area/navalis/oob/water)
 "cfO" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
 	dir = 1
 	},
@@ -18314,7 +17734,6 @@
 /turf/open/floor/almayer,
 /area/navalis/indoors/residential/kitchen)
 "cnG" = (
-/obj/structure/platform/metal/almayer/west,
 /obj/structure/machinery/power/terminal{
 	dir = 1
 	},
@@ -18329,8 +17748,6 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/logistic/maintenance_starboard)
 "coD" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
 /turf/open/floor/corsat,
@@ -18378,9 +17795,6 @@
 /area/navalis/indoors/residential/starboard)
 "ctI" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/wire/yellow{
 	dir = 1
 	},
@@ -18435,7 +17849,6 @@
 /turf/open/auto_turf/snow/brown_base/layer0/seabed,
 /area/navalis/indoors/xeno_growth)
 "cyb" = (
-/obj/structure/platform/metal/strata/north,
 /turf/open/floor/strata/multi_tiles,
 /area/navalis/indoors/logistic/mech_bay)
 "cyl" = (
@@ -18525,7 +17938,6 @@
 /turf/open/floor/prison/red/west,
 /area/navalis/indoors/command/security)
 "cCN" = (
-/obj/structure/platform/metal/almayer,
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
 	pixel_y = 2
@@ -18615,9 +18027,6 @@
 /area/navalis/indoors/logistic/workshop)
 "cIb" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /turf/open/floor/corsat,
 /area/navalis/indoors/med_sci/maintenance_port)
 "cIS" = (
@@ -18652,8 +18061,6 @@
 /area/navalis/indoors/med_sci/break_room)
 "cJJ" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_x = -4
 	},
@@ -18715,7 +18122,6 @@
 /turf/open/floor/almayer/dark_sterile2,
 /area/navalis/indoors/residential/kitchen)
 "cMj" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/east,
 /obj/structure/prop/hybrisa/misc/floorprops/grate2{
 	layer = 1
 	},
@@ -18782,8 +18188,6 @@
 /area/navalis/outdoors/charon/surface_deck/main_deck)
 "cQA" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_x = -4
 	},
@@ -18804,8 +18208,6 @@
 /turf/open/floor/prison/green/southeast,
 /area/navalis/indoors/command/starboard_hallway)
 "cRY" = (
-/obj/structure/platform/metal/strata/east,
-/obj/structure/platform/metal/strata/west,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "cSs" = (
@@ -18943,11 +18345,9 @@
 /turf/open/floor/roof_weedable,
 /area/navalis/indoors/industrial/mining)
 "cZt" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only)
 "das" = (
-/obj/structure/platform/metal/strata/north,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -19007,8 +18407,6 @@
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "dhX" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.4;
@@ -19044,7 +18442,6 @@
 /area/navalis/indoors/med_sci/maintenance_starboard)
 "diE" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/computer{
 	pixel_y = 23;
 	density = 0
@@ -19175,8 +18572,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/outdoors/landing_zone_2)
 "dqL" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/oob/empty_space)
 "dqN" = (
@@ -19384,7 +18779,6 @@
 /turf/open/floor/prison/blue/north,
 /area/navalis/indoors/logistic/workshop)
 "dCs" = (
-/obj/structure/platform/metal/almayer/north,
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
@@ -19395,8 +18789,6 @@
 /area/navalis/outdoors/charon/surface_deck/main_deck)
 "dCu" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4;
 	layer = 2.1
@@ -19746,7 +19138,6 @@
 /area/navalis/indoors/command/maintenance_starboard)
 "edb" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/computer{
 	pixel_y = 23;
@@ -19784,7 +19175,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "eem" = (
-/obj/structure/platform/metal/strata/east,
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
 	pixel_y = 28
 	},
@@ -19820,7 +19210,6 @@
 /turf/open/floor/prison/blue/east,
 /area/navalis/outdoors/landing_zone_1)
 "egr" = (
-/obj/structure/platform/metal/almayer,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/exterior/log_ext)
 "egI" = (
@@ -19843,7 +19232,6 @@
 /turf/open/floor/prison,
 /area/navalis/indoors/logistic/primary_storage)
 "ehZ" = (
-/obj/structure/platform/stone/strata/west,
 /obj/structure/platform_decoration/stone/strata/west,
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/empty/navalis,
@@ -19866,7 +19254,6 @@
 	needs_power = 0;
 	dir = 8
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -19957,8 +19344,6 @@
 /area/navalis/outdoors/landing_zone_2)
 "erX" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
 	dir = 4
 	},
@@ -20012,7 +19397,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "esz" = (
-/obj/structure/platform/metal/almayer/north,
 /obj/item/lightstick/planted{
 	pixel_y = 15;
 	layer = 4.11;
@@ -20137,7 +19521,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/log_ext)
 "ezm" = (
-/obj/structure/platform/metal/almayer/west,
 /obj/structure/machinery/power/smes/buildable{
 	capacity = 1e+006;
 	dir = 1;
@@ -20199,7 +19582,6 @@
 /area/navalis/indoors/command/maintenance_port)
 "eBK" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/wire/red{
 	pixel_x = 4
 	},
@@ -20217,8 +19599,6 @@
 /area/navalis/outdoors/exterior_xeno_only)
 "eDg" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -20262,8 +19642,6 @@
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/navalis/indoors/command/bathroom)
 "eEP" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -20344,7 +19722,6 @@
 /turf/open/floor/prison/whitegreen/west,
 /area/navalis/indoors/med_sci/foyer)
 "eHk" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4,
 /turf/open/floor/almayer/greenfull2,
 /area/navalis/indoors/residential/landing_pad)
 "eHm" = (
@@ -20375,8 +19752,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/outdoors/landing_zone_2)
 "eKa" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/east,
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/empty/navalis,
 /area/navalis/oob/water/far)
@@ -20388,8 +19763,6 @@
 /turf/open/floor/prison,
 /area/navalis/indoors/command/cent_com)
 "eKG" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water)
 "eKW" = (
@@ -20462,7 +19835,6 @@
 /turf/open/floor/hybrisa/carpet/pink,
 /area/navalis/indoors/residential/accessway)
 "eQI" = (
-/obj/structure/platform/metal/strata/west,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "eQZ" = (
@@ -20542,17 +19914,12 @@
 /area/navalis/indoors/logistic/workshop)
 "eVM" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
 /turf/open/floor/corsat,
 /area/navalis/indoors/med_sci/maintenance_starboard)
 "eWl" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/monorail{
 	dir = 1;
 	name = "support beam";
@@ -20659,8 +20026,6 @@
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/navalis/indoors/residential/kitchen)
 "feA" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/prop/hybrisa/misc/floorprops/grate3,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
@@ -20675,7 +20040,6 @@
 /turf/open/floor/hybrisa/tile/darkgrey_bigtile,
 /area/navalis/indoors/residential/accessway)
 "ffe" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble9{
 	pixel_x = -1
 	},
@@ -20773,9 +20137,6 @@
 /area/navalis/indoors/residential/kitchen)
 "fhZ" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 4;
 	pixel_y = -4
@@ -20809,14 +20170,11 @@
 	light_color = "#680b62";
 	needs_power = 0
 	},
-/obj/structure/platform/stone/strata/east,
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/empty/navalis,
 /area/navalis/oob/water/far)
 "fkk" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
 	dir = 4
 	},
@@ -20863,7 +20221,6 @@
 /turf/open/floor/hybrisa/carpet/rug_colorable/grey_blue/north,
 /area/navalis/indoors/command/office)
 "fon" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.5;
@@ -20874,7 +20231,6 @@
 	pixel_y = 7;
 	pixel_x = 16
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/item/lightstick/planted{
 	pixel_y = 15;
 	layer = 4.11;
@@ -20973,7 +20329,6 @@
 /turf/open/floor/prison/greenblue/northeast,
 /area/navalis/outdoors/charon/surface_deck/rear_deck)
 "fsF" = (
-/obj/structure/platform/metal/hybrisa/metalplatform3/east,
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 30
 	},
@@ -21025,8 +20380,6 @@
 /turf/open/floor/plating/plating_catwalk/aicore/white,
 /area/navalis/indoors/med_sci/pharmacy)
 "fvq" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "fvV" = (
@@ -21040,19 +20393,13 @@
 /turf/open/floor/prison/red,
 /area/navalis/indoors/command/security)
 "fwm" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only)
 "fxc" = (
-/obj/structure/platform/stone/strata/north,
-/obj/structure/platform/stone/strata/west,
-/obj/structure/platform/stone/strata/east,
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/empty/navalis,
 /area/navalis/oob/water/far)
 "fxq" = (
-/obj/structure/platform/metal/almayer/east,
-/obj/structure/platform/metal/almayer,
 /obj/structure/platform_decoration/metal/almayer/southeast,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/outdoors/landing_zone_2)
@@ -21070,7 +20417,6 @@
 /turf/open/floor/plating/platingdmg1,
 /area/navalis/outdoors/landing_zone_2)
 "fzy" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /turf/open/floor/corsat/plate,
 /area/navalis/outdoors/charon/surface_deck/rear_deck)
 "fzF" = (
@@ -21228,9 +20574,6 @@
 /turf/open/floor/prison/whitegreen/west,
 /area/navalis/indoors/med_sci/corridor)
 "fId" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/effect/hybrisa/misc/fake/pipes{
 	pixel_y = 19
 	},
@@ -21258,7 +20601,6 @@
 /turf/open/floor/hybrisa/tile/darkbrown_bigtile,
 /area/navalis/indoors/residential/starboard)
 "fKx" = (
-/obj/structure/platform/metal/strata/north,
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/indoors/command/aft_hallway)
 "fKQ" = (
@@ -21266,7 +20608,6 @@
 	dir = 5;
 	icon_state = "p_stair_full"
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform4/west,
 /turf/open/floor/prison,
 /area/navalis/outdoors/landing_zone_1)
 "fLg" = (
@@ -21342,8 +20683,6 @@
 /turf/open/floor/almayer/plating,
 /area/navalis/oob/powered)
 "fNN" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/wire/yellow{
 	dir = 10;
 	pixel_y = -2
@@ -21402,8 +20741,6 @@
 /turf/open/floor/hybrisa/carpet/carpet_colorable/blue_grey,
 /area/navalis/indoors/command/office)
 "fTb" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water)
 "fTf" = (
@@ -21416,7 +20753,6 @@
 /area/navalis/indoors/logistic/workshop)
 "fTU" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6,
 /obj/effect/hybrisa/misc/fake/pipes/pipe2,
 /obj/effect/hybrisa/misc/fake/wire/yellow{
@@ -21527,8 +20863,6 @@
 /area/navalis/indoors/residential/starboard)
 "fYh" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_x = -4
 	},
@@ -21583,7 +20917,6 @@
 /turf/open/floor/strata/multi_tiles,
 /area/navalis/indoors/logistic/mech_bay)
 "fZW" = (
-/obj/structure/platform/metal/stair_cut/strata_right,
 /obj/structure/prop/hybrisa/misc/machinery/screens/redalert{
 	light_color = "#FF0000";
 	light_on = 1;
@@ -21635,7 +20968,6 @@
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water)
 "gdc" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/west,
 /turf/open/floor/almayer/greenfull2,
 /area/navalis/indoors/residential/landing_pad)
 "gdg" = (
@@ -21674,9 +21006,6 @@
 /area/navalis/indoors/logistic/maintenance_starboard)
 "gga" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_x = -4
 	},
@@ -21718,9 +21047,6 @@
 /area/navalis/oob/powered)
 "giq" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/wire/yellow{
 	dir = 1
 	},
@@ -21733,7 +21059,6 @@
 /turf/open/floor/corsat,
 /area/navalis/indoors/med_sci/maintenance_starboard)
 "giz" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/west,
 /obj/item/trash/cigbutt{
 	pixel_x = -9;
 	pixel_y = -6
@@ -21803,7 +21128,6 @@
 /turf/open/floor/hybrisa/wood/greywood,
 /area/navalis/indoors/residential/port)
 "goP" = (
-/obj/structure/platform/metal/hybrisa/metalplatform3/north,
 /turf/open/floor/hybrisa/metal/bluemetalfull,
 /area/navalis/indoors/command/cent_com)
 "goW" = (
@@ -21844,7 +21168,6 @@
 /area/navalis/indoors/med_sci/main_floor)
 "gpU" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /turf/open/floor/corsat,
 /area/navalis/indoors/med_sci/maintenance_starboard)
 "gqw" = (
@@ -21861,7 +21184,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "gqN" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.4;
@@ -21877,7 +21199,6 @@
 	layer = 1.3;
 	pixel_x = 16
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/item/lightstick/red/planted{
 	pixel_y = 15;
 	pixel_x = 16;
@@ -22138,7 +21459,6 @@
 	},
 /area/navalis/oob)
 "gAU" = (
-/obj/structure/platform/metal/hybrisa/metalplatform2/east,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "gBg" = (
@@ -22168,7 +21488,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/ind_ext)
 "gCW" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /turf/open/floor/plating/kutjevo,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "gDC" = (
@@ -22355,8 +21674,6 @@
 /turf/open/floor/almayer/blackfull2,
 /area/navalis/indoors/med_sci/records_room)
 "gWg" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /turf/open/floor/plating/kutjevo,
 /area/navalis/indoors/logistic/primary_storage)
 "gWi" = (
@@ -22369,7 +21686,6 @@
 /turf/open/floor/hybrisa/tile/tilewhitecheckered/biege,
 /area/navalis/indoors/residential/kitchen)
 "gWu" = (
-/obj/structure/platform/metal/almayer/east,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "gWW" = (
@@ -22383,7 +21699,6 @@
 	pixel_y = 7;
 	pixel_x = 16
 	},
-/obj/structure/platform/metal/strata/north,
 /obj/item/lightstick/red/planted{
 	pixel_y = 15;
 	pixel_x = 16;
@@ -22425,7 +21740,6 @@
 /area/navalis/indoors/residential/accessway)
 "gZi" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/pipes,
 /turf/open/floor/corsat,
@@ -22579,7 +21893,6 @@
 /obj/structure/roof/hybrisa/lattice_prop/lattice_3{
 	pixel_y = 19
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -22637,8 +21950,6 @@
 /turf/open/floor/prison/whitegreen/northeast,
 /area/navalis/indoors/med_sci/break_room)
 "hmq" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "hmv" = (
@@ -22932,8 +22243,6 @@
 /turf/open/floor/almayer/greenfull2,
 /area/navalis/indoors/residential/landing_pad)
 "hDM" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/outdoors/exterior/com_ext)
 "hEg" = (
@@ -22978,14 +22287,10 @@
 /turf/closed/wall/hybrisa/colony/hospital,
 /area/navalis/indoors/med_sci/storage)
 "hHf" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "hHM" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/pipes,
 /obj/structure/prop/invuln/overhead_pipe{
@@ -23018,7 +22323,6 @@
 /obj/structure/stairs{
 	dir = 8
 	},
-/obj/structure/platform/metal/strata,
 /turf/open/floor/hybrisa/tile/darkbrown_bigtile/north,
 /area/navalis/indoors/command/tertiary_comms)
 "hIN" = (
@@ -23049,9 +22353,6 @@
 /area/navalis/indoors/command/maintenance_port)
 "hKG" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/pipes/pipe2{
 	dir = 4
 	},
@@ -23088,7 +22389,6 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/logistic/maintenance_starboard)
 "hLJ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water)
 "hMd" = (
@@ -23184,7 +22484,6 @@
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/outdoors/exterior/com_ext)
 "hRK" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.5;
@@ -23193,8 +22492,6 @@
 /obj/structure/roof/hybrisa/lattice_prop/lattice_2{
 	pixel_y = 7
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/monorail{
 	dir = 1;
 	name = "support beam";
@@ -23246,8 +22543,6 @@
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
 /area/navalis/indoors/industrial/mining)
 "hTU" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "hUx" = (
@@ -23288,12 +22583,6 @@
 /turf/open/floor/freezerfloor,
 /area/navalis/indoors/residential/kitchen)
 "hWt" = (
-/obj/structure/platform/metal/strata/west{
-	layer = 2.5
-	},
-/obj/structure/platform/metal/strata{
-	layer = 2.5
-	},
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
@@ -23326,7 +22615,6 @@
 /turf/open/floor/prison/whitegreen/north,
 /area/navalis/indoors/med_sci/foyer)
 "hYi" = (
-/obj/structure/platform/metal/strata/north,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/hybrisa/tile/darkbrown_bigtile/north,
 /area/navalis/indoors/command/tertiary_comms)
@@ -23370,7 +22658,6 @@
 	explo_proof = 1;
 	unacidable = 1
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "icp" = (
@@ -23393,7 +22680,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/com_ext)
 "ies" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "iex" = (
@@ -23531,8 +22817,6 @@
 /turf/open/floor/corsat/marked,
 /area/navalis/indoors/command/server_room)
 "ilS" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /turf/open/floor/plating/kutjevo,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "ilX" = (
@@ -23673,7 +22957,6 @@
 /turf/open/floor/hybrisa/metal/bluemetal1/north,
 /area/navalis/indoors/command/server_room)
 "ivo" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /turf/open_space,
 /area/navalis/oob)
 "ivy" = (
@@ -23813,7 +23096,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/command/office)
 "iKJ" = (
-/obj/structure/platform/metal/almayer/east,
 /obj/structure/machinery/power/terminal{
 	dir = 1
 	},
@@ -23855,20 +23137,15 @@
 /area/navalis/indoors/command/office)
 "iMM" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /turf/open/floor/corsat,
 /area/navalis/indoors/logistic/maintenance_starboard)
 "iND" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /turf/open/floor/corsat,
 /area/navalis/indoors/command/maintenance_port)
 "iOv" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_1)
 "iOA" = (
@@ -24053,8 +23330,6 @@
 /area/navalis/indoors/residential/kitchen)
 "iXG" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4;
 	layer = 2.1
@@ -24062,7 +23337,6 @@
 /turf/open/floor/corsat,
 /area/navalis/indoors/command/maintenance_starboard)
 "iYi" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/effect/hybrisa/misc/fake/wire/yellow{
 	dir = 4;
 	pixel_y = -2
@@ -24173,7 +23447,6 @@
 /turf/open/floor/hybrisa/carpet/carpetblack,
 /area/navalis/indoors/command/conferance)
 "jdA" = (
-/obj/structure/platform/metal/hybrisa/metalplatform2,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "jdO" = (
@@ -24216,8 +23489,6 @@
 /obj/effect/decal/hybrisa/warningstripes_angled{
 	dir = 8
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "jgG" = (
@@ -24315,7 +23586,6 @@
 /obj/structure/stairs{
 	dir = 8
 	},
-/obj/structure/platform/metal/strata,
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 5
 	},
@@ -24359,7 +23629,6 @@
 /turf/open/floor/prison/sterile_white,
 /area/navalis/indoors/med_sci/main_floor)
 "jjW" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "jkm" = (
@@ -24371,12 +23640,9 @@
 /turf/open/gm/empty/navalis/dig,
 /area/navalis/oob/powered)
 "jmQ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /turf/open/floor/plating/kutjevo,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "jog" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -24540,8 +23806,6 @@
 /area/navalis/indoors/med_sci/storage)
 "jBi" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 4;
@@ -24550,7 +23814,6 @@
 /turf/open/floor/corsat,
 /area/navalis/indoors/command/maintenance_port)
 "jBk" = (
-/obj/structure/platform/metal/strata/west,
 /obj/structure/stairs/multiz/up,
 /turf/open/floor/almayer_hull,
 /area/navalis/indoors/med_sci/science_lower_entrance)
@@ -24650,13 +23913,10 @@
 /turf/open/floor/prison/whitegreen/east,
 /area/navalis/indoors/med_sci/main_floor)
 "jFb" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco4/north,
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/med_ext)
 "jFl" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/east,
-/obj/structure/platform/metal/hybrisa/metalplatform4,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_1)
 "jFo" = (
@@ -24792,7 +24052,6 @@
 /obj/structure/stairs{
 	dir = 4
 	},
-/obj/structure/platform/metal/strata,
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/indoors/command/aft_hallway)
 "jNQ" = (
@@ -24861,8 +24120,6 @@
 /turf/open/floor/prison/darkbrown3/east,
 /area/navalis/indoors/logistic/mech_bay)
 "jUx" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only)
 "jUO" = (
@@ -24894,8 +24151,6 @@
 /area/navalis/indoors/command/tertiary_comms)
 "jVM" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/pipes/pipe2,
 /obj/effect/hybrisa/misc/fake/wire/yellow{
 	dir = 4;
@@ -24977,7 +24232,6 @@
 /area/navalis/outdoors/landing_zone_2)
 "jZj" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
@@ -25020,9 +24274,6 @@
 /turf/open/floor/prison/cell_stripe/north,
 /area/navalis/indoors/industrial/mining)
 "kaU" = (
-/obj/structure/platform/metal/strata{
-	layer = 2.5
-	},
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "kbl" = (
@@ -25045,7 +24296,6 @@
 /obj/structure/stairs{
 	dir = 8
 	},
-/obj/structure/platform/metal/stair_cut/strata_left,
 /obj/structure/pipes/standard/simple/hidden/cyan{
 	dir = 6
 	},
@@ -25063,9 +24313,6 @@
 /area/navalis/indoors/command/meeting_hall)
 "kfq" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 4;
 	pixel_y = -4
@@ -25127,7 +24374,6 @@
 /turf/open/floor/plating/kutjevo,
 /area/navalis/outdoors/landing_zone_1)
 "kkk" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "kkC" = (
@@ -25227,8 +24473,6 @@
 /turf/open/floor/plating/plating_catwalk/prison/dark,
 /area/navalis/indoors/industrial/refinery)
 "krp" = (
-/obj/structure/platform/metal/hybrisa/metalplatform2,
-/obj/structure/platform/metal/hybrisa/metalplatform2/east,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "kru" = (
@@ -25286,8 +24530,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "kuC" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/east,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "kvm" = (
@@ -25305,8 +24547,6 @@
 /area/navalis/indoors/command/port_hallway)
 "kvJ" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /turf/open/floor/corsat,
 /area/navalis/indoors/logistic/maintenance_port)
@@ -25364,7 +24604,6 @@
 /area/navalis/indoors/command/command_kitchen)
 "kAU" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/pipes,
 /obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble12{
@@ -25557,8 +24796,6 @@
 /area/navalis/indoors/residential/accessway)
 "kJs" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6/west,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1,
 /obj/effect/hybrisa/misc/fake/wire/blue{
@@ -25577,8 +24814,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/outdoors/landing_zone_2)
 "kKL" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/west,
-/obj/structure/platform/metal/hybrisa/metalplatform4,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_1)
 "kLU" = (
@@ -25727,7 +24962,6 @@
 /turf/open/gm/empty/navalis/dig,
 /area/navalis/oob/powered)
 "kVv" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/oob/empty_space)
 "kVP" = (
@@ -25787,8 +25021,6 @@
 /area/navalis/indoors/logistic/workshop)
 "kYD" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6/north,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/wire/red{
@@ -25806,7 +25038,6 @@
 /turf/open/floor/prison/green/northwest,
 /area/navalis/indoors/command/aft_hallway)
 "kYQ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform3/east,
 /obj/structure/stairs/perspective{
 	dir = 9;
 	icon_state = "p_stair_full";
@@ -25851,7 +25082,6 @@
 /area/navalis/indoors/command/director_office)
 "laX" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
 	dir = 4
 	},
@@ -25904,12 +25134,6 @@
 /turf/open/floor/darkgreen2/northeast,
 /area/navalis/indoors/residential/accessway)
 "ldV" = (
-/obj/structure/platform/metal/strata/west{
-	layer = 2.5
-	},
-/obj/structure/platform/metal/strata{
-	layer = 2.5
-	},
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "leh" = (
@@ -25920,7 +25144,6 @@
 /turf/open/floor/prison,
 /area/navalis/indoors/command/port_hallway)
 "leQ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/east,
 /obj/effect/alien/resin/sticky,
 /turf/open/floor/almayer/greenfull2,
 /area/navalis/indoors/residential/landing_pad)
@@ -25945,7 +25168,6 @@
 /turf/open/floor/prison/bluecorner,
 /area/navalis/indoors/logistic/workshop)
 "lgZ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "lhU" = (
@@ -26047,7 +25269,6 @@
 /turf/open/floor/hybrisa/tile/tilewhitecheckered,
 /area/navalis/indoors/residential/kitchen)
 "lpX" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/exterior/log_ext)
 "lqf" = (
@@ -26206,7 +25427,6 @@
 /turf/open/floor/prison/sterile_white,
 /area/navalis/indoors/med_sci/main_floor)
 "lwl" = (
-/obj/structure/platform/metal/almayer/west,
 /turf/open/floor/almayer/blackfull/west,
 /area/navalis/outdoors/landing_zone_2)
 "lwr" = (
@@ -26216,12 +25436,10 @@
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/outdoors/charon/surface_deck/rear_deck)
 "lww" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/corsat/plate,
 /area/navalis/outdoors/charon/surface_deck/rear_deck)
 "lwM" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -26242,7 +25460,6 @@
 /turf/open/auto_turf/snow/brown_base/layer0/seabed,
 /area/navalis/indoors/industrial/mining)
 "lzi" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/monorail{
 	dir = 10;
 	name = "support beam";
@@ -26392,12 +25609,6 @@
 /turf/open/floor/prison/ramptop/east,
 /area/navalis/indoors/industrial/power)
 "lIC" = (
-/obj/structure/platform/metal/strata/north{
-	layer = 2.5
-	},
-/obj/structure/platform/metal/strata/west{
-	layer = 2.5
-	},
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "lIL" = (
@@ -26419,11 +25630,9 @@
 /turf/open/floor/prison/green/northwest,
 /area/navalis/indoors/command/starboard_hallway)
 "lKg" = (
-/obj/structure/platform/metal/strata/north,
 /turf/open/floor/prison/darkbrown2/west,
 /area/navalis/indoors/logistic/mech_bay)
 "lKu" = (
-/obj/structure/platform/metal/strata,
 /obj/structure/cable/heavyduty{
 	icon_state = "0-8"
 	},
@@ -26477,8 +25686,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/outdoors/landing_zone_2)
 "lOO" = (
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/west,
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/empty/navalis,
 /area/navalis/oob/water/far)
@@ -26542,8 +25749,6 @@
 /turf/open/floor/hybrisa/carpet/carpetblackdeco,
 /area/navalis/indoors/residential/port)
 "lQI" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/east,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "lQK" = (
@@ -27024,8 +26229,6 @@
 /area/navalis/indoors/med_sci/storage)
 "mxb" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/wire/blue,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4;
@@ -27072,7 +26275,6 @@
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "mBb" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/pipes/standard/simple/visible/purple{
 	dir = 4
 	},
@@ -27245,7 +26447,6 @@
 /turf/open/floor/corsat/squares,
 /area/navalis/indoors/industrial/power)
 "mKn" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/blocker/invisible_wall,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
@@ -27294,8 +26495,6 @@
 /turf/open/floor/prison/whitegreen,
 /area/navalis/indoors/med_sci/foyer)
 "mMu" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "mNO" = (
@@ -27352,8 +26551,6 @@
 /area/navalis/indoors/industrial/mining)
 "mRL" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4;
@@ -27481,13 +26678,9 @@
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/navalis/indoors/residential/accessway)
 "mXq" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water)
 "mXs" = (
-/obj/structure/platform/metal/almayer,
-/obj/structure/platform/metal/hybrisa/metalplatform2/west,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "mXy" = (
@@ -27502,7 +26695,6 @@
 /turf/open/floor/prison/whitered,
 /area/navalis/indoors/med_sci/storage)
 "mYH" = (
-/obj/structure/platform/metal/almayer/west,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
 "mYL" = (
@@ -27621,8 +26813,6 @@
 /turf/open/floor/prison/whitegreenfull,
 /area/navalis/indoors/med_sci/foyer)
 "nlb" = (
-/obj/structure/platform/metal/strata,
-/obj/structure/platform/metal/strata/east,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "nlT" = (
@@ -27675,7 +26865,6 @@
 /area/navalis/outdoors/exterior/log_ext)
 "npi" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_x = -4
 	},
@@ -27799,8 +26988,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "nyR" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only)
 "nAd" = (
@@ -27903,7 +27090,6 @@
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/navalis/indoors/residential/kitchen)
 "nFt" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/monorail{
 	dir = 5;
 	name = "support beam";
@@ -27970,8 +27156,6 @@
 /area/navalis/indoors/command/conferance)
 "nII" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /turf/open/floor/corsat,
 /area/navalis/indoors/med_sci/maintenance_starboard)
@@ -28004,7 +27188,6 @@
 /turf/open/floor/corsat/marked,
 /area/navalis/indoors/logistic/mech_bay)
 "nLC" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -28088,7 +27271,6 @@
 /turf/open/floor/corsat,
 /area/navalis/indoors/industrial/mining)
 "nTH" = (
-/obj/structure/platform/metal/stair_cut/strata_left,
 /obj/structure/stairs{
 	dir = 4
 	},
@@ -28301,7 +27483,6 @@
 /turf/open/floor/hybrisa/metal/bluemetal1/east,
 /area/navalis/indoors/command/cent_com)
 "oif" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
 	pixel_y = 28
 	},
@@ -28334,8 +27515,6 @@
 /area/navalis/indoors/command/command_kitchen)
 "ojm" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy3{
 	dir = 1
 	},
@@ -28384,7 +27563,6 @@
 /turf/open/floor/prison/whitegreen/northwest,
 /area/navalis/indoors/med_sci/pharmacy)
 "omM" = (
-/obj/structure/platform/metal/almayer/east,
 /turf/open/floor/almayer/blackfull/west,
 /area/navalis/outdoors/landing_zone_2)
 "omW" = (
@@ -28490,8 +27668,6 @@
 /turf/open/floor/prison/whitegreen/west,
 /area/navalis/indoors/med_sci/main_floor)
 "osE" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/roof_weedable/outerhull_dir/west,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "otJ" = (
@@ -28581,7 +27757,6 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/logistic/maintenance_starboard)
 "oyb" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water)
 "oyg" = (
@@ -28805,8 +27980,6 @@
 /area/navalis/oob/water/far)
 "oMS" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
 /obj/effect/hybrisa/misc/fake/wire/blue,
 /turf/open/floor/corsat,
 /area/navalis/indoors/command/maintenance_port)
@@ -28996,7 +28169,6 @@
 	layer = 3.33;
 	pixel_y = 2
 	},
-/obj/structure/platform/metal/almayer/north,
 /obj/structure/machinery/colony_floodlight/navalis_wall_light{
 	dir = 8
 	},
@@ -29014,7 +28186,6 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/navalis/indoors/command/port_hallway)
 "oWS" = (
-/obj/structure/platform/metal/strata/north,
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/hybrisa/tile/darkbrown_bigtile/north,
 /area/navalis/indoors/command/tertiary_comms)
@@ -29114,8 +28285,6 @@
 /obj/structure/prop/hybrisa/misc/floorprops/grate3{
 	dir = 8
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/monorail{
 	dir = 9;
 	name = "support beam";
@@ -29133,7 +28302,6 @@
 /turf/open/floor/hybrisa/tile/tilewhitecheckered,
 /area/navalis/indoors/residential/starboard)
 "pcT" = (
-/obj/structure/platform/metal/almayer/north,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/outdoors/landing_zone_2)
 "pcV" = (
@@ -29149,7 +28317,6 @@
 /area/navalis/oob)
 "pdl" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -29168,7 +28335,6 @@
 /turf/open/floor/corsat,
 /area/navalis/indoors/logistic/maintenance_starboard)
 "peE" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.4;
@@ -29249,11 +28415,9 @@
 /turf/open/floor/hybrisa/metal/bluemetal1/west,
 /area/navalis/indoors/command/meeting_hall)
 "pjP" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/west,
 /turf/open/floor/prison/blue/north,
 /area/navalis/outdoors/landing_zone_1)
 "pjZ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -29388,8 +28552,6 @@
 /turf/open/floor/almayer/greenfull2,
 /area/navalis/indoors/residential/landing_pad)
 "poo" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water)
 "pox" = (
@@ -29401,15 +28563,9 @@
 /turf/open/floor/hybrisa/metal/bluemetal1/east,
 /area/navalis/indoors/command/cent_com)
 "ppF" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "pqC" = (
-/obj/structure/platform/metal/almayer/east{
-	pixel_x = 4
-	},
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "pqT" = (
@@ -29456,8 +28612,6 @@
 /area/navalis/indoors/command/aft_hallway)
 "psv" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/pipes/pipe2{
 	dir = 1
 	},
@@ -29480,16 +28634,10 @@
 /turf/open/auto_turf/snow/brown_base/layer0/seabed,
 /area/navalis/oob/powered)
 "pth" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/west{
-	icon_state = "hybrisaplatform_broken";
-	density = 0
-	},
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/med_ext)
 "ptl" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4;
@@ -29498,7 +28646,6 @@
 /turf/open/floor/corsat,
 /area/navalis/indoors/med_sci/maintenance_starboard)
 "pts" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.4;
@@ -29511,8 +28658,6 @@
 	pixel_y = 15;
 	layer = 1.3
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/monorail{
 	dir = 1;
 	name = "support beam";
@@ -29538,8 +28683,6 @@
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "pui" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate3,
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/monorail{
 	dir = 9;
 	name = "support beam";
@@ -29566,7 +28709,6 @@
 /area/navalis/indoors/command/security)
 "pxf" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
 	dir = 4
 	},
@@ -29586,7 +28728,6 @@
 /area/navalis/indoors/industrial/mining)
 "pyE" = (
 /obj/structure/blocker/invisible_wall,
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/corsat/plate,
 /area/navalis/oob)
 "pyZ" = (
@@ -29644,7 +28785,6 @@
 /turf/open/floor/hybrisa/wood,
 /area/navalis/indoors/residential/port)
 "pAO" = (
-/obj/structure/platform/metal/almayer/west,
 /obj/structure/platform_decoration/metal/almayer,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/oob/empty_space)
@@ -29656,7 +28796,6 @@
 /turf/closed/wall/hybrisa/colony/office,
 /area/navalis/indoors/command/tertiary_comms)
 "pBj" = (
-/obj/structure/platform/metal/hybrisa/metalplatform2/west,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "pBA" = (
@@ -29667,7 +28806,6 @@
 /turf/open/floor/corsat/marked,
 /area/navalis/indoors/industrial/mining)
 "pBL" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water)
 "pCq" = (
@@ -29711,8 +28849,6 @@
 /area/navalis/outdoors/exterior/med_ext)
 "pEq" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_x = -4
 	},
@@ -29747,8 +28883,6 @@
 /area/navalis/indoors/command/office)
 "pGH" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 4;
 	pixel_y = -4
@@ -29774,7 +28908,6 @@
 /turf/open/auto_turf/snow/brown_base/layer0/seabed,
 /area/navalis/oob)
 "pHv" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/north,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_1)
 "pHJ" = (
@@ -29839,7 +28972,6 @@
 /turf/open/floor/almayer/plate,
 /area/navalis/indoors/residential/starboard)
 "pJK" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/west,
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/med_ext)
 "pJY" = (
@@ -29873,12 +29005,10 @@
 /area/navalis/indoors/med_sci/foyer)
 "pKK" = (
 /obj/structure/blocker/invisible_wall,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/corsat/plate,
 /area/navalis/oob)
 "pKP" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_x = -4
 	},
@@ -29943,7 +29073,6 @@
 /turf/open/floor/darkgreen2/southwest,
 /area/navalis/indoors/residential/accessway)
 "pOr" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.5;
@@ -30052,7 +29181,6 @@
 /area/navalis/indoors/command/meeting_hall)
 "pSy" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4;
 	layer = 2.1
@@ -30071,8 +29199,6 @@
 /area/navalis/indoors/residential/port)
 "pSJ" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/pipes,
 /obj/structure/prop/hybrisa/misc/buildinggreeblies/greeble12{
@@ -30084,17 +29210,14 @@
 /turf/open/floor/corsat,
 /area/navalis/indoors/logistic/maintenance_port)
 "pSP" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/item/lightstick/red/planted{
 	pixel_y = 15;
 	pixel_x = 16;
 	layer = 4.11
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "pTo" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -30141,7 +29264,6 @@
 	pixel_y = 15;
 	layer = 4.11
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -30163,7 +29285,6 @@
 /turf/open/floor/hybrisa/tile/tilebeige,
 /area/navalis/indoors/residential/kitchen)
 "pVI" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/north,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.5;
@@ -30228,8 +29349,6 @@
 /turf/open/floor/prison/whitegreencorner/east,
 /area/navalis/indoors/med_sci/main_floor)
 "qav" = (
-/obj/structure/platform/metal/strata/west,
-/obj/structure/platform/metal/strata/east,
 /turf/open/floor/plating/kutjevo/panelscorched,
 /area/navalis/outdoors/exterior/med_ext)
 "qaV" = (
@@ -30254,13 +29373,9 @@
 /turf/open/floor/hybrisa/wood/redwood,
 /area/navalis/indoors/command/director_office)
 "qbh" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/north,
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/navalis/indoors/residential/port)
 "qbD" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -30371,9 +29486,6 @@
 /turf/open/floor/prison/cell_stripe/east,
 /area/navalis/indoors/industrial/accessway)
 "qfU" = (
-/obj/structure/platform/metal/almayer/west{
-	pixel_x = -3
-	},
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -30538,7 +29650,6 @@
 /turf/open/floor/prison/whitegreen/northeast,
 /area/navalis/indoors/med_sci/pharmacy)
 "qnS" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "qod" = (
@@ -30563,8 +29674,6 @@
 /area/navalis/outdoors/landing_zone_2)
 "qoH" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6/west,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1,
 /turf/open/floor/corsat,
@@ -30590,7 +29699,6 @@
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "qqT" = (
-/obj/structure/platform/metal/strata,
 /obj/structure/prop/hybrisa/misc/machinery/screens/redalert{
 	light_color = "#FF0000";
 	light_on = 1;
@@ -30638,8 +29746,6 @@
 /turf/open/floor/hybrisa/carpet/carpetblue,
 /area/navalis/indoors/command/meeting_hall)
 "qsv" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/corsat/plate,
 /area/navalis/outdoors/charon/surface_deck/rear_deck)
 "qtD" = (
@@ -30726,7 +29832,6 @@
 /turf/open/floor/hybrisa/wood/redwood,
 /area/navalis/indoors/residential/starboard)
 "qxU" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/machinery/colony_floodlight/navalis_wall_light{
 	dir = 4
 	},
@@ -30786,8 +29891,6 @@
 /area/navalis/outdoors/charon/surface_deck/rear_deck)
 "qCM" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -30852,8 +29955,6 @@
 /obj/structure/stairs{
 	dir = 1
 	},
-/obj/structure/platform/metal/strata/west,
-/obj/structure/platform/metal/strata/east,
 /turf/open/floor/corsat,
 /area/navalis/outdoors/exterior/med_ext)
 "qIZ" = (
@@ -30913,7 +30014,6 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/command/maintenance_starboard)
 "qLV" = (
-/obj/structure/platform/metal/almayer/north,
 /turf/open/floor/corsat/squares,
 /area/navalis/indoors/industrial/power)
 "qMH" = (
@@ -30992,8 +30092,6 @@
 /turf/open/floor/hybrisa/tile/tilelightbeige,
 /area/navalis/indoors/med_sci/break_room)
 "qPP" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/monorail{
 	dir = 5;
 	name = "support beam";
@@ -31055,7 +30153,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/command/office)
 "qUm" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/east,
 /turf/open/floor/hybrisa/tile/darkgrey_bigtile,
 /area/navalis/indoors/residential/starboard)
 "qUD" = (
@@ -31077,8 +30174,6 @@
 /turf/open/floor/hybrisa/carpet/rug_colorable/grey_blue,
 /area/navalis/indoors/command/office)
 "qWe" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "qWF" = (
@@ -31093,7 +30188,6 @@
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/outdoors/charon/surface_deck/rear_deck)
 "qWZ" = (
-/obj/structure/platform/metal/almayer/west,
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
 	pixel_x = 2
@@ -31194,7 +30288,6 @@
 /turf/open/floor/prison/whitered/west,
 /area/navalis/indoors/med_sci/main_floor)
 "qZs" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/closed/wall/mineral/bone_resin,
 /area/navalis/oob)
 "qZz" = (
@@ -31296,8 +30389,6 @@
 /area/navalis/indoors/residential/accessway)
 "rfo" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /turf/open/floor/corsat,
@@ -31338,8 +30429,6 @@
 /area/navalis/indoors/command/meeting_hall)
 "rie" = (
 /obj/structure/blocker/invisible_wall,
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/corsat/plate,
 /area/navalis/oob)
 "rio" = (
@@ -31401,8 +30490,6 @@
 /turf/open/floor/prison/whitegreenfull,
 /area/navalis/indoors/med_sci/pharmacy)
 "rkg" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -31413,8 +30500,6 @@
 /turf/open/floor/hybrisa/carpet/carpetreddeco,
 /area/navalis/indoors/residential/accessway)
 "rkG" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /turf/open/floor/plating/kutjevo,
 /area/navalis/indoors/logistic/primary_storage)
 "rld" = (
@@ -31436,8 +30521,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "rmx" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/monorail{
 	dir = 10;
 	name = "support beam";
@@ -31496,8 +30579,6 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/navalis/indoors/command/cent_com)
 "rrT" = (
-/obj/structure/platform/metal/almayer/north,
-/obj/structure/platform/metal/almayer/east,
 /obj/structure/platform_decoration/metal/almayer/northwest,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
@@ -31563,7 +30644,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/industrial/power)
 "rxz" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/outdoors/exterior/com_ext)
 "rxG" = (
@@ -31761,8 +30841,6 @@
 /turf/open/floor/prison/darkbrownfull2,
 /area/navalis/indoors/logistic/primary_storage)
 "rKE" = (
-/obj/structure/platform/metal/hybrisa/metalplatform2/north,
-/obj/structure/platform/metal/hybrisa/metalplatform2/west,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "rKZ" = (
@@ -31952,13 +31030,9 @@
 /obj/structure/prop/oilrig/support_beam/brown{
 	layer = 2.6
 	},
-/obj/structure/platform/metal/strata{
-	layer = 2.5
-	},
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "rWE" = (
-/obj/structure/platform/metal/almayer/east,
 /obj/structure/machinery/power/smes/buildable{
 	capacity = 1e+006;
 	dir = 1;
@@ -32050,7 +31124,6 @@
 /turf/open/floor/hybrisa/carpet/carpetreddeco,
 /area/navalis/indoors/residential/starboard)
 "saO" = (
-/obj/structure/platform/metal/almayer/north,
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
@@ -32143,8 +31216,6 @@
 /turf/open/floor/darkred2/southeast,
 /area/navalis/indoors/residential/port)
 "sjh" = (
-/obj/structure/platform/metal/hybrisa/metalplatform3/west,
-/obj/structure/platform/metal/strata/east,
 /turf/open/floor/prison/darkbrownfull2,
 /area/navalis/indoors/logistic/mech_bay)
 "sjw" = (
@@ -32152,9 +31223,6 @@
 /turf/open/floor/plating/plating_catwalk/prison/dark,
 /area/navalis/indoors/industrial/power)
 "sjK" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/pipes/standard/simple/visible/purple,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
@@ -32238,15 +31306,10 @@
 /area/navalis/indoors/command/aft_hallway)
 "spt" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/effect/hybrisa/misc/fake/wire/blue,
 /turf/open/floor/corsat,
 /area/navalis/indoors/med_sci/maintenance_starboard)
 "sqk" = (
-/obj/structure/platform/metal/almayer/west{
-	pixel_x = -3
-	},
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "sro" = (
@@ -32287,8 +31350,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "suG" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -32369,7 +31430,6 @@
 /turf/open/floor/almayer/plating,
 /area/navalis/oob/powered)
 "syq" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /obj/structure/monorail{
 	dir = 5;
 	name = "support beam";
@@ -32448,12 +31508,6 @@
 /area/navalis/outdoors/landing_zone_2)
 "sDf" = (
 /obj/structure/prop/oilrig/support_beam/brown,
-/obj/structure/platform/metal/strata/east{
-	layer = 2.5
-	},
-/obj/structure/platform/metal/strata{
-	layer = 2.5
-	},
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
@@ -32494,12 +31548,10 @@
 /turf/open/floor/hybrisa/wood,
 /area/navalis/indoors/residential/port)
 "sFg" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/west,
 /obj/structure/machinery/colony_floodlight,
 /turf/open/floor/prison,
 /area/navalis/outdoors/landing_zone_1)
 "sFj" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/monorail{
 	dir = 8;
 	name = "support beam";
@@ -32517,10 +31569,6 @@
 /turf/open/floor/prison/bright_clean2/southwest,
 /area/navalis/indoors/med_sci/science_lower_entrance)
 "sFW" = (
-/obj/structure/platform/metal/strata,
-/obj/structure/platform/metal/strata/west{
-	layer = 2.5
-	},
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
@@ -32554,7 +31602,6 @@
 /area/navalis/indoors/industrial/power)
 "sHK" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6/east,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_x = -4
@@ -32604,7 +31651,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "sJD" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.5;
@@ -32690,7 +31736,6 @@
 /area/navalis/outdoors/landing_zone_2)
 "sMM" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -32762,7 +31807,6 @@
 /area/navalis/indoors/command/tertiary_comms)
 "sPQ" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 4;
@@ -32880,7 +31924,6 @@
 /turf/open/floor/prison/whitegreen/northeast,
 /area/navalis/indoors/med_sci/chemical_store)
 "sVT" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/prop/hybrisa/misc/floorprops/grate4{
 	dir = 8
 	},
@@ -32893,7 +31936,6 @@
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/oob/empty_space)
 "sXe" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -32917,7 +31959,6 @@
 	pixel_y = 8;
 	pixel_x = 6
 	},
-/obj/structure/platform/metal/strata/east,
 /obj/structure/stairs{
 	dir = 1
 	},
@@ -32936,7 +31977,6 @@
 /turf/open/floor/kutjevo/grey,
 /area/navalis/outdoors/landing_zone_2)
 "taf" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/oob/empty_space)
 "tag" = (
@@ -32982,9 +32022,6 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/med_sci/maintenance_port)
 "taW" = (
-/obj/structure/platform/stone/strata,
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata/west,
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/empty/navalis,
 /area/navalis/oob/water/far)
@@ -33044,7 +32081,6 @@
 /turf/open/floor/prison/darkyellowfull2/east,
 /area/navalis/indoors/industrial/mining)
 "ter" = (
-/obj/structure/platform/metal/strata/east,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "teC" = (
@@ -33181,8 +32217,6 @@
 /area/navalis/indoors/residential/starboard)
 "tmX" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -33213,7 +32247,6 @@
 /turf/open/floor/almayer/blackfull/west,
 /area/navalis/outdoors/landing_zone_2)
 "tnY" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/blocker/forcefield/human{
 	dir = 4;
 	invisibility = 101
@@ -33244,8 +32277,6 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/med_sci/maintenance_port)
 "tpr" = (
-/obj/structure/platform/stone/strata/east,
-/obj/structure/platform/stone/strata,
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/empty/navalis,
 /area/navalis/oob/water/far)
@@ -33308,13 +32339,10 @@
 /turf/open/floor/prison/rampbottom/north,
 /area/navalis/outdoors/comm_one)
 "tvx" = (
-/obj/structure/platform/metal/almayer/north,
-/obj/structure/platform/metal/almayer/east,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "twi" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -33392,10 +32420,6 @@
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/mining)
 "tAt" = (
-/obj/structure/platform/metal/strata,
-/obj/structure/platform/metal/strata/west{
-	layer = 2.5
-	},
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "tAy" = (
@@ -33446,7 +32470,6 @@
 	color = "#a6aeab";
 	dir = 8
 	},
-/obj/structure/platform/metal/strata,
 /obj/structure/machinery/door/poddoor{
 	explo_proof = 1;
 	needs_power = 0;
@@ -33460,7 +32483,6 @@
 /turf/open/floor/almayer_hull,
 /area/navalis/indoors/med_sci/science_lower_entrance)
 "tCs" = (
-/obj/structure/platform/metal/almayer/north,
 /turf/open/floor/almayer/blackfull/west,
 /area/navalis/outdoors/landing_zone_2)
 "tCu" = (
@@ -33516,7 +32538,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "tGf" = (
-/obj/structure/platform/metal/hybrisa/metalplatform3/east,
 /obj/structure/pipes/standard/simple/hidden/cyan,
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/command/meeting_hall)
@@ -33533,11 +32554,9 @@
 /turf/open/floor/prison/greenfull/east,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "tHU" = (
-/obj/structure/platform/metal/hybrisa/metalplatform3/north,
 /turf/open/floor/prison/darkbrown2/east,
 /area/navalis/indoors/logistic/mech_bay)
 "tIQ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.4;
@@ -33553,7 +32572,6 @@
 	layer = 1.3;
 	pixel_x = 16
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/item/lightstick/red/planted{
 	pixel_y = 15;
 	pixel_x = 16;
@@ -33652,11 +32670,9 @@
 /turf/open/floor/hybrisa/metal/bluemetal1,
 /area/navalis/indoors/command/server_room)
 "tNL" = (
-/obj/structure/platform/metal/almayer/east,
 /turf/open/floor/plating/catwalk/grate/net,
 /area/navalis/outdoors/landing_zone_2)
 "tNO" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water)
 "tOG" = (
@@ -33797,7 +32813,6 @@
 /turf/open/floor/hybrisa/carpet/rug_colorable/black/west,
 /area/navalis/indoors/residential/starboard)
 "tSU" = (
-/obj/structure/platform/metal/hybrisa/metalplatform3/east,
 /obj/structure/stairs/perspective{
 	dir = 10;
 	icon_state = "p_stair_full";
@@ -33858,7 +32873,6 @@
 /turf/open/floor/prison/southwest,
 /area/navalis/indoors/med_sci/science_lower_entrance)
 "tXj" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.5;
@@ -33889,7 +32903,6 @@
 /turf/open/floor/hybrisa/wood/greywood,
 /area/navalis/indoors/residential/port)
 "tYn" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4,
 /turf/open/floor/hybrisa/wood/blackwood,
 /area/navalis/indoors/residential/starboard)
 "tYA" = (
@@ -34005,7 +33018,6 @@
 /turf/open/floor/freezerfloor,
 /area/navalis/indoors/residential/kitchen)
 "ucg" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.4;
@@ -34084,12 +33096,9 @@
 /obj/structure/prop/hybrisa/misc/floorprops/grate3{
 	dir = 8
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "ueS" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/monorail{
 	dir = 9;
 	name = "support beam";
@@ -34109,7 +33118,6 @@
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "ufj" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /turf/open/floor/corsat,
 /area/navalis/indoors/logistic/maintenance_port)
 "ufJ" = (
@@ -34162,9 +33170,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/med_ext)
 "unv" = (
-/obj/structure/platform/metal/almayer/north,
-/obj/structure/platform/metal/almayer/west,
-/obj/structure/platform/metal/almayer/east,
 /obj/structure/platform_decoration/metal/almayer/northeast,
 /obj/structure/platform_decoration/metal/almayer/northwest,
 /turf/open/floor/plating/catwalk/grate/net,
@@ -34189,8 +33194,6 @@
 /turf/open/floor/corsat,
 /area/navalis/indoors/logistic/maintenance_port)
 "unX" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "uor" = (
@@ -34264,7 +33267,6 @@
 /obj/structure/stairs{
 	dir = 1
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /turf/open/floor/almayer_hull,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "utE" = (
@@ -34309,7 +33311,6 @@
 /area/navalis/outdoors/landing_zone_1)
 "uvF" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco6/north,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/hybrisa/misc/fake/wire/yellow{
@@ -34387,7 +33388,6 @@
 /turf/open/floor/corsat/marked,
 /area/navalis/indoors/industrial/mining)
 "uxP" = (
-/obj/structure/platform/metal/strata/north,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "uyd" = (
@@ -34540,12 +33540,9 @@
 /area/navalis/indoors/command/oft_duty_room)
 "uEk" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate3,
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "uEx" = (
-/obj/structure/platform/metal/hybrisa/metalplatform3/north,
 /obj/structure/machinery/camera/autoname{
 	dir = 4
 	},
@@ -34567,7 +33564,6 @@
 /turf/open/floor/strata/multi_tiles,
 /area/navalis/indoors/logistic/mech_bay)
 "uGw" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/rusted,
 /area/navalis/oob/water/far)
 "uGy" = (
@@ -34663,7 +33659,6 @@
 /turf/open/floor/hybrisa/carpet/pink,
 /area/navalis/indoors/residential/starboard)
 "uLc" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/east,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_1)
 "uLk" = (
@@ -34769,7 +33764,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/ind_ext)
 "uRf" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/north,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.5;
@@ -34878,8 +33872,6 @@
 /turf/open/floor/prison/whitered,
 /area/navalis/indoors/med_sci/main_floor)
 "uWu" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -34905,7 +33897,6 @@
 /area/navalis/indoors/med_sci/science_lower_entrance)
 "uZk" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -34987,7 +33978,6 @@
 /area/navalis/indoors/residential/port)
 "vfS" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -35023,8 +34013,6 @@
 	pixel_y = 15;
 	layer = 1.3
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco4/north,
 /obj/structure/prop/hybrisa/misc/floorprops/grate2{
 	layer = 1
@@ -35076,7 +34064,6 @@
 /turf/open/floor/hybrisa/tile/darkgrey_bigtile,
 /area/navalis/indoors/residential/starboard)
 "vkz" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy4{
 	dir = 8
 	},
@@ -35141,12 +34128,6 @@
 /area/navalis/indoors/logistic/workshop)
 "vno" = (
 /obj/structure/prop/oilrig/support_beam/brown,
-/obj/structure/platform/metal/strata/east{
-	layer = 2.5
-	},
-/obj/structure/platform/metal/strata{
-	layer = 2.5
-	},
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "vnG" = (
@@ -35164,10 +34145,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/industrial/power)
 "vpu" = (
-/obj/structure/platform/metal/strata/west{
-	icon_state = "strata_metalplatform_broken";
-	density = 0
-	},
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/landing_zone_2)
 "vqa" = (
@@ -35329,8 +34306,6 @@
 /turf/open/floor/hybrisa/carpet/carpetblue,
 /area/navalis/indoors/command/meeting_hall)
 "vyT" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/east,
-/obj/structure/platform/metal/hybrisa/metalplatform4,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.4;
@@ -35397,8 +34372,6 @@
 /area/navalis/indoors/command/meeting_hall)
 "vCM" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -35412,7 +34385,6 @@
 /turf/open/floor/corsat,
 /area/navalis/indoors/med_sci/maintenance_port)
 "vCX" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/west,
 /turf/closed/wall/mineral/bone_resin,
 /area/navalis/indoors/residential/landing_pad)
 "vDc" = (
@@ -35431,7 +34403,6 @@
 /turf/closed/wall/hybrisa/colony,
 /area/navalis/indoors/industrial/refinery)
 "vEh" = (
-/obj/structure/platform/metal/hybrisa/metalplatform4/east,
 /turf/open/floor/almayer/greenfull2,
 /area/navalis/indoors/residential/landing_pad)
 "vEQ" = (
@@ -35463,7 +34434,6 @@
 /turf/open/floor/corsat/marked,
 /area/navalis/indoors/industrial/mining)
 "vFS" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "vGp" = (
@@ -35490,13 +34460,11 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/navalis/indoors/command/cent_com)
 "vHz" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco4/east,
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/med_ext)
 "vIh" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4;
 	layer = 2.1
@@ -35587,7 +34555,6 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/med_sci/maintenance_port)
 "vLB" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/effect/hybrisa/misc/fake/wire/yellow{
 	dir = 4;
 	pixel_y = -2
@@ -35604,11 +34571,9 @@
 /turf/open/floor/corsat,
 /area/navalis/indoors/med_sci/maintenance_starboard)
 "vNf" = (
-/obj/structure/platform/metal/strata/north,
 /turf/open/floor/hybrisa/tile/darkbrown_bigtile/northeast,
 /area/navalis/indoors/command/tertiary_comms)
 "vNi" = (
-/obj/structure/platform/metal/strata/east,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "vOr" = (
@@ -35621,9 +34586,6 @@
 /area/navalis/indoors/command/oft_duty_room)
 "vPi" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/effect/hybrisa/misc/fake/wire/red{
 	dir = 4;
 	pixel_y = -4
@@ -35635,8 +34597,6 @@
 /area/navalis/indoors/med_sci/maintenance_starboard)
 "vPA" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1,
 /turf/open/floor/corsat,
 /area/navalis/indoors/med_sci/maintenance_starboard)
@@ -35668,9 +34628,6 @@
 /turf/open/floor/plating,
 /area/navalis/indoors/residential/accessway)
 "vQz" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -35797,7 +34754,6 @@
 /turf/open/floor/almayer/greenfull2,
 /area/navalis/indoors/residential/landing_pad)
 "vXh" = (
-/obj/structure/platform/stone/strata/north,
 /obj/structure/blocker/invisible_wall,
 /turf/open/gm/empty/navalis,
 /area/navalis/oob/water/far)
@@ -35810,7 +34766,6 @@
 /turf/open/floor/hybrisa/tile/tilegrey,
 /area/navalis/indoors/industrial/power)
 "vXY" = (
-/obj/structure/platform/metal/almayer/east,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -35850,8 +34805,6 @@
 /turf/open/floor/hybrisa/carpet/carpetblack,
 /area/navalis/indoors/command/conferance)
 "wbk" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open/floor/roof_weedable/outerhull_dir/northeast,
 /area/navalis/outdoors/charon/surface_deck/forecastle_deck)
 "wbp" = (
@@ -35941,8 +34894,6 @@
 /area/navalis/indoors/med_sci/surg_one)
 "weN" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_x = -4
 	},
@@ -36075,7 +35026,6 @@
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "wnw" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.4;
@@ -36092,7 +35042,6 @@
 /obj/item/lightstick/planted{
 	pixel_y = 13
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/oob/empty_space)
 "wnA" = (
@@ -36193,8 +35142,6 @@
 /area/navalis/indoors/residential/kitchen)
 "wrw" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -36243,7 +35190,6 @@
 	icon_state = "S";
 	pixel_x = -1
 	},
-/obj/structure/platform/metal/almayer,
 /obj/structure/machinery/colony_floodlight/navalis_wall_light{
 	dir = 8
 	},
@@ -36398,8 +35344,6 @@
 /turf/open/floor/prison/darkbrowncorners2/north,
 /area/navalis/indoors/logistic/primary_storage)
 "wyY" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only)
 "wza" = (
@@ -36465,8 +35409,6 @@
 /turf/open/floor/prison/sterile_white,
 /area/navalis/indoors/med_sci/main_floor)
 "wCD" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
 /obj/structure/prop/structure_lattice{
 	dir = 4;
 	layer = 1.4;
@@ -36538,8 +35480,6 @@
 /obj/structure/prop/hybrisa/misc/floorprops/grate3{
 	dir = 4
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -36555,8 +35495,6 @@
 /turf/open/floor/prison/green/southwest,
 /area/navalis/indoors/command/starboard_hallway)
 "wFS" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/west,
 /turf/open/gm/river/no_overlay/ocean,
 /area/navalis/oob/water)
 "wHx" = (
@@ -36605,8 +35543,6 @@
 /area/navalis/indoors/residential/port)
 "wMa" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -36621,7 +35557,6 @@
 /area/navalis/indoors/logistic/primary_storage)
 "wMw" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /turf/open/floor/corsat,
 /area/navalis/indoors/logistic/maintenance_port)
 "wMV" = (
@@ -36780,8 +35715,6 @@
 /turf/open/floor/almayer/black/west,
 /area/navalis/indoors/med_sci/records_room)
 "wWR" = (
-/obj/structure/platform/metal/hybrisa/metalplatform2/west,
-/obj/structure/platform/metal/hybrisa/metalplatform2,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "wXy" = (
@@ -36972,8 +35905,6 @@
 /area/navalis/outdoors/comm_one)
 "xep" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_x = -4
 	},
@@ -36984,11 +35915,9 @@
 /turf/open/floor/corsat,
 /area/navalis/indoors/logistic/maintenance_port)
 "xeH" = (
-/obj/structure/platform/metal/strata/east,
 /turf/open/floor/hybrisa/tile/darkbrown_bigtile/east,
 /area/navalis/indoors/command/tertiary_comms)
 "xeX" = (
-/obj/structure/platform/metal/almayer,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "xfp" = (
@@ -37000,8 +35929,6 @@
 /turf/open/floor/plating/catwalk/grate,
 /area/navalis/outdoors/exterior/log_ext)
 "xfF" = (
-/obj/structure/platform/metal/hybrisa/metalplatform2/east,
-/obj/structure/platform/metal/hybrisa/metalplatform2,
 /turf/open/floor/plating/catwalk/grate/alt,
 /area/navalis/outdoors/comm_one)
 "xge" = (
@@ -37030,9 +35957,6 @@
 /area/navalis/outdoors/landing_zone_1)
 "xiS" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/effect/hybrisa/misc/fake/wire/yellow{
 	dir = 4;
 	pixel_y = -2
@@ -37097,7 +36021,6 @@
 /turf/open/floor/prison/whitegreen/east,
 /area/navalis/indoors/med_sci/main_floor)
 "xkN" = (
-/obj/structure/platform/metal/strata/east,
 /obj/structure/stairs/multiz/up,
 /turf/open/floor/almayer_hull,
 /area/navalis/indoors/med_sci/science_lower_entrance)
@@ -37291,8 +36214,6 @@
 /obj/structure/roof/hybrisa/lattice_prop/lattice_3{
 	pixel_y = 19
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -37305,9 +36226,6 @@
 /turf/open/floor/prison/darkbrown3/southeast,
 /area/navalis/indoors/logistic/mech_bay)
 "xwC" = (
-/obj/structure/platform/metal/almayer/east{
-	pixel_x = 4
-	},
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz2)
 "xxV" = (
@@ -37321,8 +36239,6 @@
 /area/navalis/indoors/residential/port)
 "xzg" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -37412,8 +36328,6 @@
 /area/navalis/indoors/logistic/primary_storage)
 "xDk" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/effect/hybrisa/misc/fake/pipes/pipe2{
 	dir = 4
@@ -37425,8 +36339,6 @@
 /area/navalis/indoors/residential/port)
 "xDU" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -37524,7 +36436,6 @@
 /area/navalis/indoors/med_sci/records_room)
 "xHE" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
@@ -37618,8 +36529,6 @@
 /obj/structure/prop/hybrisa/misc/floorprops/grate3{
 	dir = 1
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform5/north,
-/obj/structure/platform/metal/hybrisa/metalplatform5/west,
 /turf/open_space,
 /area/navalis/oob/empty_space)
 "xPH" = (
@@ -37654,8 +36563,6 @@
 /turf/open/floor/strata/multi_tiles,
 /area/navalis/indoors/logistic/mech_bay)
 "xQF" = (
-/obj/structure/platform/metal/hybrisa/metalplatform5,
-/obj/structure/platform/metal/hybrisa/metalplatform5/east,
 /turf/open/floor/plating/catwalk/grate/lattice,
 /area/navalis/outdoors/exterior_xeno_only/lz1)
 "xRd" = (
@@ -37665,8 +36572,6 @@
 /turf/open/floor/prison/greenblue/west,
 /area/navalis/outdoors/charon/surface_deck/rear_deck)
 "xRC" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
 /obj/structure/blocker/forcefield/all{
 	invisibility = 101
 	},
@@ -37744,8 +36649,6 @@
 /area/navalis/indoors/med_sci/chemical_store)
 "xZC" = (
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/effect/hybrisa/misc/fake/wire/yellow{
 	dir = 4;
 	pixel_y = -2

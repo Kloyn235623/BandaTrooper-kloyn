@@ -468,7 +468,6 @@
 /turf/open/floor/strata/altgreen3/west,
 /area/fire_colony/interior/hydroponics/lobby)
 "oN" = (
-/obj/structure/platform/metal/lava_metal/west,
 /obj/effect/lava/edges/basalt/l_piece,
 /turf/open/fire_colony/basalt/basalt0,
 /area/fire_colony/exterior/clearing/pass)
@@ -577,7 +576,6 @@
 /turf/open/floor/strata/altgreen3/north,
 /area/fire_colony/interior/hydroponics/lobby)
 "rn" = (
-/obj/structure/platform/metal/lava_metal/west,
 /obj/structure/flora/alien/sparsegrass/sparsegrass_2,
 /turf/open/fire_colony/brock,
 /area/fire_colony/exterior/clearing/north)
@@ -855,7 +853,6 @@
 /turf/open/floor/strata/altgreen4/west,
 /area/fire_colony/interior/hydroponics/lobby)
 "zW" = (
-/obj/structure/platform/metal/lava_metal/west,
 /obj/effect/lava/edges/basalt/l_piece{
 	dir = 4
 	},
@@ -1371,7 +1368,6 @@
 /turf/open/floor/strata/altgreen4/east,
 /area/fire_colony/interior/hydroponics/lobby)
 "Zr" = (
-/obj/structure/platform/metal/lava_metal/west,
 /obj/structure/flora/alien/sparsegrass/sparsegrass_3,
 /turf/open/fire_colony/brock,
 /area/fire_colony/exterior/clearing/north)

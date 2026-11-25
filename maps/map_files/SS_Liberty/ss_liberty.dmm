@@ -163,7 +163,6 @@
 /turf/open/floor/corsat/brown/west,
 /area/ss_liberty/deck_one/engi)
 "aA" = (
-/obj/structure/platform/metal/strata,
 /obj/item/tool/warning_cone{
 	pixel_x = -10;
 	pixel_y = 12
@@ -742,7 +741,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_three/hallway)
 "bK" = (
-/obj/structure/platform/metal/strata/north,
 /obj/structure/disposalpipe/segment{
 	dir = 1;
 	icon_state = "pipe-c"
@@ -761,8 +759,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_two/armory_one)
 "bL" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/west,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate/ammo,
 /obj/item/ammo_magazine/rifle/r81m1/hp,
@@ -781,14 +777,12 @@
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 4
 	},
-/obj/structure/platform/metal/strata/west,
 /obj/structure/disposalpipe/segment{
 	dir = 1
 	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/ss_liberty/deck_three/hangar)
 "bN" = (
-/obj/structure/platform/metal/strata,
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_one/hallway)
 "bO" = (
@@ -1067,7 +1061,6 @@
 /turf/open/floor/corsat/brown/northeast,
 /area/ss_liberty/deck_one/engi)
 "cm" = (
-/obj/structure/platform/metal/strata,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_one/hallway)
@@ -1127,8 +1120,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_one/bridge)
 "cw" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/east,
 /obj/item/trash/hotdog{
 	pixel_x = -7;
 	pixel_y = -9
@@ -2785,8 +2776,6 @@
 /turf/open/floor/strata/multi_tiles,
 /area/ss_liberty/deck_three/maintenance)
 "fz" = (
-/obj/structure/platform/metal/strata,
-/obj/structure/platform/metal/strata/east,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 8;
 	pixel_y = 8
@@ -2820,7 +2809,6 @@
 /turf/open/floor/corsat/arrow_north,
 /area/ss_liberty/deck_three/garage)
 "fD" = (
-/obj/structure/platform/metal/strata/west,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/corsat/squares,
 /area/ss_liberty/deck_three/garage)
@@ -2891,7 +2879,6 @@
 /turf/open/floor/strata/floor2,
 /area/ss_liberty/deck_two/armory_one)
 "fJ" = (
-/obj/structure/platform/metal/strata/west,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/squares,
 /area/ss_liberty/deck_three/garage)
@@ -2993,7 +2980,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_three/hallway)
 "fS" = (
-/obj/structure/platform/metal/strata/east,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/squares,
 /area/ss_liberty/deck_three/garage)
@@ -3682,7 +3668,6 @@
 /turf/open/floor/strata/floor2,
 /area/ss_liberty/deck_two/incerator)
 "ha" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
 /turf/open/floor/almayer_hull,
 /area/space)
 "hb" = (
@@ -4162,7 +4147,6 @@
 /turf/closed/wall/upp_wall/grey/hull,
 /area/ss_liberty/deck_three/maintenance)
 "ii" = (
-/obj/structure/platform/metal/strata/east,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/hybrisa/trash{
 	icon_state = "trash_4";
@@ -4316,7 +4300,6 @@
 /turf/open/floor/strata/floor3,
 /area/ss_liberty/deck_one/hallway)
 "iG" = (
-/obj/structure/platform/metal/strata,
 /obj/structure/disposalpipe/segment{
 	dir = 1
 	},
@@ -4572,7 +4555,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_two/hallway)
 "jr" = (
-/obj/structure/platform/metal/strata,
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
 	pixel_x = 1;
@@ -4625,7 +4607,6 @@
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 4
 	},
-/obj/structure/platform/metal/strata/west,
 /obj/structure/disposalpipe/segment{
 	dir = 1
 	},
@@ -4711,7 +4692,6 @@
 /turf/open_space,
 /area/ss_liberty/deck_one/hallway)
 "jG" = (
-/obj/structure/platform/metal/strata/north,
 /turf/open_space,
 /area/ss_liberty/deck_one/hallway)
 "jH" = (
@@ -4719,8 +4699,6 @@
 /turf/open_space,
 /area/ss_liberty/deck_one/hallway)
 "jI" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/east,
 /turf/open_space,
 /area/ss_liberty/deck_one/hallway)
 "jJ" = (
@@ -4792,8 +4770,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_one/hallway)
 "jP" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/west,
 /turf/open_space,
 /area/ss_liberty/deck_one/hallway)
 "jQ" = (
@@ -5000,7 +4976,6 @@
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/ss_liberty/deck_two/hallway)
 "km" = (
-/obj/structure/platform/metal/strata,
 /turf/open/floor/corsat/browncorner/west,
 /area/ss_liberty/deck_one/engi)
 "kn" = (
@@ -5038,7 +5013,6 @@
 /turf/closed/wall/upp_wall/grey,
 /area/ss_liberty/deck_two/armory_two)
 "kt" = (
-/obj/structure/platform/metal/strata/north,
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
 	pixel_x = 1;
@@ -5199,7 +5173,6 @@
 /turf/open/floor/almayer_hull/outerhull_dir/west,
 /area/space)
 "kW" = (
-/obj/structure/platform/metal/strata,
 /obj/item/tool/warning_cone{
 	pixel_x = -2;
 	pixel_y = 13
@@ -5282,7 +5255,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_two/armory_one)
 "ll" = (
-/obj/structure/platform/metal/strata/east,
 /turf/open/floor/corsat/squares,
 /area/ss_liberty/deck_three/garage)
 "lm" = (
@@ -5400,7 +5372,6 @@
 /turf/open/floor/corsat/arrow_east,
 /area/ss_liberty/deck_one/gym)
 "lN" = (
-/obj/structure/platform/metal/strata/west,
 /obj/structure/disposalpipe/segment{
 	dir = 1
 	},
@@ -5458,7 +5429,6 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/ss_liberty/deck_one/janitor)
 "lZ" = (
-/obj/structure/platform/metal/strata/west,
 /turf/open/floor/corsat/squares,
 /area/ss_liberty/deck_three/garage)
 "mb" = (
@@ -5522,7 +5492,6 @@
 	},
 /area/ss_liberty/deck_two/hallway)
 "mp" = (
-/obj/structure/platform/metal/strata/east,
 /obj/structure/disposalpipe/segment{
 	dir = 2;
 	icon_state = "pipe-c";
@@ -5789,7 +5758,6 @@
 /turf/open/floor/almayer/sterile_green_corner,
 /area/ss_liberty/deck_three/medbay)
 "nr" = (
-/obj/structure/platform/metal/strata/north,
 /obj/structure/disposalpipe/segment{
 	dir = 4;
 	icon_state = "pipe-c"
@@ -6017,8 +5985,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_three/hangar)
 "ow" = (
-/obj/structure/platform/metal/strata/east,
-/obj/structure/platform/metal/strata,
 /turf/closed/wall/upp_wall/grey/hull,
 /area/ss_liberty/deck_two/hallway)
 "oB" = (
@@ -6029,12 +5995,10 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/ss_liberty/deck_two/hallway)
 "oC" = (
-/obj/structure/platform/metal/strata,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/corsat/squares,
 /area/ss_liberty/deck_one/engi)
 "oJ" = (
-/obj/structure/platform/metal/strata/west,
 /turf/open_space,
 /area/ss_liberty/deck_one/engi)
 "oM" = (
@@ -6133,7 +6097,6 @@
 /turf/open/floor/corsat,
 /area/ss_liberty/deck_two/armory_two)
 "pk" = (
-/obj/structure/platform/metal/strata,
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
 	pixel_y = 0;
@@ -6191,7 +6154,6 @@
 /turf/open/space/basic,
 /area/space)
 "py" = (
-/obj/structure/platform/metal/strata/north,
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/ss_liberty/deck_three/hangar)
 "pz" = (
@@ -6492,7 +6454,6 @@
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/ss_liberty/deck_three/hallway)
 "qI" = (
-/obj/structure/platform/metal/strata/north,
 /obj/item/shard{
 	icon_state = "large";
 	pixel_x = -4;
@@ -6928,7 +6889,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_two/armory_one)
 "si" = (
-/obj/structure/platform/metal/strata/east,
 /obj/structure/disposalpipe/segment{
 	dir = 1
 	},
@@ -6942,7 +6902,6 @@
 /turf/open/floor/almayer/aicore/no_build/ai_arrow/west,
 /area/ss_liberty/deck_two/cryo)
 "sp" = (
-/obj/structure/platform/metal/strata/east,
 /turf/open/floor/almayer_hull,
 /area/space)
 "sr" = (
@@ -7068,7 +7027,6 @@
 /turf/open/floor/corsat/cargo,
 /area/ss_liberty/deck_one/engi)
 "tl" = (
-/obj/structure/platform/metal/strata/north,
 /obj/structure/disposalpipe/segment{
 	dir = 2;
 	icon_state = "pipe-c"
@@ -7116,7 +7074,6 @@
 	icon_state = "lattice12";
 	layer = 2
 	},
-/obj/structure/platform/metal/strata,
 /turf/open_space,
 /area/ss_liberty/deck_one/engi)
 "tB" = (
@@ -7308,7 +7265,6 @@
 /turf/open/floor/corsat,
 /area/ss_liberty/deck_two/hallway)
 "uv" = (
-/obj/structure/platform/metal/strata/east,
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
 	pixel_y = 1;
@@ -7392,7 +7348,6 @@
 /turf/open/floor/strata/floor3,
 /area/ss_liberty/deck_one/engi)
 "uJ" = (
-/obj/structure/platform/metal/strata,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 8;
 	pixel_y = 8
@@ -7704,7 +7659,6 @@
 /turf/open/floor/corsat/marked,
 /area/ss_liberty/deck_two/armory_one)
 "wr" = (
-/obj/structure/platform/metal/stair_cut/strata_right,
 /obj/structure/stairs{
 	color = "#a6aeab";
 	layer = 2.5;
@@ -7720,7 +7674,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_two/hallway)
 "wt" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
 /turf/open/floor/almayer_hull,
 /area/space)
 "wu" = (
@@ -7757,7 +7710,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_one/hallway)
 "wM" = (
-/obj/structure/platform/metal/strata,
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
 	pixel_y = 0;
@@ -7828,8 +7780,6 @@
 /turf/open/floor/corsat/darkgreen/west,
 /area/ss_liberty/deck_one/hydro)
 "wT" = (
-/obj/structure/platform/metal/almayer,
-/obj/structure/platform/metal/almayer/east,
 /obj/structure/platform_decoration/metal/almayer/southeast,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy1{
 	dir = 8;
@@ -7986,7 +7936,6 @@
 	},
 /area/ss_liberty/deck_two/hallway)
 "xF" = (
-/obj/structure/platform/metal/strata/east,
 /turf/open/floor/corsat/arrow_north,
 /area/ss_liberty/deck_three/garage)
 "xH" = (
@@ -8006,7 +7955,6 @@
 /turf/open/floor/prison/cell_stripe/east,
 /area/ss_liberty/deck_two/hallway)
 "xL" = (
-/obj/structure/platform/metal/strata/west,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
@@ -8099,8 +8047,6 @@
 /turf/open/floor/corsat/marked,
 /area/ss_liberty/deck_one/bridge)
 "yd" = (
-/obj/structure/platform/metal/strata,
-/obj/structure/platform/metal/strata/west,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 8;
 	pixel_y = 8
@@ -8122,7 +8068,6 @@
 	layer = 2.5;
 	dir = 4
 	},
-/obj/structure/platform/metal/stair_cut/strata_left,
 /turf/open/floor/corsat/marked,
 /area/ss_liberty/deck_two/armory_one)
 "yk" = (
@@ -8474,7 +8419,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_three/hallway)
 "zC" = (
-/obj/structure/platform/metal/strata/north,
 /obj/item/trash/grenade/gas/marine{
 	pixel_x = 4;
 	pixel_y = -10
@@ -8750,7 +8694,6 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/ss_liberty/deck_one/hallway)
 "AE" = (
-/obj/structure/platform/metal/strata/east,
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
 	pixel_y = 0;
@@ -8915,7 +8858,6 @@
 /turf/open/floor/corsat/red/north,
 /area/ss_liberty/deck_one/gym)
 "Bl" = (
-/obj/structure/platform/metal/strata/east,
 /turf/open_space,
 /area/ss_liberty/deck_one/engi)
 "Bo" = (
@@ -8972,7 +8914,6 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/ss_liberty/deck_three/hallway)
 "BD" = (
-/obj/structure/platform/metal/strata,
 /obj/structure/disposalpipe/segment{
 	dir = 8;
 	icon_state = "pipe-c"
@@ -9056,7 +8997,6 @@
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/ss_liberty/deck_one/hallway)
 "BV" = (
-/obj/structure/platform/metal/strata/east,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/disposal{
 	pixel_x = -3;
@@ -9294,7 +9234,6 @@
 /turf/open/floor/almayer_hull/corner/southeast,
 /area/space)
 "CY" = (
-/obj/structure/platform/metal/strata/west,
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
 	pixel_y = 0;
@@ -9392,7 +9331,6 @@
 /turf/open/floor/corsat/box,
 /area/ss_liberty/deck_one/hydro)
 "Ds" = (
-/obj/structure/platform/metal/strata,
 /turf/closed/wall/upp_wall/grey/hull,
 /area/ss_liberty/deck_two/hallway)
 "Dt" = (
@@ -9767,7 +9705,6 @@
 /area/ss_liberty/deck_two/cryo)
 "EP" = (
 /obj/structure/prop/turbine_extras/left,
-/obj/structure/platform/metal/strata/east,
 /turf/open/floor/corsat/brown/east,
 /area/ss_liberty/deck_one/engi)
 "ET" = (
@@ -10003,7 +9940,6 @@
 /turf/open/floor/corsat/squares,
 /area/ss_liberty/deck_one/engi)
 "FO" = (
-/obj/structure/platform/metal/strata/west,
 /turf/open/floor/strata/multi_tiles/west,
 /area/ss_liberty/deck_one/hallway)
 "FQ" = (
@@ -10206,7 +10142,6 @@
 /turf/open/floor/corsat/darkgreen/west,
 /area/ss_liberty/deck_one/hydro)
 "Gx" = (
-/obj/structure/platform/metal/strata/east,
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
@@ -10297,7 +10232,6 @@
 /turf/open/floor/corsat/browncorner,
 /area/ss_liberty/deck_one/engi)
 "He" = (
-/obj/structure/platform/metal/strata/west,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
@@ -10362,7 +10296,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_two/armory_two)
 "Ho" = (
-/obj/structure/platform/metal/strata/north,
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
 	pixel_y = 0;
@@ -11015,7 +10948,6 @@
 /turf/open/floor/corsat/marked,
 /area/ss_liberty/deck_two/armory_one)
 "KE" = (
-/obj/structure/platform/metal/strata/east,
 /turf/open/floor/strata/multi_tiles/west,
 /area/ss_liberty/deck_one/hallway)
 "KF" = (
@@ -11030,7 +10962,6 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/ss_liberty/deck_two/hallway)
 "KR" = (
-/obj/structure/platform/metal/strata,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
 	dir = 1;
@@ -11171,7 +11102,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_two/hallway)
 "Lu" = (
-/obj/structure/platform/metal/strata/north,
 /obj/effect/decal/cleanable/blood{
 	icon_state = "csplatter1"
 	},
@@ -11235,7 +11165,6 @@
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/ss_liberty/deck_three/maintenance)
 "LL" = (
-/obj/structure/platform/metal/strata/west,
 /obj/structure/disposalpipe/segment{
 	dir = 1;
 	icon_state = "pipe-c"
@@ -11374,7 +11303,6 @@
 /turf/open/floor/corsat/brown/east,
 /area/ss_liberty/deck_one/engi)
 "Mt" = (
-/obj/structure/platform/metal/strata/north,
 /obj/structure/machinery/light/double{
 	dir = 1;
 	light_color = "#e7c0a4";
@@ -11523,7 +11451,6 @@
 /turf/open/floor/hybrisa/carpet/carpetblack,
 /area/ss_liberty/deck_one/command_dorms)
 "Nd" = (
-/obj/structure/platform/metal/strata,
 /turf/open/floor/plating/catwalk/lattice{
 	icon_state = "lattice3"
 	},
@@ -11661,7 +11588,6 @@
 /turf/open/floor/almayer/dark_sterile,
 /area/ss_liberty/deck_three/maintenance)
 "NK" = (
-/obj/structure/platform/metal/strata/west,
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
 	pixel_y = 1;
@@ -11757,7 +11683,6 @@
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 8
 	},
-/obj/structure/platform/metal/strata/east,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
 	dir = 2
@@ -11814,7 +11739,6 @@
 /turf/open/floor/corsat/darkgreen/northeast,
 /area/ss_liberty/deck_one/hydro)
 "Oj" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
 /turf/open/floor/almayer_hull,
 /area/space)
 "On" = (
@@ -11953,7 +11877,6 @@
 /area/ss_liberty/deck_three/hangar)
 "OP" = (
 /obj/structure/prop/turbine_extras,
-/obj/structure/platform/metal/strata/west,
 /turf/open/floor/corsat/brown/west,
 /area/ss_liberty/deck_one/engi)
 "OQ" = (
@@ -11996,8 +11919,6 @@
 /turf/open/floor/almayer_hull,
 /area/space)
 "OY" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/west,
 /obj/structure/bed/chair/comfy{
 	name = "\improper seat-like case";
 	desc = "It's a case made into an impromptu seat.";
@@ -12217,7 +12138,6 @@
 /turf/open/floor/strata/floor3/east,
 /area/ss_liberty/deck_three/hallway)
 "PM" = (
-/obj/structure/platform/metal/strata,
 /obj/structure/machinery/disposal{
 	pixel_x = -4;
 	pixel_y = 5;
@@ -12229,7 +12149,6 @@
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/ss_liberty/deck_two/hallway)
 "PT" = (
-/obj/structure/platform/metal/strata,
 /obj/structure/disposalpipe/down/almayer{
 	dir = 1;
 	id = "deck1_to_trash";
@@ -12253,7 +12172,6 @@
 /turf/open/floor/strata/floor3,
 /area/ss_liberty/deck_three/maintenance)
 "PX" = (
-/obj/structure/platform/metal/strata/north,
 /turf/open/floor/corsat/plate,
 /area/ss_liberty/deck_two/armory_one)
 "PZ" = (
@@ -12451,7 +12369,6 @@
 /turf/open/floor/corsat/darkgreen/north,
 /area/ss_liberty/deck_two/canteen)
 "Re" = (
-/obj/structure/platform/metal/strata/west,
 /turf/open/floor/almayer_hull,
 /area/space)
 "Rf" = (
@@ -12511,8 +12428,6 @@
 /turf/open/floor/corsat/cargo,
 /area/ss_liberty/deck_one/engi)
 "Rq" = (
-/obj/structure/platform/metal/almayer,
-/obj/structure/platform/metal/almayer/west,
 /obj/structure/platform_decoration/metal/almayer/southwest,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy1{
 	dir = 4;
@@ -12532,7 +12447,6 @@
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 8
 	},
-/obj/structure/platform/metal/strata/east,
 /obj/structure/disposalpipe/segment{
 	dir = 2
 	},
@@ -12756,7 +12670,6 @@
 /turf/open/floor/plating,
 /area/ss_liberty/deck_two/cryo)
 "Sz" = (
-/obj/structure/platform/metal/strata/north,
 /obj/structure/disposalpipe/segment{
 	dir = 2;
 	icon_state = "pipe-c"
@@ -13392,7 +13305,6 @@
 /turf/open/floor/corsat/spiralplate,
 /area/ss_liberty/deck_one/bridge)
 "Vn" = (
-/obj/structure/platform/metal/strata,
 /obj/structure/bed/chair/office/light{
 	dir = 1;
 	pixel_x = 6;
@@ -13834,7 +13746,6 @@
 /turf/open/floor/hybrisa/wood/darkerwood,
 /area/ss_liberty/deck_one/command_dorms)
 "Xk" = (
-/obj/structure/platform/metal/strata,
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
 	pixel_x = 1;
@@ -14013,11 +13924,9 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/ss_liberty/deck_two/hallway)
 "XQ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6,
 /turf/open/floor/almayer_hull,
 /area/space)
 "XR" = (
-/obj/structure/platform/metal/strata,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/corsat/browncorner,
 /area/ss_liberty/deck_one/engi)
