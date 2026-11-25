@@ -2,6 +2,9 @@
 /obj/structure/platform/metal/stair_cut/strata_left
 	icon = 'icons/obj/structures/props/platforms.dmi'
 
+/obj/structure/platform/metal/stair_cut/strata_left/alt
+	icon = 'icons/obj/structures/props/platforms.dmi'
+
 /obj/structure/platform/metal/stair_cut/strata_right
 	icon = 'icons/obj/structures/props/platforms.dmi'
 

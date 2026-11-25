@@ -12,6 +12,7 @@
 
 /obj/structure/sign/calendar/wy
 	name = "Weyland-Yutani calendar"
+	icon_state = "poster1"
 
 /obj/item/clothing/shoes/dress
 	parent_type = /obj/item/clothing/shoes/leather
