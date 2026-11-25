@@ -6,7 +6,7 @@
 	desc = "A square metal surface resting on four legs."
 	icon = 'icons/obj/structures/props/platforms.dmi'
 	icon_state = "platform"
-	vis_flags = 0 // SS220 EDIT: platforms must stay on their mapped Z instead of inheriting an open-space floor's plane.
+	vis_flags = VIS_HIDE // SS220 EDIT: don't relay mapped platforms through open-space VIS contents.
 	climbable = TRUE
 	anchored = TRUE
 	density = TRUE
@@ -87,7 +87,7 @@
 	desc = "A square metal surface resting on four legs."
 	icon = 'icons/obj/structures/props/platforms.dmi'
 	icon_state = "platform_deco"
-	vis_flags = 0 // SS220 EDIT: platform trim must stay on its mapped Z instead of inheriting an open-space floor's plane.
+	vis_flags = VIS_HIDE // SS220 EDIT: don't relay mapped platform trim through open-space VIS contents.
 	anchored = TRUE
 	density = FALSE
 	throwpass = TRUE

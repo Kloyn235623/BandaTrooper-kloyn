@@ -80,6 +80,9 @@ GLOBAL_LIST_EMPTY(cleanable_decal_cache)
 	LAZYREMOVE(cleanable_turf.cleanables, cleanable_type)
 
 /obj/effect/decal/cleanable/proc/create_overlay(overlay_icon = icon, overlay_icon_state = icon_state)
+	if(multiz_cleanable_should_draw_as_atom()) // SS220 EDIT: keep cleanables out of lower-turf overlays relayed through open space.
+		vis_flags |= VIS_HIDE
+		return
 	overlayed_image = image(overlay_icon, icon_state = overlay_icon_state)
 	overlayed_image.appearance = appearance
 	cleanable_turf.overlays += overlayed_image
