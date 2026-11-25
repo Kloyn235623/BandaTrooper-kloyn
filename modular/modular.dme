@@ -24,6 +24,7 @@
 #include "breacher/_breacher.dme"
 #include "clf/_clf.dme"
 #include "suburb/_suburb.dme"
+#include "mining/_mining.dme"
 #include "multiz/_multiz.dme"
 #include "fire_colony/_fire_colony.dme"
 #include "uscm_camouflage/_uscm_camouflage.dme"
