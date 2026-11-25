@@ -1,6 +1,5 @@
 /obj/effect/decal
 	plane = FLOOR_PLANE
-	vis_flags = VIS_HIDE // Keep decals on their authored Z-level when open-space visuals relay the turf below.
 
 // Used for spray that you spray at walls, tables, hydrovats etc
 /obj/effect/decal/spraystill
