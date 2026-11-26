@@ -404,7 +404,9 @@
 			if(current_gear.allowed_roles && !(assignment in current_gear.allowed_roles))
 				to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Invalid Role"))
 				return
-			if(current_gear.allowed_origins && !(new_human.origin in current_gear.allowed_origins))
+			// SS220 EDIT - START: Rust Rat may use faction-origin loadout gear while preserving role and condition checks.
+			if(current_gear.allowed_origins && !(new_human.origin in current_gear.allowed_origins) && !allow_cross_faction_loadout)
+			// SS220 EDIT - END
 				to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Invalid Origin"))
 				return
 			if(!current_gear.special_conditions())
@@ -514,7 +516,9 @@ GLOBAL_LIST_EMPTY(personal_closets)
 			if(current_gear.allowed_roles && !(assignment in current_gear.allowed_roles))
 				to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Invalid Role"))
 				return
-			if(current_gear.allowed_origins && !(new_human.origin in current_gear.allowed_origins))
+			// SS220 EDIT - START: Rust Rat may use faction-origin loadout gear while preserving role and condition checks.
+			if(current_gear.allowed_origins && !(new_human.origin in current_gear.allowed_origins) && !allow_cross_faction_loadout)
+			// SS220 EDIT - END
 				to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Invalid Origin"))
 				return
 			if(!current_gear.special_conditions())

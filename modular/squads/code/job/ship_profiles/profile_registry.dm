@@ -21,6 +21,7 @@
 		/datum/squad/marine/forecon,
 		/datum/squad/marine/rmc,
 		/datum/squad/marine/iasf,
+		/datum/squad/marine/rust_rat,
 		/datum/squad/marine/halo/unsc/alpha,
 		/datum/squad/marine/halo/odst/alpha,
 	)
@@ -57,6 +58,8 @@
 	platoon_type = normalize_ship_platoon_type(platoon_type)
 	if(!platoon_type)
 		return null
+	if(platoon_type == /datum/squad/marine/rust_rat)
+		return new /datum/modular_ship_platoon_profile/rust_rat()
 	if(platoon_type == /datum/squad/marine/iasf)
 		return new /datum/modular_ship_platoon_profile/iasf()
 

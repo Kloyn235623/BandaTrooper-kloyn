@@ -1,5 +1,6 @@
 #include "halo/job_option_handlers.dm"
 #include "marine/standard_jobs.dm"
+#include "freelancer_roles.dm"
 #include "halo/unsc_jobs.dm"
 #include "halo/odst_jobs.dm"
 #include "halo/role_registration.dm"
