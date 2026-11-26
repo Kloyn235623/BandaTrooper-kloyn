@@ -552,6 +552,16 @@
 		WEAR_BODY = 'icons/mob/humans/onmob/clothing/uniforms/uniforms_by_faction/groundside_military.dmi',
 	)
 
+/obj/item/clothing/under/marine/veteran/upp/army/alt
+	name = "\\improper UPP army fatigues"
+	desc = "It's a set of standard-issue UPP Armed Collective combat fatigues with prolonged coat featuring venlar armor inserts at critical areas to protect from blades and low caliber ballistics. This particular set sports the standard pattern of the UPP Army uniform."
+	icon = 'icons/obj/items/clothing/uniforms/uniforms_by_faction/UPP.dmi'
+	icon_state = "upp_army_yellow_uniform"
+	worn_state = "upp_army_yellow_uniform"
+	item_icons = list(
+		WEAR_BODY = 'icons/mob/humans/onmob/clothing/uniforms/uniforms_by_faction/UPP.dmi',
+	)
+
 /obj/item/clothing/under/marine/veteran/UPP/boiler
 	name = "\improper UPP operations boilersuit"
 	desc = "It's a deep green boilersuit common with UPP Armed Collective personnel outside of combat zones but still featuring venlar armor inserts at critical areas to protect from blades and low caliber ballistics."
