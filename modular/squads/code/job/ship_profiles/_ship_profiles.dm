@@ -1,5 +1,6 @@
 #include "profile_base.dm"
 #include "default_profiles.dm"
+#include "rust_rat_profile.dm"
 #include "halo_profiles.dm"
 #include "profile_registry.dm"
 #include "profile_runtime_api.dm"

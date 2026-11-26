@@ -1,4 +1,5 @@
 #include "squad_base.dm"
+#include "freelancer_squad.dm"
 #include "squad_capacity.dm"
 #include "uscm_sections.dm"
 #include "halo/unsc_sections.dm"

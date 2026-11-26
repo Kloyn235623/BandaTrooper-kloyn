@@ -1358,7 +1358,9 @@
 		sure that we don't have to do any extra calculations.
 		*/
 		playsound(src, drawSound, 7, TRUE)
-		var/underlay_icon_state = istype(current_gun, /obj/item/weapon/gun/pistol/pvp_l54_gold) ? "l54" : current_gun.base_gun_icon
+		// SS220 EDIT - START: M2006 uses a lineart alias for its holster and gun-belt underlay.
+		var/underlay_icon_state = istype(current_gun, /obj/item/weapon/gun/revolver/mateba/pvp_m2006) ? current_gun.lineart_gun_icon : (istype(current_gun, /obj/item/weapon/gun/pistol/pvp_l54_gold) ? "l54" : current_gun.base_gun_icon)
+		// SS220 EDIT - END
 		var/image/gun_underlay = image(icon, underlay_icon_state)
 		if(gun_has_gamemode_skin)
 			switch(SSmapping.configs[GROUND_MAP].camouflage_type)

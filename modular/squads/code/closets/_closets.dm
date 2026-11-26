@@ -6,5 +6,6 @@
 #include "personal/halo/unsc_squad_variants.dm"
 #include "personal/crew/unsc_crew.dm"
 #include "role_lockers/halo_job_lockers.dm"
+#include "role_lockers/freelancer_gunners.dm"
 #include "personal/integrations/encryptionkey.dm"
 #include "runtime/_runtime.dm"
