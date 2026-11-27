@@ -1,3 +1,4 @@
+#include "personal/rust_rat_lockers.dm"
 #include "personal/base.dm"
 #include "personal/uscm_squad_variants.dm"
 #include "personal/halo/odst_base.dm"

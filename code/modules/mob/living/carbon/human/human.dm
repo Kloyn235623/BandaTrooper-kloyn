@@ -118,6 +118,9 @@
 	if(GLOB.RoleAuthority ? GLOB.RoleAuthority.is_shipside_role(job, TRUE) : (job in GLOB.ROLES_USCM))
 		. += ""
 		. += "<a href='byond://?MapView=1'>View Tactical Map</a>"
+	else if(istype(assigned_squad, /datum/squad/marine/rust_rat))
+		. += ""
+		. += "<a href='byond://?MapView=1'>View Tactical Map</a>"
 	if(mobility_aura)
 		. += "Active Order: MOVE"
 	if(protection_aura)
@@ -1178,6 +1181,8 @@
 /mob/living/carbon/human/proc/locate_squad_leader(tracker_setting = TRACKER_SL)
 	if(!hud_used)
 		return
+	if(tracker_setting in list(TRACKER_RUST_RAT_HANDLER, TRACKER_RUST_RAT_WARLORD, TRACKER_RUST_RAT_RIGHT_HAND))
+		return locate_rust_rat_member(tracker_setting)
 
 	var/mob/living/carbon/human/H
 	var/tracking_suffix = ""

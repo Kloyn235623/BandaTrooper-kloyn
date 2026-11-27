@@ -1186,6 +1186,8 @@ SUBSYSTEM_DEF(minimaps)
 			return MINIMAP_FLAG_TWE
 		if(FACTION_CLF)
 			return MINIMAP_FLAG_CLF
+		if(FACTION_FREELANCER)
+			return MINIMAP_FLAG_FREELANCER
 		if(FACTION_PMC)
 			return MINIMAP_FLAG_PMC
 		// SS220 EDIT - START: HALO Minimap Fix - UNSC and Covenant faction minimap flags

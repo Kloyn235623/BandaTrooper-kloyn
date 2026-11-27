@@ -481,6 +481,8 @@
 			marker_flags = MINIMAP_FLAG_PMC
 		else if(hud_type == MOB_HUD_FACTION_CLF)
 			marker_flags = MINIMAP_FLAG_CLF
+		else if(hud_type == MOB_HUD_FACTION_FREELANCER)
+			marker_flags = MINIMAP_FLAG_FREELANCER
 		else if(hud_type == MOB_HUD_FACTION_FIL)
 			marker_flags = MINIMAP_FLAG_CLF
 		// SS220 EDIT - START: HALO Minimap Fix - UNSC and Covenant minimap tracking

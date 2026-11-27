@@ -19,7 +19,8 @@
 // SS220 EDIT - START: HALO Minimap Fix - UNSC and Covenant faction flags
 #define MINIMAP_FLAG_UNSC (1<<17)
 #define MINIMAP_FLAG_COVENANT (1<<18)
-#define MINIMAP_FLAG_ALL (1<<19) - 1
+#define MINIMAP_FLAG_FREELANCER (1<<19)
+#define MINIMAP_FLAG_ALL (1<<20) - 1
 // SS220 EDIT - END
 
 ///The minimap zoom scale

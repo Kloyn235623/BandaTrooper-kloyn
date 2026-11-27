@@ -64,6 +64,7 @@
 #define MOB_HUD_MYCOTOXIN 29
 #define MOB_HUD_FACTION_HC 30 // SS220 EDIT: Hyperdyne faction HUD without colliding with local factions.
 #define MOB_HUD_FACTION_PAP 31 // SS220 EDIT: People's Armed Police HUD without colliding with local factions.
+#define MOB_HUD_FACTION_FREELANCER 32 // Rust Rat tactical map and squad HUD.
 
 //for SL/FTL/LZ targeting on locator huds
 #define TRACKER_SL "track_sl"
@@ -74,6 +75,9 @@
 #define TRACKER_CMP "track_cmp"
 #define TRACKER_CL "track_cl"
 #define TRACKER_PLTCO "track_pltco"
+#define TRACKER_RUST_RAT_HANDLER "track_rr_handler"
+#define TRACKER_RUST_RAT_WARLORD "track_rr_warlord"
+#define TRACKER_RUST_RAT_RIGHT_HAND "track_rr_right_hand"
 
 #define TRACKER_ASL "_asl" // A-Section Leader
 #define TRACKER_BSL "_bsl" // B-Section Leader

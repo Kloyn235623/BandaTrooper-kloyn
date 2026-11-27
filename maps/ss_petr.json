@@ -1,0 +1,7 @@
+{
+    "map_name": "SS Petr",
+    "map_path": "map_files/ss_petr",
+    "map_file": "ss_petr.dmm",
+    "traits": [{"Marine Main Ship": true}],
+    "platoon": "/datum/squad/marine/rust_rat"
+}

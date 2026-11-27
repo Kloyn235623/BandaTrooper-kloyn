@@ -1,3 +1,40 @@
+// Rust Rat role-specific minimap markers.
+/datum/equipment_preset/proc/get_rust_rat_minimap_icon(mob/living/carbon/human/user, icon_state)
+	var/image/background = mutable_appearance('icons/ui_icons/map_blips.dmi', "background")
+	if(user.assigned_squad)
+		background.color = user.assigned_squad.minimap_color
+	else
+		background.color = MINIMAP_ICON_BACKGROUND_CIVILIAN
+	var/mutable_appearance/role_icon = image('modular/squads/icons/HUD.dmi', icon_state = icon_state)
+	role_icon.appearance_flags = RESET_COLOR
+	background.overlays += role_icon
+	return background
+
+/datum/equipment_preset/uscm_ship/so/rust_rat/get_minimap_icon(mob/living/carbon/human/user)
+	return get_rust_rat_minimap_icon(user, "handler")
+
+/datum/equipment_preset/uscm/leader/rust_rat/get_minimap_icon(mob/living/carbon/human/user)
+	return get_rust_rat_minimap_icon(user, "leader")
+
+/datum/equipment_preset/uscm/tl/rust_rat/get_minimap_icon(mob/living/carbon/human/user)
+	return get_rust_rat_minimap_icon(user, "right_hand")
+
+/datum/equipment_preset/uscm/engineer/rust_rat/get_minimap_icon(mob/living/carbon/human/user)
+	return get_rust_rat_minimap_icon(user, "rigger")
+
+/datum/equipment_preset/uscm/medic/rust_rat/get_minimap_icon(mob/living/carbon/human/user)
+	return get_rust_rat_minimap_icon(user, "stitcher")
+
+/datum/equipment_preset/uscm/sg/rust_rat/get_minimap_icon(mob/living/carbon/human/user)
+	return get_rust_rat_minimap_icon(user, "gunner")
+
+/datum/equipment_preset/uscm/pfc/rust_rat/get_minimap_icon(mob/living/carbon/human/user)
+	return get_rust_rat_minimap_icon(user, "freelancer")
+
+// Tin keeps the synthetic icon, distinct from all seven human role markers.
+/datum/equipment_preset/synth/uscm/rust_rat
+	minimap_icon = "synth"
+
 // Rust Rat skill variants and role presets.
 /datum/skills/rust_rat/right_hand
 	name = "Rust Rat Right Hand"

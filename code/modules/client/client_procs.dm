@@ -176,7 +176,11 @@ GLOBAL_LIST_INIT(whitelisted_client_procs, list(
 	else if(href_list["MapView"])
 		if(isxeno(mob))
 			return
-		open_faction_status_tacmap(mob)
+		var/mob/living/carbon/human/rust_rat_viewer = mob
+		if(istype(rust_rat_viewer?.assigned_squad, /datum/squad/marine/rust_rat))
+			GLOB.rust_rat_tacmap_status.tgui_interact(mob)
+		else
+			open_faction_status_tacmap(mob)
 
 	//NOTES OVERHAUL
 	if(href_list["add_merit_info"])

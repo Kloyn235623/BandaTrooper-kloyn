@@ -17,6 +17,7 @@ GLOBAL_LIST_INIT_TYPED(huds, /datum/mob_hud, flatten_numeric_alist(alist(
 	MOB_HUD_FACTION_NAVY = new /datum/mob_hud/faction/navy(),
 	MOB_HUD_FACTION_UPP = new /datum/mob_hud/faction/upp(),
 	MOB_HUD_FACTION_PAP = new /datum/mob_hud/faction/pap(),
+	MOB_HUD_FACTION_FREELANCER = new /datum/mob_hud/faction/freelancer(),
 	MOB_HUD_FACTION_WY = new /datum/mob_hud/faction/wy(),
 	MOB_HUD_FACTION_HC = new /datum/mob_hud/faction/hyperdyne(),
 	MOB_HUD_FACTION_TWE = new /datum/mob_hud/faction/twe(),
@@ -253,6 +254,9 @@ GLOBAL_LIST_INIT_TYPED(huds, /datum/mob_hud, flatten_numeric_alist(alist(
 
 /datum/mob_hud/faction/clf
 	faction_to_check = FACTION_CLF
+
+/datum/mob_hud/faction/freelancer
+	faction_to_check = FACTION_FREELANCER
 
 /datum/mob_hud/faction/pmc
 	faction_to_check = FACTION_PMC
