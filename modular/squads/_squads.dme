@@ -4,6 +4,7 @@
 #include "code/configuration.dm"
 #include "code/debug.dm"
 #include "code/vendors/freelancer_vendors.dm"
+#include "code/radio/freelancer_radio.dm"
 #include "code/squad_name_manager/_squad_name_manager.dm"
 #include "code/closets/_closets.dm"
 #include "code/equipment_presets/_equipment_presets.dm"

@@ -74,6 +74,7 @@ Radiochat range: 1441 to 1489 (most devices refuse to be tune to other frequency
 #define YAUT_FREQ 1205
 #define DUT_FREQ 1210
 #define MERC_FREQ 1212
+#define FREELANCER_FREQ 1221 // SS220 ADD: dedicated Rust Rat squad frequency
 #define VAI_FREQ 1215
 #define RMC_FREQ 1216
 #define IASF_FREQ 1218
@@ -178,6 +179,7 @@ GLOBAL_LIST_INIT(radiochannels, list(
 	RADIO_CHANNEL_IASF = IASF_FREQ,
 	RADIO_CHANNEL_CIA = CIA_FREQ,
 	RADIO_CHANNEL_MERC = MERC_FREQ,
+	RADIO_CHANNEL_FREELANCER = FREELANCER_FREQ, // SS220 ADD: Rust Rat radio channel
 
 	RADIO_CHANNEL_HIGHCOM = HC_FREQ,
 	RADIO_CHANNEL_PROVOST = PVST_FREQ,
@@ -325,6 +327,7 @@ SUBSYSTEM_DEF(radio)
 		"[ARM_FREQ]" = "armyradio",
 		"[GRD_FREQ]" = "guardradio",
 		"[MERC_FREQ]" = "mercradio",
+		"[FREELANCER_FREQ]" = "freelancerradio", // SS220 ADD: gray Rust Rat radio channel style
 		"[ALPHA_FREQ]" = "alpharadio",
 		"[BRAVO_FREQ]" = "bravoradio",
 		"[CHARLIE_FREQ]" = "charlieradio",

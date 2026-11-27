@@ -84,6 +84,7 @@
 #define RADIO_CHANNEL_IASF "IASF"
 #define RADIO_CHANNEL_CIA "CIA"
 #define RADIO_CHANNEL_MERC "Mercenaries"
+#define RADIO_CHANNEL_FREELANCER "Rust Rat" // SS220 ADD: dedicated Rust Rat squad channel
 #define RADIO_CHANNEL_fil "FIL"
 
 #define RADIO_CHANNEL_YAUTJA "Yautja"

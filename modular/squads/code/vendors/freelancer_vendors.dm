@@ -14,7 +14,7 @@
 		list("STANDARD EQUIPMENT", -1, null, null, null),
 		list("Freelancer Fatigues", 15, /obj/item/clothing/under/marine/veteran/freelancer, VENDOR_ITEM_REGULAR),
 		list("Marine Combat Boots", 15, /obj/item/clothing/shoes/marine/knife, VENDOR_ITEM_REGULAR),
-		list("USCM Marine Radio Headset", 15, /obj/item/device/radio/headset/almayer/marine/solardevils, VENDOR_ITEM_REGULAR),
+		list("Rust Rat Radio Headset", 15, /obj/item/device/radio/headset/almayer/freelancer, VENDOR_ITEM_REGULAR),
 		list("M5 Pattern Camera Unit", 10, /obj/item/device/overwatch_camera, VENDOR_ITEM_REGULAR),
 		list("Black Fingerless Combat Gloves", 15, /obj/item/clothing/gloves/marine/fingerless, VENDOR_ITEM_REGULAR),
 		list("Black Gloves", 15, /obj/item/clothing/gloves/black, VENDOR_ITEM_REGULAR),
@@ -76,9 +76,6 @@
 		list("Pistol Pouch", 15, /obj/item/storage/pouch/pistol, VENDOR_ITEM_REGULAR),
 
 		list("ADDITIONAL MARINE POUCHES", -1, null, null),
-		list("Webbing", 10, /obj/item/clothing/accessory/storage/webbing, VENDOR_ITEM_REGULAR),
-		list("Brown Webbing Vest", 15, /obj/item/clothing/accessory/storage/black_vest/brown_vest, VENDOR_ITEM_REGULAR),
-		list("Black Webbing Vest", 15, /obj/item/clothing/accessory/storage/black_vest, VENDOR_ITEM_REGULAR),
 		list("Machete Scabbard (Full)", 15, /obj/item/storage/large_holster/machete/full, VENDOR_ITEM_REGULAR),
 		list("Machete Pouch (Full)", 15, /obj/item/storage/pouch/machete/full, VENDOR_ITEM_REGULAR),
 		list("Fuel Tank Strap Pouch", 5, /obj/item/storage/pouch/flamertank, VENDOR_ITEM_REGULAR),
@@ -147,12 +144,12 @@
 		list("M94 Marking Flare Pack", 10, /obj/item/storage/box/flare, VENDOR_ITEM_REGULAR),
 
 		list("SIDEARMS", -1, null, null),
-		list("HG-45 'Marina' Black Pistol", 3, /obj/item/weapon/gun/pistol/highpower/black, VENDOR_ITEM_REGULAR),
+		list("HG-44 'Automag' Pistol", 3, /obj/item/weapon/gun/pistol/highpower/automag, VENDOR_ITEM_REGULAR),
 		list("M1911 Pistol", 3, /obj/item/weapon/gun/pistol/m1911, VENDOR_ITEM_REGULAR),
 		list("Webley Mk VI Revolver", 3, /obj/item/weapon/gun/revolver/m44/custom/webley, VENDOR_ITEM_REGULAR),
 
 		list("SIDEARM AMMUNITION", -1, null, null),
-		list("HG-45 'Marina' Magazine (.45)", 10, /obj/item/ammo_magazine/pistol/highpower/black, VENDOR_ITEM_REGULAR),
+		list("HG-44 'Automag' Magazine (.44)", 10, /obj/item/ammo_magazine/pistol/highpower/automag, VENDOR_ITEM_REGULAR),
 		list("M1911 Magazine (.45)", 10, /obj/item/ammo_magazine/pistol/m1911, VENDOR_ITEM_REGULAR),
 		list("Webley Speedloader (.455)", 10, /obj/item/ammo_magazine/revolver/webley, VENDOR_ITEM_REGULAR),
 
@@ -221,23 +218,36 @@ GLOBAL_LIST_INIT(cm_vending_gear_freelancer_rigger, list(
 	name = "Rust Rat Rigger Gear Rack"
 	desc = "A limited equipment rack for Rust Rat riggers."
 	req_access = list()
-	vendor_role = list()
+	vendor_role = list(JOB_RUST_RAT_RIGGER)
+	use_points = FALSE
+	show_points = FALSE
+	vend_flags = VEND_CLUTTER_PROTECTION | VEND_LIMITED_INVENTORY | VEND_TO_HAND
+
+/obj/structure/machinery/cm_vending/gear/engi/freelancer/Initialize(mapload)
+	. = ..()
+	listed_products = list()
+	for(var/list/product as anything in GLOB.cm_vending_gear_freelancer_rigger)
+		listed_products += list(product.Copy())
 
 /obj/structure/machinery/cm_vending/gear/engi/freelancer/get_listed_products(mob/user)
-	return GLOB.cm_vending_gear_freelancer_rigger
+	return listed_products
 
-// Permit the requested webbing to attach to these vests and use their existing accessory overlay route.
+/obj/structure/machinery/cm_vending/gear/engi/freelancer/ui_static_data(mob/user)
+	. = ..(user)
+	.["vendor_type"] = "sorted"
+
+// Allow utility-slot load-bearing accessories to attach instead of falling into the built-in pockets.
 /obj/item/clothing/under/marine/veteran/freelancer
 	suit_restricted = null
 
 /obj/item/clothing/suit/storage/marine/light/vest
-	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_M3UTILITY)
+	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_UTILITY)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_M3UTILITY)
 
 /obj/item/clothing/suit/storage/marine/veteran/ua_riot
-	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_M3UTILITY)
+	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_UTILITY)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_M3UTILITY)
 
 /obj/item/clothing/suit/storage/marine/faction/freelancer
-	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_M3UTILITY)
+	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_UTILITY)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_M3UTILITY)

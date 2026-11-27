@@ -35,7 +35,8 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 	":3" = RADIO_CHANNEL_REBEL_TWE, ".3" = RADIO_CHANNEL_REBEL_TWE, "#3" = RADIO_CHANNEL_REBEL_TWE,
 	":4" = RADIO_CHANNEL_UPP_RCN, ".4" = RADIO_CHANNEL_UPP_RCN, "#4" = RADIO_CHANNEL_UPP_RCN,
 	":5" = RADIO_CHANNEL_IASF, ".5" = RADIO_CHANNEL_IASF, "#5" = RADIO_CHANNEL_IASF,
-	//5-9 available, CLF not in use, channels available for overwrite.
+	"#6" = RADIO_CHANNEL_FREELANCER, // SS220 EDIT: dedicated key for the Rust Rat channel
+	//6-9 available, CLF not in use, channels available for overwrite.
 ))
 
 /proc/channel_to_prefix(channel)
