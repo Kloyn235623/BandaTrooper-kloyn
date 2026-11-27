@@ -674,13 +674,14 @@
 
 /datum/ammo/bullet/rifle/twe
 	name = "8.5x33 bullet"
-	damage = 36
-	penetration = ARMOR_PENETRATION_TIER_2
+	damage = 55
+	penetration = ARMOR_PENETRATION_TIER_3
 	accurate_range = 20
 
 /datum/ammo/bullet/rifle/ap/twe
 	name = "armor-piercing 8.5x33 bullet"
-
+	damage = 42
+	penetration = ARMOR_PENETRATION_TIER_3
 /datum/ammo/bullet/rifle/heap/twe
 	name = "high-explosive armor-piercing 8.5x33 bullet"
 	damage = 50

@@ -1186,7 +1186,7 @@
 	w_class = SIZE_LARGE
 	max_w_class = SIZE_SMALL
 	storage_flags = NONE
-	storage_slots = 4
+	storage_slots = 5
 
 /obj/item/clothing/accessory/storage/holster
 	name = "shoulder holster"
@@ -1201,7 +1201,7 @@
 	var/obj/item/weapon/gun/current_gun
 	var/sheatheSound = 'sound/weapons/gun_pistol_sheathe.ogg'
 	var/drawSound = 'sound/weapons/gun_pistol_draw.ogg'
-	storage_slots = 4
+	storage_slots = 5
 	storage_flags = STORAGE_ALLOW_QUICKDRAW|STORAGE_FLAGS_POUCH
 	can_hold = list(
 
@@ -1848,6 +1848,7 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/handful,
 	)
+	storage_slots = 7
 
 /obj/item/clothing/accessory/storage/webbing/m3/small
 	name = "\improper M3 Pattern Small Pouch Webbing"
@@ -1910,7 +1911,7 @@
 	hold = /obj/item/storage/internal/accessory/black_vest/m3grenade
 
 /obj/item/storage/internal/accessory/black_vest/m3grenade
-	storage_slots = 7
+	storage_slots = 10
 	can_hold = list(
 		/obj/item/explosive/grenade/high_explosive,
 		/obj/item/explosive/grenade/high_explosive/super,
@@ -1964,7 +1965,7 @@
 	hold = /obj/item/storage/internal/accessory/black_vest/m3grenade/recon
 
 /obj/item/storage/internal/accessory/black_vest/m3grenade/recon
-	storage_slots = 10
+	storage_slots = 15
 
 /obj/item/clothing/accessory/storage/webbing/m3/recon/shotgun
 	name = "\improper M3-R Pattern Shell Webbing"
@@ -1973,7 +1974,7 @@
 	hold = /obj/item/storage/internal/accessory/black_vest/m3shotgun/recon
 
 /obj/item/storage/internal/accessory/black_vest/m3shotgun/recon
-	storage_slots = 7
+	storage_slots = 10
 
 /obj/item/clothing/accessory/storage/webbing/m3/recon/medic
 	name = "\improper M3-R Pattern Corpsman Webbing"
@@ -2033,7 +2034,7 @@
 	hold = /obj/item/storage/internal/accessory/black_vest/m56/preset
 
 /obj/item/storage/internal/accessory/black_vest/m56
-	storage_slots = 3
+	storage_slots = 4
 
 /obj/item/storage/internal/accessory/black_vest/m56/preset/fill_preset_inventory()
 	new /obj/item/storage/box/mre(src)
@@ -2049,7 +2050,7 @@
 	hold = /obj/item/storage/internal/accessory/black_vest/m56/grenade
 
 /obj/item/storage/internal/accessory/black_vest/m56/grenade
-	storage_slots = 4
+	storage_slots = 7
 	can_hold = list(
 		/obj/item/explosive/grenade/high_explosive,
 		/obj/item/explosive/grenade/high_explosive/super,
