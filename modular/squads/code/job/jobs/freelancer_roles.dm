@@ -1,6 +1,7 @@
 // Rust Rat player roles. The ship profile preserves the requested role selection order.
 /datum/job/command/bridge/ai/rust_rat
 	title = JOB_RUST_RAT_HANDLER
+	disp_title = JOB_RUST_RAT_HANDLER
 	job_options = null
 	total_positions = 1
 	spawn_positions = 1
@@ -8,6 +9,7 @@
 
 /datum/job/marine/leader/ai/rust_rat
 	title = JOB_RUST_RAT_WARLORD
+	disp_title = JOB_RUST_RAT_WARLORD
 	job_options = null
 	total_positions = 1
 	spawn_positions = 1
@@ -15,6 +17,7 @@
 
 /datum/job/marine/tl/ai/rust_rat
 	title = JOB_RUST_RAT_RIGHT_HAND
+	disp_title = JOB_RUST_RAT_RIGHT_HAND
 	job_options = null
 	total_positions = 1
 	spawn_positions = 1
@@ -22,6 +25,7 @@
 
 /datum/job/marine/engineer/ai/rust_rat
 	title = JOB_RUST_RAT_RIGGER
+	disp_title = JOB_RUST_RAT_RIGGER
 	job_options = null
 	total_positions = 1
 	spawn_positions = 1
@@ -29,6 +33,7 @@
 
 /datum/job/marine/medic/ai/rust_rat
 	title = JOB_RUST_RAT_STITCHER
+	disp_title = JOB_RUST_RAT_STITCHER
 	job_options = null
 	total_positions = 1
 	spawn_positions = 1
@@ -36,6 +41,7 @@
 
 /datum/job/marine/smartgunner/ai/rust_rat
 	title = JOB_RUST_RAT_GUNNER
+	disp_title = JOB_RUST_RAT_GUNNER
 	job_options = null
 	total_positions = 2
 	spawn_positions = 2
@@ -43,6 +49,7 @@
 
 /datum/job/marine/standard/ai/rust_rat
 	title = JOB_RUST_RAT_FREELANCER
+	disp_title = JOB_RUST_RAT_FREELANCER
 	job_options = null
 	total_positions = 6
 	spawn_positions = 6
@@ -50,6 +57,7 @@
 
 /datum/job/marine/standard/ai/rust_rat/tin
 	title = JOB_RUST_RAT_TIN
+	disp_title = JOB_RUST_RAT_TIN
 	job_options = null
 	total_positions = 1
 	spawn_positions = 1

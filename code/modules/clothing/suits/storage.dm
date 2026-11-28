@@ -15,7 +15,7 @@
 	return ..()
 
 /obj/item/clothing/suit/storage/get_pockets()
-	if(pockets)
+	if(pockets && storage_slots > 0) // SS220 EDIT: zero-slot armor uses attached webbing storage
 		return pockets
 	return ..()
 
@@ -24,17 +24,23 @@
 		..(user) // If it's in a box (e.g. SG or spec gear), don't click the pockets pls
 		return
 
-	if(pockets.handle_attack_hand(user, mods))
+	var/obj/item/storage/internal/storage = get_pockets() // SS220 EDIT
+	if(!storage || storage.handle_attack_hand(user, mods)) // SS220 EDIT
 		..(user)
 
 /obj/item/clothing/suit/storage/MouseDrop(obj/over_object)
-	if (pockets.handle_mousedrop(usr, over_object))
+	var/obj/item/storage/internal/storage = get_pockets() // SS220 EDIT
+	if (!storage || storage.handle_mousedrop(usr, over_object)) // SS220 EDIT
 		..(over_object)
 
 /obj/item/clothing/suit/storage/attackby(obj/item/W, mob/user)
 	. = ..()
-	if(!.) //To prevent bugs with accessories being moved into storage slots after being attached.
-		return pockets.attackby(W, user)
+	// SS220 EDIT - START: clothing already dispatches inserted items to accessories.
+	var/obj/item/clothing/accessory/storage/webbing = locate() in accessories
+	if(!. && !webbing)
+		var/obj/item/storage/internal/storage = get_pockets()
+		return storage?.attackby(W, user)
+	// SS220 EDIT - END
 
 /obj/item/clothing/suit/storage/emp_act(severity)
 	. = ..()
@@ -55,7 +61,8 @@
 				A.hold.storage_draw_logic(A.name)
 				break
 	else
-		pockets.storage_draw_logic(src.name)
+		var/obj/item/storage/internal/storage = get_pockets() // SS220 EDIT
+		storage?.storage_draw_logic(src.name) // SS220 EDIT
 
 // Decides the storage flags when Switch Storage Draw Method gets called
 /obj/item/storage/proc/storage_draw_logic(name)

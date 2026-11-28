@@ -135,7 +135,7 @@
 	rank = JOB_RUST_RAT_GUNNER
 	paygrades = list(PAY_SHORT_RR_GUNNER = JOB_PLAYTIME_TIER_0)
 	idtype = /obj/item/card/id/dogtag
-	access = list(ACCESS_RUST_RAT_SHIP)
+	access = list(ACCESS_RUST_RAT_SHIP, ACCESS_MARINE_SMARTPREP)
 	faction = FACTION_FREELANCER
 	faction_group = list(FACTION_FREELANCER)
 	allow_cross_faction_loadout = TRUE

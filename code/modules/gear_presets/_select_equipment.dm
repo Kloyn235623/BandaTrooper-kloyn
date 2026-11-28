@@ -401,7 +401,7 @@
 	for(var/gear_name in new_human.client.prefs.gear)
 		var/datum/gear/current_gear = GLOB.gear_datums_by_name[gear_name]
 		if(current_gear)
-			if(current_gear.allowed_roles && !(assignment in current_gear.allowed_roles))
+			if(current_gear.allowed_roles && !(assignment in current_gear.allowed_roles) && !allow_cross_faction_loadout) // SS220 EDIT: Rust Rat accepts every faction loadout
 				to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Invalid Role"))
 				return
 			// SS220 EDIT - START: Rust Rat may use faction-origin loadout gear while preserving role and condition checks.
@@ -513,7 +513,7 @@ GLOBAL_LIST_EMPTY(personal_closets)
 	for(var/gear_name in new_human.client.prefs.gear)
 		var/datum/gear/current_gear = GLOB.gear_datums_by_name[gear_name]
 		if(current_gear)
-			if(current_gear.allowed_roles && !(assignment in current_gear.allowed_roles))
+			if(current_gear.allowed_roles && !(assignment in current_gear.allowed_roles) && !allow_cross_faction_loadout) // SS220 EDIT: Rust Rat accepts every faction loadout
 				to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Invalid Role"))
 				return
 			// SS220 EDIT - START: Rust Rat may use faction-origin loadout gear while preserving role and condition checks.

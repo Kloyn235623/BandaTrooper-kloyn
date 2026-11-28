@@ -2,36 +2,36 @@
 
 /datum/paygrade/marine/o2/rust_rat_handler
 	paygrade = PAY_SHORT_RR_HANDLER
-	name = "Командир корабля"
-	prefix = "КК"
+	name = "Куратор"
+	prefix = "КУР"
 	rank_pin = null
 	default_faction = FACTION_FREELANCER
 
 /datum/paygrade/marine/e7/rust_rat_warlord
 	paygrade = PAY_SHORT_RR_WARLORD
-	name = "Лидер"
-	prefix = "ЛИД"
+	name = "Военачальник"
+	prefix = "ВОЕН"
 	rank_pin = null
 	default_faction = FACTION_FREELANCER
 
 /datum/paygrade/marine/e5/rust_rat_right_hand
 	paygrade = PAY_SHORT_RR_RIGHT_HAND
-	name = "Заместитель лидера"
-	prefix = "ЗЛ"
+	name = "Правая рука"
+	prefix = "ПР"
 	rank_pin = null
 	default_faction = FACTION_FREELANCER
 
 /datum/paygrade/marine/e3/rust_rat_rigger
 	paygrade = PAY_SHORT_RR_RIGGER
-	name = "Инженер-связист"
-	prefix = "ИС"
+	name = "Отладчик"
+	prefix = "ОТЛ"
 	rank_pin = null
 	default_faction = FACTION_FREELANCER
 
 /datum/paygrade/marine/e4/rust_rat_stitcher
 	paygrade = PAY_SHORT_RR_STITCHER
-	name = "Медик"
-	prefix = "МЕД"
+	name = "Штопальщик"
+	prefix = "ШТ"
 	rank_pin = null
 	default_faction = FACTION_FREELANCER
 
@@ -44,13 +44,13 @@
 
 /datum/paygrade/marine/e2/rust_rat_freelancer
 	paygrade = PAY_SHORT_RR_FREELANCER
-	name = "Боец"
-	prefix = "БОЕЦ"
+	name = "Наёмник"
+	prefix = "НАЁМ"
 	rank_pin = null
 	default_faction = FACTION_FREELANCER
 
 /datum/paygrade/misc/synth/rust_rat_tin
 	paygrade = PAY_SHORT_RR_TIN
-	name = "Синтетик"
-	prefix = "СИН"
+	name = "Жестянка"
+	prefix = "ЖЕСТ"
 	default_faction = FACTION_FREELANCER

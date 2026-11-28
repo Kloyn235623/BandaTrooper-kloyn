@@ -635,7 +635,7 @@
 	worn_state = "freelancer_uniform"
 	min_cold_protection_temperature = ICE_PLANET_MIN_COLD_PROT
 	has_sensor = UNIFORM_NO_SENSORS
-	suit_restricted = list(/obj/item/clothing/suit/storage/marine/faction/freelancer, /obj/item/clothing/suit/storage/webbing, /obj/item/clothing/suit/storage/utility_vest)
+	suit_restricted = null // SS220 EDIT: Freelancer fatigues accept any armor
 
 //=========================//Dutch Dozen\\================================\\
 

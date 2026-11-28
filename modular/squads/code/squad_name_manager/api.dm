@@ -17,6 +17,9 @@
 	if(!base_assignment)
 		return null
 
+	if(istype(target_squad, /datum/squad/marine/rust_rat))
+		return "[target_squad.name] [base_assignment]"
+
 	var/canonical_role = GET_DEFAULT_ROLE(H.job)
 	if(GLOB.job_squad_roles.Find(canonical_role))
 		var/role_label = canonical_role

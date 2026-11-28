@@ -37,7 +37,7 @@
 		squads_debug_log("find_personal_locker_for_player called with null human.")
 		return null
 
-	var/list/active_human_names = late_join ? collect_active_human_names() : null
+	var/list/active_human_names = late_join ? collect_alive_human_names() : null
 	var/list/free_candidates = list()
 	var/list/reclaimed_candidates = late_join ? list() : null
 
@@ -78,10 +78,10 @@
 		var/datum/gear/current_gear = GLOB.gear_datums_by_name[gear_name]
 		if(!current_gear)
 			continue
-		if(current_gear.allowed_roles && !(assignment in current_gear.allowed_roles))
+		if(current_gear.allowed_roles && !(assignment in current_gear.allowed_roles) && !allow_cross_faction_loadout)
 			to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Invalid Role"))
 			continue
-		if(current_gear.allowed_origins && !(new_human.origin in current_gear.allowed_origins))
+		if(current_gear.allowed_origins && !(new_human.origin in current_gear.allowed_origins) && !allow_cross_faction_loadout)
 			to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Invalid Origin"))
 			continue
 		if(!current_gear.special_conditions())
@@ -256,6 +256,8 @@
 		squads_debug_log("[new_human] matched empty locker [locker], restoring baseline spawn gear before claim.")
 		locker.spawn_gear()
 
+	if(allow_cross_faction_loadout && !(locate(/obj/item/clothing/under) in locker))
+		new /obj/item/clothing/under/marine/veteran/freelancer(locker)
 	locker.owner = new_human.real_name
 	locker.name = "личный шкафчик [locker.owner]"
 	squads_debug_log("[new_human] assigned personal locker [locker].")

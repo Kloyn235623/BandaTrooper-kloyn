@@ -246,8 +246,6 @@ GLOBAL_LIST_INIT(cm_vending_gear_freelancer_rigger, list(
 	.["vendor_type"] = "sorted"
 
 // Allow utility-slot load-bearing accessories to attach instead of falling into the built-in pockets.
-/obj/item/clothing/under/marine/veteran/freelancer
-	suit_restricted = null
 
 /obj/item/clothing/suit/storage/marine/light/vest
 	valid_accessory_slots = list(ACCESSORY_SLOT_MEDAL, ACCESSORY_SLOT_PONCHO, ACCESSORY_SLOT_GASMASK, ACCESSORY_SLOT_M3UTILITY, ACCESSORY_SLOT_UTILITY)

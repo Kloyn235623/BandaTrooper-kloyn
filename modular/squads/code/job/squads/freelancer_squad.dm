@@ -10,3 +10,11 @@
 	active = TRUE
 	roundstart = TRUE
 	omni_squad_vendor = TRUE
+
+/datum/squad/marine/rust_rat/get_role_label(canonical_role)
+	switch(canonical_role)
+		if(JOB_SQUAD_LEADER)
+			return JOB_RUST_RAT_WARLORD
+		if(JOB_SQUAD_TEAM_LEADER)
+			return JOB_RUST_RAT_RIGHT_HAND
+	return ..()
