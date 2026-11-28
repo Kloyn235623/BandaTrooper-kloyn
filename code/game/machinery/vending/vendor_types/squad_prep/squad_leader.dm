@@ -211,3 +211,30 @@ GLOBAL_LIST_INIT(cm_vending_clothing_leader, list(
 		/obj/item/tool/extinguisher/mini,
 		/obj/item/storage/box/zipcuffs,
 	)
+
+GLOBAL_LIST_INIT(cm_vending_clothing_leader_pve, list(
+		list("ADVANCED EQUIPMENT (TAKE ALL)", 0, null, null, null),
+		list("Advanced Armor Kit", 0, list(/obj/item/clothing/accessory/health/ceramic_plate/marine, /obj/item/clothing/head/helmet/marine/leader, /obj/item/clothing/suit/marine/medium/rto/md), MARINE_CAN_BUY_UNIFORM, VENDOR_ITEM_MANDATORY),
+
+		list("SIDEARM (CHOOSE 1)", 0, null, null, null),
+		list("VP78M6", 0, /obj/item/weapon/gun/pistol/vp78m6, MARINE_CAN_BUY_KIT, VENDOR_ITEM_REGULAR),
+
+		list("ADVANCED WEBBINGS (CHOOSE 1)", 0, null, null, null),
+		list("M3-R Pattern Webbing", 0, /obj/item/clothing/accessory/storage/webbing/m3/recon, MARINE_CAN_BUY_ACCESSORY, VENDOR_ITEM_REGULAR),
+		list("M3-R Pattern Shotgun Shell Webbing", 0, /obj/item/clothing/accessory/storage/webbing/m3/recon/shotgun, MARINE_CAN_BUY_ACCESSORY, VENDOR_ITEM_REGULAR),
+		list("M3-R Pattern M40 Webbing", 0, /obj/item/clothing/accessory/storage/webbing/m3/recon/m40, MARINE_CAN_BUY_ACCESSORY, VENDOR_ITEM_REGULAR),
+		list("Shoulder Holster", 0, /obj/item/clothing/accessory/storage/holster, MARINE_CAN_BUY_ACCESSORY, VENDOR_ITEM_REGULAR),
+
+		list("BELT (CHOOSE 1)", 0, null, null, null),
+		list("M276 Lifesaver Bag", 0, /obj/item/storage/belt/medical/lifesaver, MARINE_CAN_BUY_BELT, VENDOR_ITEM_REGULAR),
+		list("M276 Shotgun Shell Loading Rig", 0, /obj/item/storage/belt/shotgun, MARINE_CAN_BUY_BELT, VENDOR_ITEM_REGULAR),
+		list("M276 Toolbelt Rig (Full)", 0, /obj/item/storage/belt/utility/full, MARINE_CAN_BUY_BELT, VENDOR_ITEM_REGULAR),
+
+		list("POUCHES (CHOOSE 2)", 0, null, null, null),
+		list("Autoinjector Pouch (Full)", 0, /obj/item/storage/pouch/autoinjector/full, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_RECOMMENDED),
+		list("Fuel Tank Strap Pouch", 0, /obj/item/storage/pouch/flamertank, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_REGULAR),
+		list("Large General Pouch", 0, /obj/item/storage/pouch/general/large, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_RECOMMENDED),
+		list("Large Magazine Pouch", 0, /obj/item/storage/pouch/magazine/large, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_REGULAR),
+		list("Large Shotgun Shell Pouch", 0, /obj/item/storage/pouch/shotgun/large, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_REGULAR),
+		list("Large Pistol Magazine Pouch", 0, /obj/item/storage/pouch/magazine/pistol/large, MARINE_CAN_BUY_POUCH, VENDOR_ITEM_REGULAR),
+	))

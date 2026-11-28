@@ -116,7 +116,7 @@
 		/obj/item/tool/shovel/etool,
 		/obj/item/device/lightreplacer,
 	)
-	storage_slots = 10
+	storage_slots = 12
 
 /obj/item/storage/belt/utility/full/fill_preset_inventory()
 	new /obj/item/tool/screwdriver(src)
@@ -751,7 +751,7 @@
 	icon_state = "marinebelt"
 	item_state = "marinebelt"
 	w_class = SIZE_LARGE
-	storage_slots = 5
+	storage_slots = 6
 	max_w_class = SIZE_MEDIUM
 	max_storage_space = 20
 	can_hold = list(
@@ -1241,7 +1241,7 @@
 		WEAR_L_HAND = "s_marinebelt",
 		WEAR_R_HAND = "s_marinebelt")
 	w_class = SIZE_LARGE
-	storage_slots = 14
+	storage_slots = 16
 	max_w_class = SIZE_MEDIUM
 	can_hold = list(/obj/item/explosive/grenade)
 
@@ -1269,13 +1269,13 @@
 /obj/item/storage/belt/grenade/wy
 	name="\improper WY-TM-386 pattern M40 Grenade rig"
 	desc="The WY-TM-386 is the standard load-bearing equipment of the W-Y security forces. It consists of a modular belt with various clips. This version is designed to carry bulk quantities of M40 pattern and AGM pattern Grenades."
-	storage_slots = 20
+	storage_slots = 21
 	max_storage_space = 60
 
 /obj/item/storage/belt/grenade/large
 	name="\improper M276 pattern M40 Grenade rig Mk. II"
 	desc="The M276 Mk. II is is an upgraded version of the M276 grenade rig, with more storage capacity."
-	storage_slots = 18
+	storage_slots = 21
 	max_storage_space = 54
 
 /obj/item/storage/belt/grenade/large/full/fill_preset_inventory()
@@ -1713,7 +1713,7 @@
 	desc = "Special issue variant of the M276 designed to holster a M39 submachine gun and two spare magazines. Uncommonly issued to USCM support and specialist personnel."
 	icon_state = "m39_armor"
 	item_state = "s_marinebelt"
-	storage_slots = 3
+	storage_slots = 4
 	max_w_class = 5
 	can_hold = list(
 		/obj/item/weapon/gun/smg/m39,
@@ -1799,7 +1799,7 @@
 	icon_state = "shotgunholster"
 	has_gamemode_skin = FALSE
 	gun_has_gamemode_skin = FALSE
-	storage_slots = 4
+	storage_slots = 6
 	max_w_class = 5
 	can_hold = list(
 		/obj/item/ammo_magazine/handful,
@@ -2452,7 +2452,7 @@
 	)
 	bypass_w_limit = list(/obj/item/mortar_shell, /obj/item/device/binoculars)
 	has_gamemode_skin = FALSE
-	storage_slots = 8
+	storage_slots = 11
 
 /obj/item/storage/belt/gun/mortarbelt/full_upp/fill_preset_inventory()
 	handle_item_insertion(new /obj/item/weapon/gun/pistol/np92/unloaded())
@@ -2467,7 +2467,7 @@
 /obj/item/storage/belt/gun/utility
 	name = "\improper M276 pattern combat toolbelt rig"
 	desc = "The M276 pattern combat toolbelt rig is an alternative load-bearing equipment of the USCM for engineers conducting repairs within combat zones. It consists of a modular belt with various clips and pouches for tools along with a holster for a sidearm. Due to the bulk of the sidearm, it is unable to hold as many tools as its standard counterpart."
-	storage_slots = 9
+	storage_slots = 12
 	icon_state = "combatutility"
 	item_state= "utility"
 	can_hold = list(
