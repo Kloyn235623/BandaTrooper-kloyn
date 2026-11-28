@@ -132,6 +132,7 @@
 #include "code\__DEFINES\bandamarines\arachnid.dm"
 #include "code\__DEFINES\bandamarines\cyrillic.dm"
 #include "code\__DEFINES\bandamarines\game_master.dm"
+#include "code\__DEFINES\bandamarines\freelancer_access.dm"
 #include "code\__DEFINES\bandamarines\halo_map_support.dm"
 #include "code\__DEFINES\bandamarines\halo_species_support.dm"
 #include "code\__DEFINES\bandamarines\pronouns.dm"

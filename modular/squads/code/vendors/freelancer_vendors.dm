@@ -1,4 +1,13 @@
 // Freelancer personal equipment vendor.
+/obj/item/clothing/suit/storage/marine/light/vest/rust_rat
+	storage_slots = 0
+
+/obj/item/clothing/suit/storage/marine/veteran/ua_riot/rust_rat
+	storage_slots = 0
+
+/obj/item/clothing/suit/storage/marine/faction/freelancer/rust_rat
+	storage_slots = 0
+
 /obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep/freelancer
 	name = "ColMarTech Freelancer Equipment Vendor"
 	desc = "An automated USCM-style rack of personal equipment for Freelancer personnel."
@@ -20,9 +29,9 @@
 		list("Black Gloves", 15, /obj/item/clothing/gloves/black, VENDOR_ITEM_REGULAR),
 
 		list("ARMOR", -1, null, null),
-		list("M3-VL Ballistics Vest", 3, /obj/item/clothing/suit/storage/marine/light/vest, VENDOR_ITEM_REGULAR),
-		list("UA-M1 Body Armor", 3, /obj/item/clothing/suit/storage/marine/veteran/ua_riot, VENDOR_ITEM_REGULAR),
-		list("Freelancer Cuirass", 5, /obj/item/clothing/suit/storage/marine/faction/freelancer, VENDOR_ITEM_REGULAR),
+		list("M3-VL Ballistics Vest", 3, /obj/item/clothing/suit/storage/marine/light/vest/rust_rat, VENDOR_ITEM_REGULAR),
+		list("UA-M1 Body Armor", 3, /obj/item/clothing/suit/storage/marine/veteran/ua_riot/rust_rat, VENDOR_ITEM_REGULAR),
+		list("Freelancer Cuirass", 5, /obj/item/clothing/suit/storage/marine/faction/freelancer/rust_rat, VENDOR_ITEM_REGULAR),
 		list("UA Riot Control Helmet", 3, /obj/item/clothing/head/helmet/marine/veteran/ua_riot, VENDOR_ITEM_REGULAR),
 
 		list("HEADWEAR", -1, null, null),

@@ -60,14 +60,24 @@
 	SIGNAL_HANDLER
 	mob.client.images += normal_image
 
-/obj/structure/roof/proc/link_master(datum/roof_master_node/master) //performs bfs and connects to master
-	if(linked_master != null)
+/obj/structure/roof/proc/link_master(datum/roof_master_node/master)
+	if(linked_master)
 		return
-	master.connected_roof += src
+
+	// SS220 EDIT - START: Traverse connected tiles without growing the DM call stack.
+	var/list/connected = master.connected_roof
+	var/first_new_tile = length(connected) + 1
 	linked_master = master
-	for(var/direction in CARDINAL_ALL_DIRS)
-		for(var/obj/structure/roof/roof in get_step(src,direction))
-			roof.link_master(master)
+	connected += src
+	for(var/index = first_new_tile; index <= length(connected); index++)
+		var/obj/structure/roof/current = connected[index]
+		for(var/direction in CARDINAL_ALL_DIRS)
+			for(var/obj/structure/roof/neighbor in get_step(current, direction))
+				if(neighbor.linked_master)
+					continue
+				neighbor.linked_master = master
+				connected += neighbor
+	// SS220 EDIT - END
 
 
 /obj/effect/roof_node //used for observing if mob is near the roof
@@ -93,14 +103,24 @@
 			linked_master.connected_nodes -= src
 	return ..()
 
-/obj/effect/roof_node/proc/link_master(datum/roof_master_node/master) //performs bfs and connects to master
+/obj/effect/roof_node/proc/link_master(datum/roof_master_node/master)
 	if(linked_master)
 		return
-	master.connected_nodes += src
+
+	// SS220 EDIT - START: Traverse connected tiles without growing the DM call stack.
+	var/list/connected = master.connected_nodes
+	var/first_new_tile = length(connected) + 1
 	linked_master = master
-	for(var/direction in CARDINAL_ALL_DIRS)
-		for(var/obj/effect/roof_node/node in get_step(src,direction))
-			node.link_master(master)
+	connected += src
+	for(var/index = first_new_tile; index <= length(connected); index++)
+		var/obj/effect/roof_node/current = connected[index]
+		for(var/direction in CARDINAL_ALL_DIRS)
+			for(var/obj/effect/roof_node/neighbor in get_step(current, direction))
+				if(neighbor.linked_master)
+					continue
+				neighbor.linked_master = master
+				connected += neighbor
+	// SS220 EDIT - END
 
 
 /datum/roof_master_node //maintains one block of roof

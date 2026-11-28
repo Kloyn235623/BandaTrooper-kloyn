@@ -1,12 +1,26 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/engineering_port)
+"ab" = (
+/obj/item/ammo_magazine/rifle/r81m1/hp,
+/obj/item/ammo_magazine/rifle/r81m1/hp,
+/obj/item/ammo_magazine/rifle/r81m1/hp,
+/obj/item/ammo_magazine/rifle/r81m1/hp,
+/obj/item/ammo_magazine/rifle/r81m1/hp,
+/obj/item/ammo_magazine/rifle/r81m1/hp,
+/obj/item/ammo_magazine/rifle/r81m1/hp,
+/obj/item/ammo_magazine/rifle/r81m1/hp,
+/obj/item/ammo_magazine/rifle/r81m1/hp,
+/obj/item/ammo_magazine/rifle/r81m1/hp,
+/obj/structure/closet/crate/green,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_port)
 "ac" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/engineering_port)
 "ad" = (
 /obj/effect/decal/warning_stripes{
@@ -43,6 +57,26 @@
 	},
 /turf/open/floor/almayer,
 /area/rust_rat_ship/engineering_port)
+"ag" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/rust_rat/freelancer,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/cryo)
+"ah" = (
+/obj/structure/machinery/door/airlock/almayer/secure/autoname{
+	req_one_access = null;
+	req_access = null
+	},
+/turf/open/floor/almayer/edge/northwest,
+/area/rust_rat_ship/quarters_west)
+"aj" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6,
+/obj/effect/landmark/start/rust_rat/rigger,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/cryo)
 "ak" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -53,6 +87,10 @@
 	},
 /turf/open/floor/almayer,
 /area/rust_rat_ship/engineering_port)
+"al" = (
+/obj/structure/platform/metal/hybrisa/metalplatform6,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/cryo)
 "an" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -89,6 +127,10 @@
 	},
 /turf/open/floor/almayer,
 /area/rust_rat_ship/engineering_port)
+"aq" = (
+/obj/effect/landmark/start/rust_rat/freelancer,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/cryo)
 "ar" = (
 /turf/open/floor/almayer,
 /area/rust_rat_ship/engineering_port)
@@ -147,7 +189,7 @@
 /area/rust_rat_ship/engineering_port)
 "aA" = (
 /obj/structure/blocker/invisible_wall,
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/engineering_port)
 "aB" = (
 /obj/structure/prop/invuln/darkness,
@@ -163,6 +205,10 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/shiva/radiator_tile2,
 /area/rust_rat_ship/engineering_port)
+"aD" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/almayer/plate,
+/area/rust_rat_ship/cryo)
 "aE" = (
 /obj/structure/prop/almayer/particle_cannon/corsat{
 	icon_state = "24"
@@ -435,6 +481,13 @@
 	name = "Liquid jet fuel"
 	},
 /area/rust_rat_ship/engineering_port)
+"bg" = (
+/obj/structure/machinery/light/small/red{
+	dir = 1
+	},
+/obj/structure/largecrate/empty/case/double,
+/turf/open/floor/almayer/orange,
+/area/rust_rat_ship/cargo_main)
 "bj" = (
 /obj/structure/platform/metal/hybrisa/engineer{
 	dir = 2;
@@ -883,7 +936,7 @@
 /turf/open/floor/shiva/radiator_tile2,
 /area/rust_rat_ship/engineering_port)
 "cg" = (
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/hangar_upper)
 "ch" = (
 /obj/structure/machinery/door/poddoor{
@@ -898,9 +951,6 @@
 	dir = 4
 	},
 /turf/open/floor/almayer/pod_landing_floor,
-/area/rust_rat_ship/hangar_port)
-"cj" = (
-/turf/closed/wall/almayer/outer,
 /area/rust_rat_ship/hangar_port)
 "ck" = (
 /obj/effect/decal/warning_stripes{
@@ -1144,8 +1194,8 @@
 /turf/open/floor/shiva/radiator_tile2,
 /area/rust_rat_ship/engineering_port)
 "cK" = (
-/turf/closed/wall/almayer/outer,
-/area/rust_rat_ship/bridge_port)
+/turf/open/floor/almayer,
+/area/space)
 "cM" = (
 /obj/structure/machinery/door/poddoor{
 	pixel_y = 1;
@@ -1161,7 +1211,7 @@
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/hangar_port)
 "cO" = (
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/cryo)
 "cP" = (
 /obj/structure/shuttle/engine/platform{
@@ -1522,6 +1572,11 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/engineering_port)
+"dY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/almayer/plate,
+/area/rust_rat_ship/hangar_starboard)
 "ea" = (
 /obj/structure/pipes/unary/freezer{
 	dir = 8
@@ -1639,6 +1694,13 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/shiva/radiator_tile2,
 /area/rust_rat_ship/engineering_port)
+"ev" = (
+/obj/structure/roof/cargocrane_tracks/horizontal{
+	pixel_y = 14
+	},
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_starboard)
 "ew" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SW-out"
@@ -1713,14 +1775,22 @@
 /turf/open/floor/almayer,
 /area/rust_rat_ship/engineering_port)
 "eL" = (
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/engineering_port)
+/obj/structure/platform/metal/hybrisa/metalplatform6{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/rust_rat/stitcher,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/cryo)
 "eM" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/almayer/reinforced,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/engineering_port)
 "eN" = (
-/obj/structure/machinery/door/airlock/maintenance/colony,
+/obj/structure/machinery/door/airlock/maintenance/colony{
+	req_access = null;
+	req_one_access = null
+	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/engineering_port)
 "eO" = (
@@ -1737,7 +1807,7 @@
 /turf/open/floor/hybrisa/tile/supermartfloor2,
 /area/rust_rat_ship/bridge_port)
 "eU" = (
-/turf/closed/wall/almayer/reinforced,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/bridge_port)
 "eV" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1811,8 +1881,25 @@
 /turf/open/floor/carpet/edge/southwest,
 /area/rust_rat_ship/bridge_port)
 "fg" = (
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/cryo)
+/obj/structure/surface/rack{
+	color = "#98a3ab"
+	},
+/obj/item/weapon/gun/rifle/r81m1a,
+/obj/item/weapon/gun/rifle/r81m1a,
+/obj/item/weapon/gun/rifle/r81m1a{
+	pixel_x = 0;
+	pixel_y = -9
+	},
+/obj/item/weapon/gun/rifle/r81m1a{
+	pixel_x = 0;
+	pixel_y = -6
+	},
+/obj/item/weapon/gun/rifle/r81m1a{
+	pixel_x = 0;
+	pixel_y = 8
+	},
+/turf/open/floor/almayer/plate,
+/area/rust_rat_ship/hangar_port)
 "fh" = (
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/rust_rat_ship/cryo)
@@ -2127,7 +2214,9 @@
 /area/rust_rat_ship/bridge_port)
 "fF" = (
 /obj/structure/machinery/door/airlock/almayer/secure/autoname{
-	dir = 2
+	dir = 2;
+	req_access = null;
+	req_one_access = null
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/bridge_port)
@@ -2223,7 +2312,7 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/cargo_main)
 "ga" = (
-/turf/closed/wall/almayer/reinforced,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/cargo_main)
 "gc" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2234,9 +2323,6 @@
 /area/rust_rat_ship/cargo_main)
 "gi" = (
 /turf/open/floor/almayer/orange/north,
-/area/rust_rat_ship/cargo_main)
-"gj" = (
-/turf/closed/wall/almayer/outer,
 /area/rust_rat_ship/cargo_main)
 "gk" = (
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
@@ -2278,6 +2364,10 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/bluegrid/bcircuitoff,
 /area/rust_rat_ship/cargo_main)
+"gm" = (
+/obj/effect/decal/hybrisa/dirt,
+/turf/closed/wall/almayer/research,
+/area/rust_rat_ship/hangar_upper)
 "gp" = (
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4;
@@ -2336,9 +2426,7 @@
 /area/rust_rat_ship/bridge_port)
 "gr" = (
 /obj/structure/machinery/light/small/blue/golden_arrow{
-	dir = 4;
-	light_power = 0.5;
-	pixel_y = 0
+	dir = 4
 	},
 /turf/open/floor/carpet/edge/northeast,
 /area/rust_rat_ship/bridge_port)
@@ -2504,6 +2592,10 @@
 	},
 /turf/open/floor/almayer/orange2/south,
 /area/rust_rat_ship/cargo_main)
+"gS" = (
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/almayer/plate,
+/area/rust_rat_ship/hangar_starboard)
 "gU" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/cargo_main)
@@ -2541,7 +2633,10 @@
 /turf/open/floor/bluegrid/bcircuitoff,
 /area/rust_rat_ship/cargo_main)
 "gY" = (
-/obj/structure/machinery/door/airlock/almayer/secure/autoname,
+/obj/structure/machinery/door/airlock/almayer/secure/autoname{
+	req_one_access = null;
+	req_access = null
+	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/bridge_port)
 "ha" = (
@@ -2570,16 +2665,19 @@
 	pixel_y = 0
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/rust_rat/freelancer,
 /turf/open/floor/almayer,
 /area/rust_rat_ship/cryo)
 "hd" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6,
-/turf/open/floor/almayer,
-/area/rust_rat_ship/cryo)
+/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/rust_rat_ship/hangar_upper)
 "he" = (
 /obj/structure/platform/metal/hybrisa/metalplatform6{
 	dir = 1
 	},
+/obj/effect/landmark/start/rust_rat/right_hand,
 /turf/open/floor/almayer,
 /area/rust_rat_ship/cryo)
 "hf" = (
@@ -2589,6 +2687,7 @@
 	pixel_y = 0
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/rust_rat/freelancer,
 /turf/open/floor/almayer,
 /area/rust_rat_ship/cryo)
 "hj" = (
@@ -2723,6 +2822,10 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/bridge_port)
+"hL" = (
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_starboard)
 "hO" = (
 /obj/structure/platform/metal/hybrisa/metalplatform6{
 	dir = 1
@@ -2988,6 +3091,10 @@
 	},
 /turf/open/floor/almayer,
 /area/rust_rat_ship/hangar_port)
+"js" = (
+/obj/docking_port/mobile/marine_dropship/korobka,
+/turf/open/floor/hangar_airlock/inner/frame17,
+/area/rust_rat_ship/hangar_port)
 "jt" = (
 /obj/structure/platform/metal/hybrisa/metalplatform6{
 	dir = 1
@@ -3057,6 +3164,7 @@
 	pixel_x = -23
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/rust_rat/gunner,
 /turf/open/floor/almayer,
 /area/rust_rat_ship/cryo)
 "jy" = (
@@ -3072,6 +3180,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
 /area/rust_rat_ship/cryo)
+"jD" = (
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/rust_rat_ship/hangar_starboard)
+"jE" = (
+/obj/structure/cargo_container/canc/tan/right,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_upper)
 "jF" = (
 /obj/structure/platform/metal/hybrisa/metalplatform6,
 /obj/structure/platform/metal/hybrisa/metalplatform6{
@@ -3109,9 +3225,7 @@
 	pixel_x = 2
 	},
 /obj/structure/machinery/light/small/blue/golden_arrow{
-	dir = 4;
-	light_power = 0.5;
-	pixel_y = 0
+	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/bridge_port)
@@ -3129,11 +3243,8 @@
 	pixel_x = 5;
 	pixel_y = -6
 	},
-/mob/living/simple_animal/hostile/carp{
-	destroy_surroundings = 0;
-	faction = "Fax Responder";
-	name = "Barsik";
-	dir = 2
+/mob/living/simple_animal/cat/blackcat{
+	name = "Barsik"
 	},
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/bridge_port)
@@ -3143,9 +3254,7 @@
 "jM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/small/blue/golden_arrow{
-	dir = 4;
-	light_power = 0.5;
-	pixel_y = 0
+	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/bridge_port)
@@ -3185,13 +3294,21 @@
 /area/rust_rat_ship/bridge_port)
 "kb" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
-	dir = 2
+	dir = 2;
+	req_access = null;
+	req_one_access = null
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/bridge_port)
 "kc" = (
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/hangar_upper)
+/obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
+	dir = 2;
+	layer = 4;
+	pixel_y = 0
+	},
+/obj/effect/landmark/start/rust_rat/gunner,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/cryo)
 "ke" = (
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/hangar_upper)
@@ -3199,14 +3316,14 @@
 /obj/structure/roof/cargocrane_tracks/horizontal{
 	pixel_y = 14
 	},
-/turf/closed/wall/almayer/reinforced,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/hangar_upper)
 "kg" = (
-/turf/closed/wall/almayer/reinforced,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/hangar_port)
 "kk" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/closed/wall/almayer/reinforced,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/hangar_port)
 "kl" = (
 /obj/structure/roof/cargocrane_tracks/horizontal{
@@ -3349,7 +3466,7 @@
 	name = "french";
 	desc = "The flag of France, an independent state based on Earth and its small interstellar colonies."
 	},
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/bridge_port)
 "kB" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -3392,14 +3509,12 @@
 "kC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/small/blue/golden_arrow{
-	light_power = 0.5;
 	dir = 8
 	},
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/bridge_port)
 "kF" = (
 /obj/structure/machinery/light/small/blue/golden_arrow{
-	light_power = 0.5;
 	dir = 8
 	},
 /turf/open/floor/almayer/plate,
@@ -3435,12 +3550,14 @@
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/bridge_port)
 "kI" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "cargo"
+/obj/structure/roof/cargocrane_tracks/vertical{
+	pixel_y = 14
 	},
-/obj/structure/machinery/suit_storage_unit/standard_unit,
-/turf/open/floor/almayer/plate,
-/area/rust_rat_ship/hangar_upper)
+/obj/structure/barricade/handrail{
+	dir = 8
+	},
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_port)
 "kK" = (
 /obj/structure/roof/cargocrane_tracks/horizontal{
 	pixel_y = 14
@@ -3632,6 +3749,14 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
 	},
+/obj/item/storage/box/guncase/flamer/weak{
+	pixel_x = -1;
+	pixel_y = 7
+	},
+/obj/item/storage/box/guncase/m3717{
+	pixel_x = 0;
+	pixel_y = -6
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_port)
 "lh" = (
@@ -3640,6 +3765,14 @@
 	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
+	},
+/obj/item/weapon/gun/rifle/m16/pvp_m16a5_tactical{
+	pixel_x = 2;
+	pixel_y = 8
+	},
+/obj/item/weapon/gun/shotgun/double/upp{
+	pixel_x = 1;
+	pixel_y = 1
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_port)
@@ -3668,6 +3801,7 @@
 	pixel_y = 0
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/rust_rat,
 /turf/open/floor/almayer,
 /area/rust_rat_ship/cryo)
 "lo" = (
@@ -3676,6 +3810,7 @@
 	layer = 4;
 	pixel_y = 0
 	},
+/obj/effect/landmark/start/rust_rat,
 /turf/open/floor/almayer,
 /area/rust_rat_ship/cryo)
 "lp" = (
@@ -3684,6 +3819,7 @@
 	dir = 1;
 	pixel_x = -6
 	},
+/obj/effect/landmark/start/rust_rat,
 /turf/open/floor/almayer,
 /area/rust_rat_ship/cryo)
 "lq" = (
@@ -3694,6 +3830,7 @@
 	pixel_x = -6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/rust_rat/handler,
 /turf/open/floor/almayer,
 /area/rust_rat_ship/cryo)
 "lr" = (
@@ -3714,6 +3851,7 @@
 	layer = 4;
 	pixel_y = 0
 	},
+/obj/effect/landmark/start/rust_rat/freelancer,
 /turf/open/floor/almayer,
 /area/rust_rat_ship/cryo)
 "lv" = (
@@ -3726,7 +3864,7 @@
 	pixel_y = -7;
 	pixel_x = 12
 	},
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/bridge_port)
 "lw" = (
 /obj/structure/prop/almayer/whiteboard{
@@ -3771,12 +3909,16 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/bridge_port)
 "lH" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "cargo"
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 43;
+	layer = 5.3
 	},
-/obj/structure/machinery/suit_storage_unit/standard_unit,
-/turf/open/floor/almayer,
-/area/rust_rat_ship/hangar_upper)
+/obj/structure/barricade/handrail{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/rust_rat_ship/hangar_port)
 "lI" = (
 /obj/structure/roof/cargocrane_tracks/horizontal{
 	pixel_y = 14
@@ -3851,6 +3993,12 @@
 /obj/structure/platform/metal{
 	dir = 8
 	},
+/obj/structure/closet/crate/green,
+/obj/item/ammo_box/magazine/l42a/incen,
+/obj/item/ammo_box/magazine/l42a/ap,
+/obj/item/ammo_box/magazine/M16/ap,
+/obj/item/ammo_box/magazine/mar30,
+/obj/item/ammo_box/magazine/mar30,
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_port)
 "lS" = (
@@ -3858,10 +4006,6 @@
 	dir = 4
 	},
 /obj/vehicle/train/cargo/trolley,
-/obj/structure/closet/crate/ammo{
-	layer = 4.2;
-	pixel_y = 4
-	},
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/hangar_port)
 "lT" = (
@@ -3930,7 +4074,7 @@
 /turf/open/floor/almayer,
 /area/rust_rat_ship/cryo)
 "me" = (
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/engineering_core)
 "mf" = (
 /obj/structure/noticeboard{
@@ -3987,16 +4131,10 @@
 /turf/open/floor/almayer,
 /area/rust_rat_ship/hangar_upper)
 "mm" = (
-/obj/structure/roof/cargocrane_tracks/horizontal{
-	pixel_y = 14
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "cargo_arrow2";
-	dir = 1;
-	pixel_y = -6
-	},
-/turf/open/floor/almayer/plate,
-/area/rust_rat_ship/hangar_upper)
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep/freelancer,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_port)
 "mn" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_upper)
@@ -4044,11 +4182,18 @@
 /turf/open/floor/almayer,
 /area/rust_rat_ship/hangar_port)
 "mv" = (
-/obj/structure/surface/rack{
-	color = "#98a3ab"
-	},
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
+	},
+/obj/structure/gun_rack/m16{
+	pixel_x = -7;
+	pixel_y = 4;
+	layer = 6
+	},
+/obj/structure/gun_rack/mar40/unloaded{
+	pixel_x = 10;
+	pixel_y = 4;
+	layer = 6
 	},
 /turf/open/floor/almayer,
 /area/rust_rat_ship/hangar_port)
@@ -4059,6 +4204,10 @@
 	layer = 5.3;
 	pixel_x = -3
 	},
+/obj/item/ammo_box/magazine/mar50,
+/obj/item/ammo_box/magazine/mar30/ext,
+/obj/item/ammo_box/magazine/mar30/ext,
+/obj/structure/closet/crate/green,
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_port)
 "my" = (
@@ -4075,6 +4224,7 @@
 	pixel_y = 43;
 	layer = 5.3
 	},
+/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep/freelancer,
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_port)
 "mA" = (
@@ -4158,8 +4308,11 @@
 /turf/open/floor/almayer,
 /area/rust_rat_ship/cryo)
 "mJ" = (
-/turf/closed/wall/almayer/outer,
-/area/rust_rat_ship/bridge_central)
+/obj/structure/machinery/light/small/blue/golden_arrow{
+	dir = 4
+	},
+/turf/open/floor/almayer/sterile_green_side,
+/area/rust_rat_ship/medical_upper_port)
 "mK" = (
 /obj/structure/filingcabinet/chestdrawer{
 	pixel_y = 26;
@@ -4221,7 +4374,7 @@
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/bridge_central)
 "mS" = (
-/turf/closed/wall/almayer/reinforced,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/bridge_central)
 "mU" = (
 /obj/vehicle/powerloader/jd,
@@ -4257,13 +4410,31 @@
 	layer = 4.2;
 	pixel_y = 4
 	},
+/obj/item/storage/box/packet/stick{
+	layer = 5
+	},
+/obj/item/storage/box/packet/stick{
+	layer = 5
+	},
+/obj/item/storage/box/packet/stick{
+	layer = 5
+	},
+/obj/item/storage/box/packet/stick{
+	layer = 5
+	},
+/obj/item/storage/box/packet/stick{
+	layer = 5
+	},
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/hangar_port)
 "nc" = (
-/obj/structure/cargo_container/trijent/left,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer,
-/area/rust_rat_ship/hangar_port)
+/obj/structure/machinery/door/airlock/almayer/secure/autoname{
+	req_one_access = null;
+	req_access = null;
+	dir = 1
+	},
+/turf/open/floor/almayer/pod_landing_floor,
+/area/rust_rat_ship/bridge_central)
 "ne" = (
 /obj/structure/prop/dam/crane{
 	bound_height = 32;
@@ -4572,11 +4743,8 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/bridge_central)
 "nO" = (
-/obj/structure/roof/cargocrane_tracks/horizontal{
-	pixel_y = 14
-	},
-/obj/structure/cargo_container/canc/left,
-/turf/open/floor/almayer/plate,
+/obj/structure/cargo_container/canc/tan/mid,
+/turf/open/floor/almayer,
 /area/rust_rat_ship/hangar_upper)
 "nP" = (
 /obj/structure/roof/cargocrane_tracks/horizontal{
@@ -4597,15 +4765,31 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_port)
 "nS" = (
-/obj/structure/cargo_container/trijent/mid,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer,
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 44;
+	layer = 5.3;
+	pixel_x = -3
+	},
+/obj/structure/closet/crate/ammo,
+/obj/item/ammo_box/magazine/shotgun/buckshot,
+/obj/item/ammo_box/magazine/shotgun,
+/obj/item/ammo_box/magazine/f90,
+/obj/item/ammo_box/magazine/vp78,
+/obj/item/ammo_box/magazine/type64,
+/obj/item/ammo_box/magazine/mp5,
+/obj/item/ammo_box/magazine/mp5,
+/obj/item/ammo_box/magazine/mk1/large/m20,
+/obj/item/ammo_box/magazine/M16/pve,
+/obj/item/ammo_box/magazine/M16/pve,
+/obj/item/ammo_box/magazine/mk1/large/m20,
+/turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_port)
-"nT" = (
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/quarters_west)
 "od" = (
-/obj/structure/machinery/door/airlock/almayer/secure/glass,
+/obj/structure/machinery/door/airlock/almayer/secure/autoname{
+	req_one_access = null;
+	req_access = null
+	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/quarters_west)
 "of" = (
@@ -4893,12 +5077,8 @@
 /turf/open/floor/wood/color_a39898,
 /area/rust_rat_ship/bridge_central)
 "oI" = (
-/obj/structure/roof/cargocrane_tracks/cross{
-	pixel_y = 14
-	},
-/obj/structure/cargo_container/canc/mid,
-/obj/structure/machinery/floodlight/landing/floor,
-/turf/open/floor/almayer/plate,
+/obj/structure/cargo_container/canc/left,
+/turf/open/floor/almayer,
 /area/rust_rat_ship/hangar_upper)
 "oK" = (
 /obj/structure/roof/cargocrane_tracks/vertical{
@@ -4944,9 +5124,6 @@
 	layer = 3.5;
 	pixel_y = 0
 	},
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
-	dir = 2
-	},
 /turf/open/floor/almayer,
 /area/rust_rat_ship/hangar_port)
 "oS" = (
@@ -4980,6 +5157,7 @@
 	pixel_x = -3
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/gun_rack/m20a/unloaded,
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_port)
 "oV" = (
@@ -5012,15 +5190,17 @@
 	pixel_y = 43;
 	layer = 5.3
 	},
+/obj/structure/barricade/handrail{
+	dir = 8
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_port)
 "pb" = (
-/obj/structure/roof/cargocrane_tracks/vertical{
-	pixel_y = 14
+/obj/structure/machinery/door/airlock/almayer/engineering/autoname{
+	req_access = null
 	},
-/obj/structure/cargo_container/trijent/right,
-/turf/open/floor/almayer,
-/area/rust_rat_ship/hangar_port)
+/turf/open/floor/almayer/orangefull,
+/area/rust_rat_ship/cargo_main)
 "pc" = (
 /obj/structure/roof/cargocrane_tracks/cross{
 	pixel_y = 14
@@ -5310,9 +5490,7 @@
 "pJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/small/blue/golden_arrow{
-	dir = 4;
-	light_power = 0.5;
-	pixel_y = 0
+	dir = 4
 	},
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/bridge_central)
@@ -5322,9 +5500,7 @@
 /area/rust_rat_ship/bridge_central)
 "pN" = (
 /obj/structure/machinery/light/small/blue/golden_arrow{
-	dir = 4;
-	light_power = 0.5;
-	pixel_y = 0
+	dir = 4
 	},
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/bridge_central)
@@ -5341,12 +5517,8 @@
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/bridge_central)
 "pP" = (
-/obj/structure/roof/cargocrane_tracks/horizontal{
-	pixel_y = 14
-	},
-/obj/structure/cargo_container/canc/right,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer/plate,
+/obj/structure/cargo_container/canc/tan/left,
+/turf/open/floor/almayer,
 /area/rust_rat_ship/hangar_upper)
 "pQ" = (
 /obj/structure/roof/cargocrane_tracks/horizontal{
@@ -5393,6 +5565,9 @@
 /obj/structure/platform/metal{
 	dir = 4
 	},
+/obj/structure/gun_rack/m20a/unloaded{
+	layer = 1
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_port)
 "qa" = (
@@ -5425,6 +5600,13 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_port)
 "qg" = (
+/obj/structure/closet/secure_closet/marine_personal/squad_leader/rust_rat{
+	density = 0;
+	pixel_x = -7
+	},
+/obj/structure/closet/secure_closet/marine_personal/engineer/rust_rat{
+	pixel_x = 9
+	},
 /turf/open/floor/almayer/edge/west,
 /area/rust_rat_ship/quarters_west)
 "qh" = (
@@ -5434,11 +5616,17 @@
 	},
 /turf/open/floor/almayer/edge/west,
 /area/rust_rat_ship/quarters_west)
+"qi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_upper)
 "qj" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
 /area/rust_rat_ship/quarters_west)
 "qk" = (
+/obj/structure/machinery/power/apc/almayer/east,
 /turf/open/floor/almayer,
 /area/rust_rat_ship/quarters_west)
 "ql" = (
@@ -5697,7 +5885,9 @@
 /area/rust_rat_ship/bridge_central)
 "qK" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
-	dir = 2
+	dir = 2;
+	req_access = null;
+	req_one_access = null
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/bridge_central)
@@ -5801,6 +5991,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/small,
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_port)
 "qV" = (
@@ -5860,6 +6051,7 @@
 /obj/structure/roof/cargocrane_tracks/horizontal{
 	pixel_y = 14
 	},
+/obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/hangar_port)
 "rd" = (
@@ -5924,6 +6116,14 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
 	},
+/obj/item/weapon/gun/rifle/l42a/old{
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/obj/item/storage/box/guncase/heavy/smg/type64{
+	pixel_x = 0;
+	pixel_y = 2
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_port)
 "rg" = (
@@ -5938,6 +6138,12 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
 	},
+/obj/item/weapon/gun/smg/mp5/pvp_mp5a5{
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/obj/item/weapon/gun/smg/mp5/pvp_mp5a5,
+/obj/item/weapon/gun/boltaction,
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_port)
 "rh" = (
@@ -5968,16 +6174,24 @@
 /area/rust_rat_ship/cargo_main)
 "rm" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/autoname{
-	dir = 2
+	dir = 2;
+	req_one_access = null;
+	req_access = null
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/cargo_main)
 "rn" = (
-/turf/open/floor/almayer/orange/southeast,
-/area/rust_rat_ship/cargo_main)
+/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/freelancer,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_port)
 "rq" = (
-/turf/open/floor/almayer/orange/northeast,
-/area/rust_rat_ship/cargo_main)
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow2";
+	dir = 1;
+	pixel_y = -6
+	},
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_upper)
 "rr" = (
 /obj/structure/window/framed/almayer/hull,
 /obj/structure/machinery/door/poddoor/hybrisa/open_shutters{
@@ -6096,7 +6310,6 @@
 "rF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/small/blue/golden_arrow{
-	light_power = 0.5;
 	dir = 8
 	},
 /turf/open/floor/prison/cell_stripe/west,
@@ -6110,13 +6323,13 @@
 /area/rust_rat_ship/bridge_central)
 "rK" = (
 /obj/structure/machinery/light/small/blue/golden_arrow{
-	light_power = 0.5;
 	dir = 8
 	},
 /turf/open/floor/prison/cell_stripe/west,
 /area/rust_rat_ship/bridge_central)
 "rM" = (
 /obj/structure/machinery/power/apc/almayer/north,
+/obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_upper)
 "rN" = (
@@ -6140,6 +6353,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/small,
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_starboard)
 "rQ" = (
@@ -6193,6 +6407,7 @@
 /obj/structure/platform_decoration{
 	dir = 1
 	},
+/obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/hangar_starboard)
 "sc" = (
@@ -6204,13 +6419,16 @@
 	pixel_y = 43;
 	layer = 5.3
 	},
+/obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_starboard)
 "sd" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_starboard)
 "se" = (
-/obj/structure/machinery/door/airlock/almayer/secure/glass{
+/obj/structure/machinery/door/airlock/almayer/secure/autoname{
+	req_one_access = null;
+	req_access = null;
 	dir = 1
 	},
 /turf/open/floor/almayer/pod_landing_floor,
@@ -6342,7 +6560,7 @@
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/hangar_upper)
 "sJ" = (
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/space)
 "sK" = (
 /obj/structure/prop/invuln/lattice_prop{
@@ -6355,6 +6573,7 @@
 /area/rust_rat_ship/hangar_starboard)
 "sL" = (
 /obj/structure/machinery/floodlight/landing/floor,
+/obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_starboard)
 "sM" = (
@@ -6375,6 +6594,7 @@
 	pixel_y = 14
 	},
 /obj/structure/machinery/floodlight/landing/floor,
+/obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/almayer,
 /area/rust_rat_ship/hangar_starboard)
 "sP" = (
@@ -6383,6 +6603,7 @@
 	pixel_y = 43;
 	layer = 5.3
 	},
+/obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_starboard)
 "sQ" = (
@@ -6406,7 +6627,9 @@
 /area/rust_rat_ship/quarters_west)
 "sW" = (
 /obj/structure/machinery/door/airlock/almayer/engineering/autoname{
-	dir = 2
+	dir = 2;
+	req_one_access = null;
+	req_access = null
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/quarters_west)
@@ -6426,7 +6649,9 @@
 /area/rust_rat_ship/cargo_main)
 "te" = (
 /obj/structure/machinery/door/airlock/almayer/engineering/autoname{
-	dir = 2
+	dir = 2;
+	req_one_access = null;
+	req_access = null
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/cargo_main)
@@ -6483,6 +6708,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/engineering_core)
+"tl" = (
+/obj/structure/closet/fireaxecabinet,
+/turf/closed/wall/almayer/research,
+/area/rust_rat_ship/medical_upper_port)
 "tm" = (
 /obj/structure/barricade/handrail/type_nv{
 	dir = 4;
@@ -6584,6 +6813,7 @@
 /area/rust_rat_ship/hangar_starboard)
 "tx" = (
 /obj/structure/platform_decoration,
+/obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/almayer,
 /area/rust_rat_ship/hangar_starboard)
 "ty" = (
@@ -7057,11 +7287,16 @@
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/hangar_starboard)
 "uD" = (
-/turf/open/floor/almayer/orange/southwest,
-/area/rust_rat_ship/cargo_main)
+/obj/structure/machinery/suit_storage_unit/standard_unit,
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_upper)
 "uE" = (
-/turf/open/floor/almayer/orange/northwest,
-/area/rust_rat_ship/cargo_main)
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_upper)
 "uF" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -7185,24 +7420,23 @@
 	layer = 4;
 	pixel_y = 10
 	},
-/obj/structure/machinery/light/small/blue/golden_arrow{
-	light_power = 0.5;
-	dir = 8
-	},
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/bridge_central)
 "uP" = (
+/obj/structure/machinery/light/small/blue/golden_arrow{
+	dir = 8
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/bridge_central)
 "uQ" = (
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/bridge_central)
+"uR" = (
+/obj/structure/machinery/vending/coffee,
+/turf/open/floor/prison/cell_stripe/west,
+/area/rust_rat_ship/bridge_central)
 "uS" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/light/small/blue/golden_arrow{
-	light_power = 0.5;
-	dir = 8
-	},
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/bridge_central)
 "uT" = (
@@ -7216,10 +7450,12 @@
 /obj/structure/roof/cargocrane_tracks/vertical{
 	pixel_y = 14
 	},
-/obj/structure/cargo_container/canc/tan/left,
-/obj/structure/machinery/floodlight/landing/floor,
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/hangar_upper)
+"uV" = (
+/obj/structure/largecrate,
+/turf/open/floor/almayer/orange,
+/area/rust_rat_ship/cargo_main)
 "uY" = (
 /obj/structure/roof/cargocrane_tracks/vertical{
 	pixel_y = 14
@@ -7445,8 +7681,15 @@
 	},
 /turf/open/floor/hybrisa/tile/supermartfloor1,
 /area/rust_rat_ship/quarters_west)
+"vw" = (
+/obj/structure/sign/banners/colonial_marines_flag_worn{
+	pixel_x = 14;
+	pixel_y = 1
+	},
+/turf/closed/wall/almayer/research,
+/area/rust_rat_ship/bridge_central)
 "vx" = (
-/turf/closed/wall/almayer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/quarters_west)
 "vy" = (
 /obj/structure/machinery/cm_vending/sorted/marine_food,
@@ -7683,7 +7926,7 @@
 /turf/open/floor/shiva/radiator_tile2,
 /area/rust_rat_ship/engineering_core)
 "wh" = (
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/medical_upper_port)
 "wi" = (
 /obj/effect/decal/warning_stripes{
@@ -7734,15 +7977,9 @@
 "wq" = (
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/medical_upper_port)
-"wr" = (
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/medical_upper_port)
 "ws" = (
-/obj/structure/roof/cargocrane_tracks/horizontal{
-	pixel_y = 14
-	},
-/obj/structure/cargo_container/canc/tan/mid,
-/turf/open/floor/almayer/plate,
+/obj/structure/cargo_container/canc/mid,
+/turf/open/floor/almayer,
 /area/rust_rat_ship/hangar_upper)
 "wu" = (
 /obj/structure/roof/cargocrane_tracks/horizontal{
@@ -7984,10 +8221,10 @@
 /turf/open/floor/almayer/edge/southwest,
 /area/rust_rat_ship/medical_upper_port)
 "xc" = (
-/obj/structure/roof/cargocrane_tracks/horizontal{
-	pixel_y = 14
+/obj/structure/machinery/suit_storage_unit/standard_unit,
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
 	},
-/obj/structure/cargo_container/canc/tan/right,
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/hangar_upper)
 "xd" = (
@@ -8215,6 +8452,13 @@
 	},
 /turf/open/floor/almayer,
 /area/rust_rat_ship/hangar_starboard)
+"xU" = (
+/obj/structure/largecrate/random/secure{
+	pixel_x = -4;
+	pixel_y = -5
+	},
+/turf/open/floor/almayer/orange,
+/area/rust_rat_ship/cargo_main)
 "xV" = (
 /obj/structure/cargo_container/horizontal/blue/middle{
 	pixel_x = 17;
@@ -8304,6 +8548,10 @@
 /area/rust_rat_ship/quarters_west)
 "yg" = (
 /obj/structure/surface/table/almayer,
+/obj/item/reagent_container/food/drinks/bottle/beer/craft{
+	pixel_x = -8;
+	pixel_y = 13
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/quarters_west)
 "yh" = (
@@ -8662,6 +8910,18 @@
 /obj/structure/machinery/floodlight/landing/floor{
 	layer = 1
 	},
+/obj/item/reagent_container/food/drinks/cans/food/upp/soup{
+	pixel_x = -1;
+	pixel_y = 13
+	},
+/obj/item/reagent_container/food/drinks/cans/food/upp/soup{
+	pixel_x = 10;
+	pixel_y = 12
+	},
+/obj/item/reagent_container/food/drinks/cans/food/upp/condensed_milk{
+	pixel_x = 5;
+	pixel_y = 22
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/quarters_west)
 "yV" = (
@@ -8687,8 +8947,20 @@
 	pixel_x = 10;
 	pixel_y = 31
 	},
+/obj/item/reagent_container/food/drinks/cans/beer,
+/obj/item/reagent_container/food/drinks/cans/beer{
+	pixel_x = 9;
+	pixel_y = 0
+	},
 /turf/open/floor/almayer/edge/north,
 /area/rust_rat_ship/quarters_west)
+"yZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/handrail{
+	dir = 4
+	},
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_port)
 "za" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/tool/kitchen/tray{
@@ -8749,14 +9021,12 @@
 	icon_state = "N";
 	pixel_y = 1
 	},
-/obj/structure/machinery/cm_vending/sorted/tech/comp_storage{
-	pixel_x = -3
-	},
 /obj/structure/barricade/handrail/type_nv{
 	dir = 4;
 	pixel_x = -1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/cm_vending/gear/engi/freelancer,
 /turf/open/floor/almayer/orange2smooth3/south,
 /area/rust_rat_ship/cargo_main)
 "ze" = (
@@ -8797,6 +9067,7 @@
 	pixel_y = 6;
 	pixel_x = 3
 	},
+/obj/item/reagent_container/glass/beaker/bluespace,
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/medical_upper_port)
 "zh" = (
@@ -8815,6 +9086,7 @@
 /obj/item/reagent_container/dropper{
 	pixel_y = 3
 	},
+/obj/structure/machinery/light/small/blue/golden_arrow,
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/medical_upper_port)
 "zi" = (
@@ -8844,9 +9116,6 @@
 	},
 /turf/open/floor/almayer/edge/southwest,
 /area/rust_rat_ship/medical_upper_port)
-"zl" = (
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/hangar_starboard)
 "zm" = (
 /obj/structure/roof/cargocrane_tracks/horizontal{
 	pixel_y = 14
@@ -8963,7 +9232,7 @@
 /turf/open/floor/almayer/orange2smooth3/south,
 /area/rust_rat_ship/cargo_starboard)
 "zD" = (
-/turf/closed/wall/almayer/reinforced,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/cargo_starboard)
 "zE" = (
 /obj/structure/machinery/light/small/red{
@@ -8980,8 +9249,8 @@
 /turf/open/floor/almayer/orange/north,
 /area/rust_rat_ship/cargo_starboard)
 "zK" = (
-/turf/closed/wall/almayer/outer,
-/area/rust_rat_ship/cargo_starboard)
+/turf/open/floor/almayer/edge/northwest,
+/area/rust_rat_ship/quarters_west)
 "zL" = (
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4;
@@ -9102,7 +9371,6 @@
 	pixel_y = 10
 	},
 /obj/structure/machinery/light/small/blue/golden_arrow{
-	light_power = 0.5;
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk,
@@ -9122,7 +9390,6 @@
 /area/rust_rat_ship/medical_upper_port)
 "zY" = (
 /obj/structure/machinery/light/small/blue/golden_arrow{
-	light_power = 0.5;
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk,
@@ -9135,7 +9402,9 @@
 /area/rust_rat_ship/quarters_west)
 "Ac" = (
 /obj/structure/machinery/door/airlock/almayer/generic/autoname/rusted_wite{
-	dir = 1
+	dir = 1;
+	req_access = null;
+	req_one_access = null
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/quarters_west)
@@ -9296,10 +9565,23 @@
 /area/rust_rat_ship/medical_upper_port)
 "AD" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
-	dir = 2
+	dir = 2;
+	req_access = null;
+	req_one_access = null
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/medical_upper_port)
+"AF" = (
+/obj/structure/roof/cargocrane_tracks/vertical{
+	pixel_y = 14
+	},
+/obj/structure/largecrate/random/secure{
+	pixel_x = -2;
+	pixel_y = -10;
+	layer = 4
+	},
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_port)
 "AH" = (
 /obj/structure/roof/cargocrane_tracks/cross{
 	pixel_y = 14
@@ -9315,9 +9597,6 @@
 	},
 /turf/open/floor/almayer,
 /area/rust_rat_ship/hangar_starboard)
-"AJ" = (
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/medical_lower)
 "AN" = (
 /obj/structure/closet/secure_closet/fridge/groceries,
 /obj/structure/machinery/light/double/blue/golden_arrow{
@@ -9326,24 +9605,44 @@
 	pixel_y = 17
 	},
 /turf/open/floor/hybrisa/tile/supermartfloor1,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
+"AO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/rust_rat_ship/hangar_upper)
 "AQ" = (
 /obj/structure/closet/secure_closet/fridge/organic,
 /turf/open/floor/hybrisa/tile/supermartfloor1,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "AR" = (
 /obj/structure/closet/secure_closet/fridge/meat/stock,
 /turf/open/floor/hybrisa/tile/supermartfloor1,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "AV" = (
-/turf/closed/wall/almayer,
-/area/rust_rat_ship/medical_lower)
-"AW" = (
+/obj/structure/roof/cargocrane_tracks/horizontal{
+	pixel_y = 14
+	},
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice3";
+	layer = 5.3;
+	pixel_y = 11;
+	pixel_x = -3
+	},
+/obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/almayer/plate,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/hangar_upper)
+"AW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/largecrate/supply{
+	pixel_x = 6;
+	pixel_y = 10
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/rust_rat_ship/cargo_main)
 "AX" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer/plate,
+/turf/open/floor/almayer/edge/northwest,
 /area/rust_rat_ship/quarters_east)
 "AZ" = (
 /obj/structure/machinery/power/apc/almayer/east,
@@ -9368,9 +9667,24 @@
 /obj/structure/prop/hybrisa/misc/trash/blue,
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/quarters_east)
+"Bf" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 44;
+	layer = 5.3;
+	pixel_x = -3
+	},
+/obj/structure/platform/metal{
+	dir = 4
+	},
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/rust_rat_ship/hangar_starboard)
 "Bg" = (
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/quarters_east)
+/obj/structure/platform/metal/hybrisa/metalplatform6,
+/obj/effect/landmark/start/rust_rat/warlord,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/cryo)
 "Bh" = (
 /turf/open/floor/almayer/orange2smooth3/north,
 /area/rust_rat_ship/cargo_starboard)
@@ -9413,10 +9727,10 @@
 /turf/open/floor/almayer/edge/northeast,
 /area/rust_rat_ship/medical_upper_port)
 "Bq" = (
-/obj/structure/machinery/door/airlock/almayer/medical{
+/obj/structure/machinery/door/airlock/almayer/medical/glass{
+	req_access = null;
 	dir = 1
 	},
-/obj/structure/curtain/open/shower,
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/medical_upper_port)
 "Br" = (
@@ -9473,7 +9787,10 @@
 /turf/open/floor/almayer/dark_sterile,
 /area/rust_rat_ship/medical_upper_port)
 "BC" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass,
+/obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
+	req_access = null;
+	req_one_access = null
+	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/medical_upper_port)
 "BL" = (
@@ -9483,16 +9800,22 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/hangar_starboard)
 "BM" = (
-/obj/structure/machinery/door/airlock/almayer/secure/glass,
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/medical_lower)
+/obj/structure/machinery/door/airlock/almayer/secure/autoname{
+	req_one_access = null;
+	req_access = null
+	},
+/turf/open/floor/almayer/edge/northwest,
+/area/rust_rat_ship/quarters_east)
 "BN" = (
 /obj/structure/window/framed/almayer,
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/medical_lower)
+/turf/open/floor/almayer/edge/northwest,
+/area/rust_rat_ship/quarters_east)
 "BO" = (
-/obj/structure/machinery/door/airlock/almayer/secure/glass,
-/turf/closed/wall/almayer/reinforced,
+/obj/structure/machinery/door/airlock/almayer/secure/autoname{
+	req_one_access = null;
+	req_access = null
+	},
+/turf/open/floor/almayer/plate,
 /area/rust_rat_ship/quarters_east)
 "BQ" = (
 /obj/structure/machinery/floodlight,
@@ -9502,8 +9825,10 @@
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/cargo_starboard)
 "BS" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/autoname{
-	dir = 2
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/autoname{
+	dir = 2;
+	req_one_access = null;
+	req_access = null
 	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/cargo_starboard)
@@ -9515,46 +9840,19 @@
 /turf/open/floor/almayer/orange/north,
 /area/rust_rat_ship/cargo_starboard)
 "BY" = (
-/obj/structure/surface/rack,
-/obj/item/storage/box/gloves{
-	pixel_y = -2;
-	pixel_x = 6
+/obj/structure/machinery/light/small/blue/golden_arrow{
+	light_power = 0.5;
+	dir = 4
 	},
-/obj/item/storage/box/beakers{
-	pixel_y = -2;
-	pixel_x = -6
-	},
-/obj/item/stack/sheet/mineral/phoron{
-	amount = 25;
-	pixel_y = 7
-	},
+/obj/structure/machinery/chem_dispenser,
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/medical_upper_port)
 "BZ" = (
-/obj/structure/surface/rack,
-/obj/item/reagent_container/food/drinks/bottle/vodka/chess/b_queen{
-	pixel_y = -1;
-	pixel_x = -5
-	},
-/obj/item/reagent_container/food/drinks/bottle/vodka{
-	pixel_y = -2;
-	pixel_x = 7
-	},
-/obj/item/device/mass_spectrometer,
+/obj/structure/machinery/chem_dispenser/corpsman,
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/medical_upper_port)
 "Cb" = (
-/obj/structure/machinery/cm_vending/clothing/medic{
-	pixel_y = 20;
-	density = 0
-	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/cm_vending/sorted/medical{
-	pixel_y = 20;
-	density = 0;
-	pixel_x = -33;
-	layer = 4.1
-	},
 /turf/open/floor/almayer/sterile_green_side/north,
 /area/rust_rat_ship/medical_upper_port)
 "Cd" = (
@@ -9566,11 +9864,9 @@
 /turf/open/floor/almayer/sterile_green_side,
 /area/rust_rat_ship/medical_upper_port)
 "Ce" = (
-/obj/structure/machinery/door/airlock/almayer/medical/glass{
-	dir = 1
-	},
-/turf/open/floor/almayer/pod_landing_floor,
-/area/rust_rat_ship/medical_upper_port)
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/rust_rat_ship/hangar_upper)
 "Cf" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning";
@@ -9606,36 +9902,46 @@
 	pixel_x = -8
 	},
 /turf/open/floor/hybrisa/tile/supermartfloor1,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Cr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/hybrisa/tile/supermartfloor1,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Cs" = (
 /turf/open/floor/hybrisa/tile/supermartfloor1,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Cu" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
-	dir = 1
+	dir = 1;
+	req_access = null;
+	req_one_access = null
 	},
 /turf/open/floor/almayer/pod_landing_floor,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
+"Cv" = (
+/obj/structure/closet/firecloset/alt/full,
+/turf/open/floor/almayer/orange/north,
+/area/rust_rat_ship/cargo_main)
 "Cw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/almayer/plate,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Cx" = (
 /turf/open/floor/almayer/edge/northwest,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Cz" = (
-/turf/open/floor/almayer/edge/west,
-/area/rust_rat_ship/medical_lower)
+/obj/structure/roof/cargocrane_tracks/horizontal{
+	pixel_y = 14
+	},
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/almayer/plate,
+/area/rust_rat_ship/hangar_upper)
 "CA" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/edge/southwest,
@@ -9733,13 +10039,18 @@
 /turf/open/floor/almayer/orange,
 /area/rust_rat_ship/cargo_starboard)
 "CP" = (
-/obj/structure/machinery/cm_vending/gear/medic_chemical{
-	pixel_y = 20;
-	density = 0
-	},
 /obj/structure/bed/chair{
 	dir = 8;
 	pixel_y = 3
+	},
+/obj/structure/machinery/cm_vending/clothing/medic/freelancer{
+	pixel_y = 20
+	},
+/obj/structure/machinery/cm_vending/sorted/medical{
+	pixel_y = 20;
+	density = 0;
+	pixel_x = -27;
+	layer = 4.1
 	},
 /turf/open/floor/almayer/sterile_green_side/north,
 /area/rust_rat_ship/medical_upper_port)
@@ -9833,7 +10144,7 @@
 	pixel_y = -2
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Dg" = (
 /obj/structure/sink{
 	dir = 4;
@@ -9845,7 +10156,7 @@
 	pixel_y = 5
 	},
 /turf/open/floor/hybrisa/tile/supermartfloor1,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Dh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/toilet{
@@ -9853,21 +10164,22 @@
 	pixel_y = 5
 	},
 /turf/open/floor/hybrisa/tile/supermartfloor1,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Di" = (
 /obj/structure/sign/safety/bathmens{
 	pixel_y = 31;
 	pixel_x = 2
 	},
 /turf/open/floor/almayer/plate,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Dk" = (
 /turf/open/floor/almayer/edge/north,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Dm" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer,
-/area/rust_rat_ship/medical_lower)
+/obj/structure/closet/emcloset,
+/turf/open/floor/almayer/orange,
+/area/rust_rat_ship/cargo_main)
 "Do" = (
 /turf/open/floor/almayer,
 /area/rust_rat_ship/quarters_east)
@@ -9961,7 +10273,7 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/cargo_starboard)
 "DI" = (
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/medical_upper_starboard)
 "DK" = (
 /obj/structure/surface/table/reinforced/prison,
@@ -9972,6 +10284,9 @@
 /turf/open/floor/almayer/sterile_green_corner,
 /area/rust_rat_ship/medical_upper_starboard)
 "DL" = (
+/obj/structure/machinery/light/small/blue/golden_arrow{
+	dir = 4
+	},
 /turf/open/floor/almayer/sterile_green_side/northeast,
 /area/rust_rat_ship/medical_upper_starboard)
 "DM" = (
@@ -9982,9 +10297,6 @@
 	pixel_x = -5
 	},
 /turf/open/floor/almayer/sterile_green_side,
-/area/rust_rat_ship/medical_upper_starboard)
-"DN" = (
-/turf/closed/wall/almayer/reinforced,
 /area/rust_rat_ship/medical_upper_starboard)
 "DO" = (
 /turf/open/floor/almayer/dark_sterile,
@@ -10008,6 +10320,10 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/medical_upper_starboard)
+"DX" = (
+/obj/effect/decal/cleanable/dirt/alt_dirt/stain,
+/turf/open/floor/almayer/orange,
+/area/rust_rat_ship/cargo_starboard)
 "DZ" = (
 /obj/item/weapon/twohanded/folded_metal_chair{
 	pixel_y = 5
@@ -10043,9 +10359,8 @@
 /obj/item/weapon/twohanded/folded_metal_chair{
 	pixel_y = 5
 	},
-/obj/structure/machinery/power/apc/almayer/north,
 /turf/open/floor/almayer/plate,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Ea" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/recharger{
@@ -10059,7 +10374,7 @@
 	layer = 2.99
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Eb" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/quarters_east)
@@ -10201,7 +10516,7 @@
 	pixel_y = 5
 	},
 /turf/open/floor/hybrisa/tile/supermartfloor2,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "EL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/toilet{
@@ -10209,7 +10524,7 @@
 	pixel_y = 5
 	},
 /turf/open/floor/hybrisa/tile/supermartfloor2,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "EM" = (
 /obj/structure/sign/safety/bathwomens{
 	pixel_y = 31;
@@ -10217,14 +10532,15 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/plate,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "EN" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/edge/north,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "EO" = (
-/turf/open/floor/almayer,
-/area/rust_rat_ship/medical_lower)
+/obj/structure/closet/firecloset/alt/full,
+/turf/open/floor/prison/cell_stripe/east,
+/area/rust_rat_ship/cargo_main)
 "EP" = (
 /obj/structure/barricade/handrail{
 	dir = 4;
@@ -10418,6 +10734,10 @@
 	pixel_x = -9;
 	layer = 3.01
 	},
+/obj/structure/machinery/light/small/blue/golden_arrow{
+	light_power = 0.5;
+	dir = 4
+	},
 /turf/open/floor/almayer/sterile_green_corner/east,
 /area/rust_rat_ship/medical_upper_starboard)
 "Fn" = (
@@ -10469,6 +10789,10 @@
 	pixel_y = 3
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/light/small/blue/golden_arrow{
+	light_power = 0.5;
+	dir = 4
+	},
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/medical_upper_starboard)
 "Fq" = (
@@ -10495,30 +10819,30 @@
 	name = "towel"
 	},
 /turf/open/floor/hybrisa/tile/supermartfloor2,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Fx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/hybrisa/tile/supermartfloor2,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Fy" = (
 /turf/open/floor/hybrisa/tile/supermartfloor2,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "Fz" = (
 /obj/structure/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/almayer/plate,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "FA" = (
 /turf/open/floor/almayer/edge/northeast,
-/area/rust_rat_ship/medical_lower)
+/area/rust_rat_ship/quarters_east)
 "FB" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer/edge/east,
-/area/rust_rat_ship/medical_lower)
+/obj/structure/largecrate/random/barrel/true_random,
+/turf/open/floor/prison/cell_stripe/east,
+/area/rust_rat_ship/quarters_west)
 "FC" = (
 /turf/open/floor/almayer/edge/southeast,
 /area/rust_rat_ship/quarters_east)
@@ -10587,23 +10911,34 @@
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/quarters_east)
 "FM" = (
-/obj/structure/machinery/door/airlock/maintenance/colony,
+/obj/structure/machinery/door/airlock/maintenance/colony{
+	req_access = null;
+	req_one_access = null
+	},
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/cargo_starboard)
-"FP" = (
-/turf/closed/wall/almayer/outer,
-/area/rust_rat_ship/medical_lower)
+"FN" = (
+/obj/structure/ore_box/alt/metal_container_colorable{
+	pixel_x = 9;
+	pixel_y = 0
+	},
+/obj/structure/ore_box/alt/metal_container_colorable{
+	pixel_x = -10;
+	pixel_y = 0
+	},
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_starboard)
 "FQ" = (
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/quarters_east)
 "FR" = (
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/engineering_starboard)
 "FT" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/engineering_starboard)
 "FU" = (
 /obj/effect/decal/warning_stripes{
@@ -10839,6 +11174,10 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating,
 /area/rust_rat_ship/engineering_starboard)
+"GD" = (
+/obj/structure/ore_box/alt/alt_2,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_starboard)
 "GG" = (
 /obj/structure/prop/invuln/darkness,
 /obj/structure/blocker/invisible_wall,
@@ -10864,6 +11203,21 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/shiva/radiator_tile2,
 /area/rust_rat_ship/engineering_starboard)
+"GJ" = (
+/obj/structure/prop/invuln/lattice_prop{
+	icon_state = "lattice12";
+	pixel_y = 43;
+	layer = 5.3
+	},
+/obj/structure/closet/secure_closet/freelancer_gunner/isr{
+	pixel_x = 9
+	},
+/obj/structure/closet/secure_closet/freelancer_gunner/r81m1d{
+	density = 0;
+	pixel_x = -7
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/rust_rat_ship/hangar_port)
 "GM" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -11620,7 +11974,7 @@
 /turf/open/floor/almayer/pod_landing_floor,
 /area/rust_rat_ship/hangar_starboard)
 "Iq" = (
-/turf/closed/wall/almayer/outer,
+/turf/closed/wall/almayer/research,
 /area/rust_rat_ship/hangar_starboard)
 "Ir" = (
 /obj/structure/shuttle/engine/platform{
@@ -12258,6 +12612,7 @@
 	icon_state = "cargo"
 	},
 /obj/structure/closet/secure_closet/marine_personal/platoon_commander/rust_rat{
+	squad_type = null;
 	density = 0;
 	pixel_x = -7
 	},
@@ -12298,6 +12653,7 @@
 	pixel_x = -7
 	},
 /obj/structure/closet/secure_closet/marine_personal/rifleman/rust_rat/tin{
+	squad_type = null;
 	pixel_x = 9
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -12308,13 +12664,13 @@
 	icon_state = "cargo"
 	},
 /obj/structure/closet/secure_closet/marine_personal/rifleman/rust_rat/freelancer{
-	density = 0;
-	pixel_x = -7
-	},
-/obj/structure/closet/secure_closet/marine_personal/rifleman/rust_rat/freelancer{
 	pixel_x = 9
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/marine_personal/corpsman/rust_rat{
+	density = 0;
+	pixel_x = -7
+	},
 /turf/open/floor/almayer,
 /area/rust_rat_ship/quarters_west)
 "JV" = (
@@ -12344,56 +12700,12 @@
 /turf/open/floor/almayer/edge/east,
 /area/rust_rat_ship/quarters_west)
 "JY" = (
-/obj/structure/closet/secure_closet/freelancer_gunner/isr{
-	pixel_x = 9
+/obj/structure/largecrate/random/secure{
+	pixel_x = 10;
+	pixel_y = 8
 	},
-/obj/structure/closet/secure_closet/freelancer_gunner/r81m1d{
-	density = 0;
-	pixel_x = -7
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/almayer,
-/area/rust_rat_ship/quarters_west)
-"JZ" = (
-/obj/effect/landmark/start/rust_rat/handler,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/rust_rat_ship/cryo)
-"Kc" = (
-/obj/effect/landmark/start/rust_rat/warlord,
-/turf/open/floor/prison/floor_plate,
-/area/rust_rat_ship/cryo)
-"Kd" = (
-/obj/effect/landmark/start/rust_rat/right_hand,
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/cryo)
-"Ke" = (
-/obj/effect/landmark/start/rust_rat/rigger,
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/cryo)
-"Kf" = (
-/obj/effect/landmark/start/rust_rat/stitcher,
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/cryo)
-"Kh" = (
-/obj/effect/landmark/start/rust_rat/tin,
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/cryo)
-"Kn" = (
-/obj/effect/landmark/start/rust_rat/gunner,
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/cryo)
-"Ko" = (
-/obj/effect/landmark/start/rust_rat/freelancer,
-/turf/closed/wall/almayer/reinforced,
-/area/rust_rat_ship/cryo)
-"Kp" = (
-/obj/effect/landmark/start/rust_rat/freelancer,
-/turf/open/floor/prison/floor_plate,
-/area/rust_rat_ship/cryo)
-"Kr" = (
-/obj/effect/landmark/start/rust_rat/freelancer,
-/turf/open/floor/plating/plating_catwalk/prison,
-/area/rust_rat_ship/cryo)
+/turf/open/floor/almayer/orange/north,
+/area/rust_rat_ship/cargo_main)
 "Ks" = (
 /turf/open/space,
 /area/space)
@@ -12665,6 +12977,10 @@
 	},
 /turf/open/floor/hangar_airlock/inner/frame11,
 /area/rust_rat_ship/hangar_upper)
+"LA" = (
+/obj/structure/machinery/vending/cigarette/wy/free,
+/turf/open/floor/prison/cell_stripe/east,
+/area/rust_rat_ship/bridge_central)
 "LB" = (
 /obj/structure/platform/metal{
 	dir = 1
@@ -13135,6 +13451,10 @@
 "Ob" = (
 /turf/open/floor/hangar_airlock/inner/frame21,
 /area/rust_rat_ship/hangar_starboard)
+"Od" = (
+/obj/structure/machinery/power/breakerbox/activated,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_starboard)
 "Oe" = (
 /turf/open/floor/hangar_airlock/inner/frame5,
 /area/rust_rat_ship/hangar_starboard)
@@ -13293,58 +13613,53 @@
 /turf/open/floor/hangar_airlock/outer/frame4,
 /area/space)
 "OO" = (
-/obj/docking_port/stationary/marine_dropship/airlock/inner{
-
-	name = "Rust Rat Hangar 1 Inner";
-
-	id = "rust-rat-hangar-1-inner";
-
-	roundstart_template = /datum/map_template/shuttle/rasputin;
-
-	dropship_airlock_id = "rust-rat-hangar-1"
-
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
 	},
-/turf/open/floor/hangar_airlock/inner/frame5,
+/obj/item/ammo_magazine/rifle/boltaction,
+/obj/item/ammo_magazine/rifle/boltaction,
+/obj/item/ammo_magazine/rifle/boltaction,
+/obj/item/ammo_magazine/rifle/boltaction,
+/obj/item/ammo_magazine/rifle/boltaction,
+/obj/item/ammo_magazine/rifle/boltaction,
+/obj/item/ammo_magazine/rifle/boltaction,
+/obj/item/ammo_magazine/rifle/boltaction,
+/obj/item/ammo_magazine/rifle/boltaction,
+/obj/item/ammo_magazine/rifle/r81m1,
+/obj/item/ammo_magazine/rifle/r81m1,
+/obj/item/ammo_magazine/rifle/r81m1,
+/obj/item/ammo_magazine/rifle/r81m1,
+/obj/item/ammo_magazine/rifle/r81m1,
+/obj/item/ammo_magazine/rifle/r81m1,
+/obj/item/ammo_magazine/rifle/r81m1,
+/obj/item/ammo_magazine/rifle/r81m1,
+/obj/structure/closet/crate/green,
+/turf/open/floor/almayer,
 /area/rust_rat_ship/hangar_port)
 "OP" = (
 /obj/docking_port/stationary/marine_dropship/airlock/outer{
-
 	name = "Rust Rat Hangar 1 Outer";
-
 	id = "rust-rat-hangar-1-outer";
-
 	roundstart_template = null;
-
 	dropship_airlock_id = "rust-rat-hangar-1"
-
 	},
 /turf/open/floor/hangar_airlock/outer/frame4,
 /area/space)
 "OQ" = (
 /obj/docking_port/stationary/marine_dropship/airlock/inner{
-
 	name = "Rust Rat Hangar 2 Inner";
-
 	id = "rust-rat-hangar-2-inner";
-
 	roundstart_template = null;
-
 	dropship_airlock_id = "rust-rat-hangar-2"
-
 	},
 /turf/open/floor/hangar_airlock/inner/frame5,
 /area/rust_rat_ship/hangar_starboard)
 "OR" = (
 /obj/docking_port/stationary/marine_dropship/airlock/outer{
-
 	name = "Rust Rat Hangar 2 Outer";
-
 	id = "rust-rat-hangar-2-outer";
-
 	roundstart_template = null;
-
 	dropship_airlock_id = "rust-rat-hangar-2"
-
 	},
 /turf/open/floor/hangar_airlock/outer/frame4,
 /area/space)
@@ -13366,23 +13681,111 @@
 /turf/open/floor/almayer/plate,
 /area/rust_rat_ship/bridge_port)
 "OT" = (
-/obj/structure/machinery/computer/overwatch/freelance{
-	dir = 1;
-	layer = 3.2;
-	pixel_x = 2;
-	pixel_y = 18;
-	faction = "PMC"
-	},
 /obj/structure/surface/table/reinforced/black,
+/obj/structure/machinery/computer/overwatch/freelance{
+	pixel_x = 0;
+	pixel_y = 5
+	},
 /turf/open/floor/plating/plating_catwalk,
 /area/rust_rat_ship/bridge_port)
+"OV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_starboard)
+"PT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/largecrate/random/barrel/true_random,
+/obj/structure/largecrate/random/barrel/true_random{
+	pixel_x = 5;
+	pixel_y = 18
+	},
+/turf/open/floor/almayer/plate,
+/area/rust_rat_ship/cargo_main)
+"Ra" = (
+/obj/effect/landmark/start/rust_rat/tin,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/cryo)
+"Rb" = (
+/obj/structure/prop/invuln/darkness,
+/obj/structure/prop/invuln/darkness,
+/obj/structure/blocker/invisible_wall,
+/obj/structure/prop/hybrisa/misc/floorprops/grate{
+	layer = 3.4
+	},
+/obj/structure/prop/invuln/darkness,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/cryo)
+"Ru" = (
+/obj/structure/cargo_container/canc/right,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_upper)
+"RJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/rust_rat_ship/hangar_starboard)
+"Sr" = (
+/obj/structure/machinery/floodlight/landing/floor,
+/turf/open/floor/almayer/plate,
+/area/rust_rat_ship/hangar_upper)
+"Sv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/emcloset,
+/turf/open/floor/prison/cell_stripe/west,
+/area/rust_rat_ship/cargo_main)
+"Sy" = (
+/obj/structure/largecrate/supply{
+	pixel_x = 13;
+	pixel_y = -2
+	},
+/turf/open/floor/almayer/orange,
+/area/rust_rat_ship/cargo_main)
+"TE" = (
+/obj/structure/platform_decoration{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_starboard)
+"WA" = (
+/obj/structure/largecrate/random/case/double{
+	pixel_x = 12;
+	pixel_y = 2
+	},
+/turf/open/floor/almayer/orange/north,
+/area/rust_rat_ship/cargo_main)
 "WL" = (
 /obj/structure/platform_decoration{
 	dir = 8
 	},
 /turf/open/space/basic,
 /area/space)
+"WU" = (
+/obj/structure/closet/firecloset/alt/full,
+/turf/open/floor/prison/floor_plate,
+/area/rust_rat_ship/bridge_central)
+"WZ" = (
+/obj/effect/decal/hybrisa/dirt,
+/turf/open/floor/almayer,
+/area/rust_rat_ship/hangar_upper)
+"YV" = (
+/obj/structure/extinguisher_cabinet,
+/turf/closed/wall/almayer/research,
+/area/rust_rat_ship/quarters_west)
 
+"ZX" = (
+/obj/effect/landmark/late_join/rust_rat,
+/obj/effect/landmark/late_join{
+	job = "Handler"
+	},
+/obj/effect/landmark/late_join{
+	job = "Tin"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/plating_catwalk,
+/area/rust_rat_ship/cryo)
 (1,1,1) = {"
 Mm
 Mm
@@ -17045,33 +17448,33 @@ Mm
 Mm
 Mm
 Mm
-Ks
-Ks
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
 Mm
 Mm
 Mm
@@ -17224,8 +17627,8 @@ Mm
 Mm
 Mm
 Mm
+sJ
 Ks
-Ks
 Mm
 OD
 OD
@@ -17246,11 +17649,11 @@ OD
 OD
 OD
 OD
-Mm
-Mm
-Mm
-Mm
-Mm
+cK
+cK
+cK
+cK
+sJ
 Mm
 Mm
 Mm
@@ -17403,8 +17806,8 @@ Mm
 Mm
 Mm
 Mm
+sJ
 Ks
-Ks
 OF
 OF
 OF
@@ -17426,10 +17829,10 @@ OF
 OF
 OF
 OF
-Mm
-Mm
-Mm
-Mm
+cK
+cK
+cK
+sJ
 Mm
 Mm
 Mm
@@ -17582,7 +17985,7 @@ Mm
 Mm
 Mm
 Mm
-Ks
+sJ
 OG
 OG
 OG
@@ -17606,9 +18009,9 @@ OG
 OG
 OG
 OG
-Mm
-Mm
-Mm
+cK
+cK
+sJ
 Mm
 Mm
 Mm
@@ -17761,7 +18164,7 @@ Mm
 Mm
 Mm
 Mm
-Ks
+sJ
 OH
 OH
 OH
@@ -17785,9 +18188,9 @@ OH
 OH
 OH
 OH
-Mm
-Mm
-Mm
+cK
+cK
+sJ
 Mm
 Mm
 Mm
@@ -17940,7 +18343,7 @@ Mm
 Mm
 Mm
 Mm
-Ks
+sJ
 OJ
 OJ
 OJ
@@ -17964,9 +18367,9 @@ OJ
 OJ
 OJ
 OJ
-Mm
-Mm
-Mm
+cK
+cK
+sJ
 Mm
 Mm
 Mm
@@ -18119,7 +18522,7 @@ Mm
 Mm
 Mm
 Mm
-Ks
+sJ
 OK
 OK
 OK
@@ -18143,9 +18546,9 @@ OK
 OK
 OK
 OK
-Mm
-Mm
-Mm
+cK
+cK
+sJ
 Mm
 Mm
 Mm
@@ -18298,7 +18701,7 @@ Mm
 Mm
 Mm
 Mm
-Ks
+sJ
 OL
 OL
 OL
@@ -18322,9 +18725,9 @@ OL
 OL
 OL
 OL
-Mm
-Mm
-Mm
+cK
+cK
+sJ
 Mm
 Mm
 Mm
@@ -18477,7 +18880,7 @@ Mm
 Mm
 Mm
 Mm
-Ks
+sJ
 OK
 OK
 OK
@@ -18501,9 +18904,9 @@ OK
 OK
 OK
 OK
-Mm
-Mm
-Mm
+cK
+cK
+sJ
 Mm
 Mm
 Mm
@@ -18656,7 +19059,7 @@ Mm
 Mm
 Mm
 Mm
-Ks
+sJ
 OJ
 OJ
 OJ
@@ -18680,9 +19083,9 @@ OJ
 OJ
 OJ
 OJ
-Mm
-Mm
-Mm
+cK
+cK
+sJ
 Mm
 Mm
 Mm
@@ -18835,7 +19238,7 @@ Mm
 Mm
 Mm
 Mm
-Ks
+sJ
 OH
 OH
 OH
@@ -18859,9 +19262,9 @@ OH
 OH
 OH
 OH
-Mm
-Mm
-Mm
+cK
+cK
+sJ
 Mm
 Mm
 Mm
@@ -19014,7 +19417,7 @@ Mm
 Mm
 Mm
 Mm
-Ks
+sJ
 OG
 OG
 OG
@@ -19038,9 +19441,9 @@ OG
 OG
 OG
 OG
-Mm
-Mm
-Mm
+cK
+cK
+sJ
 Mm
 Mm
 Mm
@@ -19193,8 +19596,8 @@ Mm
 Mm
 Mm
 Mm
-Ks
-Ks
+sJ
+cK
 OF
 OF
 OF
@@ -19216,10 +19619,10 @@ OF
 OF
 OF
 OF
-Mm
-Mm
-Mm
-Mm
+cK
+cK
+cK
+sJ
 Mm
 Mm
 Mm
@@ -19372,9 +19775,9 @@ Mm
 Mm
 Mm
 Mm
-Ks
-Ks
-Mm
+sJ
+cK
+cK
 OD
 OD
 OD
@@ -19394,11 +19797,11 @@ OD
 OD
 OD
 OD
-Mm
-Mm
-Mm
-Mm
-Mm
+cK
+cK
+cK
+cK
+sJ
 Mm
 Mm
 Mm
@@ -19551,33 +19954,33 @@ Mm
 Mm
 Mm
 Mm
-Ks
-Ks
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
+sJ
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+cK
+sJ
 Mm
 Mm
 Mm
@@ -19730,33 +20133,33 @@ Mm
 Mm
 Mm
 Mm
-Ks
-Ks
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
 Mm
 Mm
 Mm
@@ -19909,33 +20312,33 @@ Mm
 Mm
 Mm
 Mm
-Ks
-Ks
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
-Mm
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
+sJ
 Mm
 Mm
 Mm
@@ -21721,9 +22124,9 @@ ci
 ci
 ci
 ci
-cj
-cj
-cj
+kg
+kg
+kg
 Mm
 Mm
 Mm
@@ -21877,7 +22280,7 @@ Mm
 Mm
 Mm
 Mm
-cK
+eU
 cg
 cg
 cg
@@ -21900,9 +22303,9 @@ cN
 cN
 cN
 cN
-cj
-cj
-cj
+kg
+kg
+kg
 cO
 Mm
 Mm
@@ -22056,7 +22459,7 @@ Mm
 Mm
 Mm
 Mm
-cK
+eU
 dc
 dc
 dc
@@ -22235,7 +22638,7 @@ Mm
 Mm
 Mm
 Mm
-cK
+eU
 dc
 dc
 KE
@@ -22414,7 +22817,7 @@ Mm
 Mm
 Mm
 Mm
-cK
+eU
 dc
 Ky
 KI
@@ -22593,7 +22996,7 @@ Mm
 Mm
 Mm
 Mm
-cK
+eU
 dc
 Ky
 KI
@@ -22763,16 +23166,16 @@ Mm
 Mm
 Mm
 Mm
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 dc
 Ky
 KI
@@ -22785,7 +23188,7 @@ KC
 KC
 KC
 KC
-KC
+js
 KC
 KC
 KC
@@ -22816,12 +23219,12 @@ cO
 aa
 aa
 aa
-eL
+aa
 eM
-eL
-eL
+aa
+aa
 eN
-eL
+aa
 eN
 aa
 aa
@@ -22941,8 +23344,8 @@ Mm
 Mm
 Mm
 Mm
-cK
-cK
+eU
+eU
 eO
 eQ
 eU
@@ -22977,28 +23380,28 @@ Lo
 Lq
 KX
 dq
-fg
-JZ
-Kc
-Kd
-Ke
-Kf
-Kh
-Kn
-Kn
-Ko
-Ko
-Ko
-Kp
-Kr
-fg
+cO
+fh
+fi
+cO
+cO
+cO
+cO
+cO
+cO
+cO
+cO
+cO
+fi
+fh
+cO
 fl
 fm
 fn
 fo
 fq
 fs
-eL
+aa
 ft
 fu
 fv
@@ -23119,9 +23522,9 @@ Mm
 Mm
 Mm
 Mm
-cK
-cK
-cK
+eU
+eU
+eU
 fC
 fE
 fF
@@ -23143,7 +23546,7 @@ Lu
 Lu
 Lu
 Lu
-OO
+Lu
 Lu
 Lu
 Lu
@@ -23156,10 +23559,10 @@ KV
 Lv
 Lw
 dq
-fg
-Kr
-fg
-fg
+cO
+fh
+cO
+cO
 fP
 fQ
 fP
@@ -23167,10 +23570,10 @@ fR
 fP
 fQ
 fP
-fg
-fg
+cO
+cO
 fh
-fg
+cO
 fS
 fT
 fW
@@ -23181,11 +23584,11 @@ ga
 gc
 gh
 gi
-gj
+ga
 gk
 gl
 gp
-gj
+ga
 Mm
 Mm
 Mm
@@ -23297,10 +23700,10 @@ Mm
 Mm
 Mm
 Mm
-cK
-cK
-cK
-cK
+eU
+eU
+eU
+eU
 gq
 fE
 eU
@@ -23335,9 +23738,9 @@ KV
 LB
 Ll
 dq
-fg
+cO
 fh
-fg
+cO
 fP
 gy
 gz
@@ -23347,9 +23750,9 @@ gC
 gD
 gE
 fP
-fg
+cO
 fh
-fg
+cO
 gF
 gJ
 gK
@@ -23360,11 +23763,11 @@ ga
 gc
 gU
 gi
-gj
+ga
 gk
 gl
 gW
-gj
+ga
 Mm
 Mm
 Mm
@@ -23475,11 +23878,11 @@ Mm
 Mm
 Mm
 Mm
-cK
-cK
-cK
-cK
-cK
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -23514,21 +23917,21 @@ KV
 LB
 Ll
 dq
-fg
+cO
 fi
-fg
+cO
 fP
 ha
 hb
-hd
+aj
 fP
 he
 hf
 hj
 fP
-fg
+cO
 fi
-fg
+cO
 gF
 hk
 hm
@@ -23539,11 +23942,11 @@ ga
 hs
 gU
 ht
-gj
+ga
 gk
-hu
+Rb
 gp
-gj
+ga
 Mm
 Mm
 Mm
@@ -23653,12 +24056,12 @@ Mm
 Mm
 Mm
 Mm
-cK
-cK
-cK
-cK
-cK
-cK
+eU
+eU
+eU
+eU
+eU
+eU
 OS
 hw
 hx
@@ -23693,21 +24096,21 @@ LR
 LB
 Ll
 dq
-fg
+cO
 fh
-fg
+cO
 fP
-hO
+eL
 hP
 hQ
 hR
 hS
-hU
-hd
+Ra
+Bg
 fP
-fg
+cO
 fh
-fg
+cO
 hX
 hY
 hZ
@@ -23722,7 +24125,7 @@ if
 gk
 gl
 gp
-gj
+ga
 Mm
 Mm
 Mm
@@ -23831,13 +24234,13 @@ Mm
 Mm
 Mm
 Mm
-cK
-cK
-cK
-cK
-cK
-cK
-cK
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 ih
 ik
 il
@@ -23872,21 +24275,21 @@ Mc
 Mh
 Ll
 dq
-fg
+cO
 fh
-fg
+cO
 iA
-hO
-hU
-hd
+ag
+aq
+al
 iB
 hO
-hU
-hd
+aq
+al
 iC
-fg
+cO
 fh
-fg
+cO
 iE
 iF
 hn
@@ -23901,7 +24304,7 @@ if
 gk
 gl
 gW
-gj
+ga
 Mm
 Mm
 Mm
@@ -24009,14 +24412,14 @@ Mm
 Mm
 Mm
 Mm
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 OT
 eW
 iQ
@@ -24051,9 +24454,9 @@ MB
 MD
 jk
 jp
-fg
+cO
 fh
-fg
+cO
 fP
 jt
 jv
@@ -24063,9 +24466,9 @@ jx
 jy
 jF
 fP
-fg
+cO
 fh
-fg
+cO
 iE
 hk
 hn
@@ -24076,11 +24479,11 @@ ga
 iL
 jG
 gi
-gj
+ga
 gk
 hu
 gp
-gj
+ga
 Mm
 Mm
 Mm
@@ -24187,15 +24590,15 @@ Mm
 Mm
 Mm
 Mm
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 jH
 jI
 jJ
@@ -24230,21 +24633,21 @@ Ld
 dq
 jV
 dq
-fg
+cO
 fi
-fg
+cO
 jW
 fP
 fP
 fP
 fR
 fP
-iB
+ZX
 iB
 fR
-fg
+cO
 fi
-fg
+cO
 iE
 iF
 hn
@@ -24255,11 +24658,11 @@ ga
 jX
 jG
 jZ
-gj
+ga
 gk
 gl
 gp
-gj
+ga
 Mm
 Mm
 Mm
@@ -24302,6 +24705,7 @@ Mm
 Mm
 Mm
 "}
+
 (62,1,1) = {"
 Mm
 Mm
@@ -24365,16 +24769,16 @@ Mm
 Mm
 Mm
 Mm
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 eU
 eU
 eU
@@ -24384,10 +24788,10 @@ eU
 eU
 eU
 eU
-kc
-kc
-kc
-kc
+cg
+cg
+cg
+cg
 ke
 ke
 ke
@@ -24409,9 +24813,9 @@ kg
 kg
 kg
 kg
-fg
+cO
 fh
-fg
+cO
 iB
 kn
 ko
@@ -24421,9 +24825,9 @@ kr
 kt
 ku
 fP
-fg
+cO
 fh
-fg
+cO
 hX
 hY
 kv
@@ -24438,7 +24842,7 @@ if
 gk
 gl
 gW
-gj
+ga
 Mm
 Mm
 Mm
@@ -24543,16 +24947,16 @@ Mm
 Mm
 Mm
 Mm
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 kA
 kB
 kC
@@ -24563,9 +24967,9 @@ eV
 kF
 kH
 eU
+xc
 kN
 kN
-kI
 kK
 kN
 kN
@@ -24588,21 +24992,21 @@ le
 lh
 dI
 lk
-fg
+cO
 fh
-fg
+cO
 ll
 lm
 lo
 lp
 hU
 lq
-lr
+kc
 lt
 iC
-fg
+cO
 fh
-fg
+cO
 gF
 iF
 hn
@@ -24613,11 +25017,11 @@ ga
 iL
 gU
 ky
-gj
+ga
 gk
 hu
 gp
-gj
+ga
 sJ
 Mm
 Mm
@@ -24721,17 +25125,17 @@ Mm
 Mm
 Mm
 Mm
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 lv
 lw
 eW
@@ -24742,9 +25146,9 @@ lD
 eV
 lG
 eU
+uD
 dc
 dc
-lH
 lI
 dc
 lJ
@@ -24767,9 +25171,9 @@ lV
 dq
 lY
 lZ
-fg
+cO
 fh
-fg
+cO
 fP
 gy
 ma
@@ -24779,9 +25183,9 @@ lr
 md
 gy
 fP
-fg
+cO
 fh
-fg
+cO
 gF
 hk
 hm
@@ -24792,11 +25196,11 @@ ga
 jX
 gU
 ht
-gj
+ga
 gk
 gl
 gp
-gj
+ga
 me
 sJ
 Mm
@@ -24899,19 +25303,19 @@ Mm
 Mm
 Mm
 Mm
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
-cK
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
+eU
 mf
 eV
 mg
@@ -24921,10 +25325,10 @@ mj
 eW
 mk
 eU
-dc
-dc
 ml
-mm
+dc
+rq
+mq
 dc
 mn
 mp
@@ -24934,22 +25338,22 @@ ms
 mt
 mu
 mv
-mv
-mw
+OO
+nS
 my
 jV
 kT
 dq
 kY
-mz
+lH
 dq
-ms
+yZ
 lY
 mA
-fg
+cO
 fi
-fg
-fg
+cO
+cO
 fP
 mB
 mC
@@ -24957,10 +25361,10 @@ mD
 mE
 mG
 fP
-fg
-fg
+cO
+cO
 fi
-fg
+cO
 gF
 hk
 hm
@@ -24975,7 +25379,7 @@ if
 gk
 gl
 gW
-gj
+ga
 me
 me
 me
@@ -25077,20 +25481,20 @@ Mm
 Mm
 Mm
 Mm
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 mK
 mM
 mN
@@ -25100,10 +25504,10 @@ mQ
 mM
 mR
 mS
-dc
-dc
 mU
-mm
+dc
+rq
+mq
 dc
 mn
 dc
@@ -25119,27 +25523,27 @@ nb
 jV
 kT
 dq
-kY
-mz
-nc
+fg
+GJ
 ms
+mm
 jV
 ne
-fg
-fg
-fg
-fg
-fg
-fg
+cO
+cO
+cO
+cO
+cO
+cO
 hR
 hR
-fR
-fg
-fg
-fg
-fg
-fg
-fg
+aD
+cO
+cO
+cO
+cO
+cO
+cO
 hX
 nf
 nn
@@ -25154,7 +25558,7 @@ if
 gk
 nu
 gp
-gj
+ga
 nv
 nw
 nx
@@ -25255,21 +25659,21 @@ Mm
 Mm
 Mm
 Mm
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 nI
 nJ
 nK
@@ -25280,9 +25684,9 @@ nJ
 nN
 mS
 dc
+oI
 dc
-dc
-nO
+mq
 dc
 mn
 dc
@@ -25298,27 +25702,27 @@ kY
 jV
 kT
 dq
-kY
+ab
 mz
-nS
-dq
+ms
+rn
 jV
 kT
-nT
+vx
 JO
 JS
 JT
 JU
-nT
+vx
 od
 of
 od
-nT
+vx
 JV
 JW
 JW
 JV
-nT
+vx
 iE
 oh
 oi
@@ -25329,11 +25733,11 @@ ga
 iL
 jG
 gi
-gj
+ga
 gk
 gl
 gp
-gj
+ga
 op
 oq
 or
@@ -25433,22 +25837,22 @@ Mm
 Mm
 Mm
 Mm
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 oC
 mM
 oD
@@ -25459,15 +25863,15 @@ mM
 nN
 mS
 dc
-dc
+ws
 ja
-oI
+oL
 oK
 jc
 oK
 oL
 oN
-oO
+AF
 oR
 oS
 oO
@@ -25479,11 +25883,11 @@ ji
 oO
 oZ
 pa
-pb
 oO
+kI
 pc
 pe
-nT
+vx
 pg
 ph
 pi
@@ -25497,7 +25901,7 @@ pm
 ph
 ph
 pj
-nT
+vx
 po
 pq
 ps
@@ -25505,14 +25909,14 @@ ps
 pu
 iM
 ga
-jX
+bg
 jG
 ht
-gj
+ga
 gk
 gl
 gp
-gj
+ga
 pv
 pw
 pz
@@ -25611,23 +26015,23 @@ Mm
 Mm
 Mm
 Mm
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 pI
 pJ
 pM
@@ -25638,9 +26042,9 @@ pN
 pO
 mS
 dc
+Ru
 dc
-dc
-pP
+lI
 mp
 mn
 dc
@@ -25662,7 +26066,7 @@ pS
 dq
 jV
 qe
-nT
+vx
 JR
 qg
 qh
@@ -25675,8 +26079,8 @@ pl
 qk
 qh
 ql
-JY
-nT
+qj
+vx
 ga
 qo
 ps
@@ -25684,14 +26088,14 @@ ps
 qp
 ga
 ga
-iL
+uV
 qr
 ky
-gj
+ga
 qt
 qw
 qx
-gj
+ga
 qy
 qA
 qC
@@ -25789,24 +26193,24 @@ Mm
 Mm
 Mm
 Mm
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 mS
 mS
 mS
@@ -25816,10 +26220,10 @@ mS
 mS
 mS
 mS
-kN
-kN
+gm
+cg
 qL
-qM
+AV
 qN
 qP
 qP
@@ -25841,21 +26245,21 @@ rf
 rg
 rh
 rk
-nT
-nT
-nT
-nT
-nT
-nT
+vx
+vx
+vx
+vx
+vx
+vx
 od
 of
 od
-nT
-nT
-nT
-nT
-nT
-nT
+vx
+vx
+vx
+vx
+vx
+vx
 ga
 ga
 rl
@@ -25863,14 +26267,14 @@ rm
 ga
 ga
 ga
-rn
-gh
-rq
-gj
-gj
+ga
+pb
+ga
+ga
+ga
 rr
-gj
-gj
+ga
+ga
 pv
 rs
 rt
@@ -25968,25 +26372,25 @@ Mm
 Mm
 Mm
 Mm
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-rD
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+vw
+uR
 rF
 rD
 rH
@@ -25995,11 +26399,11 @@ rD
 rK
 rD
 mS
-mn
-mn
 rM
-mq
-mp
+Ce
+mn
+Cz
+qi
 mn
 dc
 rN
@@ -26007,13 +26411,13 @@ rP
 rQ
 rR
 rR
-rR
+hL
 rT
 rU
 rV
-rX
+ev
 rZ
-sa
+OV
 sb
 sc
 rQ
@@ -26034,8 +26438,8 @@ si
 sp
 si
 sf
-nT
-sq
+vx
+Sv
 sr
 ss
 ss
@@ -26049,7 +26453,7 @@ ss
 st
 sq
 ss
-gj
+ga
 su
 sw
 sy
@@ -26147,25 +26551,25 @@ Mm
 Mm
 Mm
 Mm
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 sF
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-rJ
+mS
+mS
+mS
+mS
+mS
+mS
+WU
 sG
 sH
 rH
@@ -26173,26 +26577,26 @@ rH
 sH
 sH
 rH
-qJ
-mn
-mn
+nc
+Ce
+hd
 mn
 kK
-dc
-lJ
+WZ
+AO
 dc
 sI
 sK
 sd
-sd
-sd
-rZ
+jD
+jD
+RJ
 sL
 sM
 sN
 sO
-sd
-sa
+jD
+OV
 sN
 sP
 sd
@@ -26327,24 +26731,24 @@ Mm
 Mm
 Mm
 Mm
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-tr
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+LA
 ts
 tr
 rJ
@@ -26355,7 +26759,7 @@ ts
 mS
 mn
 mn
-mn
+Ce
 mq
 dc
 lJ
@@ -26367,14 +26771,14 @@ rR
 rR
 rR
 tx
-ty
+Bf
 tA
 rX
-sd
-sa
+jD
+OV
 tB
 tC
-tw
+TE
 rR
 rX
 sd
@@ -26391,9 +26795,9 @@ tE
 tE
 tI
 tE
-tE
-nT
-tJ
+FB
+vx
+EO
 tK
 tJ
 tJ
@@ -26407,7 +26811,7 @@ tL
 tK
 tJ
 tJ
-gj
+ga
 tM
 tN
 tQ
@@ -26507,22 +26911,22 @@ Mm
 Mm
 Mm
 Mm
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 mS
 mS
 mS
@@ -26532,8 +26936,8 @@ mS
 mS
 mS
 mS
-kN
-kN
+cg
+cg
 qL
 qM
 qP
@@ -26549,29 +26953,29 @@ uh
 uj
 uk
 um
-sN
-uo
+gS
+dY
 ur
 ut
 uu
 uv
 uw
 uA
-nT
-nT
-nT
-nT
-nT
-nT
-od
+vx
+vx
+vx
+vx
+vx
+vx
+ah
 of
 od
-nT
-nT
-nT
-nT
-nT
-nT
+vx
+vx
+vx
+vx
+vx
+vx
 ga
 ga
 rl
@@ -26579,14 +26983,14 @@ rm
 ga
 ga
 ga
-uD
-gh
-uE
-gj
-gj
+ga
+pb
+ga
+ga
+ga
 rr
-gj
-gj
+ga
+ga
 qy
 uF
 uG
@@ -26687,21 +27091,21 @@ Mm
 Mm
 Mm
 Mm
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
-mJ
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
+mS
 uM
 uN
 uP
@@ -26711,8 +27115,8 @@ uP
 uS
 uT
 mS
-dc
-dc
+pP
+uE
 ja
 uU
 oK
@@ -26736,7 +27140,7 @@ vq
 ve
 vi
 vr
-nT
+vx
 vs
 vt
 vv
@@ -26750,7 +27154,7 @@ vE
 vF
 vG
 vH
-nT
+vx
 vI
 vL
 vM
@@ -26758,14 +27162,14 @@ vQ
 vR
 vS
 ga
-gc
+Dm
 gh
-gi
-gj
+Cv
+ga
 gk
 gl
 gW
-gj
+ga
 vT
 vV
 vW
@@ -26889,11 +27293,11 @@ wo
 wo
 wp
 wq
-wr
+wh
+nO
 dc
 dc
-dc
-ws
+mq
 dc
 mn
 dc
@@ -26903,11 +27307,11 @@ rR
 rR
 wu
 sa
-rR
+FN
 wv
 ww
-rX
-sd
+ev
+jD
 rR
 uo
 wz
@@ -26915,7 +27319,7 @@ rR
 sa
 rX
 wA
-nT
+vx
 wB
 wD
 wD
@@ -26923,13 +27327,13 @@ vx
 wG
 wI
 wJ
-vB
-qk
+zK
+zK
 vB
 wI
 wK
 vB
-nT
+vx
 wL
 wM
 wN
@@ -26940,11 +27344,11 @@ ga
 hs
 jG
 ht
-gj
+ga
 gk
 hu
 gp
-gj
+ga
 me
 me
 me
@@ -27068,21 +27472,21 @@ xa
 xa
 xb
 wq
-wr
+wh
+jE
 dc
 dc
-dc
-xc
+mq
 dc
 mn
 dc
 mq
 sK
 xd
-rR
+GD
 wu
 sa
-rR
+Od
 xf
 xh
 rX
@@ -27094,7 +27498,7 @@ rR
 sa
 rX
 xl
-nT
+vx
 xo
 xp
 wD
@@ -27108,7 +27512,7 @@ xu
 xv
 pg
 pi
-nT
+vx
 xx
 gU
 xz
@@ -27116,14 +27520,14 @@ xA
 gU
 xD
 ga
-iL
-jG
-gi
-gj
+Sy
+AW
+JY
+ga
 gk
 gl
 gp
-gj
+ga
 me
 sJ
 Mm
@@ -27247,10 +27651,10 @@ xK
 xK
 xJ
 xL
-wr
+wh
+uD
 dc
 dc
-lH
 xM
 mp
 mn
@@ -27273,7 +27677,7 @@ yb
 sa
 rX
 yc
-nT
+vx
 ye
 wD
 wD
@@ -27287,7 +27691,7 @@ yi
 yj
 pg
 yk
-nT
+vx
 yl
 gU
 xz
@@ -27296,13 +27700,13 @@ gU
 ym
 ga
 iL
-iM
-gi
+PT
+WA
 if
 gk
 gl
 gW
-gj
+ga
 sJ
 Mm
 Mm
@@ -27411,12 +27815,12 @@ wh
 wh
 wh
 wh
-wr
-wr
-wr
-wr
-wr
-wr
+wh
+wh
+wh
+wh
+wh
+wh
 yn
 yo
 yp
@@ -27426,11 +27830,11 @@ wn
 wo
 ys
 wq
-wr
+wh
+xc
+Sr
 kN
-kN
-kI
-kK
+mq
 kN
 kN
 kN
@@ -27452,7 +27856,7 @@ yN
 yO
 yP
 yQ
-nT
+vx
 yR
 wD
 wD
@@ -27466,7 +27870,7 @@ yW
 yY
 pg
 za
-nT
+vx
 zb
 gU
 xz
@@ -27474,14 +27878,14 @@ zc
 jG
 zd
 ga
-iL
+xU
 iM
 gi
 if
 gk
 hu
 gp
-gj
+ga
 Mm
 Mm
 Mm
@@ -27590,12 +27994,12 @@ Mm
 wh
 wh
 wh
-wr
+wh
 ze
 zf
 zg
 zh
-wr
+wh
 wi
 zi
 zj
@@ -27605,37 +28009,37 @@ xa
 xa
 zk
 xL
-wr
-kc
-kc
-kc
-kc
+wh
+cg
+cg
+cg
+cg
 ke
 ke
 ke
 kf
-zl
-zl
-zl
-zl
-zl
-zl
-zl
-zl
+Iq
+Iq
+Iq
+Iq
+Iq
+Iq
+Iq
+Iq
 zm
 zp
 zp
-zl
-zl
-zl
-zl
-zl
-zl
-nT
+Iq
+Iq
+Iq
+Iq
+Iq
+Iq
+vx
 zr
 wD
 wD
-vx
+YV
 ph
 yT
 pg
@@ -27645,7 +28049,7 @@ zu
 xv
 pg
 zw
-nT
+vx
 zx
 zz
 zA
@@ -27656,11 +28060,11 @@ zD
 zE
 zI
 zJ
-zK
+zD
 zL
 zM
 zN
-zK
+zD
 Mm
 Mm
 Mm
@@ -27769,13 +28173,13 @@ Mm
 Mm
 wh
 wh
-wr
+wh
 zO
 zP
 xJ
 zR
-wr
-wr
+wh
+tl
 zT
 zU
 zV
@@ -27784,7 +28188,7 @@ zX
 xJ
 zY
 wq
-wr
+wh
 dc
 dc
 dc
@@ -27810,7 +28214,7 @@ MQ
 rR
 rX
 rR
-nT
+vx
 Aa
 wD
 wD
@@ -27824,7 +28228,7 @@ vC
 Ai
 Af
 Aj
-nT
+vx
 Ak
 Am
 Ao
@@ -27835,11 +28239,11 @@ zD
 At
 zI
 Au
-zK
+zD
 zL
 zM
 Av
-zK
+zD
 Mm
 Mm
 Mm
@@ -27953,17 +28357,17 @@ Aw
 Ax
 xJ
 Az
-wr
-wr
-wr
-wr
-wr
+wh
+wh
+wh
+wh
+wh
 AC
 AD
-wr
-wr
-wr
-wr
+wh
+wh
+wh
+wh
 dc
 dc
 Mi
@@ -27989,21 +28393,21 @@ Nb
 Nc
 AH
 AI
-AJ
+FQ
 AN
 AQ
 AR
-AV
-AW
-AW
-AW
+FQ
+Ba
+Ba
+Ba
 AX
 AZ
 Ba
 Ba
 Bb
 Bd
-Bg
+FQ
 zD
 zD
 Bh
@@ -28011,14 +28415,14 @@ Bi
 zD
 zD
 zD
-At
+DX
 Bj
 Au
 Bk
 zL
 Bm
 zN
-zK
+zD
 Mm
 Mm
 Mm
@@ -28136,7 +28540,7 @@ Bq
 Br
 Bs
 Bt
-wr
+wh
 Bu
 Bw
 By
@@ -28168,21 +28572,21 @@ Nv
 Nw
 MN
 rR
-AJ
-AJ
-AJ
-AJ
-AJ
-AJ
+FQ
+FQ
+FQ
+FQ
+FQ
+FQ
 BM
 BN
 BO
-Bg
-Bg
-Bg
-Bg
-Bg
-Bg
+FQ
+FQ
+FQ
+FQ
+FQ
+FQ
 BQ
 zD
 BR
@@ -28197,7 +28601,7 @@ Bk
 zL
 zM
 zN
-zK
+zD
 Mm
 Mm
 Mm
@@ -28311,11 +28715,11 @@ wh
 wh
 BY
 BZ
-wr
+wh
 Cb
 By
 Cd
-Ce
+Bq
 Cf
 By
 BA
@@ -28347,21 +28751,21 @@ NN
 NO
 MN
 rR
-AJ
+FQ
 Cq
 Cr
 Cs
 Cu
 Cw
 Cx
-Cz
+Dq
 CA
 CC
 CD
 CE
 CD
 CF
-Bg
+FQ
 CG
 CH
 CI
@@ -28372,11 +28776,11 @@ zD
 CO
 zI
 zJ
-zK
+zD
 zL
 zM
 Av
-zK
+zD
 Mm
 Mm
 Mm
@@ -28493,14 +28897,14 @@ wh
 wh
 CP
 By
-CV
-wr
+mJ
+wh
 By
 CX
 CY
 CV
 CZ
-wr
+wh
 dc
 Ky
 KI
@@ -28526,21 +28930,21 @@ NU
 NO
 MN
 rR
-AJ
+FQ
 Df
 Dg
 Dh
-AV
+FQ
 Di
 Dk
-Dm
+Ee
 Do
 Dp
 Dq
 Du
 Dw
 Dx
-Bg
+FQ
 Dy
 DA
 DB
@@ -28551,11 +28955,11 @@ zD
 At
 DG
 BU
-zK
+zD
 zL
 Bm
 zN
-zK
+zD
 Mm
 Mm
 Mm
@@ -28673,13 +29077,13 @@ DI
 DK
 DL
 DM
-DN
+DI
 DO
 DQ
 DO
 DR
 DT
-DN
+DI
 dc
 Ky
 KI
@@ -28705,11 +29109,11 @@ NU
 NO
 MN
 rR
-AJ
-AV
-AV
-AV
-AV
+FQ
+FQ
+FQ
+FQ
+FQ
 DZ
 Dk
 Ea
@@ -28719,7 +29123,7 @@ Ee
 Ef
 Eb
 Eh
-Bg
+FQ
 Ei
 Ej
 Es
@@ -28730,11 +29134,11 @@ zD
 At
 Ez
 Au
-zK
+zD
 zL
 zM
 zN
-zK
+zD
 Mm
 Mm
 Mm
@@ -28852,13 +29256,13 @@ DI
 DI
 EA
 EB
-DN
+DI
 ED
 EE
 EF
 EG
 EH
-DN
+DI
 dc
 Ky
 KI
@@ -28884,21 +29288,21 @@ NU
 Og
 Oh
 rR
-AJ
+FQ
 Df
 EK
 EL
-AV
+FQ
 EM
 EN
-EO
+Do
 Ee
 EP
 ER
 EP
 ET
 EU
-Bg
+FQ
 EW
 EX
 EY
@@ -28909,11 +29313,11 @@ zD
 Fe
 Ez
 Ff
-zK
+zD
 Fg
 Fi
 Fj
-zK
+zD
 sJ
 Mm
 Mm
@@ -29031,7 +29435,7 @@ DI
 DI
 Fk
 Fm
-DN
+DI
 Fn
 Fo
 Fp
@@ -29063,21 +29467,21 @@ Oi
 Oj
 Ok
 rR
-AJ
+FQ
 Fw
 Fx
 Fy
 Cu
 Fz
 FA
-FB
+ET
 FC
 FD
 FE
 FG
 FH
 FK
-Bg
+FQ
 zD
 zD
 zD
@@ -29088,11 +29492,11 @@ zD
 FM
 zD
 FM
-zK
-zK
-zK
-zK
-zK
+zD
+zD
+zD
+zD
+zD
 sJ
 sJ
 Mm
@@ -29242,14 +29646,14 @@ Om
 On
 MN
 rR
-FP
-FP
-FP
-FP
-FP
-FP
-FP
-FP
+FQ
+FQ
+FQ
+FQ
+FQ
+FQ
+FQ
+FQ
 FQ
 FQ
 FQ
@@ -29421,7 +29825,7 @@ Oo
 Op
 Oq
 rR
-FP
+FQ
 Mm
 Mm
 Mm
@@ -29600,7 +30004,7 @@ NU
 Os
 Ov
 rR
-FP
+FQ
 Mm
 Mm
 Mm
@@ -29779,7 +30183,7 @@ Oz
 OC
 BL
 rR
-FP
+FQ
 Mm
 Mm
 Mm
@@ -29958,7 +30362,7 @@ Oz
 uk
 BL
 rR
-FP
+FQ
 Mm
 Mm
 Mm
@@ -30137,7 +30541,7 @@ Ip
 Iq
 Iq
 Iq
-FP
+FQ
 Mm
 Mm
 Mm

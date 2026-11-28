@@ -38,3 +38,7 @@
 	name = JOB_RUST_RAT_TIN
 	squad = SQUAD_RUST_RAT
 	job = /datum/job/marine/standard/ai/rust_rat/tin
+
+/obj/effect/landmark/late_join/rust_rat
+	name = "Rust Rat late join"
+	squad = SQUAD_RUST_RAT

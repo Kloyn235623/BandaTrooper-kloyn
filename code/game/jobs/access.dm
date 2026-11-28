@@ -479,6 +479,8 @@
 			return "Pilot Gear"
 		if(ACCESS_MARINE_MAINT)
 			return "[MAIN_SHIP_NAME] Maintenance"
+		if(ACCESS_RUST_RAT_SHIP) // SS220 EDIT: name dedicated Rust Rat ship access
+			return "Rust Rat Ship"
 		if(ACCESS_CIVILIAN_RESEARCH)
 			return "Civilian Research"
 		if(ACCESS_CIVILIAN_COMMAND)

@@ -74,7 +74,9 @@
 	name = "Rust Rat Handler"
 	assignment = JOB_RUST_RAT_HANDLER
 	rank = JOB_RUST_RAT_HANDLER
+	paygrades = list(PAY_SHORT_RR_HANDLER = JOB_PLAYTIME_TIER_0)
 	idtype = /obj/item/card/id/dogtag
+	access = list(ACCESS_RUST_RAT_SHIP)
 	faction = FACTION_FREELANCER
 	faction_group = list(FACTION_FREELANCER)
 	allow_cross_faction_loadout = TRUE
@@ -83,7 +85,9 @@
 	name = "Rust Rat Warlord"
 	assignment = JOB_RUST_RAT_WARLORD
 	rank = JOB_RUST_RAT_WARLORD
+	paygrades = list(PAY_SHORT_RR_WARLORD = JOB_PLAYTIME_TIER_0)
 	idtype = /obj/item/card/id/dogtag
+	access = list(ACCESS_RUST_RAT_SHIP)
 	faction = FACTION_FREELANCER
 	faction_group = list(FACTION_FREELANCER)
 	skills = /datum/skills/rust_rat/warlord
@@ -93,7 +97,9 @@
 	name = "Rust Rat Right Hand"
 	assignment = JOB_RUST_RAT_RIGHT_HAND
 	rank = JOB_RUST_RAT_RIGHT_HAND
+	paygrades = list(PAY_SHORT_RR_RIGHT_HAND = JOB_PLAYTIME_TIER_0)
 	idtype = /obj/item/card/id/dogtag
+	access = list(ACCESS_RUST_RAT_SHIP)
 	faction = FACTION_FREELANCER
 	faction_group = list(FACTION_FREELANCER)
 	skills = /datum/skills/rust_rat/right_hand
@@ -103,7 +109,9 @@
 	name = "Rust Rat Rigger"
 	assignment = JOB_RUST_RAT_RIGGER
 	rank = JOB_RUST_RAT_RIGGER
+	paygrades = list(PAY_SHORT_RR_RIGGER = JOB_PLAYTIME_TIER_0)
 	idtype = /obj/item/card/id/dogtag
+	access = list(ACCESS_RUST_RAT_SHIP)
 	faction = FACTION_FREELANCER
 	faction_group = list(FACTION_FREELANCER)
 	skills = /datum/skills/rust_rat/rigger
@@ -113,7 +121,9 @@
 	name = "Rust Rat Stitcher"
 	assignment = JOB_RUST_RAT_STITCHER
 	rank = JOB_RUST_RAT_STITCHER
+	paygrades = list(PAY_SHORT_RR_STITCHER = JOB_PLAYTIME_TIER_0)
 	idtype = /obj/item/card/id/dogtag
+	access = list(ACCESS_RUST_RAT_SHIP)
 	faction = FACTION_FREELANCER
 	faction_group = list(FACTION_FREELANCER)
 	skills = /datum/skills/combat_medic
@@ -123,7 +133,9 @@
 	name = "Rust Rat Gunner"
 	assignment = JOB_RUST_RAT_GUNNER
 	rank = JOB_RUST_RAT_GUNNER
+	paygrades = list(PAY_SHORT_RR_GUNNER = JOB_PLAYTIME_TIER_0)
 	idtype = /obj/item/card/id/dogtag
+	access = list(ACCESS_RUST_RAT_SHIP)
 	faction = FACTION_FREELANCER
 	faction_group = list(FACTION_FREELANCER)
 	allow_cross_faction_loadout = TRUE
@@ -132,7 +144,9 @@
 	name = "Rust Rat Freelancer"
 	assignment = JOB_RUST_RAT_FREELANCER
 	rank = JOB_RUST_RAT_FREELANCER
+	paygrades = list(PAY_SHORT_RR_FREELANCER = JOB_PLAYTIME_TIER_0)
 	idtype = /obj/item/card/id/dogtag
+	access = list(ACCESS_RUST_RAT_SHIP)
 	faction = FACTION_FREELANCER
 	faction_group = list(FACTION_FREELANCER)
 	allow_cross_faction_loadout = TRUE
@@ -141,7 +155,9 @@
 	name = "Rust Rat Tin"
 	assignment = JOB_RUST_RAT_TIN
 	rank = JOB_RUST_RAT_TIN
+	paygrades = list(PAY_SHORT_RR_TIN = JOB_PLAYTIME_TIER_0)
 	idtype = /obj/item/card/id/dogtag
+	access = list(ACCESS_RUST_RAT_SHIP)
 	faction = FACTION_FREELANCER
 	faction_group = list(FACTION_FREELANCER)
 	allow_cross_faction_loadout = TRUE
