@@ -409,7 +409,7 @@
 			// SS220 EDIT - END
 				to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Invalid Origin"))
 				return
-			if(!current_gear.special_conditions())
+			if(!current_gear.special_conditions() && !allow_cross_faction_loadout)
 				to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Special conditions not met."))
 				return
 			if(!(current_gear.slot && new_human.equip_to_slot_or_del(new current_gear.path, current_gear.slot)))
@@ -521,7 +521,7 @@ GLOBAL_LIST_EMPTY(personal_closets)
 			// SS220 EDIT - END
 				to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Invalid Origin"))
 				return
-			if(!current_gear.special_conditions())
+			if(!current_gear.special_conditions() && !allow_cross_faction_loadout)
 				to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Special conditions not met."))
 				return
 			new current_gear.path(closet_to_spawn_in)

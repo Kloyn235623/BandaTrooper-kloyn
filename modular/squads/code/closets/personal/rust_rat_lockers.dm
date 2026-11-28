@@ -63,6 +63,10 @@
 /obj/structure/closet/secure_closet/marine_personal/corpsman/rust_rat/spawn_gear()
 	. = ..()
 	replace_rust_rat_uniform()
+	var/list/starting_contents = contents.Copy()
+	for(var/obj/item/device/radio/headset/headset in starting_contents)
+		qdel(headset)
+	new /obj/item/device/radio/headset/almayer/freelancer(src)
 
 /obj/structure/closet/secure_closet/marine_personal/smartgunner/rust_rat/spawn_gear()
 	. = ..()

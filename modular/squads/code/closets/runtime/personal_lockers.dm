@@ -74,6 +74,12 @@
 	var/client/real_client = mob_client || new_human.client
 	var/list/selected_gear = real_client?.prefs?.gear
 
+	if(assignment in list(JOB_RUST_RAT_HANDLER, JOB_RUST_RAT_WARLORD, JOB_RUST_RAT_RIGHT_HAND, JOB_RUST_RAT_RIGGER, JOB_RUST_RAT_STITCHER, JOB_RUST_RAT_GUNNER, JOB_RUST_RAT_FREELANCER, JOB_RUST_RAT_TIN))
+		var/list/locker_contents = locker.contents.Copy()
+		for(var/obj/item/device/radio/headset/old_headset in locker_contents)
+			qdel(old_headset)
+		new /obj/item/device/radio/headset/almayer/freelancer(locker)
+
 	for(var/gear_name in selected_gear)
 		var/datum/gear/current_gear = GLOB.gear_datums_by_name[gear_name]
 		if(!current_gear)
@@ -84,7 +90,7 @@
 		if(current_gear.allowed_origins && !(new_human.origin in current_gear.allowed_origins) && !allow_cross_faction_loadout)
 			to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Invalid Origin"))
 			continue
-		if(!current_gear.special_conditions())
+		if(!current_gear.special_conditions() && !allow_cross_faction_loadout)
 			to_chat(new_human, SPAN_WARNING("Custom gear [current_gear.display_name] cannot be equipped: Special conditions not met."))
 			continue
 		new current_gear.path(locker)
@@ -151,11 +157,6 @@
 
 	spawn_profile_personal_weapon(locker, new_human, real_client)
 
-	if(assignment in list(JOB_RUST_RAT_HANDLER, JOB_RUST_RAT_WARLORD, JOB_RUST_RAT_RIGHT_HAND, JOB_RUST_RAT_RIGGER, JOB_RUST_RAT_STITCHER, JOB_RUST_RAT_GUNNER, JOB_RUST_RAT_FREELANCER, JOB_RUST_RAT_TIN))
-		var/list/locker_contents = locker.contents.Copy()
-		for(var/obj/item/device/radio/headset/old_headset as anything in locker_contents)
-			qdel(old_headset)
-		new /obj/item/device/radio/headset/almayer/freelancer(locker)
 
 /datum/equipment_preset/proc/normalize_profile_personal_weapon_choice(chosen_weapon, list/personal_weapon_profile)
 	var/list/personal_weapon_options = personal_weapon_profile?["options"] || GLOB.personal_weapons_list
